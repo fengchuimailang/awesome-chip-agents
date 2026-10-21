@@ -31,11 +31,19 @@
 - [Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems](https://research.nvidia.com/publication/2025-06_spec2rtl-agent-automated-hardware-code-generation-complex-specifications-using)（ICLAD 2025）— 多 Agent 系统通过规划、逐步编码和反思，将复杂规格文档转化为可综合设计。
 - [ORFS-agent: Tool-Using Agents for Chip Design Optimization](https://arxiv.org/abs/2506.08332)（MLCAD 2025）— 使用 LLM Agent 迭代调整 OpenROAD Flow Scripts 参数，以改善物理设计指标。
 - [OpenROAD Agent: An Intelligent Self-Correcting Script Generator for OpenROAD](https://github.com/OpenROAD-Assistant/OpenROAD-Agent)（ICLAD 2025）— 生成 OpenROAD 脚本，并根据工具反馈自动修正；链接仓库提供论文和复现代码。
+- [VerilogCoder: Autonomous Verilog Coding Agents with Graph-based Planning and AST-based Waveform Tracing Tool](https://arxiv.org/abs/2408.08927)（AAAI 2025）— 协同规划、仿真和波形追踪 Agent，生成并调试 Verilog。
+- [MAGE: A Multi-Agent Engine for Automated RTL Code Generation](https://arxiv.org/abs/2412.07822)（2024 年预印本）— 通过多 Agent 候选探索和检查点反馈提升 RTL 正确性。
+- [RTLFixer: Automatically Fixing RTL Syntax Errors with Large Language Models](https://arxiv.org/abs/2311.16543)（2023）— 使用检索和 ReAct 式工具反馈修复 Verilog 编译错误。
+- [AutoChip: Automating HDL Generation Using LLM Feedback](https://arxiv.org/abs/2311.04887)（2023）— 早期反馈驱动 HDL 生成工作，利用编译器和仿真结果迭代改进 Verilog。
 - [ACE-RTL: When Agentic Context Evolution Meets RTL-Specialized LLMs](https://arxiv.org/abs/2602.10218)（2026，预印本）— 结合 RTL 专用生成模型和推理 Agent，通过验证反馈生成和修复 RTL。
 
 ## 开源项目
 
 - [ACE-RTL](https://github.com/NVlabs/ACE-RTL) — NVIDIA Research 的 RTL 生成、验证与迭代修复 Agent 系统，包含可复用的 Agent 组件和基准集成代码。
+- [MAGE](https://github.com/stable-lab/MAGE) — 开源多 Agent RTL 生成系统，包含候选采样、调试和 Verilog 状态检查。
+- [VerilogCoder](https://github.com/NVlabs/VerilogCoder) — 使用图式规划和波形追踪进行调试的自主 Verilog 编码 Agent。
+- [RTLFixer](https://github.com/NVlabs/RTLFixer) — 使用工具反馈修复 RTL 编译和语法错误的 Agent 框架。
+- [AutoChip](https://github.com/shailja-thakur/AutoChip) — 利用编译器和仿真反馈进行 HDL 生成的框架及评测资源。
 - [ChatEDA](https://github.com/wuhy68/ChatEDA) — LLM 驱动的自主 EDA Agent 的开源实现及相关资源；支持流程和运行方式请见项目仓库。
 - [RTLLM](https://github.com/hkust-zhiyao/RTLLM) — 开源 RTL 生成基准与评测代码，包含设计描述、测试平台和评测脚本。
 - [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) — 开源 RTL-to-GDS 流程及研究平台，供 Agent 芯片设计和优化项目使用。
@@ -46,6 +54,7 @@
 - [RTLLM](https://github.com/hkust-zhiyao/RTLLM) — 自然语言到 RTL 的基准，覆盖语法、功能和设计质量等评测目标。
 - [OpenLLM-RTL](https://arxiv.org/abs/2503.15112) — 汇集 RTLLM 2.0、AssertEval 以及用于 RTL 生成和断言生成的数据集。
 - [CVDP](https://github.com/NVlabs/cvdp_benchmark) — NVIDIA 发布的 RTL 编码评测基准，覆盖生成、编辑和调试等任务。
+- [ArchXBench](https://github.com/sureshpurini/ArchXBench) — 面向复杂 RTL 任务的基准，包含多周期、流水线和层次化设计，覆盖多个应用领域。
 
 ## 工具与平台
 

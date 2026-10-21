@@ -33,11 +33,19 @@ General-purpose LLMs, conventional EDA tools, and chip-related AI work are in sc
 - [Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems](https://research.nvidia.com/publication/2025-06_spec2rtl-agent-automated-hardware-code-generation-complex-specifications-using) (ICLAD 2025) — A multi-agent system that converts complex specifications into synthesizable designs through planning, progressive coding, and reflection.
 - [ORFS-agent: Tool-Using Agents for Chip Design Optimization](https://arxiv.org/abs/2506.08332) (MLCAD 2025) — Uses an LLM agent to iteratively tune OpenROAD Flow Scripts parameters against physical design metrics.
 - [OpenROAD Agent: An Intelligent Self-Correcting Script Generator for OpenROAD](https://github.com/OpenROAD-Assistant/OpenROAD-Agent) (ICLAD 2025) — Generates OpenROAD scripts and uses tool feedback to correct them; the linked repository includes the paper and reproduction code.
+- [VerilogCoder: Autonomous Verilog Coding Agents with Graph-based Planning and AST-based Waveform Tracing Tool](https://arxiv.org/abs/2408.08927) (AAAI 2025) — Coordinates planning, simulation, and waveform tracing agents to generate and debug Verilog.
+- [MAGE: A Multi-Agent Engine for Automated RTL Code Generation](https://arxiv.org/abs/2412.07822) (2024 preprint) — Uses multi-agent candidate exploration and checkpoint-based feedback to improve RTL correctness.
+- [RTLFixer: Automatically Fixing RTL Syntax Errors with Large Language Models](https://arxiv.org/abs/2311.16543) (2023) — Applies retrieval and ReAct-style tool feedback to repair Verilog compilation errors.
+- [AutoChip: Automating HDL Generation Using LLM Feedback](https://arxiv.org/abs/2311.04887) (2023) — Early feedback-driven HDL generation work that uses compiler and simulation output to iteratively improve Verilog.
 - [ACE-RTL: When Agentic Context Evolution Meets RTL-Specialized LLMs](https://arxiv.org/abs/2602.10218) (2026, preprint) — Combines an RTL-specialized generator with reasoning agents for verification-guided RTL generation and repair.
 
 ## Open-source Projects
 
 - [ACE-RTL](https://github.com/NVlabs/ACE-RTL) — NVIDIA Research's agentic system for RTL generation, verification, and iterative repair; includes reusable agent components and benchmark integrations.
+- [MAGE](https://github.com/stable-lab/MAGE) — Open-source multi-agent RTL generation system with candidate sampling, debugging, and Verilog-state checks.
+- [VerilogCoder](https://github.com/NVlabs/VerilogCoder) — Autonomous Verilog coding agent using graph-based planning and waveform tracing for debugging.
+- [RTLFixer](https://github.com/NVlabs/RTLFixer) — Agentic framework for repairing RTL compilation and syntax errors using tool feedback.
+- [AutoChip](https://github.com/shailja-thakur/AutoChip) — Feedback-driven HDL generation framework and evaluation resources using compiler and simulation feedback.
 - [ChatEDA](https://github.com/wuhy68/ChatEDA) — Open-source implementation and related resources for an LLM-powered autonomous EDA agent. See the repository for supported flows and setup details.
 - [RTLLM](https://github.com/hkust-zhiyao/RTLLM) — Open-source RTL generation benchmark and evaluation code; includes design descriptions, testbenches, and evaluation scripts.
 - [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) — Open-source RTL-to-GDS flow and research platform used by agentic design and optimization projects.
@@ -48,6 +56,7 @@ General-purpose LLMs, conventional EDA tools, and chip-related AI work are in sc
 - [RTLLM](https://github.com/hkust-zhiyao/RTLLM) — Natural-language-to-RTL benchmark with syntax, functionality, and design-quality evaluation goals.
 - [OpenLLM-RTL](https://arxiv.org/abs/2503.15112) — Collection covering RTLLM 2.0, AssertEval, and RTL code datasets for RTL generation and assertion generation.
 - [CVDP](https://github.com/NVlabs/cvdp_benchmark) — NVIDIA benchmark for evaluating RTL coding tasks, including generation, editing, and debugging.
+- [ArchXBench](https://github.com/sureshpurini/ArchXBench) — Benchmark suite for more complex, multi-cycle, pipelined, and hierarchical RTL tasks across several application domains.
 
 ## Tools and Platforms
 
