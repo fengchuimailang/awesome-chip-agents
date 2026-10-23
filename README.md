@@ -52,6 +52,9 @@ General-purpose LLMs, conventional EDA tools, and chip-related AI work are in sc
 - [RTLFixer](https://github.com/NVlabs/RTLFixer) — Agentic framework for repairing RTL compilation and syntax errors using tool feedback.
 - [AutoChip](https://github.com/shailja-thakur/AutoChip) — Feedback-driven HDL generation framework and evaluation resources using compiler and simulation feedback.
 - [ChatEDA](https://github.com/wuhy68/ChatEDA) — Open-source implementation and related resources for an LLM-powered autonomous EDA agent. See the repository for supported flows and setup details.
+- [ai-chip-design-platform](https://github.com/HUNT-001/ai-chip-design-platform) — Multi-agent RISC-V RTL verification platform covering semantic analysis, testbench generation, RTL/Spike comparison, coverage-directed testing, formal checks, and auditable verification evidence.
+- [OpenROAD Agent](https://github.com/OpenROAD-Assistant/OpenROAD-Agent) — Open-source agent that generates Tcl scripts for OpenROAD, executes them, and iteratively repairs failures using tool feedback; focused on physical-design flow automation rather than RTL generation or PPA search.
+- [DRCHealer](https://github.com/burcgokden/DRCHealer) — Research prototype for physical verification that turns natural-language design rules into KLayout DRC scripts, diagnoses GDSII violations, and applies bounded, re-verified geometric repairs; review generated rules and fixes before trusting results.
 - [RTLLM](https://github.com/hkust-zhiyao/RTLLM) — Open-source RTL generation benchmark and evaluation code; includes design descriptions, testbenches, and evaluation scripts.
 - [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) — Open-source RTL-to-GDS flow and research platform used by agentic design and optimization projects.
 
@@ -73,7 +76,6 @@ Not every resource here is an LLM-agent benchmark: some provide task suites, wor
 - [Chipmind](https://www.chipmind.ai/) — Commercial AI-agent platform for chip design and EDA automation; the vendor describes SoC-wide context, autonomous execution of existing EDA flows, on-premises or air-gapped deployment, and RTL Canvas visual review. Capabilities and performance claims are vendor-reported.
 - [Silimate](https://www.silimate.com/) — AI-driven RTL and implementation optimization product for exploring design choices and PPA. It is an optimization engine that agents could call, rather than a publicly documented LLM agent; its acquisition by Synopsys in 2024 shows commercial uptake of this category.
 - [Cadence ChipStack AI Super Agent](https://www.cadence.com/en_US/home/ai/agentic-ai-super-agents.html) — Commercial agentic workflow for front-end design and verification, coordinating specialized agents for RTL, testbenches, regressions, and debug. Availability and capabilities are described by Cadence.
-- [OpenROAD Agent](https://github.com/OpenROAD-Assistant/OpenROAD-Agent) — Agent for OpenROAD script generation with execution feedback and self-correction.
 
 ## Surveys and Tutorials
 

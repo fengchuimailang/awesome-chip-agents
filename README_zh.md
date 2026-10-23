@@ -50,6 +50,9 @@
 - [RTLFixer](https://github.com/NVlabs/RTLFixer) — 使用工具反馈修复 RTL 编译和语法错误的 Agent 框架。
 - [AutoChip](https://github.com/shailja-thakur/AutoChip) — 利用编译器和仿真反馈进行 HDL 生成的框架及评测资源。
 - [ChatEDA](https://github.com/wuhy68/ChatEDA) — LLM 驱动的自主 EDA Agent 的开源实现及相关资源；支持流程和运行方式请见项目仓库。
+- [ai-chip-design-platform](https://github.com/HUNT-001/ai-chip-design-platform) — 面向 RISC-V RTL 的多 Agent 验证平台，覆盖语义分析、测试平台生成、RTL/Spike 对照、覆盖率驱动测试、形式检查和可审计的验证证据。
+- [OpenROAD Agent](https://github.com/OpenROAD-Assistant/OpenROAD-Agent) — 开源的 OpenROAD Agent，可生成并执行 Tcl 脚本，根据工具反馈迭代修复失败；重点是物理设计流程自动化，而非 RTL 生成或 PPA 搜索。
+- [DRCHealer](https://github.com/burcgokden/DRCHealer) — 面向物理验证的研究原型，将自然语言设计规则转换为 KLayout DRC 脚本，诊断 GDSII 违规，并执行有次数限制且重新验证的几何修复；使用结果前应审查生成的规则和修复内容。
 - [RTLLM](https://github.com/hkust-zhiyao/RTLLM) — 开源 RTL 生成基准与评测代码，包含设计描述、测试平台和评测脚本。
 - [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) — 开源 RTL-to-GDS 流程及研究平台，供 Agent 芯片设计和优化项目使用。
 
@@ -71,7 +74,6 @@
 - [Chipmind](https://www.chipmind.ai/) — 面向芯片设计和 EDA 自动化的商业 AI Agent 平台；据厂商介绍，它提供 SoC 级上下文、现有 EDA 流程的自主执行、现场或隔离网络部署，以及通过 RTL Canvas 进行可视化审查。具体功能和性能属于厂商报告。
 - [Silimate](https://www.silimate.com/) — 以 AI 驱动 RTL 和实现优化，探索设计方案和 PPA。它是可被 Agent 调用的优化引擎，而不是已有公开说明的 LLM Agent；其于 2024 年被 Synopsys 收购，体现了这类产品形态的商业认可。
 - [Cadence ChipStack AI Super Agent](https://www.cadence.com/en_US/home/ai/agentic-ai-super-agents.html) — 面向前端设计与验证的商业 Agent 工作流，可协调 RTL、测试平台、回归和调试等专用 Agent。具体功能和可用情况以 Cadence 页面为准。
-- [OpenROAD Agent](https://github.com/OpenROAD-Assistant/OpenROAD-Agent) — 面向 OpenROAD 的脚本生成 Agent，支持工具执行反馈和自动修正。
 
 ## 综述与教程
 
