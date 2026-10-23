@@ -55,15 +55,21 @@
 
 ## 基准与数据集
 
+本栏目并非所有资源都是 LLM Agent 基准；其中也包括可用于构建 Agent 评测的任务集、工作负载或数据集。
+
 - [VerilogEval](https://github.com/NVlabs/verilog-eval) — 基于 HDLBits 的 Verilog 生成评测基准和工具，使用仿真检查功能正确性。
 - [RTLLM](https://github.com/hkust-zhiyao/RTLLM) — 自然语言到 RTL 的基准，覆盖语法、功能和设计质量等评测目标。
 - [OpenLLM-RTL](https://arxiv.org/abs/2503.15112) — 汇集 RTLLM 2.0、AssertEval 以及用于 RTL 生成和断言生成的数据集。
 - [CVDP](https://github.com/NVlabs/cvdp_benchmark) — NVIDIA 发布的 RTL 编码评测基准，覆盖生成、编辑和调试等任务。
 - [ChipBench](https://arxiv.org/abs/2601.21448)（2026）— 面向较真实的层次化硬件模块，评测 Verilog 生成、调试和参考模型生成；提供[开源实现](https://github.com/zhongkaiyu/ChipBench)。
 - [ArchXBench](https://github.com/sureshpurini/ArchXBench) — 面向复杂 RTL 任务的基准，包含多周期、流水线和层次化设计，覆盖多个应用领域。
+- [DPC4: Data Prefetching Championship 4](https://sites.google.com/view/dpc4-2026/home)（2026）— CPU 数据预取器设计竞赛，使用 ChampSim 评估；提供基于模拟器的微架构优化任务，但并非专为 LLM Agent 设计的基准。
+- [CircuitNet](https://github.com/circuitnet/CircuitNet) — 开源 EDA 数据集，涵盖拥塞、DRC、IR drop 和时序预测等任务，可用于物理设计机器学习评测，但本身不是 Agent 基准。
 
 ## 工具与平台
 
+- [Chipmind](https://www.chipmind.ai/) — 面向芯片设计和 EDA 自动化的商业 AI Agent 平台；据厂商介绍，它提供 SoC 级上下文、现有 EDA 流程的自主执行、现场或隔离网络部署，以及通过 RTL Canvas 进行可视化审查。具体功能和性能属于厂商报告。
+- [Silimate](https://www.silimate.com/) — 以 AI 驱动 RTL 和实现优化，探索设计方案和 PPA。它是可被 Agent 调用的优化引擎，而不是已有公开说明的 LLM Agent；其于 2024 年被 Synopsys 收购，体现了这类产品形态的商业认可。
 - [Cadence ChipStack AI Super Agent](https://www.cadence.com/en_US/home/ai/agentic-ai-super-agents.html) — 面向前端设计与验证的商业 Agent 工作流，可协调 RTL、测试平台、回归和调试等专用 Agent。具体功能和可用情况以 Cadence 页面为准。
 - [OpenROAD Agent](https://github.com/OpenROAD-Assistant/OpenROAD-Agent) — 面向 OpenROAD 的脚本生成 Agent，支持工具执行反馈和自动修正。
 

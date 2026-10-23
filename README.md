@@ -57,15 +57,21 @@ General-purpose LLMs, conventional EDA tools, and chip-related AI work are in sc
 
 ## Benchmarks and Datasets
 
+Not every resource here is an LLM-agent benchmark: some provide task suites, workloads, or datasets that can support agent evaluation.
+
 - [VerilogEval](https://github.com/NVlabs/verilog-eval) — HDLBits-based benchmark and harness for evaluating Verilog generation with simulation-based functional checks.
 - [RTLLM](https://github.com/hkust-zhiyao/RTLLM) — Natural-language-to-RTL benchmark with syntax, functionality, and design-quality evaluation goals.
 - [OpenLLM-RTL](https://arxiv.org/abs/2503.15112) — Collection covering RTLLM 2.0, AssertEval, and RTL code datasets for RTL generation and assertion generation.
 - [CVDP](https://github.com/NVlabs/cvdp_benchmark) — NVIDIA benchmark for evaluating RTL coding tasks, including generation, editing, and debugging.
 - [ChipBench](https://arxiv.org/abs/2601.21448) (2026) — Benchmark covering Verilog generation, debugging, and reference-model generation on realistic, hierarchical hardware modules; includes an [open-source implementation](https://github.com/zhongkaiyu/ChipBench).
 - [ArchXBench](https://github.com/sureshpurini/ArchXBench) — Benchmark suite for more complex, multi-cycle, pipelined, and hierarchical RTL tasks across several application domains.
+- [DPC4: Data Prefetching Championship 4](https://sites.google.com/view/dpc4-2026/home) (2026) — CPU data-prefetcher design competition evaluated with ChampSim; provides a simulator-based microarchitecture optimization task, rather than an LLM-agent-specific benchmark.
+- [CircuitNet](https://github.com/circuitnet/CircuitNet) — Open EDA dataset for tasks such as congestion, DRC, IR-drop, and timing prediction; useful for physical-design ML evaluation, but not an agent benchmark by itself.
 
 ## Tools and Platforms
 
+- [Chipmind](https://www.chipmind.ai/) — Commercial AI-agent platform for chip design and EDA automation; the vendor describes SoC-wide context, autonomous execution of existing EDA flows, on-premises or air-gapped deployment, and RTL Canvas visual review. Capabilities and performance claims are vendor-reported.
+- [Silimate](https://www.silimate.com/) — AI-driven RTL and implementation optimization product for exploring design choices and PPA. It is an optimization engine that agents could call, rather than a publicly documented LLM agent; its acquisition by Synopsys in 2024 shows commercial uptake of this category.
 - [Cadence ChipStack AI Super Agent](https://www.cadence.com/en_US/home/ai/agentic-ai-super-agents.html) — Commercial agentic workflow for front-end design and verification, coordinating specialized agents for RTL, testbenches, regressions, and debug. Availability and capabilities are described by Cadence.
 - [OpenROAD Agent](https://github.com/OpenROAD-Assistant/OpenROAD-Agent) — Agent for OpenROAD script generation with execution feedback and self-correction.
 
