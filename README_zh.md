@@ -73,22 +73,36 @@
 
 - [Chipmind](https://www.chipmind.ai/) — 面向芯片设计和 EDA 自动化的商业 AI Agent 平台；据厂商介绍，它提供 SoC 级上下文、现有 EDA 流程的自主执行、现场或隔离网络部署，以及通过 RTL Canvas 进行可视化审查。具体功能和性能属于厂商报告。
 - [Silimate](https://www.silimate.com/) — 以 AI 驱动 RTL 和实现优化，探索设计方案和 PPA。它是可被 Agent 调用的优化引擎，而不是已有公开说明的 LLM Agent；其于 2024 年被 Synopsys 收购，体现了这类产品形态的商业认可。
-- [Cadence ChipStack AI Super Agent](https://www.cadence.com/en_US/home/ai/agentic-ai-super-agents.html) — 面向前端设计与验证的商业 Agent 工作流，可协调 RTL、测试平台、回归和调试等专用 Agent。具体功能和可用情况以 Cadence 页面为准。
+- [Synopsys AgentEngineer Solutions and Autopilot Platform](https://www.synopsys.com/ai/agentic-ai.html)（2026）— 支持选择语言模型的商业 Agent 平台，提供面向验证、物理实现和模拟/混合信号设计的专用 Agent；据 Synopsys 介绍，Autopilot 提供编排、工程上下文、记忆和 EDA 工具集成。具体功能属于厂商描述。
+- [Cadence ChipStack AI Super Agent](https://www.cadence.com/en_US/home/ai/agentic-ai-super-agents.html) — 面向前端设计与验证的商业 Agent 工作流，可协调 RTL、测试平台、回归和调试等专用 Agent。Cadence 将其更广泛的 Agentic AI Super Agents 产品组合描述为“最高 Level 5 自主性”，覆盖芯片到系统的多个设计领域；官网未给出 Level 1–5 的逐级定义，因此这里将其视为厂商定位，而非行业通用分级或独立评测结论。具体功能和可用情况以 Cadence 页面为准。
+- [Cadence ViraStack AI Super Agent](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/virastack-ai-super-agent.html) — Cadence 所述的定制与模拟设计 Agent 自动化，覆盖原理图创建、测试平台开发、电路优化和版图迁移。
+- [Cadence InnoStack AI Super Agent](https://www.cadence.com/en_US/home/tools/system-design-and-verification/innostack-ai-superagent.html) — Cadence 所述的数字实现与签核 Agent 工作流，覆盖从综合到布局布线的流程。
+- [Cadence AuraStack AI Super Agent](https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/aurastack-ai-super-agent.html) — Cadence 所述的 PCB 与先进封装设计 Agent 协同，涉及规划、实现、约束管理、可制造性和多物理场分析。
+- [Cadence SystemStack AI Super Agent](https://www.cadence.com/en_US/home/ai/agentic-ai-super-agents.html) — Cadence AgentStack 产品组合图中列出的多物理场 Agent；目前未找到独立产品页，具体功能和可用情况尚不明确。
 
 ## 综述与教程
 
 - [Large Language Models for EDA: Future or Mirage?](https://doi.org/10.1145/3736167)（2025）— 综述 LLM 在 EDA 中的应用，包括代码生成、验证和 Agent 工作流。
+- [Synopsys.ai: Building Products of Tomorrow, Today](https://www.synopsys.com/content/dam/synopsys/resources/ai-solutions/synopsys-ai-brochure.pdf#page=2)（2025）— 官方宣传册，第 2–3 页介绍 AgentEngineer 与 Synopsys 的 L1–L5 AI 能力框架：辅助、执行、编排、规划和决策。分级及能力主张由厂商提出，并非独立评测结论。
+- [Introducing Synopsys Long-Horizon AgentEngineer Solutions and Autopilot Platform](https://www.synopsys.com/blogs/chip-design/long-horizon-agentengineer-solutions.html)（2026）— 官方架构介绍，说明 Agent 如何围绕复杂工程目标协调任务 Agent 和 EDA 工具、评估中间结果，并通过记忆和人工审查检查点保持上下文与监督。
 
 ## 演讲与视频
 
 - **2026 — NVIDIA GTC Taipei：** [NVIDIA GTC Taipei 2026 Keynote](https://www.youtube.com/watch?v=wSp6AiNIrsY) — 可从 **1:12:10** 左右观看 Cadence Chip Design Super Agent 及用于 RTL 生成和测试平台创建的专家子 Agent 相关讨论；这是主题演讲中的一段，并非详细技术演示。
 - **2026-07-22 — Cadence Design Systems：** [See how Cadence InnoStack AI Super Agent automates synthesis-to-post-route digital implementation](https://www.youtube.com/watch?v=my-8jSjaZlQ) — 官方产品演示，介绍 Agent 如何辅助多模块物理设计，从综合推进到布线后流程；功能和效果属于厂商自行展示。
 - **2026-02-10 — Cadence Design Systems：** [Cadence ChipStack AI Super Agent Demo Overview](https://www.youtube.com/watch?v=p_U-4-jKgcU) — 官方概览视频，介绍面向芯片前端设计与验证的 Agent 工作流；功能和效果属于厂商自行展示。
+- **Synopsys — 点播，页面未列发布日期：** [Agentic AI for Chip Design: The Nuts and Bolts of the AgentEngineer](https://www.synopsys.com/webinars/agentic-ai-nuts-bolts-agentengineer.html) — Synopsys 的 Paras Mal Jain 介绍具备领域知识的 Agent、多 Agent EDA 工作流执行和工程师监督；官方页面提供点播登记表单。
+- **Synopsys — 点播，页面未列发布日期：** [Scaling Expertise with AI Agents Across the Formal Workflow](https://www.synopsys.com/webinars/scaling-ai-agents-formal-workflow.html) — NVIDIA 的 Ghaith Bany Hamid 讨论领域适配 LLM、GenFV 与 Synopsys VC Formal 的结合，涉及断言、辅助属性生成和迭代改进；官方页面提供点播登记表单。
 
 ## 新闻与动态
 
 - **2026-10 — Google 及其合作者：** [DuoDiscover](https://duodiscover.github.io/) 报告了一种同时发现优化目标和代理评估器的 Agent 集群，并展示了基于模拟器的 CPU 数据预取器微架构优化任务。
+- **2026-09-30 — Synopsys 与 OpenAI：** [宣布建立多年合作，开发 GPT-Synopsys](https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design)，这是面向芯片设计工作流、计划使用 Synopsys EDA 工具的专用模型。公告描述了联合开发、EDA 工具许可和集成计划；目前未提供独立评测结果。
+- **2026-09-28 — Synopsys：** [Synopsys Powers Autonomous Engineering with a Broad Portfolio of Long-Horizon Agents and Autopilot Platform](https://news.synopsys.com/2026-09-28-Synopsys-Powers-Autonomous-Engineering-with-a-Broad-Portfolio-of-Long-Horizon-Agents-and-Autopilot-Platform) — 宣布覆盖验证、实现和 AMS 设计等领域的专用 Agent 及编排平台；公告报告了客户合作进展，并将可用时间安排在 2026 年底，效果由 Synopsys 及客户自行报告。
+- **2026-07-27 — Synopsys、AMD 与 Microsoft：** [Synopsys Advances Agentic AI Chip Design with AMD and Microsoft](https://news.synopsys.com/2026-07-27-Synopsys-Advances-Agentic-AI-Chip-Design-with-AMD-and-Microsoft) — 宣布调试/根因分析和实现/QoR 收敛工作流可在 Microsoft Discovery 上申请评估，AMD 正在评估其应用；早期效果属于厂商报告。
+- **2026-07-26 — Synopsys 与 NVIDIA：** [Synopsys Showcases Comprehensive Autonomous Engineering Workflows from Silicon to Systems, Developed with NVIDIA Technology](https://news.synopsys.com/2026-07-26-Synopsys-Showcases-Comprehensive-Autonomous-Engineering-Workflows-from-Silicon-to-Systems%2C-Developed-with-NVIDIA-Technology) — 介绍使用 NVIDIA Nemotron、Agent Toolkit 和 OpenShell 的 AgentEngineer 验证编排 Agent，协调测试计划、覆盖率收敛和调试；功能和效果属于厂商报告。
 - **2026-03 — NVIDIA GTC San Jose：** 在与 Jeff Dean 的讨论中，NVIDIA 首席科学家 Bill Dally 介绍了 Agent 辅助芯片设计，以及用于 RTL 生成和测试平台创建的专家子 Agent。[演讲录像](https://www.nvidia.com/en-us/on-demand/session/gtc26-s82167/)。另可参阅 [NVIDIA Research 的 Spec2RTL-Agent 页面](https://research.nvidia.com/publication/2025-06_spec2rtl-agent-automated-hardware-code-generation-complex-specifications-using) 和 [ACE-RTL 项目](https://github.com/NVlabs/ACE-RTL)；这些是不同日期发布的相关资料，并非在这场演讲中首次发布的项目。
+- **2026-03-11 — Synopsys Converge：** [Synopsys Outlines Vision for Engineering the Future](https://news.synopsys.com/2026-03-11-Synopsys-Outlines-Vision-for-Engineering-the-Future) — 展示 AgentEngineer 多 Agent 流程，覆盖规格到 RTL 生成、Lint、单元测试平台创建和迭代 EDA 验证；公告附官方流程演示入口，其“L4”分级和效率数字属于厂商主张。
 - **2026-02 — Cadence：** 宣布 [ChipStack AI Super Agent](https://www.cadence.com/en_US/home/company/newsroom/press-releases/pr/2026/cadence-unleashes-chipstack-ai-super-agent-pioneering-a-new.html) 开始早期试用，面向芯片前端设计与验证工作流。
 - **2025-05-14 — Google DeepMind：** [AlphaEvolve](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/) 为矩阵乘法电路提出 Verilog 改写；Google 称其通过验证并集成到后续 TPU。此处属于厂商报告的芯片设计案例，并非端到端芯片设计的主张。
 
