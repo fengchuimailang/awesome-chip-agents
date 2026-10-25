@@ -39,11 +39,15 @@
 - [RTLFixer: Automatically Fixing RTL Syntax Errors with Large Language Models](https://arxiv.org/abs/2311.16543)（2023）— 使用检索和 ReAct 式工具反馈修复 Verilog 编译错误。
 - [AutoChip: Automating HDL Generation Using LLM Feedback](https://arxiv.org/abs/2311.04887)（2023）— 早期反馈驱动 HDL 生成工作，利用编译器和仿真结果迭代改进 Verilog。
 - [AutoBench: Automatic Testbench Generation and Evaluation Using LLMs for HDL Design](https://arxiv.org/abs/2407.03891)（MLCAD 2024）— 根据设计描述生成自检 HDL 测试平台并评估其质量；另见[开源实现](https://github.com/AutoBench/AutoBench)。
+- [Veri-Sure: Multi-Agent RTL Code Generation with Temporal Tracing, Slicing and Formal Verification](https://arxiv.org/abs/2601.19747)（2026-01-27 首发；2026-10-15 更新）— 通过设计契约协调 Agent，结合依赖切片引导的局部修复、时序轨迹分析和形式验证进行 RTL 生成与调试；提供[公开代码和基准扩展](https://github.com/xyjoey/Veri-Sure)。
 - [ACE-RTL: When Agentic Context Evolution Meets RTL-Specialized LLMs](https://arxiv.org/abs/2602.10218)（2026，预印本）— 结合 RTL 专用生成模型和推理 Agent，通过验证反馈生成和修复 RTL。
+- [AgenticSizing: A Large Language Model-based Multi-Agent Framework for Analog Circuit Sizing](https://arxiv.org/abs/2609.25873)（2026-09-22，预印本）— 分析电路拓扑与功能块、复用设计知识，并通过仿真反馈协调专门的尺寸优化 Agent；在八个电路上进行评测，提供[公开实现](https://github.com/aprilaihub/agentic-analog-sizing)。
 - [DuoDiscover: Scaling Autonomous Discovery Beyond the Evaluation Bottleneck](https://arxiv.org/abs/2610.17184)（2026，预印本）— 同时发现硬件优化目标和快速代理评估器；其芯片案例通过模拟器搜索优化 CPU 数据预取器微架构，而不是生成 RTL。
 
 ## 开源项目
 
+- [Veri-Sure](https://github.com/xyjoey/Veri-Sure) — 公开的多 Agent RTL 生成与修复实现，使用设计契约、依赖切片、时序追踪和形式验证；同时包含 VerilogEval-v2-EXT 基准扩展。
+- [AgenticSizing](https://github.com/aprilaihub/agentic-analog-sizing) — 公开的多 Agent 模拟电路尺寸优化实现，包含拓扑分析、设计知识复用、专门的尺寸优化 Agent 和仿真驱动优化。
 - [ACE-RTL](https://github.com/NVlabs/ACE-RTL) — NVIDIA Research 的 RTL 生成、验证与迭代修复 Agent 系统，包含可复用的 Agent 组件和基准集成代码。
 - [MAGE](https://github.com/stable-lab/MAGE) — 开源多 Agent RTL 生成系统，包含候选采样、调试和 Verilog 状态检查。
 - [VerilogCoder](https://github.com/NVlabs/VerilogCoder) — 使用图式规划和波形追踪进行调试的自主 Verilog 编码 Agent。
@@ -68,6 +72,8 @@
 - [ArchXBench](https://github.com/sureshpurini/ArchXBench) — 面向复杂 RTL 任务的基准，包含多周期、流水线和层次化设计，覆盖多个应用领域。
 - [DPC4: Data Prefetching Championship 4](https://sites.google.com/view/dpc4-2026/home)（2026）— CPU 数据预取器设计竞赛，使用 ChampSim 评估；提供基于模拟器的微架构优化任务，但并非专为 LLM Agent 设计的基准。
 - [CircuitNet](https://github.com/circuitnet/CircuitNet) — 开源 EDA 数据集，涵盖拥塞、DRC、IR drop 和时序预测等任务，可用于物理设计机器学习评测，但本身不是 Agent 基准。
+- [Long-Horizon Analog Design Bench: Benchmarking Agents on Hours-Long Analog and Mixed-Signal Circuit Design Tasks](https://arxiv.org/abs/2609.33356)（2026-09-27，预印本）— 使用 17 位芯片设计者贡献的 50 项晶体管级设计任务评测 Agent，通过开源仿真器和隔离的验证器，在数小时运行过程中检查电气规格是否满足。
+- [Introducing Build-A-Chip-Bench: from workload specification to GDS](https://chipagents.ai/research/build-a-chip-bench)（2026-10）— ChipAgents 开发、NVIDIA 参与贡献的基准，评测 Agent 从工作负载规格到物理实现的能力；设计须通过功能正确性、可布线性、保持时间和 DRC 检查，再按 PPA 评分。结果由开发方报告；截至 2026-10-24，实时排行榜仍标为即将推出。
 
 ## 工具与平台
 
@@ -96,6 +102,7 @@
 
 ## 新闻与动态
 
+- **2026-10-21 — Siemens 与 NVIDIA：** [Siemens expands agentic AI collaboration to tackle 3D IC power and thermal challenges with NVIDIA](https://news.siemens.com/en-us/siemens-nvidia-gtc-3d-ic-thermal-ai/) — 宣布面向 3D IC 电热协同设计的 Fuse EDA AI Agent 工作流，协调七个 EDA 工具中的九个阶段，通过物理求解器诊断未达标原因并迭代设计方案；功能和效率数字属于厂商报告。
 - **2026-10 — Google 及其合作者：** [DuoDiscover](https://duodiscover.github.io/) 报告了一种同时发现优化目标和代理评估器的 Agent 集群，并展示了基于模拟器的 CPU 数据预取器微架构优化任务。
 - **2026-09-30 — Synopsys 与 OpenAI：** [宣布建立多年合作，开发 GPT-Synopsys](https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design)，这是面向芯片设计工作流、计划使用 Synopsys EDA 工具的专用模型。公告描述了联合开发、EDA 工具许可和集成计划；目前未提供独立评测结果。
 - **2026-09-28 — Synopsys：** [Synopsys Powers Autonomous Engineering with a Broad Portfolio of Long-Horizon Agents and Autopilot Platform](https://news.synopsys.com/2026-09-28-Synopsys-Powers-Autonomous-Engineering-with-a-Broad-Portfolio-of-Long-Horizon-Agents-and-Autopilot-Platform) — 宣布覆盖验证、实现和 AMS 设计等领域的专用 Agent 及编排平台；公告报告了客户合作进展，并将可用时间安排在 2026 年底，效果由 Synopsys 及客户自行报告。
