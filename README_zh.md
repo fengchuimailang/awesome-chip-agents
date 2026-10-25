@@ -68,10 +68,18 @@
 - [RTLLM](https://github.com/hkust-zhiyao/RTLLM) — 自然语言到 RTL 的基准，覆盖语法、功能和设计质量等评测目标。
 - [OpenLLM-RTL](https://arxiv.org/abs/2503.15112) — 汇集 RTLLM 2.0、AssertEval 以及用于 RTL 生成和断言生成的数据集。
 - [CVDP](https://github.com/NVlabs/cvdp_benchmark) — NVIDIA 发布的 RTL 编码评测基准，覆盖生成、编辑和调试等任务。
+- [RTL-Repo](https://github.com/AUCOHL/RTL-Repo)（2024）— 面向仓库级 Verilog 补全的基准，包含 4,000 多个 GitHub 代码样本及完整仓库上下文；测试集也可从 [Hugging Face](https://huggingface.co/datasets/ahmedallam/RTL-Repo) 获取。
 - [ChipBench](https://arxiv.org/abs/2601.21448)（2026）— 面向较真实的层次化硬件模块，评测 Verilog 生成、调试和参考模型生成；提供[开源实现](https://github.com/zhongkaiyu/ChipBench)。
 - [ArchXBench](https://github.com/sureshpurini/ArchXBench) — 面向复杂 RTL 任务的基准，包含多周期、流水线和层次化设计，覆盖多个应用领域。
+- [RTL-BenchMT](https://github.com/hkust-zhiyao/RTL-BenchMT)（DAC 2026）— 面向 Agent 辅助 RTL 基准维护的公开数据集和评测代码；v2 增加 438 个 RTL 变体，并报告了跨六个源基准修复 47 个提示歧义案例。
+- [RTL-BenchLS: A Large-Scale Benchmark for RTL Reasoning and Generation with Large Language Models](https://arxiv.org/abs/2606.08976)（2026）— 提供一万多个经过形式验证的 Verilog 设计，用于往返推理、掩码内容推理和仓库问题修复，并提供[数据和评测代码](https://github.com/hkust-zhiyao/RTL-BenchLS)。
+- [HWE-Bench: Benchmarking LLM Agents on Real-World Hardware Bug Repair Tasks](https://arxiv.org/abs/2604.14709)（2026）— 面向仓库级硬件 Bug 修复的基准，包含来自六个开源硬件项目的 417 个 fail-to-pass 任务；[代码和数据下载说明](https://github.com/pku-liang/hwe-bench)覆盖 Verilog、SystemVerilog 和 Chisel。
+- [SynthAgentic-Eval](https://huggingface.co/datasets/KSU-HW-SEC/SynthAgentic-Eval)（GLSVLSI 2026）— 面向综合感知评测的公开数据，记录 32 个语言模型在 202 个 Verilog 任务上各尝试五次的结果，并提供每次尝试的结果和黄金综合参考；配套[分析流程](https://github.com/owenfucell/SynthAgentic)。
+- [HWE Bench: An Unbounded Benchmark for LLM Hardware Development on RISC-V](https://hwebench.com/)（2026）— 让 Agent 从零设计 RV32IM CPU，通过形式证明筛选候选，再用 FPGA 实测性能评分；提供[公开实现和运行数据](https://github.com/FeSens/auto-arch-tournament)，与上面的 HWE-Bench 硬件 Bug 修复基准并非同一项目。
+- [SCORE: System-on-Chip Verilog RTL Modules Dataset](https://github.com/SJTU-YONGFU-RESEARCH-GRP/score) — 汇集由 SoC 生成器和硬件构造语言一致生成的 Verilog RTL，可用于可复现的综合、验证和 Agent 评测，但本身不是 Agent 基准。
 - [DPC4: Data Prefetching Championship 4](https://sites.google.com/view/dpc4-2026/home)（2026）— CPU 数据预取器设计竞赛，使用 ChampSim 评估；提供基于模拟器的微架构优化任务，但并非专为 LLM Agent 设计的基准。
 - [CircuitNet](https://github.com/circuitnet/CircuitNet) — 开源 EDA 数据集，涵盖拥塞、DRC、IR drop 和时序预测等任务，可用于物理设计机器学习评测，但本身不是 Agent 基准。
+- [HWE-Bench: Can Language Models Perform Board-level Schematic Designs?](https://arxiv.org/abs/2603.18102)（2026）— 板级设计基准，包含 300 个任务和 2,914 个 IC 数据手册组成的知识库；若扩展到原理图和 PCB 设计 Agent，可作为补充。
 - [Long-Horizon Analog Design Bench: Benchmarking Agents on Hours-Long Analog and Mixed-Signal Circuit Design Tasks](https://arxiv.org/abs/2609.33356)（2026-09-27，预印本）— 使用 17 位芯片设计者贡献的 50 项晶体管级设计任务评测 Agent，通过开源仿真器和隔离的验证器，在数小时运行过程中检查电气规格是否满足。
 - [Introducing Build-A-Chip-Bench: from workload specification to GDS](https://chipagents.ai/research/build-a-chip-bench)（2026-10）— ChipAgents 开发、NVIDIA 参与贡献的基准，评测 Agent 从工作负载规格到物理实现的能力；设计须通过功能正确性、可布线性、保持时间和 DRC 检查，再按 PPA 评分。结果由开发方报告；截至 2026-10-24，实时排行榜仍标为即将推出。
 
