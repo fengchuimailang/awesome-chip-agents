@@ -41,11 +41,17 @@
 - [AutoBench: Automatic Testbench Generation and Evaluation Using LLMs for HDL Design](https://arxiv.org/abs/2407.03891)（MLCAD 2024）— 根据设计描述生成自检 HDL 测试平台并评估其质量；另见[开源实现](https://github.com/AutoBench/AutoBench)。
 - [Veri-Sure: Multi-Agent RTL Code Generation with Temporal Tracing, Slicing and Formal Verification](https://arxiv.org/abs/2601.19747)（2026-01-27 首发；2026-10-15 更新）— 通过设计契约协调 Agent，结合依赖切片引导的局部修复、时序轨迹分析和形式验证进行 RTL 生成与调试；提供[公开代码和基准扩展](https://github.com/xyjoey/Veri-Sure)。
 - [ACE-RTL: When Agentic Context Evolution Meets RTL-Specialized LLMs](https://arxiv.org/abs/2602.10218)（2026，预印本）— 结合 RTL 专用生成模型和推理 Agent，通过验证反馈生成和修复 RTL。
+- [Can Agents Design Better Chips with a Higher Level Abstraction?](https://arxiv.org/abs/2609.21157)（2026-09-17；ICCAD 2026 专题会议论文）— 将 Agent 驱动的 HLS 设计与 HLS 后的 RTL 精修结合为 AHRR，在 11 项 FPGA 任务上评测；提供[代码、任务定义和评测材料](https://github.com/ZijD/AHRR)。
 - [AgenticSizing: A Large Language Model-based Multi-Agent Framework for Analog Circuit Sizing](https://arxiv.org/abs/2609.25873)（2026-09-22，预印本）— 分析电路拓扑与功能块、复用设计知识，并通过仿真反馈协调专门的尺寸优化 Agent；在八个电路上进行评测，提供[公开实现](https://github.com/aprilaihub/agentic-analog-sizing)。
+- [Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification](https://arxiv.org/abs/2610.06790)（2026-10-05 首发；2026-10-22 更新）— 将仿真波形转换为关系型 SQLite 数据库，协调 Agent 查询信号行为并将异常关联到 RTL；在 150 个验证查询上评测。
+- [RFChipAgent: Multi-Agentic AI Flow for Analog/RF Chip Design](https://arxiv.org/abs/2610.10858)（2026-10-07，预印本）— 在人工监督下协调文档检索、拓扑选择、原理图与测试平台组装，以及仿真引导的电路尺寸优化；以 GF22FDSOI 的 60 GHz 低噪声放大器拓扑进行评测。
 - [DuoDiscover: Scaling Autonomous Discovery Beyond the Evaluation Bottleneck](https://arxiv.org/abs/2610.17184)（2026，预印本）— 同时发现硬件优化目标和快速代理评估器；其芯片案例通过模拟器搜索优化 CPU 数据预取器微架构，而不是生成 RTL。
+- [Agentic AI for Heterogeneous System Design Across Chip, Scale-Up, and Scale-Out Domains](https://arxiv.org/abs/2610.23724)（2026-10-16，预印本）— 提出分层多 Agent 框架 ArchAgent，通过确定性的分析评估器探索芯片与系统架构；报告的性能来自模型评估，并非实测芯片性能。
+- [CorrectRTL: Boost RTL Generation Quality Through Automated Self-Correction with Instruction Decomposition](https://arxiv.org/abs/2610.24977)（2026-10-18；ICCAD 2026）— 将结构规划与模块内逻辑实现分离，结合代码片段检索与 SVA 引导的自我修正；提出包含 200 个设计的 ScaleBench，提供[公开基准数据和评测工具](https://github.com/hkust-zhiyao/CorrectRTL)。
 
 ## 开源项目
 
+- [AHRR](https://github.com/ZijD/AHRR) — Agent 驱动的 HLS 设计与 RTL 精修流程，提供 11 项 FPGA 任务定义、评测框架、实验记录和 Agent 轨迹；复现硬件流程需要 Vitis/Vivado。
 - [Veri-Sure](https://github.com/xyjoey/Veri-Sure) — 公开的多 Agent RTL 生成与修复实现，使用设计契约、依赖切片、时序追踪和形式验证；同时包含 VerilogEval-v2-EXT 基准扩展。
 - [AgenticSizing](https://github.com/aprilaihub/agentic-analog-sizing) — 公开的多 Agent 模拟电路尺寸优化实现，包含拓扑分析、设计知识复用、专门的尺寸优化 Agent 和仿真驱动优化。
 - [ACE-RTL](https://github.com/NVlabs/ACE-RTL) — NVIDIA Research 的 RTL 生成、验证与迭代修复 Agent 系统，包含可复用的 Agent 组件和基准集成代码。
@@ -82,6 +88,7 @@
 - [HWE-Bench: Can Language Models Perform Board-level Schematic Designs?](https://arxiv.org/abs/2603.18102)（2026）— 板级设计基准，包含 300 个任务和 2,914 个 IC 数据手册组成的知识库；若扩展到原理图和 PCB 设计 Agent，可作为补充。
 - [Long-Horizon Analog Design Bench: Benchmarking Agents on Hours-Long Analog and Mixed-Signal Circuit Design Tasks](https://arxiv.org/abs/2609.33356)（2026-09-27，预印本）— 使用 17 位芯片设计者贡献的 50 项晶体管级设计任务评测 Agent，通过开源仿真器和隔离的验证器，在数小时运行过程中检查电气规格是否满足。
 - [Introducing Build-A-Chip-Bench: from workload specification to GDS](https://chipagents.ai/research/build-a-chip-bench)（2026-10）— ChipAgents 开发、NVIDIA 参与贡献的基准，评测 Agent 从工作负载规格到物理实现的能力；设计须通过功能正确性、可布线性、保持时间和 DRC 检查，再按 PPA 评分。结果由开发方报告；截至 2026-10-24，实时排行榜仍标为即将推出。
+- [ScaleBench](https://github.com/hkust-zhiyao/CorrectRTL/tree/main/ScaleBench)（2026-10-18；ICCAD 2026）— CorrectRTL 配套的规格到 RTL 基准，包含 200 项任务及其规格、参考实现和形式等价评测材料；其中有 152 个时序设计和 48 个组合设计。
 
 ## 工具与平台
 
@@ -111,9 +118,11 @@
 ## 新闻与动态
 
 - **2026-10-21 — Siemens 与 NVIDIA：** [Siemens expands agentic AI collaboration to tackle 3D IC power and thermal challenges with NVIDIA](https://news.siemens.com/en-us/siemens-nvidia-gtc-3d-ic-thermal-ai/) — 宣布面向 3D IC 电热协同设计的 Fuse EDA AI Agent 工作流，协调七个 EDA 工具中的九个阶段，通过物理求解器诊断未达标原因并迭代设计方案；功能和效率数字属于厂商报告。
+- **2026-10-21 — Mistral 与 NVIDIA：** [Mistral Advances AI for Engineering with NVIDIA](https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/) — 宣布计划开发 CAE/EDA Agent 评测，涵盖工程工具使用、多步骤流程完成情况、技术正确性、执行时间和计算成本，同时建设物理模型基准与开放数据集；公告描述的是计划开展的工作，并非已发布的 EDA 基准。
 - **2026-10 — Google 及其合作者：** [DuoDiscover](https://duodiscover.github.io/) 报告了一种同时发现优化目标和代理评估器的 Agent 集群，并展示了基于模拟器的 CPU 数据预取器微架构优化任务。
 - **2026-09-30 — Synopsys 与 OpenAI：** [宣布建立多年合作，开发 GPT-Synopsys](https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design)，这是面向芯片设计工作流、计划使用 Synopsys EDA 工具的专用模型。公告描述了联合开发、EDA 工具许可和集成计划；目前未提供独立评测结果。
 - **2026-09-28 — Synopsys：** [Synopsys Powers Autonomous Engineering with a Broad Portfolio of Long-Horizon Agents and Autopilot Platform](https://news.synopsys.com/2026-09-28-Synopsys-Powers-Autonomous-Engineering-with-a-Broad-Portfolio-of-Long-Horizon-Agents-and-Autopilot-Platform) — 宣布覆盖验证、实现和 AMS 设计等领域的专用 Agent 及编排平台；公告报告了客户合作进展，并将可用时间安排在 2026 年底，效果由 Synopsys 及客户自行报告。
+- **2026-09-22 — Cadence：** [Cadence Expands ChipStack AI Super Agent with a New Agent for RTL Generation and Early PPA Optimization](https://login.cadence.com/content/cadence-www/global/en_US/home/company/newsroom/press-releases/pr/2026/cadence-expands-chipstack-ai-super-agent-with-a-new-agent-for.html) — 宣布规格到 RTL 生成、现有 RTL 修改与早期 PPA 优化能力，计划于 2026 年第四季度向部分客户开放早期试用；具体功能和早期评测结果属于厂商报告。
 - **2026-07-27 — Synopsys、AMD 与 Microsoft：** [Synopsys Advances Agentic AI Chip Design with AMD and Microsoft](https://news.synopsys.com/2026-07-27-Synopsys-Advances-Agentic-AI-Chip-Design-with-AMD-and-Microsoft) — 宣布调试/根因分析和实现/QoR 收敛工作流可在 Microsoft Discovery 上申请评估，AMD 正在评估其应用；早期效果属于厂商报告。
 - **2026-07-26 — Synopsys 与 NVIDIA：** [Synopsys Showcases Comprehensive Autonomous Engineering Workflows from Silicon to Systems, Developed with NVIDIA Technology](https://news.synopsys.com/2026-07-26-Synopsys-Showcases-Comprehensive-Autonomous-Engineering-Workflows-from-Silicon-to-Systems%2C-Developed-with-NVIDIA-Technology) — 介绍使用 NVIDIA Nemotron、Agent Toolkit 和 OpenShell 的 AgentEngineer 验证编排 Agent，协调测试计划、覆盖率收敛和调试；功能和效果属于厂商报告。
 - **2026-03 — NVIDIA GTC San Jose：** 在与 Jeff Dean 的讨论中，NVIDIA 首席科学家 Bill Dally 介绍了 Agent 辅助芯片设计，以及用于 RTL 生成和测试平台创建的专家子 Agent。[演讲录像](https://www.nvidia.com/en-us/on-demand/session/gtc26-s82167/)。另可参阅 [NVIDIA Research 的 Spec2RTL-Agent 页面](https://research.nvidia.com/publication/2025-06_spec2rtl-agent-automated-hardware-code-generation-complex-specifications-using) 和 [ACE-RTL 项目](https://github.com/NVlabs/ACE-RTL)；这些是不同日期发布的相关资料，并非在这场演讲中首次发布的项目。
