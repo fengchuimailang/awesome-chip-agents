@@ -1,0 +1,317 @@
+{
+  "abkgroup/orfs-agent": {
+    "full_name": "ABKGroup/ORFS-Agent",
+    "stars": 36,
+    "pushed_at": "2026-06-18T19:09:01Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "aprilaihub/agentic-analog-sizing": {
+    "full_name": "aprilaihub/agentic-analog-sizing",
+    "stars": 3,
+    "pushed_at": "2026-09-22T13:56:55Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "aucohl/rtl-repo": {
+    "full_name": "AUCOHL/RTL-Repo",
+    "stars": 35,
+    "pushed_at": "2024-06-05T21:59:01Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "autobench/autobench": {
+    "full_name": "AutoBench/AutoBench",
+    "stars": 46,
+    "pushed_at": "2025-04-11T12:01:48Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "burcgokden/drchealer": {
+    "full_name": "burcgokden/DRCHealer",
+    "stars": 1,
+    "pushed_at": "2026-07-24T02:48:17Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "circuitnet/circuitnet": {
+    "full_name": "circuitnet/CircuitNet",
+    "stars": 519,
+    "pushed_at": "2026-05-17T09:16:35Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "fesens/auto-arch-tournament": {
+    "full_name": "FeSens/auto-arch-tournament",
+    "stars": 201,
+    "pushed_at": "2026-10-05T17:24:27Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "hkust-zhiyao/correctrtl": {
+    "full_name": "hkust-zhiyao/CorrectRTL",
+    "stars": 3,
+    "pushed_at": "2026-10-20T01:33:57Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "hkust-zhiyao/rtl-benchls": {
+    "full_name": "hkust-zhiyao/RTL-BenchLS",
+    "stars": 5,
+    "pushed_at": "2026-06-08T03:05:07Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "hkust-zhiyao/rtl-benchmt": {
+    "full_name": "hkust-zhiyao/RTL-BenchMT",
+    "stars": 4,
+    "pushed_at": "2026-09-03T09:19:03Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "hkust-zhiyao/rtllm": {
+    "full_name": "hkust-zhiyao/RTLLM",
+    "stars": 238,
+    "pushed_at": "2026-08-15T21:29:29Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "hsc-research/grade-rtl": {
+    "full_name": "hsc-research/GRADE-RTL",
+    "stars": 0,
+    "pushed_at": "2026-10-12T03:27:14Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "hunt-001/ai-chip-design-platform": {
+    "full_name": "HUNT-001/ai-chip-design-platform",
+    "stars": 12,
+    "pushed_at": "2026-10-07T18:06:57Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "nvlabs/ace-rtl": {
+    "full_name": "NVlabs/ACE-RTL",
+    "stars": 39,
+    "pushed_at": "2026-09-20T16:55:46Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "nvlabs/cvdp_benchmark": {
+    "full_name": "NVlabs/cvdp_benchmark",
+    "stars": 243,
+    "pushed_at": "2026-06-08T20:28:47Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "nvlabs/rtlfixer": {
+    "full_name": "NVlabs/RTLFixer",
+    "stars": 60,
+    "pushed_at": "2024-05-23T08:07:37Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "nvlabs/verilog-eval": {
+    "full_name": "NVlabs/verilog-eval",
+    "stars": 487,
+    "pushed_at": "2025-07-14T21:47:51Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "nvlabs/verilogcoder": {
+    "full_name": "NVlabs/VerilogCoder",
+    "stars": 188,
+    "pushed_at": "2025-03-10T17:02:29Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "openroad-assistant/openroad-agent": {
+    "full_name": "OpenROAD-Assistant/OpenROAD-Agent",
+    "stars": 37,
+    "pushed_at": "2025-07-24T23:22:56Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "owenfucell/synthagentic": {
+    "full_name": "owenfucell/SynthAgentic",
+    "stars": 0,
+    "pushed_at": "2026-05-10T03:28:14Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "pku-liang/hwe-bench": {
+    "full_name": "pku-liang/hwe-bench",
+    "stars": 67,
+    "pushed_at": "2026-08-01T17:13:52Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "shailja-thakur/autochip": {
+    "full_name": "shailja-thakur/AutoChip",
+    "stars": 64,
+    "pushed_at": "2025-03-10T22:21:29Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "sharc-lab/hls-eval": {
+    "full_name": "sharc-lab/hls-eval",
+    "stars": 29,
+    "pushed_at": "2026-10-19T15:22:02Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "sharc-lab/hlsfactory-agent": {
+    "full_name": "sharc-lab/hlsfactory-agent",
+    "stars": 2,
+    "pushed_at": "2026-10-23T01:21:07Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "sjtu-yongfu-research-grp/score": {
+    "full_name": "SJTU-YONGFU-RESEARCH-GRP/score",
+    "stars": 4,
+    "pushed_at": "2026-09-03T10:17:15Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "stable-lab/mage": {
+    "full_name": "stable-lab/MAGE",
+    "stars": 142,
+    "pushed_at": "2025-04-11T07:32:44Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "sureshpurini/archxbench": {
+    "full_name": "sureshpurini/ArchXBench",
+    "stars": 18,
+    "pushed_at": "2026-07-26T18:36:17Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "the-openroad-project/openroad": {
+    "full_name": "The-OpenROAD-Project/OpenROAD",
+    "stars": 3230,
+    "pushed_at": "2026-10-27T05:12:14Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "thewind-upbird/analogagent": {
+    "full_name": "TheWind-upBird/Analogagent",
+    "stars": 13,
+    "pushed_at": "2026-06-08T06:20:10Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "umn-zhaolab/lace": {
+    "full_name": "UMN-ZhaoLab/LACE",
+    "stars": 4,
+    "pushed_at": "2026-09-02T15:19:10Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "wndif/veribugbench": {
+    "full_name": "wndif/VeriBugBench",
+    "stars": 2,
+    "pushed_at": "2026-09-01T06:58:18Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "wuhy68/chateda": {
+    "full_name": "wuhy68/ChatEDA",
+    "stars": 63,
+    "pushed_at": "2025-05-21T03:15:48Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "xyjoey/veri-sure": {
+    "full_name": "xyjoey/Veri-Sure",
+    "stars": 28,
+    "pushed_at": "2026-10-26T18:09:31Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "zhongkaiyu/chipbench": {
+    "full_name": "zhongkaiyu/ChipBench",
+    "stars": 44,
+    "pushed_at": "2026-08-06T02:14:40Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  },
+  "zijd/ahrr": {
+    "full_name": "ZijD/AHRR",
+    "stars": 6,
+    "pushed_at": "2026-09-17T23:15:13Z",
+    "fetched_at": "2026-10-27T08:48:11Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-27T08:48:11Z",
+    "fetch_error": null
+  }
+}

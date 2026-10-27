@@ -2,21 +2,24 @@
 
 ## Project Structure
 
-This repository is a curated resource list, not a software package. `README.md` is the English landing page and `README_zh.md` is its Simplified Chinese counterpart. Both contain the same scope, categories, and resources. `LICENSE` covers original repository content; linked papers, code, and datasets retain their own terms. There are currently no source modules, tests, or generated assets.
+This repository is a curated resource catalog, not an installable software package. `README.md` is the English landing page and `README_zh.md` is its Simplified Chinese counterpart. Both are generated from bilingual resource files in `resources/<direction>/<id>.md`. Direction indexes group resources by publication month; benchmark/dataset, tag, news, and video indexes provide alternate entry points. `resources/benchmarks/` groups benchmarks and datasets by primary direction, then month. `data/taxonomy.json` defines the fixed vocabulary, and `data/repo-stats.json` holds GitHub snapshots. `scripts/catalog.py` renders the catalog using only the Python standard library. See `CONTRIBUTING.md` for the metadata schema and template. `LICENSE` covers original repository content; linked resources retain their own terms.
 
 ## Development and Validation
 
-No build, install, or test command is required. Before submitting documentation changes, run:
+No dependency installation is required. After editing resource metadata or descriptions, regenerate and validate:
 
 ```sh
+python3 scripts/catalog.py
+python3 scripts/catalog.py --check
+python3 -m unittest discover -s tests
 git diff --check
 ```
 
-Review both README files together: confirm headings and resource entries correspond, Markdown links point to useful primary sources, and descriptions are concise and factual. For news, verify the announcement date and link to the original announcement or recording. No automated link checker is configured.
+Review both language indexes together: confirm headings and resource entries correspond, Markdown links point to useful primary sources, and descriptions are concise and factual. For news, verify the announcement date and link to the original announcement or recording. Local links are checked in tests; external links still require editorial review. Use `python3 scripts/catalog.py --refresh` only when a network refresh of repository statistics is intended; failures preserve successful snapshots.
 
 ## Style and Naming
 
-Use Markdown with ATX headings (`##`), hyphen bullets, and one concise description per resource. Keep English and Chinese sections in the same order and translate descriptions when practical; titles may stay in their original language. Put each item in the most relevant section, avoid duplicates, and keep dated material roughly chronological. Distinguish vendor-reported claims from independently evaluated results. Use `README_zh.md` for the Chinese edition; preserve this exact filename for the repository's language link.
+Use Markdown with ATX headings (`##`), hyphen bullets, and concise descriptions. Edit resource JSON metadata comments and English/Chinese editorial sections; do not hand-edit generated indexes or rendered metadata blocks. Keep one canonical file per work, one primary direction, and multiple fixed-vocabulary tags; use `also_in` and `related` for cross-references. Preserve original titles and source notes. Sort by publication month descending, keeping year-only and undated records explicit; repository push times never determine publication groups. Distinguish vendor-reported claims from independently evaluated results. Preserve the exact filename `README_zh.md` for the Chinese edition.
 
 ## Contribution Guidelines
 

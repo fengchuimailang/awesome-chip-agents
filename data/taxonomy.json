@@ -1,0 +1,212 @@
+{
+  "directions": {
+    "rtl-generation": [
+      "RTL Generation and Editing",
+      "RTL 生成与编辑"
+    ],
+    "verification-debugging": [
+      "Verification, Debugging and Specifications",
+      "验证、调试与规格推断"
+    ],
+    "physical-design": [
+      "Physical Design and EDA Flows",
+      "物理设计与 EDA 流程"
+    ],
+    "analog-rf": [
+      "Analog and RF Design",
+      "模拟与 RF 电路"
+    ],
+    "architecture-hls-codesign": [
+      "Architecture, HLS and Hardware/Software Co-design",
+      "架构探索、HLS 与软硬件协同设计"
+    ],
+    "agent-infrastructure": [
+      "Agent Infrastructure and Overviews",
+      "Agent 基础设施与综述"
+    ],
+    "board-system-design": [
+      "Board, Packaging and System Design",
+      "板级、封装与系统设计"
+    ]
+  },
+  "tags": {
+    "rtl": [
+      "RTL",
+      "RTL"
+    ],
+    "generation": [
+      "Code generation",
+      "代码生成"
+    ],
+    "editing": [
+      "Code editing",
+      "代码编辑"
+    ],
+    "verification": [
+      "Verification",
+      "验证"
+    ],
+    "debugging": [
+      "Debugging",
+      "调试"
+    ],
+    "formal": [
+      "Formal verification",
+      "形式验证"
+    ],
+    "simulation": [
+      "Simulation",
+      "仿真"
+    ],
+    "testbench": [
+      "Testbench",
+      "测试平台"
+    ],
+    "waveform": [
+      "Waveforms",
+      "波形分析"
+    ],
+    "specification": [
+      "Specifications",
+      "规格推断"
+    ],
+    "physical-design": [
+      "Physical design",
+      "物理设计"
+    ],
+    "ppa": [
+      "PPA / QoR",
+      "PPA / QoR"
+    ],
+    "drc": [
+      "DRC",
+      "DRC"
+    ],
+    "eda-flow": [
+      "EDA workflows",
+      "EDA 流程"
+    ],
+    "analog-rf": [
+      "Analog / RF",
+      "模拟 / RF"
+    ],
+    "sizing": [
+      "Circuit sizing",
+      "电路尺寸优化"
+    ],
+    "architecture": [
+      "Architecture exploration",
+      "架构探索"
+    ],
+    "hls": [
+      "HLS",
+      "HLS"
+    ],
+    "codesign": [
+      "HW/SW co-design",
+      "软硬件协同"
+    ],
+    "risc-v": [
+      "RISC-V",
+      "RISC-V"
+    ],
+    "fpga": [
+      "FPGA",
+      "FPGA"
+    ],
+    "repository-level": [
+      "Repository-level tasks",
+      "仓库级任务"
+    ],
+    "multi-agent": [
+      "Multi-agent",
+      "多 Agent"
+    ],
+    "tool-use": [
+      "Tool use",
+      "工具调用"
+    ],
+    "memory": [
+      "Memory / experience",
+      "记忆与经验"
+    ],
+    "infrastructure": [
+      "Infrastructure",
+      "基础设施"
+    ],
+    "benchmark": [
+      "Benchmark",
+      "基准"
+    ],
+    "dataset": [
+      "Dataset",
+      "数据集"
+    ],
+    "evaluation": [
+      "Evaluation",
+      "评测"
+    ],
+    "commercial": [
+      "Commercial platform",
+      "商业平台"
+    ],
+    "overview": [
+      "Overview / tutorial",
+      "综述 / 教程"
+    ],
+    "board": [
+      "Board / PCB",
+      "板级 / PCB"
+    ],
+    "packaging": [
+      "Packaging / 3D IC",
+      "封装 / 3D IC"
+    ],
+    "system": [
+      "System design",
+      "系统设计"
+    ],
+    "vendor-report": [
+      "Vendor-reported",
+      "厂商报告"
+    ],
+    "news": [
+      "Announcement",
+      "公告"
+    ],
+    "video": [
+      "Talk / video",
+      "演讲 / 视频"
+    ]
+  },
+  "types": {
+    "paper": [
+      "Paper",
+      "论文"
+    ],
+    "project": [
+      "Open-source project",
+      "开源项目"
+    ],
+    "benchmark": [
+      "Benchmark / dataset",
+      "基准 / 数据集"
+    ],
+    "platform": [
+      "Tool / platform",
+      "工具 / 平台"
+    ],
+    "overview": [
+      "Survey / tutorial",
+      "综述 / 教程"
+    ],
+    "video": [
+      "Talk / video",
+      "演讲 / 视频"
+    ],
+    "news": [
+      "News / announcement",
+      "新闻 / 公告"
+    ]
+  }
+}
