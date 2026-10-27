@@ -6,84 +6,42 @@
 
 ## 2026-10
 
-- **[Siemens / NVIDIA · 3D IC](../../resources/board-system-design/siemens-nvidia-3dic-2026.md)** — Announces an agentic 3D IC electrothermal workflow; capabilities are vendor-reported.
-
-  `Announcement` `Packaging / 3D IC` `EDA workflows` `Vendor-reported` · News / announcement
-
-  [Source](https://news.siemens.com/en-us/siemens-nvidia-gtc-3d-ic-thermal-ai/)
-
-- **[Mistral / NVIDIA · Evaluation plans](../../resources/agent-infrastructure/mistral-nvidia-evaluation-2026.md)** — Announces plans for engineering-tool and CAE/EDA agent evaluations.
-
-  `Announcement` `Evaluation` `Benchmark` `Vendor-reported` · News / announcement
-
-  [Source](https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/)
-
-- **[DuoDiscover announcement](../../resources/architecture-hls-codesign/duodiscover-announcement.md)** — Introduces joint discovery of optimization targets and proxy evaluators.
-
-  `Announcement` `Architecture exploration` `Evaluation` `Vendor-reported` · News / announcement
-
-  [Source](https://duodiscover.github.io/)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Siemens / NVIDIA · 3D IC](../../resources/board-system-design/siemens-nvidia-3dic-2026.md)**<br>Announces an agentic 3D IC electrothermal workflow; capabilities are vendor-reported. | [Announcement](../../resources/tags/news.md) · [Packaging / 3D IC](../../resources/tags/packaging.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://news.siemens.com/en-us/siemens-nvidia-gtc-3d-ic-thermal-ai/) | — | — | — |
+| **[Mistral / NVIDIA · Evaluation plans](../../resources/agent-infrastructure/mistral-nvidia-evaluation-2026.md)**<br>Announces plans for engineering-tool and CAE/EDA agent evaluations. | [Announcement](../../resources/tags/news.md) · [Evaluation](../../resources/tags/evaluation.md) · [Benchmark](../../resources/tags/benchmark.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/) | — | — | — |
+| **[DuoDiscover announcement](../../resources/architecture-hls-codesign/duodiscover-announcement.md)**<br>Introduces joint discovery of optimization targets and proxy evaluators. | [Announcement](../../resources/tags/news.md) · [Architecture exploration](../../resources/tags/architecture.md) · [Evaluation](../../resources/tags/evaluation.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://duodiscover.github.io/) | — | — | — |
 
 ## 2026-09
 
-- **[GPT-Synopsys partnership](../../resources/agent-infrastructure/gpt-synopsys-announcement.md)** — Announces joint development of a model for Synopsys chip-design workflows.
-
-  `Announcement` `Commercial platform` `EDA workflows` `Vendor-reported` · News / announcement
-
-  [Source](https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design)
-
-- **[AgentEngineer / Autopilot announcement](../../resources/agent-infrastructure/agentengineer-autopilot-announcement.md)** — Announces domain agents and the Autopilot orchestration platform.
-
-  `Announcement` `Commercial platform` `Multi-agent` `Vendor-reported` · News / announcement
-
-  [Source](https://news.synopsys.com/2026-09-28-Synopsys-Powers-Autonomous-Engineering-with-a-Broad-Portfolio-of-Long-Horizon-Agents-and-Autopilot-Platform)
-
-- **[ChipStack RTL / PPA announcement](../../resources/rtl-generation/chipstack-rtl-announcement.md)** — Announces RTL generation, editing, and early PPA optimization capabilities.
-
-  `Announcement` `Commercial platform` `RTL` `PPA / QoR` `Vendor-reported` · News / announcement
-
-  [Source](https://login.cadence.com/content/cadence-www/global/en_US/home/company/newsroom/press-releases/pr/2026/cadence-expands-chipstack-ai-super-agent-with-a-new-agent-for.html)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[GPT-Synopsys partnership](../../resources/agent-infrastructure/gpt-synopsys-announcement.md)**<br>Announces joint development of a model for Synopsys chip-design workflows. | [Announcement](../../resources/tags/news.md) · [Commercial platform](../../resources/tags/commercial.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design) | — | — | — |
+| **[AgentEngineer / Autopilot announcement](../../resources/agent-infrastructure/agentengineer-autopilot-announcement.md)**<br>Announces domain agents and the Autopilot orchestration platform. | [Announcement](../../resources/tags/news.md) · [Commercial platform](../../resources/tags/commercial.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://news.synopsys.com/2026-09-28-Synopsys-Powers-Autonomous-Engineering-with-a-Broad-Portfolio-of-Long-Horizon-Agents-and-Autopilot-Platform) | — | — | — |
+| **[ChipStack RTL / PPA announcement](../../resources/rtl-generation/chipstack-rtl-announcement.md)**<br>Announces RTL generation, editing, and early PPA optimization capabilities. | [Announcement](../../resources/tags/news.md) · [Commercial platform](../../resources/tags/commercial.md) · [RTL](../../resources/tags/rtl.md) · [PPA / QoR](../../resources/tags/ppa.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://login.cadence.com/content/cadence-www/global/en_US/home/company/newsroom/press-releases/pr/2026/cadence-expands-chipstack-ai-super-agent-with-a-new-agent-for.html) | — | — | — |
 
 ## 2026-07
 
-- **[Synopsys / AMD / Microsoft](../../resources/physical-design/synopsys-amd-microsoft-2026.md)** — Announces evaluation access to debugging and implementation workflows.
-
-  `Announcement` `Debugging` `PPA / QoR` `Commercial platform` `Vendor-reported` · News / announcement
-
-  [Source](https://news.synopsys.com/2026-07-27-Synopsys-Advances-Agentic-AI-Chip-Design-with-AMD-and-Microsoft)
-
-- **[Synopsys / NVIDIA workflows](../../resources/verification-debugging/synopsys-nvidia-workflows-2026.md)** — Describes an agent orchestrating test planning, coverage, and debugging.
-
-  `Announcement` `Verification` `Multi-agent` `Vendor-reported` · News / announcement
-
-  [Source](https://news.synopsys.com/2026-07-26-Synopsys-Showcases-Comprehensive-Autonomous-Engineering-Workflows-from-Silicon-to-Systems%2C-Developed-with-NVIDIA-Technology)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Synopsys / AMD / Microsoft](../../resources/physical-design/synopsys-amd-microsoft-2026.md)**<br>Announces evaluation access to debugging and implementation workflows. | [Announcement](../../resources/tags/news.md) · [Debugging](../../resources/tags/debugging.md) · [PPA / QoR](../../resources/tags/ppa.md) · [Commercial platform](../../resources/tags/commercial.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://news.synopsys.com/2026-07-27-Synopsys-Advances-Agentic-AI-Chip-Design-with-AMD-and-Microsoft) | — | — | — |
+| **[Synopsys / NVIDIA workflows](../../resources/verification-debugging/synopsys-nvidia-workflows-2026.md)**<br>Describes an agent orchestrating test planning, coverage, and debugging. | [Announcement](../../resources/tags/news.md) · [Verification](../../resources/tags/verification.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://news.synopsys.com/2026-07-26-Synopsys-Showcases-Comprehensive-Autonomous-Engineering-Workflows-from-Silicon-to-Systems%2C-Developed-with-NVIDIA-Technology) | — | — | — |
 
 ## 2026-03
 
-- **[Synopsys Converge · AgentEngineer](../../resources/rtl-generation/synopsys-converge-2026.md)** — Demonstrates an agentic specification-to-RTL and verification workflow.
-
-  `Announcement` `RTL` `EDA workflows` `Vendor-reported` · News / announcement
-
-  [Source](https://news.synopsys.com/2026-03-11-Synopsys-Outlines-Vision-for-Engineering-the-Future)
-
-- **[GTC San Jose · Chip-design agents](../../resources/rtl-generation/gtc-san-jose-2026.md)** — Discusses chip-design agents, RTL generation, and testbench creation.
-
-  `Announcement` `RTL` `Testbench` `Vendor-reported` · News / announcement
-
-  [NVlabs/ACE-RTL](https://github.com/NVlabs/ACE-RTL) · ★ 39 · pushed 2026-09-20 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Synopsys Converge · AgentEngineer](../../resources/rtl-generation/synopsys-converge-2026.md)**<br>Demonstrates an agentic specification-to-RTL and verification workflow. | [Announcement](../../resources/tags/news.md) · [RTL](../../resources/tags/rtl.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://news.synopsys.com/2026-03-11-Synopsys-Outlines-Vision-for-Engineering-the-Future) | — | — | — |
+| **[GTC San Jose · Chip-design agents](../../resources/rtl-generation/gtc-san-jose-2026.md)**<br>Discusses chip-design agents, RTL generation, and testbench creation. | [Announcement](../../resources/tags/news.md) · [RTL](../../resources/tags/rtl.md) · [Testbench](../../resources/tags/testbench.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | — | [NVlabs/ACE-RTL](https://github.com/NVlabs/ACE-RTL) | 39 | 2026-09-20<br>Fetched 2026-10-27 |
 
 ## 2026-02
 
-- **[ChipStack early access](../../resources/rtl-generation/chipstack-early-access.md)** — Announces early access to front-end design and verification agents.
-
-  `Announcement` `Commercial platform` `RTL` `Verification` `Vendor-reported` · News / announcement
-
-  [Source](https://www.cadence.com/en_US/home/company/newsroom/press-releases/pr/2026/cadence-unleashes-chipstack-ai-super-agent-pioneering-a-new.html)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[ChipStack early access](../../resources/rtl-generation/chipstack-early-access.md)**<br>Announces early access to front-end design and verification agents. | [Announcement](../../resources/tags/news.md) · [Commercial platform](../../resources/tags/commercial.md) · [RTL](../../resources/tags/rtl.md) · [Verification](../../resources/tags/verification.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://www.cadence.com/en_US/home/company/newsroom/press-releases/pr/2026/cadence-unleashes-chipstack-ai-super-agent-pioneering-a-new.html) | — | — | — |
 
 ## 2025-05
 
-- **[AlphaEvolve chip-design case](../../resources/rtl-generation/alphaevolve-chip-case.md)** — Reports an agent-proposed Verilog optimization used in a TPU design.
-
-  `Announcement` `RTL` `Code editing` `PPA / QoR` `Vendor-reported` · News / announcement
-
-  [Source](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[AlphaEvolve chip-design case](../../resources/rtl-generation/alphaevolve-chip-case.md)**<br>Reports an agent-proposed Verilog optimization used in a TPU design. | [Announcement](../../resources/tags/news.md) · [RTL](../../resources/tags/rtl.md) · [Code editing](../../resources/tags/editing.md) · [PPA / QoR](../../resources/tags/ppa.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/) | — | — | — |

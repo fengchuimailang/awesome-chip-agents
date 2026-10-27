@@ -8,126 +8,73 @@ Newest publication month first. Cross-references share the original record; repo
 
 ## 2026-09
 
-- **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)** — Evaluation code and collateral for measuring generated RTL beyond compilation, including functional equivalence, completeness, and QoR.
-
-  `RTL` `Benchmark` `Evaluation` `PPA / QoR` · Open-source project / Benchmark / dataset · cross-reference
-
-  [Paper](https://arxiv.org/abs/2609.25335)
-
-  [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) · ★ 0 · pushed 2026-10-12 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)**<br>Evaluation code and collateral for measuring generated RTL beyond compilation, including functional equivalence, completeness, and QoR. | [RTL](../../resources/tags/rtl.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>Open-source project / Benchmark / dataset · cross-reference | [Paper](https://arxiv.org/abs/2609.25335) | [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) | 0 | 2026-10-12<br>Fetched 2026-10-27 |
 
 ## 2026-08
 
-- **[GoalEvolve](../../resources/physical-design/goalevolve.md)** — Evolves physical-design algorithms toward explicit QoR goals through multi-agent search and tool-grounded evaluation.
-
-  `Physical design` `PPA / QoR` `Multi-agent` · Paper
-
-  [Paper](https://arxiv.org/abs/2608.16733)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[GoalEvolve](../../resources/physical-design/goalevolve.md)**<br>Evolves physical-design algorithms toward explicit QoR goals through multi-agent search and tool-grounded evaluation. | [Physical design](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [Multi-agent](../../resources/tags/multi-agent.md)<br>Paper | [Paper](https://arxiv.org/abs/2608.16733) | — | — | — |
 
 ## 2026-06
 
-- **[PDAgent-Bench](../../resources/physical-design/pdagent-bench.md)** — Benchmarks grounding, task execution, and agent architecture choices for VLSI physical-design workflows.
-
-  `Physical design` `Benchmark` `Evaluation` · Benchmark / dataset
-
-  [Paper](https://arxiv.org/abs/2606.17253)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[PDAgent-Bench](../../resources/physical-design/pdagent-bench.md)**<br>Benchmarks grounding, task execution, and agent architecture choices for VLSI physical-design workflows. | [Physical design](../../resources/tags/physical-design.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2606.17253) | — | — | — |
 
 ## 2026-05
 
-- **[PostEDA-Bench](../../resources/physical-design/posteda-bench.md)** — Evaluates agent workflows that close PPA targets and repair DRC violations after initial EDA generation.
-
-  `Physical design` `PPA / QoR` `DRC` `Benchmark` · Benchmark / dataset
-
-  [Paper](https://arxiv.org/abs/2605.06936)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[PostEDA-Bench](../../resources/physical-design/posteda-bench.md)**<br>Evaluates agent workflows that close PPA targets and repair DRC violations after initial EDA generation. | [Physical design](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [DRC](../../resources/tags/drc.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2605.06936) | — | — | — |
 
 ## 2026-03
 
-- **[FluxEDA](../../resources/agent-infrastructure/fluxeda.md)** — Provides stateful execution and tool integration for reproducible, long-running agentic EDA workflows.
-
-  `Infrastructure` `EDA workflows` `Tool use` · Paper · cross-reference
-
-  [Paper](https://arxiv.org/abs/2603.25243)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[FluxEDA](../../resources/agent-infrastructure/fluxeda.md)**<br>Provides stateful execution and tool integration for reproducible, long-running agentic EDA workflows. | [Infrastructure](../../resources/tags/infrastructure.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Tool use](../../resources/tags/tool-use.md)<br>Paper · cross-reference | [Paper](https://arxiv.org/abs/2603.25243) | — | — | — |
 
 ## 2026 · month not verified
 
-- **[Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md)** — Commercial agentic platform supporting language-model choice and specialized agents for verification, physical implementation, and analog/mixed-signal workflows.
-
-  `Commercial platform` `EDA workflows` `Multi-agent` `Vendor-reported` · Tool / platform · cross-reference
-
-  [Source](https://www.synopsys.com/ai/agentic-ai.html)
-
-- **[Build-A-Chip-Bench](../../resources/physical-design/build-a-chip-bench.md)** — Evaluates workload-to-GDS agents using correctness gates and PPA; developer-reported results.
-
-  `EDA workflows` `PPA / QoR` `Benchmark` `Vendor-reported` · Benchmark / dataset
-
-  [Source](https://chipagents.ai/research/build-a-chip-bench)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md)**<br>Commercial agentic platform supporting language-model choice and specialized agents for verification, physical implementation, and analog/mixed-signal workflows. | [Commercial platform](../../resources/tags/commercial.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Tool / platform · cross-reference | [Source](https://www.synopsys.com/ai/agentic-ai.html) | — | — | — |
+| **[Build-A-Chip-Bench](../../resources/physical-design/build-a-chip-bench.md)**<br>Evaluates workload-to-GDS agents using correctness gates and PPA; developer-reported results. | [EDA workflows](../../resources/tags/eda-flow.md) · [PPA / QoR](../../resources/tags/ppa.md) · [Benchmark](../../resources/tags/benchmark.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Benchmark / dataset | [Source](https://chipagents.ai/research/build-a-chip-bench) | — | — | — |
 
 ## 2025-06
 
-- **[ORFS-agent](../../resources/physical-design/orfs-agent.md)** — Uses an LLM agent to iteratively tune OpenROAD Flow Scripts parameters against physical design metrics.
-
-  `Physical design` `PPA / QoR` `Tool use` · Paper
-
-  [Paper](https://arxiv.org/abs/2506.08332)
-
-  [ABKGroup/ORFS-Agent](https://github.com/ABKGroup/ORFS-Agent) · ★ 36 · pushed 2026-06-18 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[ORFS-agent](../../resources/physical-design/orfs-agent.md)**<br>Uses an LLM agent to iteratively tune OpenROAD Flow Scripts parameters against physical design metrics. | [Physical design](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [Tool use](../../resources/tags/tool-use.md)<br>Paper | [Paper](https://arxiv.org/abs/2506.08332) | [ABKGroup/ORFS-Agent](https://github.com/ABKGroup/ORFS-Agent) | 36 | 2026-06-18<br>Fetched 2026-10-27 |
 
 ## 2025 · month not verified
 
-- **[OpenROAD Agent](../../resources/physical-design/openroad-agent.md)** — Generates OpenROAD scripts and uses tool feedback to correct them.
-
-  `Physical design` `EDA workflows` `Tool use` · Paper / Open-source project
-
-  [OpenROAD-Assistant/OpenROAD-Agent](https://github.com/OpenROAD-Assistant/OpenROAD-Agent) · ★ 37 · pushed 2025-07-24 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[OpenROAD Agent](../../resources/physical-design/openroad-agent.md)**<br>Generates OpenROAD scripts and uses tool feedback to correct them. | [Physical design](../../resources/tags/physical-design.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Tool use](../../resources/tags/tool-use.md)<br>Paper / Open-source project | — | [OpenROAD-Assistant/OpenROAD-Agent](https://github.com/OpenROAD-Assistant/OpenROAD-Agent) | 37 | 2025-07-24<br>Fetched 2026-10-27 |
 
 ## 2024 · month not verified
 
-- **[ChatEDA](../../resources/physical-design/chateda.md)** — An LLM-based agent that decomposes EDA tasks, generates scripts, and executes a flow from RTL toward GDSII.
-
-  `EDA workflows` `Tool use` · Paper / Open-source project
-
-  [Paper](https://doi.org/10.1109/TCAD.2024.3383347)
-
-  [wuhy68/ChatEDA](https://github.com/wuhy68/ChatEDA) · ★ 63 · pushed 2025-05-21 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[ChatEDA](../../resources/physical-design/chateda.md)**<br>An LLM-based agent that decomposes EDA tasks, generates scripts, and executes a flow from RTL toward GDSII. | [EDA workflows](../../resources/tags/eda-flow.md) · [Tool use](../../resources/tags/tool-use.md)<br>Paper / Open-source project | [Paper](https://doi.org/10.1109/TCAD.2024.3383347) | [wuhy68/ChatEDA](https://github.com/wuhy68/ChatEDA) | 63 | 2025-05-21<br>Fetched 2026-10-27 |
 
 ## Date not recorded
 
-- **[OpenROAD](../../resources/physical-design/openroad.md)** — Open-source RTL-to-GDS flow and research platform used by agentic design and optimization projects.
-
-  `Physical design` `EDA workflows` `Infrastructure` · Open-source project
-
-  [The-OpenROAD-Project/OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) · ★ 3,230 · pushed 2026-10-27 · fetched 2026-10-27
-
-- **[DRCHealer](../../resources/physical-design/drchealer.md)** — Research prototype for physical verification that turns natural-language design rules into KLayout DRC scripts, diagnoses GDSII violations, and applies bounded, re-verified geometric repairs.
-
-  `Physical design` `DRC` `Verification` `Tool use` · Open-source project
-
-  [burcgokden/DRCHealer](https://github.com/burcgokden/DRCHealer) · ★ 1 · pushed 2026-07-24 · fetched 2026-10-27
-
-- **[CircuitNet](../../resources/physical-design/circuitnet.md)** — Open EDA dataset for tasks such as congestion, DRC, IR-drop, and timing prediction.
-
-  `Physical design` `Dataset` `Evaluation` · Benchmark / dataset
-
-  [circuitnet/CircuitNet](https://github.com/circuitnet/CircuitNet) · ★ 519 · pushed 2026-05-17 · fetched 2026-10-27
-
-- **[Cadence InnoStack](../../resources/physical-design/cadence-innostack.md)** — Vendor-described agentic workflow for digital implementation and signoff, from synthesis through place-and-route.
-
-  `Commercial platform` `Physical design` `EDA workflows` `Vendor-reported` · Tool / platform
-
-  [Source](https://www.cadence.com/en_US/home/tools/system-design-and-verification/innostack-ai-superagent.html)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[OpenROAD](../../resources/physical-design/openroad.md)**<br>Open-source RTL-to-GDS flow and research platform used by agentic design and optimization projects. | [Physical design](../../resources/tags/physical-design.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Infrastructure](../../resources/tags/infrastructure.md)<br>Open-source project | — | [The-OpenROAD-Project/OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) | 3,230 | 2026-10-27<br>Fetched 2026-10-27 |
+| **[DRCHealer](../../resources/physical-design/drchealer.md)**<br>Research prototype for physical verification that turns natural-language design rules into KLayout DRC scripts, diagnoses GDSII violations, and applies bounded, re-verified geometric repairs. | [Physical design](../../resources/tags/physical-design.md) · [DRC](../../resources/tags/drc.md) · [Verification](../../resources/tags/verification.md) · [Tool use](../../resources/tags/tool-use.md)<br>Open-source project | — | [burcgokden/DRCHealer](https://github.com/burcgokden/DRCHealer) | 1 | 2026-07-24<br>Fetched 2026-10-27 |
+| **[CircuitNet](../../resources/physical-design/circuitnet.md)**<br>Open EDA dataset for tasks such as congestion, DRC, IR-drop, and timing prediction. | [Physical design](../../resources/tags/physical-design.md) · [Dataset](../../resources/tags/dataset.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | — | [circuitnet/CircuitNet](https://github.com/circuitnet/CircuitNet) | 519 | 2026-05-17<br>Fetched 2026-10-27 |
+| **[Cadence InnoStack](../../resources/physical-design/cadence-innostack.md)**<br>Vendor-described agentic workflow for digital implementation and signoff, from synthesis through place-and-route. | [Commercial platform](../../resources/tags/commercial.md) · [Physical design](../../resources/tags/physical-design.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Tool / platform | [Source](https://www.cadence.com/en_US/home/tools/system-design-and-verification/innostack-ai-superagent.html) | — | — | — |
 
 # Related News and Videos
 
 ## 2026-07
 
-- **[Synopsys / AMD / Microsoft](../../resources/physical-design/synopsys-amd-microsoft-2026.md)** — Announces evaluation access to debugging and implementation workflows.
-
-  `Announcement` `Debugging` `PPA / QoR` `Commercial platform` `Vendor-reported` · News / announcement
-
-  [Source](https://news.synopsys.com/2026-07-27-Synopsys-Advances-Agentic-AI-Chip-Design-with-AMD-and-Microsoft)
-
-- **[InnoStack demo](../../resources/physical-design/innostack-demo.md)** — Official product demonstration covering agent-assisted multi-block physical-design work from synthesis through post-route.
-
-  `Talk / video` `Physical design` `EDA workflows` `Vendor-reported` · Talk / video
-
-  [Source](https://www.youtube.com/watch?v=my-8jSjaZlQ)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Synopsys / AMD / Microsoft](../../resources/physical-design/synopsys-amd-microsoft-2026.md)**<br>Announces evaluation access to debugging and implementation workflows. | [Announcement](../../resources/tags/news.md) · [Debugging](../../resources/tags/debugging.md) · [PPA / QoR](../../resources/tags/ppa.md) · [Commercial platform](../../resources/tags/commercial.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://news.synopsys.com/2026-07-27-Synopsys-Advances-Agentic-AI-Chip-Design-with-AMD-and-Microsoft) | — | — | — |
+| **[InnoStack demo](../../resources/physical-design/innostack-demo.md)**<br>Official product demonstration covering agent-assisted multi-block physical-design work from synthesis through post-route. | [Talk / video](../../resources/tags/video.md) · [Physical design](../../resources/tags/physical-design.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Talk / video | [Source](https://www.youtube.com/watch?v=my-8jSjaZlQ) | — | — | — |

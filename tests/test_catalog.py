@@ -61,7 +61,7 @@ class RefreshTests(unittest.TestCase):
         self.assertEqual(snapshot["last_attempt_at"], "2026-10-27T00:00:00Z")
         self.assertEqual(snapshot["fetch_error"], "HTTP 403")
         self.assertEqual(cache["author/benchmark"]["stars"], 2)
-        self.assertIn("previous snapshot", catalog.repo_line("author/implementation", cache, 0))
+        self.assertIn("previous snapshot", " ".join(catalog.repo_cells("author/implementation", cache, 0)))
 
     def test_failure_without_snapshot_never_invents_zero_stars(self):
         def fetch(repo):
@@ -70,7 +70,7 @@ class RefreshTests(unittest.TestCase):
         cache, failures = catalog.refresh_stats(self.records, {}, fetch, "2026-10-27T00:00:00Z")
         self.assertEqual(len(failures), 2)
         self.assertNotIn("stars", cache["author/implementation"])
-        self.assertIn("unavailable", catalog.repo_line("author/implementation", cache, 0))
+        self.assertIn("unavailable", " ".join(catalog.repo_cells("author/implementation", cache, 0)))
 
 
 class NavigationTests(unittest.TestCase):

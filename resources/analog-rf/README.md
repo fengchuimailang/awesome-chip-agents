@@ -8,50 +8,31 @@ Newest publication month first. Cross-references share the original record; repo
 
 ## 2026-10
 
-- **[RFChipAgent](../../resources/analog-rf/rfchipagent.md)** — Coordinates document retrieval, topology selection, schematic and testbench assembly, and simulation-guided circuit sizing under human supervision.
-
-  `Analog / RF` `Circuit sizing` `Simulation` `Multi-agent` · Paper
-
-  [Paper](https://arxiv.org/abs/2610.10858)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[RFChipAgent](../../resources/analog-rf/rfchipagent.md)**<br>Coordinates document retrieval, topology selection, schematic and testbench assembly, and simulation-guided circuit sizing under human supervision. | [Analog / RF](../../resources/tags/analog-rf.md) · [Circuit sizing](../../resources/tags/sizing.md) · [Simulation](../../resources/tags/simulation.md) · [Multi-agent](../../resources/tags/multi-agent.md)<br>Paper | [Paper](https://arxiv.org/abs/2610.10858) | — | — | — |
 
 ## 2026-09
 
-- **[Long-Horizon Analog Design Bench](../../resources/analog-rf/long-horizon-analog-design-bench.md)** — Evaluates agents on 50 transistor-level design tasks contributed by 17 chip designers, using an open-source simulator and an isolated verifier to check electrical specifications over hours-long runs.
-
-  `Analog / RF` `Simulation` `Benchmark` `Evaluation` · Benchmark / dataset
-
-  [Paper](https://arxiv.org/abs/2609.33356)
-
-- **[AgenticSizing](../../resources/analog-rf/agenticsizing.md)** — Analyzes circuit topology and functional blocks, reuses design knowledge, and coordinates specialized sizing agents through simulation feedback.
-
-  `Analog / RF` `Circuit sizing` `Simulation` `Multi-agent` · Paper / Open-source project
-
-  [Paper](https://arxiv.org/abs/2609.25873)
-
-  [aprilaihub/agentic-analog-sizing](https://github.com/aprilaihub/agentic-analog-sizing) · ★ 3 · pushed 2026-09-22 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Long-Horizon Analog Design Bench](../../resources/analog-rf/long-horizon-analog-design-bench.md)**<br>Evaluates agents on 50 transistor-level design tasks contributed by 17 chip designers, using an open-source simulator and an isolated verifier to check electrical specifications over hours-long runs. | [Analog / RF](../../resources/tags/analog-rf.md) · [Simulation](../../resources/tags/simulation.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2609.33356) | — | — | — |
+| **[AgenticSizing](../../resources/analog-rf/agenticsizing.md)**<br>Analyzes circuit topology and functional blocks, reuses design knowledge, and coordinates specialized sizing agents through simulation feedback. | [Analog / RF](../../resources/tags/analog-rf.md) · [Circuit sizing](../../resources/tags/sizing.md) · [Simulation](../../resources/tags/simulation.md) · [Multi-agent](../../resources/tags/multi-agent.md)<br>Paper / Open-source project | [Paper](https://arxiv.org/abs/2609.25873) | [aprilaihub/agentic-analog-sizing](https://github.com/aprilaihub/agentic-analog-sizing) | 3 | 2026-09-22<br>Fetched 2026-10-27 |
 
 ## 2026-03
 
-- **[AnalogAgent](../../resources/analog-rf/analogagent.md)** — Uses self-improving LLM agents and persistent experience to automate analog design and transfer knowledge across tasks.
-
-  `Analog / RF` `Tool use` `Memory / experience` · Paper
-
-  [Paper](https://arxiv.org/abs/2603.23910)
-
-  [TheWind-upBird/Analogagent](https://github.com/TheWind-upBird/Analogagent) · ★ 13 · pushed 2026-06-08 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[AnalogAgent](../../resources/analog-rf/analogagent.md)**<br>Uses self-improving LLM agents and persistent experience to automate analog design and transfer knowledge across tasks. | [Analog / RF](../../resources/tags/analog-rf.md) · [Tool use](../../resources/tags/tool-use.md) · [Memory / experience](../../resources/tags/memory.md)<br>Paper | [Paper](https://arxiv.org/abs/2603.23910) | [TheWind-upBird/Analogagent](https://github.com/TheWind-upBird/Analogagent) | 13 | 2026-06-08<br>Fetched 2026-10-27 |
 
 ## 2026 · month not verified
 
-- **[Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md)** — Commercial agentic platform supporting language-model choice and specialized agents for verification, physical implementation, and analog/mixed-signal workflows.
-
-  `Commercial platform` `EDA workflows` `Multi-agent` `Vendor-reported` · Tool / platform · cross-reference
-
-  [Source](https://www.synopsys.com/ai/agentic-ai.html)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md)**<br>Commercial agentic platform supporting language-model choice and specialized agents for verification, physical implementation, and analog/mixed-signal workflows. | [Commercial platform](../../resources/tags/commercial.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Tool / platform · cross-reference | [Source](https://www.synopsys.com/ai/agentic-ai.html) | — | — | — |
 
 ## Date not recorded
 
-- **[Cadence ViraStack](../../resources/analog-rf/cadence-virastack.md)** — Vendor-described agentic automation for custom and analog design, including schematic creation, testbench development, circuit optimization, and layout migration.
-
-  `Commercial platform` `Analog / RF` `Circuit sizing` `Vendor-reported` · Tool / platform
-
-  [Source](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/virastack-ai-super-agent.html)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Cadence ViraStack](../../resources/analog-rf/cadence-virastack.md)**<br>Vendor-described agentic automation for custom and analog design, including schematic creation, testbench development, circuit optimization, and layout migration. | [Commercial platform](../../resources/tags/commercial.md) · [Analog / RF](../../resources/tags/analog-rf.md) · [Circuit sizing](../../resources/tags/sizing.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Tool / platform | [Source](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/virastack-ai-super-agent.html) | — | — | — |

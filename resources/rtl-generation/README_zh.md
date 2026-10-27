@@ -8,266 +8,131 @@
 
 ## 2026-10
 
-- **[ScaleBench](../../resources/rtl-generation/scalebench.md)** — 提供 200 项规格到 RTL 任务及形式等价评测材料。
-
-  `RTL` `代码生成` `形式验证` `基准` · 基准 / 数据集
-
-  [hkust-zhiyao/CorrectRTL](https://github.com/hkust-zhiyao/CorrectRTL) · ★ 3 · 最近推送 2026-10-20 · 采集 2026-10-27
-
-- **[CorrectRTL](../../resources/rtl-generation/correctrtl.md)** — 结合结构规划、代码检索和 SVA 引导的自我修正生成 RTL。
-
-  `RTL` `代码生成` `形式验证` · 论文
-
-  [论文](https://arxiv.org/abs/2610.24977)
-
-  [hkust-zhiyao/CorrectRTL](https://github.com/hkust-zhiyao/CorrectRTL) · ★ 3 · 最近推送 2026-10-20 · 采集 2026-10-27
-
-- **[SparseCraft](../../resources/architecture-hls-codesign/sparsecraft.md)** — 使用 Agent 结合周期精确模拟和位精确验证，协同优化稀疏加速器软件与 Chisel RTL。
-
-  `架构探索` `软硬件协同` `RTL` `仿真` · 论文 · 跨方向索引
-
-  [论文](https://arxiv.org/abs/2610.05037)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[ScaleBench](../../resources/rtl-generation/scalebench.md)**<br>提供 200 项规格到 RTL 任务及形式等价评测材料。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [形式验证](../../resources/tags/formal.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | — | [hkust-zhiyao/CorrectRTL](https://github.com/hkust-zhiyao/CorrectRTL) | 3 | 2026-10-20<br>采集 2026-10-27 |
+| **[CorrectRTL](../../resources/rtl-generation/correctrtl.md)**<br>结合结构规划、代码检索和 SVA 引导的自我修正生成 RTL。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [形式验证](../../resources/tags/formal.md)<br>论文 | [论文](https://arxiv.org/abs/2610.24977) | [hkust-zhiyao/CorrectRTL](https://github.com/hkust-zhiyao/CorrectRTL) | 3 | 2026-10-20<br>采集 2026-10-27 |
+| **[SparseCraft](../../resources/architecture-hls-codesign/sparsecraft.md)**<br>使用 Agent 结合周期精确模拟和位精确验证，协同优化稀疏加速器软件与 Chisel RTL。 | [架构探索](../../resources/tags/architecture.md) · [软硬件协同](../../resources/tags/codesign.md) · [RTL](../../resources/tags/rtl.md) · [仿真](../../resources/tags/simulation.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2610.05037) | — | — | — |
 
 ## 2026-09
 
-- **[AHRR](../../resources/architecture-hls-codesign/ahrr.md)** — 将 Agent 驱动的 HLS 设计与 HLS 后的 RTL 精修结合为 AHRR，在 11 项 FPGA 任务上评测。
-
-  `HLS` `RTL` `FPGA` `PPA / QoR` · 论文 / 开源项目 · 跨方向索引
-
-  [论文](https://arxiv.org/abs/2609.21157)
-
-  [ZijD/AHRR](https://github.com/ZijD/AHRR) · ★ 6 · 最近推送 2026-09-17 · 采集 2026-10-27
-
-- **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)** — 评测生成 RTL 的代码和配套材料，覆盖功能等价、模块完整性和 QoR，而不只是编译。
-
-  `RTL` `基准` `评测` `PPA / QoR` · 开源项目 / 基准 / 数据集
-
-  [论文](https://arxiv.org/abs/2609.25335)
-
-  [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) · ★ 0 · 最近推送 2026-10-12 · 采集 2026-10-27
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[AHRR](../../resources/architecture-hls-codesign/ahrr.md)**<br>将 Agent 驱动的 HLS 设计与 HLS 后的 RTL 精修结合为 AHRR，在 11 项 FPGA 任务上评测。 | [HLS](../../resources/tags/hls.md) · [RTL](../../resources/tags/rtl.md) · [FPGA](../../resources/tags/fpga.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>论文 / 开源项目 · 跨方向索引 | [论文](https://arxiv.org/abs/2609.21157) | [ZijD/AHRR](https://github.com/ZijD/AHRR) | 6 | 2026-09-17<br>采集 2026-10-27 |
+| **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)**<br>评测生成 RTL 的代码和配套材料，覆盖功能等价、模块完整性和 QoR，而不只是编译。 | [RTL](../../resources/tags/rtl.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.25335) | [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) | 0 | 2026-10-12<br>采集 2026-10-27 |
 
 ## 2026-08
 
-- **[NoTB](../../resources/verification-debugging/notb.md)** — 使用跨模型形式共识筛选生成的 RTL，不依赖手写测试平台 Oracle。
-
-  `RTL` `形式验证` `评测` · 论文 · 跨方向索引
-
-  [论文](https://arxiv.org/abs/2608.21962)
-
-- **[LACE](../../resources/architecture-hls-codesign/lace.md)** — 协调多个 Agent 完成 RISC-V 指令扩展设计、RTL 修改和形式验证。
-
-  `RISC-V` `代码编辑` `形式验证` `多 Agent` · 论文 / 开源项目 · 跨方向索引
-
-  [论文](https://arxiv.org/abs/2608.02915)
-
-  [UMN-ZhaoLab/LACE](https://github.com/UMN-ZhaoLab/LACE) · ★ 4 · 最近推送 2026-09-02 · 采集 2026-10-27
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[NoTB](../../resources/verification-debugging/notb.md)**<br>使用跨模型形式共识筛选生成的 RTL，不依赖手写测试平台 Oracle。 | [RTL](../../resources/tags/rtl.md) · [形式验证](../../resources/tags/formal.md) · [评测](../../resources/tags/evaluation.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2608.21962) | — | — | — |
+| **[LACE](../../resources/architecture-hls-codesign/lace.md)**<br>协调多个 Agent 完成 RISC-V 指令扩展设计、RTL 修改和形式验证。 | [RISC-V](../../resources/tags/risc-v.md) · [代码编辑](../../resources/tags/editing.md) · [形式验证](../../resources/tags/formal.md) · [多 Agent](../../resources/tags/multi-agent.md)<br>论文 / 开源项目 · 跨方向索引 | [论文](https://arxiv.org/abs/2608.02915) | [UMN-ZhaoLab/LACE](https://github.com/UMN-ZhaoLab/LACE) | 4 | 2026-09-02<br>采集 2026-10-27 |
 
 ## 2026-06
 
-- **[RTL-BenchLS](../../resources/rtl-generation/rtl-benchls.md)** — 提供一万多个经过形式验证的 Verilog 设计，用于往返推理、掩码内容推理和仓库问题修复，并提供数据和评测代码。
-
-  `RTL` `形式验证` `数据集` `基准` · 基准 / 数据集
-
-  [论文](https://arxiv.org/abs/2606.08976)
-
-  [hkust-zhiyao/RTL-BenchLS](https://github.com/hkust-zhiyao/RTL-BenchLS) · ★ 5 · 最近推送 2026-06-08 · 采集 2026-10-27
-
-- **[HORIZON](../../resources/rtl-generation/horizon.md)** — 将硬件开发视为仓库级代码演化，由 Agent 跨文件修改和验证设计。
-
-  `RTL` `代码编辑` `仓库级任务` `验证` · 论文
-
-  [论文](https://arxiv.org/abs/2606.28279)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[RTL-BenchLS](../../resources/rtl-generation/rtl-benchls.md)**<br>提供一万多个经过形式验证的 Verilog 设计，用于往返推理、掩码内容推理和仓库问题修复，并提供数据和评测代码。 | [RTL](../../resources/tags/rtl.md) · [形式验证](../../resources/tags/formal.md) · [数据集](../../resources/tags/dataset.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2606.08976) | [hkust-zhiyao/RTL-BenchLS](https://github.com/hkust-zhiyao/RTL-BenchLS) | 5 | 2026-06-08<br>采集 2026-10-27 |
+| **[HORIZON](../../resources/rtl-generation/horizon.md)**<br>将硬件开发视为仓库级代码演化，由 Agent 跨文件修改和验证设计。 | [RTL](../../resources/tags/rtl.md) · [代码编辑](../../resources/tags/editing.md) · [仓库级任务](../../resources/tags/repository-level.md) · [验证](../../resources/tags/verification.md)<br>论文 | [论文](https://arxiv.org/abs/2606.28279) | — | — | — |
 
 ## 2026-02
 
-- **[ACE-RTL](../../resources/rtl-generation/ace-rtl.md)** — 结合 RTL 专用生成模型和推理 Agent，通过验证反馈生成和修复 RTL。
-
-  `RTL` `代码生成` `调试` · 论文 / 开源项目
-
-  [论文](https://arxiv.org/abs/2602.10218)
-
-  [NVlabs/ACE-RTL](https://github.com/NVlabs/ACE-RTL) · ★ 39 · 最近推送 2026-09-20 · 采集 2026-10-27
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[ACE-RTL](../../resources/rtl-generation/ace-rtl.md)**<br>结合 RTL 专用生成模型和推理 Agent，通过验证反馈生成和修复 RTL。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [调试](../../resources/tags/debugging.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2602.10218) | [NVlabs/ACE-RTL](https://github.com/NVlabs/ACE-RTL) | 39 | 2026-09-20<br>采集 2026-10-27 |
 
 ## 2026-01
 
-- **[Veri-Sure](../../resources/rtl-generation/veri-sure.md)** — 通过设计契约协调 Agent，结合依赖切片引导的局部修复、时序轨迹分析和形式验证进行 RTL 生成与调试。
-
-  `RTL` `代码生成` `形式验证` `多 Agent` · 论文 / 开源项目
-
-  [论文](https://arxiv.org/abs/2601.19747)
-
-  [xyjoey/Veri-Sure](https://github.com/xyjoey/Veri-Sure) · ★ 28 · 最近推送 2026-10-26 · 采集 2026-10-27
-
-- **[ChipBench](../../resources/rtl-generation/chipbench.md)** — 面向较真实的层次化硬件模块，评测 Verilog 生成、调试和参考模型生成。
-
-  `RTL` `代码生成` `调试` `基准` · 基准 / 数据集
-
-  [论文](https://arxiv.org/abs/2601.21448)
-
-  [zhongkaiyu/ChipBench](https://github.com/zhongkaiyu/ChipBench) · ★ 44 · 最近推送 2026-08-06 · 采集 2026-10-27
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[Veri-Sure](../../resources/rtl-generation/veri-sure.md)**<br>通过设计契约协调 Agent，结合依赖切片引导的局部修复、时序轨迹分析和形式验证进行 RTL 生成与调试。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [形式验证](../../resources/tags/formal.md) · [多 Agent](../../resources/tags/multi-agent.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2601.19747) | [xyjoey/Veri-Sure](https://github.com/xyjoey/Veri-Sure) | 28 | 2026-10-26<br>采集 2026-10-27 |
+| **[ChipBench](../../resources/rtl-generation/chipbench.md)**<br>面向较真实的层次化硬件模块，评测 Verilog 生成、调试和参考模型生成。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [调试](../../resources/tags/debugging.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2601.21448) | [zhongkaiyu/ChipBench](https://github.com/zhongkaiyu/ChipBench) | 44 | 2026-08-06<br>采集 2026-10-27 |
 
 ## 2026 · 月份待核实
 
-- **[SynthAgentic-Eval](../../resources/rtl-generation/synthagentic-eval.md)** — 记录 32 个模型在 202 项 Verilog 任务上的综合感知评测结果。
-
-  `RTL` `评测` `数据集` `PPA / QoR` · 基准 / 数据集
-
-  [owenfucell/SynthAgentic](https://github.com/owenfucell/SynthAgentic) · ★ 0 · 最近推送 2026-05-10 · 采集 2026-10-27
-
-- **[RTL-BenchMT](../../resources/rtl-generation/rtl-benchmt.md)** — 面向 Agent 辅助 RTL 基准维护的公开数据集和评测代码。
-
-  `RTL` `基准` `数据集` · 基准 / 数据集
-
-  [hkust-zhiyao/RTL-BenchMT](https://github.com/hkust-zhiyao/RTL-BenchMT) · ★ 4 · 最近推送 2026-09-03 · 采集 2026-10-27
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[SynthAgentic-Eval](../../resources/rtl-generation/synthagentic-eval.md)**<br>记录 32 个模型在 202 项 Verilog 任务上的综合感知评测结果。 | [RTL](../../resources/tags/rtl.md) · [评测](../../resources/tags/evaluation.md) · [数据集](../../resources/tags/dataset.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>基准 / 数据集 | — | [owenfucell/SynthAgentic](https://github.com/owenfucell/SynthAgentic) | 0 | 2026-05-10<br>采集 2026-10-27 |
+| **[RTL-BenchMT](../../resources/rtl-generation/rtl-benchmt.md)**<br>面向 Agent 辅助 RTL 基准维护的公开数据集和评测代码。 | [RTL](../../resources/tags/rtl.md) · [基准](../../resources/tags/benchmark.md) · [数据集](../../resources/tags/dataset.md)<br>基准 / 数据集 | — | [hkust-zhiyao/RTL-BenchMT](https://github.com/hkust-zhiyao/RTL-BenchMT) | 4 | 2026-09-03<br>采集 2026-10-27 |
 
 ## 2025-06
 
-- **[Spec2RTL-Agent](../../resources/rtl-generation/spec2rtl-agent.md)** — 通过多 Agent 规划与 HLS，将复杂规格转化为可综合设计。
-
-  `RTL` `代码生成` `多 Agent` `HLS` · 论文
-
-  [论文](https://research.nvidia.com/publication/2025-06_spec2rtl-agent-automated-hardware-code-generation-complex-specifications-using)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[Spec2RTL-Agent](../../resources/rtl-generation/spec2rtl-agent.md)**<br>通过多 Agent 规划与 HLS，将复杂规格转化为可综合设计。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [多 Agent](../../resources/tags/multi-agent.md) · [HLS](../../resources/tags/hls.md)<br>论文 | [论文](https://research.nvidia.com/publication/2025-06_spec2rtl-agent-automated-hardware-code-generation-complex-specifications-using) | — | — | — |
 
 ## 2025-03
 
-- **[OpenLLM-RTL](../../resources/rtl-generation/openllm-rtl.md)** — 汇集 RTLLM 2.0、AssertEval 以及用于 RTL 生成和断言生成的数据集。
-
-  `RTL` `数据集` `基准` `验证` · 基准 / 数据集
-
-  [论文](https://arxiv.org/abs/2503.15112)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[OpenLLM-RTL](../../resources/rtl-generation/openllm-rtl.md)**<br>汇集 RTLLM 2.0、AssertEval 以及用于 RTL 生成和断言生成的数据集。 | [RTL](../../resources/tags/rtl.md) · [数据集](../../resources/tags/dataset.md) · [基准](../../resources/tags/benchmark.md) · [验证](../../resources/tags/verification.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2503.15112) | — | — | — |
 
 ## 2024-12
 
-- **[MAGE](../../resources/rtl-generation/mage.md)** — 通过多 Agent 候选探索和检查点反馈提升 RTL 正确性。
-
-  `RTL` `代码生成` `多 Agent` · 论文 / 开源项目
-
-  [论文](https://arxiv.org/abs/2412.07822)
-
-  [stable-lab/MAGE](https://github.com/stable-lab/MAGE) · ★ 142 · 最近推送 2025-04-11 · 采集 2026-10-27
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[MAGE](../../resources/rtl-generation/mage.md)**<br>通过多 Agent 候选探索和检查点反馈提升 RTL 正确性。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [多 Agent](../../resources/tags/multi-agent.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2412.07822) | [stable-lab/MAGE](https://github.com/stable-lab/MAGE) | 142 | 2025-04-11<br>采集 2026-10-27 |
 
 ## 2024-08
 
-- **[VerilogCoder](../../resources/rtl-generation/verilogcoder.md)** — 协同规划、仿真和波形追踪 Agent，生成并调试 Verilog。
-
-  `RTL` `代码生成` `调试` `波形分析` · 论文 / 开源项目
-
-  [论文](https://arxiv.org/abs/2408.08927)
-
-  [NVlabs/VerilogCoder](https://github.com/NVlabs/VerilogCoder) · ★ 188 · 最近推送 2025-03-10 · 采集 2026-10-27
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[VerilogCoder](../../resources/rtl-generation/verilogcoder.md)**<br>协同规划、仿真和波形追踪 Agent，生成并调试 Verilog。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [调试](../../resources/tags/debugging.md) · [波形分析](../../resources/tags/waveform.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2408.08927) | [NVlabs/VerilogCoder](https://github.com/NVlabs/VerilogCoder) | 188 | 2025-03-10<br>采集 2026-10-27 |
 
 ## 2024 · 月份待核实
 
-- **[RTL-Repo](../../resources/rtl-generation/rtl-repo.md)** — 面向仓库级 Verilog 补全的基准，包含 4,000 多个 GitHub 代码样本及完整仓库上下文。
-
-  `RTL` `仓库级任务` `基准` · 基准 / 数据集
-
-  [AUCOHL/RTL-Repo](https://github.com/AUCOHL/RTL-Repo) · ★ 35 · 最近推送 2024-06-05 · 采集 2026-10-27
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[RTL-Repo](../../resources/rtl-generation/rtl-repo.md)**<br>面向仓库级 Verilog 补全的基准，包含 4,000 多个 GitHub 代码样本及完整仓库上下文。 | [RTL](../../resources/tags/rtl.md) · [仓库级任务](../../resources/tags/repository-level.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | — | [AUCOHL/RTL-Repo](https://github.com/AUCOHL/RTL-Repo) | 35 | 2024-06-05<br>采集 2026-10-27 |
 
 ## 2023-11
 
-- **[AutoChip](../../resources/rtl-generation/autochip.md)** — 早期反馈驱动 HDL 生成工作，利用编译器和仿真结果迭代改进 Verilog。
-
-  `RTL` `代码生成` `仿真` · 论文 / 开源项目
-
-  [论文](https://arxiv.org/abs/2311.04887)
-
-  [shailja-thakur/AutoChip](https://github.com/shailja-thakur/AutoChip) · ★ 64 · 最近推送 2025-03-10 · 采集 2026-10-27
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[AutoChip](../../resources/rtl-generation/autochip.md)**<br>早期反馈驱动 HDL 生成工作，利用编译器和仿真结果迭代改进 Verilog。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [仿真](../../resources/tags/simulation.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2311.04887) | [shailja-thakur/AutoChip](https://github.com/shailja-thakur/AutoChip) | 64 | 2025-03-10<br>采集 2026-10-27 |
 
 ## 日期待核实
 
-- **[VerilogEval](../../resources/rtl-generation/verilogeval.md)** — 基于 HDLBits 的 Verilog 生成评测基准和工具，使用仿真检查功能正确性。
-
-  `RTL` `基准` `仿真` · 基准 / 数据集
-
-  [NVlabs/verilog-eval](https://github.com/NVlabs/verilog-eval) · ★ 487 · 最近推送 2025-07-14 · 采集 2026-10-27
-
-- **[Silimate](../../resources/rtl-generation/silimate.md)** — 以 AI 驱动 RTL 和实现优化，探索设计方案和 PPA。
-
-  `商业平台` `RTL` `PPA / QoR` `厂商报告` · 工具 / 平台
-
-  [原始来源](https://www.silimate.com/)
-
-- **[SCORE](../../resources/rtl-generation/score.md)** — 汇集由 SoC 生成器和硬件构造语言一致生成的 Verilog RTL，可用于可复现的综合、验证和 Agent 评测，但本身不是 Agent 基准。
-
-  `RTL` `数据集` `评测` · 基准 / 数据集
-
-  [SJTU-YONGFU-RESEARCH-GRP/score](https://github.com/SJTU-YONGFU-RESEARCH-GRP/score) · ★ 4 · 最近推送 2026-09-03 · 采集 2026-10-27
-
-- **[RTLLM](../../resources/rtl-generation/rtllm.md)** — 开源 RTL 生成基准与评测代码，包含设计描述、测试平台和评测脚本。
-
-  `RTL` `代码生成` `基准` `评测` · 开源项目 / 基准 / 数据集
-
-  [hkust-zhiyao/RTLLM](https://github.com/hkust-zhiyao/RTLLM) · ★ 238 · 最近推送 2026-08-15 · 采集 2026-10-27
-
-- **[CVDP](../../resources/rtl-generation/cvdp.md)** — NVIDIA 发布的 RTL 编码评测基准，覆盖生成、编辑和调试等任务。
-
-  `RTL` `代码生成` `调试` `基准` · 基准 / 数据集
-
-  [NVlabs/cvdp_benchmark](https://github.com/NVlabs/cvdp_benchmark) · ★ 243 · 最近推送 2026-06-08 · 采集 2026-10-27
-
-- **[Cadence ChipStack](../../resources/rtl-generation/cadence-chipstack.md)** — 面向 RTL 设计与验证的商业多 Agent 流程；功能由厂商描述。
-
-  `商业平台` `RTL` `验证` `多 Agent` `厂商报告` · 工具 / 平台
-
-  [原始来源](https://www.cadence.com/en_US/home/ai/agentic-ai-super-agents.html)
-
-- **[ArchXBench](../../resources/rtl-generation/archxbench.md)** — 面向复杂 RTL 任务的基准，包含多周期、流水线和层次化设计，覆盖多个应用领域。
-
-  `RTL` `代码生成` `基准` · 基准 / 数据集
-
-  [sureshpurini/ArchXBench](https://github.com/sureshpurini/ArchXBench) · ★ 18 · 最近推送 2026-07-26 · 采集 2026-10-27
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[VerilogEval](../../resources/rtl-generation/verilogeval.md)**<br>基于 HDLBits 的 Verilog 生成评测基准和工具，使用仿真检查功能正确性。 | [RTL](../../resources/tags/rtl.md) · [基准](../../resources/tags/benchmark.md) · [仿真](../../resources/tags/simulation.md)<br>基准 / 数据集 | — | [NVlabs/verilog-eval](https://github.com/NVlabs/verilog-eval) | 487 | 2025-07-14<br>采集 2026-10-27 |
+| **[Silimate](../../resources/rtl-generation/silimate.md)**<br>以 AI 驱动 RTL 和实现优化，探索设计方案和 PPA。 | [商业平台](../../resources/tags/commercial.md) · [RTL](../../resources/tags/rtl.md) · [PPA / QoR](../../resources/tags/ppa.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 | [原始来源](https://www.silimate.com/) | — | — | — |
+| **[SCORE](../../resources/rtl-generation/score.md)**<br>汇集由 SoC 生成器和硬件构造语言一致生成的 Verilog RTL，可用于可复现的综合、验证和 Agent 评测，但本身不是 Agent 基准。 | [RTL](../../resources/tags/rtl.md) · [数据集](../../resources/tags/dataset.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | — | [SJTU-YONGFU-RESEARCH-GRP/score](https://github.com/SJTU-YONGFU-RESEARCH-GRP/score) | 4 | 2026-09-03<br>采集 2026-10-27 |
+| **[RTLLM](../../resources/rtl-generation/rtllm.md)**<br>开源 RTL 生成基准与评测代码，包含设计描述、测试平台和评测脚本。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>开源项目 / 基准 / 数据集 | — | [hkust-zhiyao/RTLLM](https://github.com/hkust-zhiyao/RTLLM) | 238 | 2026-08-15<br>采集 2026-10-27 |
+| **[CVDP](../../resources/rtl-generation/cvdp.md)**<br>NVIDIA 发布的 RTL 编码评测基准，覆盖生成、编辑和调试等任务。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [调试](../../resources/tags/debugging.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | — | [NVlabs/cvdp_benchmark](https://github.com/NVlabs/cvdp_benchmark) | 243 | 2026-06-08<br>采集 2026-10-27 |
+| **[Cadence ChipStack](../../resources/rtl-generation/cadence-chipstack.md)**<br>面向 RTL 设计与验证的商业多 Agent 流程；功能由厂商描述。 | [商业平台](../../resources/tags/commercial.md) · [RTL](../../resources/tags/rtl.md) · [验证](../../resources/tags/verification.md) · [多 Agent](../../resources/tags/multi-agent.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 | [原始来源](https://www.cadence.com/en_US/home/ai/agentic-ai-super-agents.html) | — | — | — |
+| **[ArchXBench](../../resources/rtl-generation/archxbench.md)**<br>面向复杂 RTL 任务的基准，包含多周期、流水线和层次化设计，覆盖多个应用领域。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | — | [sureshpurini/ArchXBench](https://github.com/sureshpurini/ArchXBench) | 18 | 2026-07-26<br>采集 2026-10-27 |
 
 # 相关动态与视频
 
 ## 2026-09
 
-- **[ChipStack RTL / PPA announcement](../../resources/rtl-generation/chipstack-rtl-announcement.md)** — 公布 RTL 生成、修改与早期 PPA 优化能力。
-
-  `公告` `商业平台` `RTL` `PPA / QoR` `厂商报告` · 新闻 / 公告
-
-  [原始来源](https://login.cadence.com/content/cadence-www/global/en_US/home/company/newsroom/press-releases/pr/2026/cadence-expands-chipstack-ai-super-agent-with-a-new-agent-for.html)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[ChipStack RTL / PPA announcement](../../resources/rtl-generation/chipstack-rtl-announcement.md)**<br>公布 RTL 生成、修改与早期 PPA 优化能力。 | [公告](../../resources/tags/news.md) · [商业平台](../../resources/tags/commercial.md) · [RTL](../../resources/tags/rtl.md) · [PPA / QoR](../../resources/tags/ppa.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>新闻 / 公告 | [原始来源](https://login.cadence.com/content/cadence-www/global/en_US/home/company/newsroom/press-releases/pr/2026/cadence-expands-chipstack-ai-super-agent-with-a-new-agent-for.html) | — | — | — |
 
 ## 2026-03
 
-- **[Synopsys Converge · AgentEngineer](../../resources/rtl-generation/synopsys-converge-2026.md)** — 展示从规格到 RTL 生成与验证的 Agent 流程。
-
-  `公告` `RTL` `EDA 流程` `厂商报告` · 新闻 / 公告
-
-  [原始来源](https://news.synopsys.com/2026-03-11-Synopsys-Outlines-Vision-for-Engineering-the-Future)
-
-- **[GTC San Jose · Chip-design agents](../../resources/rtl-generation/gtc-san-jose-2026.md)** — 讨论芯片设计 Agent、RTL 生成和测试平台创建。
-
-  `公告` `RTL` `测试平台` `厂商报告` · 新闻 / 公告
-
-  [NVlabs/ACE-RTL](https://github.com/NVlabs/ACE-RTL) · ★ 39 · 最近推送 2026-09-20 · 采集 2026-10-27
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[Synopsys Converge · AgentEngineer](../../resources/rtl-generation/synopsys-converge-2026.md)**<br>展示从规格到 RTL 生成与验证的 Agent 流程。 | [公告](../../resources/tags/news.md) · [RTL](../../resources/tags/rtl.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>新闻 / 公告 | [原始来源](https://news.synopsys.com/2026-03-11-Synopsys-Outlines-Vision-for-Engineering-the-Future) | — | — | — |
+| **[GTC San Jose · Chip-design agents](../../resources/rtl-generation/gtc-san-jose-2026.md)**<br>讨论芯片设计 Agent、RTL 生成和测试平台创建。 | [公告](../../resources/tags/news.md) · [RTL](../../resources/tags/rtl.md) · [测试平台](../../resources/tags/testbench.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>新闻 / 公告 | — | [NVlabs/ACE-RTL](https://github.com/NVlabs/ACE-RTL) | 39 | 2026-09-20<br>采集 2026-10-27 |
 
 ## 2026-02
 
-- **[ChipStack demo](../../resources/rtl-generation/chipstack-demo.md)** — 官方概览视频，介绍面向芯片前端设计与验证的 Agent 工作流。
-
-  `演讲 / 视频` `RTL` `验证` `厂商报告` · 演讲 / 视频
-
-  [原始来源](https://www.youtube.com/watch?v=p_U-4-jKgcU)
-
-- **[ChipStack early access](../../resources/rtl-generation/chipstack-early-access.md)** — 宣布面向芯片前端设计与验证 Agent 的早期试用。
-
-  `公告` `商业平台` `RTL` `验证` `厂商报告` · 新闻 / 公告
-
-  [原始来源](https://www.cadence.com/en_US/home/company/newsroom/press-releases/pr/2026/cadence-unleashes-chipstack-ai-super-agent-pioneering-a-new.html)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[ChipStack demo](../../resources/rtl-generation/chipstack-demo.md)**<br>官方概览视频，介绍面向芯片前端设计与验证的 Agent 工作流。 | [演讲 / 视频](../../resources/tags/video.md) · [RTL](../../resources/tags/rtl.md) · [验证](../../resources/tags/verification.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>演讲 / 视频 | [原始来源](https://www.youtube.com/watch?v=p_U-4-jKgcU) | — | — | — |
+| **[ChipStack early access](../../resources/rtl-generation/chipstack-early-access.md)**<br>宣布面向芯片前端设计与验证 Agent 的早期试用。 | [公告](../../resources/tags/news.md) · [商业平台](../../resources/tags/commercial.md) · [RTL](../../resources/tags/rtl.md) · [验证](../../resources/tags/verification.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>新闻 / 公告 | [原始来源](https://www.cadence.com/en_US/home/company/newsroom/press-releases/pr/2026/cadence-unleashes-chipstack-ai-super-agent-pioneering-a-new.html) | — | — | — |
 
 ## 2026 · 月份待核实
 
-- **[GTC Taipei 2026 keynote](../../resources/rtl-generation/gtc-taipei-2026-keynote.md)** — 可从 **1:12:10** 左右观看 Cadence Chip Design Super Agent 及用于 RTL 生成和测试平台创建的专家子 Agent 相关讨论。
-
-  `演讲 / 视频` `RTL` `测试平台` `厂商报告` · 演讲 / 视频
-
-  [原始来源](https://www.youtube.com/watch?v=wSp6AiNIrsY)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[GTC Taipei 2026 keynote](../../resources/rtl-generation/gtc-taipei-2026-keynote.md)**<br>可从 **1:12:10** 左右观看 Cadence Chip Design Super Agent 及用于 RTL 生成和测试平台创建的专家子 Agent 相关讨论。 | [演讲 / 视频](../../resources/tags/video.md) · [RTL](../../resources/tags/rtl.md) · [测试平台](../../resources/tags/testbench.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>演讲 / 视频 | [原始来源](https://www.youtube.com/watch?v=wSp6AiNIrsY) | — | — | — |
 
 ## 2025-05
 
-- **[AlphaEvolve chip-design case](../../resources/rtl-generation/alphaevolve-chip-case.md)** — 报告 Agent 提出的 Verilog 优化在 TPU 设计中的应用。
-
-  `公告` `RTL` `代码编辑` `PPA / QoR` `厂商报告` · 新闻 / 公告
-
-  [原始来源](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[AlphaEvolve chip-design case](../../resources/rtl-generation/alphaevolve-chip-case.md)**<br>报告 Agent 提出的 Verilog 优化在 TPU 设计中的应用。 | [公告](../../resources/tags/news.md) · [RTL](../../resources/tags/rtl.md) · [代码编辑](../../resources/tags/editing.md) · [PPA / QoR](../../resources/tags/ppa.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>新闻 / 公告 | [原始来源](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/) | — | — | — |

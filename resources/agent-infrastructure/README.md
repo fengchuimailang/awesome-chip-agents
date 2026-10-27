@@ -8,92 +8,59 @@ Newest publication month first. Cross-references share the original record; repo
 
 ## 2026-10
 
-- **[Back to the Future](../../resources/verification-debugging/back-to-the-future.md)** — Converts simulation waveforms into a relational SQLite database and coordinates agents to query signal behavior and correlate anomalies with RTL.
-
-  `Waveforms` `Debugging` `Infrastructure` · Paper · cross-reference
-
-  [Paper](https://arxiv.org/abs/2610.06790)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Back to the Future](../../resources/verification-debugging/back-to-the-future.md)**<br>Converts simulation waveforms into a relational SQLite database and coordinates agents to query signal behavior and correlate anomalies with RTL. | [Waveforms](../../resources/tags/waveform.md) · [Debugging](../../resources/tags/debugging.md) · [Infrastructure](../../resources/tags/infrastructure.md)<br>Paper · cross-reference | [Paper](https://arxiv.org/abs/2610.06790) | — | — | — |
 
 ## 2026-06
 
-- **[CHIA](../../resources/architecture-hls-codesign/chia.md)** — Defines an open framework for agentic hardware/software co-design research with Chipyard and gem5 integration.
-
-  `Architecture exploration` `HW/SW co-design` `Infrastructure` · Paper · cross-reference
-
-  [Paper](https://arxiv.org/abs/2606.27350)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[CHIA](../../resources/architecture-hls-codesign/chia.md)**<br>Defines an open framework for agentic hardware/software co-design research with Chipyard and gem5 integration. | [Architecture exploration](../../resources/tags/architecture.md) · [HW/SW co-design](../../resources/tags/codesign.md) · [Infrastructure](../../resources/tags/infrastructure.md)<br>Paper · cross-reference | [Paper](https://arxiv.org/abs/2606.27350) | — | — | — |
 
 ## 2026-03
 
-- **[FluxEDA](../../resources/agent-infrastructure/fluxeda.md)** — Provides stateful execution and tool integration for reproducible, long-running agentic EDA workflows.
-
-  `Infrastructure` `EDA workflows` `Tool use` · Paper
-
-  [Paper](https://arxiv.org/abs/2603.25243)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[FluxEDA](../../resources/agent-infrastructure/fluxeda.md)**<br>Provides stateful execution and tool integration for reproducible, long-running agentic EDA workflows. | [Infrastructure](../../resources/tags/infrastructure.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Tool use](../../resources/tags/tool-use.md)<br>Paper | [Paper](https://arxiv.org/abs/2603.25243) | — | — | — |
 
 ## 2026 · month not verified
 
-- **[Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md)** — Commercial agentic platform supporting language-model choice and specialized agents for verification, physical implementation, and analog/mixed-signal workflows.
-
-  `Commercial platform` `EDA workflows` `Multi-agent` `Vendor-reported` · Tool / platform
-
-  [Source](https://www.synopsys.com/ai/agentic-ai.html)
-
-- **[AgentEngineer architecture](../../resources/agent-infrastructure/agentengineer-architecture.md)** — Official architecture overview explaining how agents pursue complex engineering goals by coordinating task agents and EDA tools, evaluating intermediate results, and retaining context with memory and human review checkpoints.
-
-  `Overview / tutorial` `Infrastructure` `Multi-agent` `Vendor-reported` · Survey / tutorial
-
-  [Source](https://www.synopsys.com/blogs/chip-design/long-horizon-agentengineer-solutions.html)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md)**<br>Commercial agentic platform supporting language-model choice and specialized agents for verification, physical implementation, and analog/mixed-signal workflows. | [Commercial platform](../../resources/tags/commercial.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Tool / platform | [Source](https://www.synopsys.com/ai/agentic-ai.html) | — | — | — |
+| **[AgentEngineer architecture](../../resources/agent-infrastructure/agentengineer-architecture.md)**<br>Official architecture overview explaining how agents pursue complex engineering goals by coordinating task agents and EDA tools, evaluating intermediate results, and retaining context with memory and human review checkpoints. | [Overview / tutorial](../../resources/tags/overview.md) · [Infrastructure](../../resources/tags/infrastructure.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Survey / tutorial | [Source](https://www.synopsys.com/blogs/chip-design/long-horizon-agentengineer-solutions.html) | — | — | — |
 
 ## 2025 · month not verified
 
-- **[Synopsys.ai brochure](../../resources/agent-infrastructure/synopsys-ai-brochure.md)** — Official brochure introducing AgentEngineer and Synopsys' L1–L5 AI capability framework: Assisting, Acting, Orchestrating, Planning, and Decision Making (pp. 2–3). The framework and capability claims are vendor-defined, not an independent evaluation.
-
-  `Overview / tutorial` `Commercial platform` `Vendor-reported` · Survey / tutorial
-
-  [Source](https://www.synopsys.com/content/dam/synopsys/resources/ai-solutions/synopsys-ai-brochure.pdf#page=2)
-
-- **[LLMs for EDA: Future or Mirage?](../../resources/agent-infrastructure/llms-for-eda-survey.md)** — Survey of LLM applications across EDA, including code generation, verification, and agentic workflows.
-
-  `Overview / tutorial` `EDA workflows` `Evaluation` · Survey / tutorial
-
-  [Paper](https://doi.org/10.1145/3736167)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Synopsys.ai brochure](../../resources/agent-infrastructure/synopsys-ai-brochure.md)**<br>Official brochure introducing AgentEngineer and Synopsys' L1–L5 AI capability framework: Assisting, Acting, Orchestrating, Planning, and Decision Making (pp. 2–3). The framework and capability claims are vendor-defined, not an independent evaluation. | [Overview / tutorial](../../resources/tags/overview.md) · [Commercial platform](../../resources/tags/commercial.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Survey / tutorial | [Source](https://www.synopsys.com/content/dam/synopsys/resources/ai-solutions/synopsys-ai-brochure.pdf#page=2) | — | — | — |
+| **[LLMs for EDA: Future or Mirage?](../../resources/agent-infrastructure/llms-for-eda-survey.md)**<br>Survey of LLM applications across EDA, including code generation, verification, and agentic workflows. | [Overview / tutorial](../../resources/tags/overview.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Survey / tutorial | [Paper](https://doi.org/10.1145/3736167) | — | — | — |
 
 ## Date not recorded
 
-- **[Chipmind](../../resources/agent-infrastructure/chipmind.md)** — Commercial AI-agent platform for chip design and EDA automation.
-
-  `Commercial platform` `EDA workflows` `Vendor-reported` · Tool / platform
-
-  [Source](https://www.chipmind.ai/)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Chipmind](../../resources/agent-infrastructure/chipmind.md)**<br>Commercial AI-agent platform for chip design and EDA automation. | [Commercial platform](../../resources/tags/commercial.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Tool / platform | [Source](https://www.chipmind.ai/) | — | — | — |
 
 # Related News and Videos
 
 ## 2026-10
 
-- **[Mistral / NVIDIA · Evaluation plans](../../resources/agent-infrastructure/mistral-nvidia-evaluation-2026.md)** — Announces plans for engineering-tool and CAE/EDA agent evaluations.
-
-  `Announcement` `Evaluation` `Benchmark` `Vendor-reported` · News / announcement
-
-  [Source](https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Mistral / NVIDIA · Evaluation plans](../../resources/agent-infrastructure/mistral-nvidia-evaluation-2026.md)**<br>Announces plans for engineering-tool and CAE/EDA agent evaluations. | [Announcement](../../resources/tags/news.md) · [Evaluation](../../resources/tags/evaluation.md) · [Benchmark](../../resources/tags/benchmark.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/) | — | — | — |
 
 ## 2026-09
 
-- **[GPT-Synopsys partnership](../../resources/agent-infrastructure/gpt-synopsys-announcement.md)** — Announces joint development of a model for Synopsys chip-design workflows.
-
-  `Announcement` `Commercial platform` `EDA workflows` `Vendor-reported` · News / announcement
-
-  [Source](https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design)
-
-- **[AgentEngineer / Autopilot announcement](../../resources/agent-infrastructure/agentengineer-autopilot-announcement.md)** — Announces domain agents and the Autopilot orchestration platform.
-
-  `Announcement` `Commercial platform` `Multi-agent` `Vendor-reported` · News / announcement
-
-  [Source](https://news.synopsys.com/2026-09-28-Synopsys-Powers-Autonomous-Engineering-with-a-Broad-Portfolio-of-Long-Horizon-Agents-and-Autopilot-Platform)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[GPT-Synopsys partnership](../../resources/agent-infrastructure/gpt-synopsys-announcement.md)**<br>Announces joint development of a model for Synopsys chip-design workflows. | [Announcement](../../resources/tags/news.md) · [Commercial platform](../../resources/tags/commercial.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design) | — | — | — |
+| **[AgentEngineer / Autopilot announcement](../../resources/agent-infrastructure/agentengineer-autopilot-announcement.md)**<br>Announces domain agents and the Autopilot orchestration platform. | [Announcement](../../resources/tags/news.md) · [Commercial platform](../../resources/tags/commercial.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://news.synopsys.com/2026-09-28-Synopsys-Powers-Autonomous-Engineering-with-a-Broad-Portfolio-of-Long-Horizon-Agents-and-Autopilot-Platform) | — | — | — |
 
 ## Date not recorded
 
-- **[AgentEngineer webinar](../../resources/agent-infrastructure/agentengineer-webinar.md)** — Paras Mal Jain of Synopsys presents domain-aware agents, multi-agent EDA workflow execution, and engineering oversight.
-
-  `Talk / video` `Multi-agent` `EDA workflows` `Vendor-reported` · Talk / video
-
-  [Source](https://www.synopsys.com/webinars/agentic-ai-nuts-bolts-agentengineer.html)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[AgentEngineer webinar](../../resources/agent-infrastructure/agentengineer-webinar.md)**<br>Paras Mal Jain of Synopsys presents domain-aware agents, multi-agent EDA workflow execution, and engineering oversight. | [Talk / video](../../resources/tags/video.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Talk / video | [Source](https://www.synopsys.com/webinars/agentic-ai-nuts-bolts-agentengineer.html) | — | — | — |

@@ -6,12 +6,14 @@
 
 26 resources, grouped by primary direction and newest publication month. Entries link to shared details with papers, repositories, tags, and activity snapshots. General datasets are included as supporting resources; announcements of evaluation plans remain in the news index.
 
-- [RTL Generation and Editing](#rtl-generation) · 13
-- [Verification, Debugging and Specifications](#verification-debugging) · 3
-- [Physical Design and EDA Flows](#physical-design) · 4
-- [Analog and RF Design](#analog-rf) · 1
-- [Architecture, HLS and Hardware/Software Co-design](#architecture-hls-codesign) · 4
-- [Board, Packaging and System Design](#board-system-design) · 1
+| Direction | Resources |
+| --- | ---: |
+| [RTL Generation and Editing](#rtl-generation) | 13 |
+| [Verification, Debugging and Specifications](#verification-debugging) | 3 |
+| [Physical Design and EDA Flows](#physical-design) | 4 |
+| [Analog and RF Design](#analog-rf) | 1 |
+| [Architecture, HLS and Hardware/Software Co-design](#architecture-hls-codesign) | 4 |
+| [Board, Packaging and System Design](#board-system-design) | 1 |
 
 <a id="rtl-generation"></a>
 
@@ -19,103 +21,56 @@
 
 ### 2026-10
 
-- **[ScaleBench](../../resources/rtl-generation/scalebench.md)** — Evaluates specification-to-RTL generation on 200 designs with formal equivalence checks.
-
-  `RTL` `Code generation` `Formal verification` `Benchmark` · Benchmark / dataset
-
-  [hkust-zhiyao/CorrectRTL](https://github.com/hkust-zhiyao/CorrectRTL) · ★ 3 · pushed 2026-10-20 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[ScaleBench](../../resources/rtl-generation/scalebench.md)**<br>Evaluates specification-to-RTL generation on 200 designs with formal equivalence checks. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Formal verification](../../resources/tags/formal.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | — | [hkust-zhiyao/CorrectRTL](https://github.com/hkust-zhiyao/CorrectRTL) | 3 | 2026-10-20<br>Fetched 2026-10-27 |
 
 ### 2026-09
 
-- **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)** — Evaluation code and collateral for measuring generated RTL beyond compilation, including functional equivalence, completeness, and QoR.
-
-  `RTL` `Benchmark` `Evaluation` `PPA / QoR` · Open-source project / Benchmark / dataset
-
-  [Paper](https://arxiv.org/abs/2609.25335)
-
-  [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) · ★ 0 · pushed 2026-10-12 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)**<br>Evaluation code and collateral for measuring generated RTL beyond compilation, including functional equivalence, completeness, and QoR. | [RTL](../../resources/tags/rtl.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>Open-source project / Benchmark / dataset | [Paper](https://arxiv.org/abs/2609.25335) | [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) | 0 | 2026-10-12<br>Fetched 2026-10-27 |
 
 ### 2026-06
 
-- **[RTL-BenchLS](../../resources/rtl-generation/rtl-benchls.md)** — Provides more than 10,000 formally verified Verilog designs for round-trip reasoning, masked-content reasoning, and repository-issue repair, with data and evaluation code.
-
-  `RTL` `Formal verification` `Dataset` `Benchmark` · Benchmark / dataset
-
-  [Paper](https://arxiv.org/abs/2606.08976)
-
-  [hkust-zhiyao/RTL-BenchLS](https://github.com/hkust-zhiyao/RTL-BenchLS) · ★ 5 · pushed 2026-06-08 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[RTL-BenchLS](../../resources/rtl-generation/rtl-benchls.md)**<br>Provides more than 10,000 formally verified Verilog designs for round-trip reasoning, masked-content reasoning, and repository-issue repair, with data and evaluation code. | [RTL](../../resources/tags/rtl.md) · [Formal verification](../../resources/tags/formal.md) · [Dataset](../../resources/tags/dataset.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2606.08976) | [hkust-zhiyao/RTL-BenchLS](https://github.com/hkust-zhiyao/RTL-BenchLS) | 5 | 2026-06-08<br>Fetched 2026-10-27 |
 
 ### 2026-01
 
-- **[ChipBench](../../resources/rtl-generation/chipbench.md)** — Benchmark covering Verilog generation, debugging, and reference-model generation on realistic, hierarchical hardware modules.
-
-  `RTL` `Code generation` `Debugging` `Benchmark` · Benchmark / dataset
-
-  [Paper](https://arxiv.org/abs/2601.21448)
-
-  [zhongkaiyu/ChipBench](https://github.com/zhongkaiyu/ChipBench) · ★ 44 · pushed 2026-08-06 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[ChipBench](../../resources/rtl-generation/chipbench.md)**<br>Benchmark covering Verilog generation, debugging, and reference-model generation on realistic, hierarchical hardware modules. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Debugging](../../resources/tags/debugging.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2601.21448) | [zhongkaiyu/ChipBench](https://github.com/zhongkaiyu/ChipBench) | 44 | 2026-08-06<br>Fetched 2026-10-27 |
 
 ### 2026 · month not verified
 
-- **[SynthAgentic-Eval](../../resources/rtl-generation/synthagentic-eval.md)** — Synthesis-aware evaluation data for 32 models on 202 Verilog tasks.
-
-  `RTL` `Evaluation` `Dataset` `PPA / QoR` · Benchmark / dataset
-
-  [owenfucell/SynthAgentic](https://github.com/owenfucell/SynthAgentic) · ★ 0 · pushed 2026-05-10 · fetched 2026-10-27
-
-- **[RTL-BenchMT](../../resources/rtl-generation/rtl-benchmt.md)** — Public dataset and evaluation code for agent-assisted maintenance of RTL benchmarks.
-
-  `RTL` `Benchmark` `Dataset` · Benchmark / dataset
-
-  [hkust-zhiyao/RTL-BenchMT](https://github.com/hkust-zhiyao/RTL-BenchMT) · ★ 4 · pushed 2026-09-03 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[SynthAgentic-Eval](../../resources/rtl-generation/synthagentic-eval.md)**<br>Synthesis-aware evaluation data for 32 models on 202 Verilog tasks. | [RTL](../../resources/tags/rtl.md) · [Evaluation](../../resources/tags/evaluation.md) · [Dataset](../../resources/tags/dataset.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>Benchmark / dataset | — | [owenfucell/SynthAgentic](https://github.com/owenfucell/SynthAgentic) | 0 | 2026-05-10<br>Fetched 2026-10-27 |
+| **[RTL-BenchMT](../../resources/rtl-generation/rtl-benchmt.md)**<br>Public dataset and evaluation code for agent-assisted maintenance of RTL benchmarks. | [RTL](../../resources/tags/rtl.md) · [Benchmark](../../resources/tags/benchmark.md) · [Dataset](../../resources/tags/dataset.md)<br>Benchmark / dataset | — | [hkust-zhiyao/RTL-BenchMT](https://github.com/hkust-zhiyao/RTL-BenchMT) | 4 | 2026-09-03<br>Fetched 2026-10-27 |
 
 ### 2025-03
 
-- **[OpenLLM-RTL](../../resources/rtl-generation/openllm-rtl.md)** — Collection covering RTLLM 2.0, AssertEval, and RTL code datasets for RTL generation and assertion generation.
-
-  `RTL` `Dataset` `Benchmark` `Verification` · Benchmark / dataset
-
-  [Paper](https://arxiv.org/abs/2503.15112)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[OpenLLM-RTL](../../resources/rtl-generation/openllm-rtl.md)**<br>Collection covering RTLLM 2.0, AssertEval, and RTL code datasets for RTL generation and assertion generation. | [RTL](../../resources/tags/rtl.md) · [Dataset](../../resources/tags/dataset.md) · [Benchmark](../../resources/tags/benchmark.md) · [Verification](../../resources/tags/verification.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2503.15112) | — | — | — |
 
 ### 2024 · month not verified
 
-- **[RTL-Repo](../../resources/rtl-generation/rtl-repo.md)** — Repository-level Verilog completion benchmark with more than 4,000 GitHub code samples and full-repository context.
-
-  `RTL` `Repository-level tasks` `Benchmark` · Benchmark / dataset
-
-  [AUCOHL/RTL-Repo](https://github.com/AUCOHL/RTL-Repo) · ★ 35 · pushed 2024-06-05 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[RTL-Repo](../../resources/rtl-generation/rtl-repo.md)**<br>Repository-level Verilog completion benchmark with more than 4,000 GitHub code samples and full-repository context. | [RTL](../../resources/tags/rtl.md) · [Repository-level tasks](../../resources/tags/repository-level.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | — | [AUCOHL/RTL-Repo](https://github.com/AUCOHL/RTL-Repo) | 35 | 2024-06-05<br>Fetched 2026-10-27 |
 
 ### Date not recorded
 
-- **[VerilogEval](../../resources/rtl-generation/verilogeval.md)** — HDLBits-based benchmark and harness for evaluating Verilog generation with simulation-based functional checks.
-
-  `RTL` `Benchmark` `Simulation` · Benchmark / dataset
-
-  [NVlabs/verilog-eval](https://github.com/NVlabs/verilog-eval) · ★ 487 · pushed 2025-07-14 · fetched 2026-10-27
-
-- **[SCORE](../../resources/rtl-generation/score.md)** — Open dataset of consistently generated Verilog RTL from SoC generators and hardware construction languages, useful for reproducible synthesis, verification, and agent evaluation, but not itself an agent benchmark.
-
-  `RTL` `Dataset` `Evaluation` · Benchmark / dataset
-
-  [SJTU-YONGFU-RESEARCH-GRP/score](https://github.com/SJTU-YONGFU-RESEARCH-GRP/score) · ★ 4 · pushed 2026-09-03 · fetched 2026-10-27
-
-- **[RTLLM](../../resources/rtl-generation/rtllm.md)** — Open-source RTL generation benchmark and evaluation code.
-
-  `RTL` `Code generation` `Benchmark` `Evaluation` · Open-source project / Benchmark / dataset
-
-  [hkust-zhiyao/RTLLM](https://github.com/hkust-zhiyao/RTLLM) · ★ 238 · pushed 2026-08-15 · fetched 2026-10-27
-
-- **[CVDP](../../resources/rtl-generation/cvdp.md)** — NVIDIA benchmark for evaluating RTL coding tasks, including generation, editing, and debugging.
-
-  `RTL` `Code generation` `Debugging` `Benchmark` · Benchmark / dataset
-
-  [NVlabs/cvdp_benchmark](https://github.com/NVlabs/cvdp_benchmark) · ★ 243 · pushed 2026-06-08 · fetched 2026-10-27
-
-- **[ArchXBench](../../resources/rtl-generation/archxbench.md)** — Benchmark suite for more complex, multi-cycle, pipelined, and hierarchical RTL tasks across several application domains.
-
-  `RTL` `Code generation` `Benchmark` · Benchmark / dataset
-
-  [sureshpurini/ArchXBench](https://github.com/sureshpurini/ArchXBench) · ★ 18 · pushed 2026-07-26 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[VerilogEval](../../resources/rtl-generation/verilogeval.md)**<br>HDLBits-based benchmark and harness for evaluating Verilog generation with simulation-based functional checks. | [RTL](../../resources/tags/rtl.md) · [Benchmark](../../resources/tags/benchmark.md) · [Simulation](../../resources/tags/simulation.md)<br>Benchmark / dataset | — | [NVlabs/verilog-eval](https://github.com/NVlabs/verilog-eval) | 487 | 2025-07-14<br>Fetched 2026-10-27 |
+| **[SCORE](../../resources/rtl-generation/score.md)**<br>Open dataset of consistently generated Verilog RTL from SoC generators and hardware construction languages, useful for reproducible synthesis, verification, and agent evaluation, but not itself an agent benchmark. | [RTL](../../resources/tags/rtl.md) · [Dataset](../../resources/tags/dataset.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | — | [SJTU-YONGFU-RESEARCH-GRP/score](https://github.com/SJTU-YONGFU-RESEARCH-GRP/score) | 4 | 2026-09-03<br>Fetched 2026-10-27 |
+| **[RTLLM](../../resources/rtl-generation/rtllm.md)**<br>Open-source RTL generation benchmark and evaluation code. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Open-source project / Benchmark / dataset | — | [hkust-zhiyao/RTLLM](https://github.com/hkust-zhiyao/RTLLM) | 238 | 2026-08-15<br>Fetched 2026-10-27 |
+| **[CVDP](../../resources/rtl-generation/cvdp.md)**<br>NVIDIA benchmark for evaluating RTL coding tasks, including generation, editing, and debugging. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Debugging](../../resources/tags/debugging.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | — | [NVlabs/cvdp_benchmark](https://github.com/NVlabs/cvdp_benchmark) | 243 | 2026-06-08<br>Fetched 2026-10-27 |
+| **[ArchXBench](../../resources/rtl-generation/archxbench.md)**<br>Benchmark suite for more complex, multi-cycle, pipelined, and hierarchical RTL tasks across several application domains. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | — | [sureshpurini/ArchXBench](https://github.com/sureshpurini/ArchXBench) | 18 | 2026-07-26<br>Fetched 2026-10-27 |
 
 <a id="verification-debugging"></a>
 
@@ -123,31 +78,21 @@
 
 ### 2026-09
 
-- **[VeriBugBench](../../resources/verification-debugging/veribugbench.md)** — Benchmark construction code for empirically grounded Verilog debugging tasks with mutation and execution-based filtering.
-
-  `RTL` `Debugging` `Benchmark` · Open-source project / Benchmark / dataset
-
-  [Paper](https://arxiv.org/abs/2609.18022)
-
-  [wndif/VeriBugBench](https://github.com/wndif/VeriBugBench) · ★ 2 · pushed 2026-09-01 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[VeriBugBench](../../resources/verification-debugging/veribugbench.md)**<br>Benchmark construction code for empirically grounded Verilog debugging tasks with mutation and execution-based filtering. | [RTL](../../resources/tags/rtl.md) · [Debugging](../../resources/tags/debugging.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Open-source project / Benchmark / dataset | [Paper](https://arxiv.org/abs/2609.18022) | [wndif/VeriBugBench](https://github.com/wndif/VeriBugBench) | 2 | 2026-09-01<br>Fetched 2026-10-27 |
 
 ### 2026-07
 
-- **[WaveformQA](../../resources/verification-debugging/waveformqa.md)** — Tests temporal reasoning over digital waveforms for hardware debugging and verification.
-
-  `Waveforms` `Debugging` `Benchmark` · Benchmark / dataset
-
-  [Paper](https://arxiv.org/abs/2607.20638)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[WaveformQA](../../resources/verification-debugging/waveformqa.md)**<br>Tests temporal reasoning over digital waveforms for hardware debugging and verification. | [Waveforms](../../resources/tags/waveform.md) · [Debugging](../../resources/tags/debugging.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2607.20638) | — | — | — |
 
 ### 2026-04
 
-- **[HWE-Bench · Bug repair](../../resources/verification-debugging/hwe-bench-bug-repair.md)** — Repository-level benchmark with 417 fail-to-pass bug-fix tasks from six open-source hardware projects.
-
-  `RTL` `Debugging` `Repository-level tasks` `Benchmark` · Benchmark / dataset
-
-  [Paper](https://arxiv.org/abs/2604.14709)
-
-  [pku-liang/hwe-bench](https://github.com/pku-liang/hwe-bench) · ★ 67 · pushed 2026-08-01 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[HWE-Bench · Bug repair](../../resources/verification-debugging/hwe-bench-bug-repair.md)**<br>Repository-level benchmark with 417 fail-to-pass bug-fix tasks from six open-source hardware projects. | [RTL](../../resources/tags/rtl.md) · [Debugging](../../resources/tags/debugging.md) · [Repository-level tasks](../../resources/tags/repository-level.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2604.14709) | [pku-liang/hwe-bench](https://github.com/pku-liang/hwe-bench) | 67 | 2026-08-01<br>Fetched 2026-10-27 |
 
 <a id="physical-design"></a>
 
@@ -155,35 +100,27 @@
 
 ### 2026-06
 
-- **[PDAgent-Bench](../../resources/physical-design/pdagent-bench.md)** — Benchmarks grounding, task execution, and agent architecture choices for VLSI physical-design workflows.
-
-  `Physical design` `Benchmark` `Evaluation` · Benchmark / dataset
-
-  [Paper](https://arxiv.org/abs/2606.17253)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[PDAgent-Bench](../../resources/physical-design/pdagent-bench.md)**<br>Benchmarks grounding, task execution, and agent architecture choices for VLSI physical-design workflows. | [Physical design](../../resources/tags/physical-design.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2606.17253) | — | — | — |
 
 ### 2026-05
 
-- **[PostEDA-Bench](../../resources/physical-design/posteda-bench.md)** — Evaluates agent workflows that close PPA targets and repair DRC violations after initial EDA generation.
-
-  `Physical design` `PPA / QoR` `DRC` `Benchmark` · Benchmark / dataset
-
-  [Paper](https://arxiv.org/abs/2605.06936)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[PostEDA-Bench](../../resources/physical-design/posteda-bench.md)**<br>Evaluates agent workflows that close PPA targets and repair DRC violations after initial EDA generation. | [Physical design](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [DRC](../../resources/tags/drc.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2605.06936) | — | — | — |
 
 ### 2026 · month not verified
 
-- **[Build-A-Chip-Bench](../../resources/physical-design/build-a-chip-bench.md)** — Evaluates workload-to-GDS agents using correctness gates and PPA; developer-reported results.
-
-  `EDA workflows` `PPA / QoR` `Benchmark` `Vendor-reported` · Benchmark / dataset
-
-  [Source](https://chipagents.ai/research/build-a-chip-bench)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Build-A-Chip-Bench](../../resources/physical-design/build-a-chip-bench.md)**<br>Evaluates workload-to-GDS agents using correctness gates and PPA; developer-reported results. | [EDA workflows](../../resources/tags/eda-flow.md) · [PPA / QoR](../../resources/tags/ppa.md) · [Benchmark](../../resources/tags/benchmark.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Benchmark / dataset | [Source](https://chipagents.ai/research/build-a-chip-bench) | — | — | — |
 
 ### Date not recorded
 
-- **[CircuitNet](../../resources/physical-design/circuitnet.md)** — Open EDA dataset for tasks such as congestion, DRC, IR-drop, and timing prediction.
-
-  `Physical design` `Dataset` `Evaluation` · Benchmark / dataset
-
-  [circuitnet/CircuitNet](https://github.com/circuitnet/CircuitNet) · ★ 519 · pushed 2026-05-17 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[CircuitNet](../../resources/physical-design/circuitnet.md)**<br>Open EDA dataset for tasks such as congestion, DRC, IR-drop, and timing prediction. | [Physical design](../../resources/tags/physical-design.md) · [Dataset](../../resources/tags/dataset.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | — | [circuitnet/CircuitNet](https://github.com/circuitnet/CircuitNet) | 519 | 2026-05-17<br>Fetched 2026-10-27 |
 
 <a id="analog-rf"></a>
 
@@ -191,11 +128,9 @@
 
 ### 2026-09
 
-- **[Long-Horizon Analog Design Bench](../../resources/analog-rf/long-horizon-analog-design-bench.md)** — Evaluates agents on 50 transistor-level design tasks contributed by 17 chip designers, using an open-source simulator and an isolated verifier to check electrical specifications over hours-long runs.
-
-  `Analog / RF` `Simulation` `Benchmark` `Evaluation` · Benchmark / dataset
-
-  [Paper](https://arxiv.org/abs/2609.33356)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Long-Horizon Analog Design Bench](../../resources/analog-rf/long-horizon-analog-design-bench.md)**<br>Evaluates agents on 50 transistor-level design tasks contributed by 17 chip designers, using an open-source simulator and an isolated verifier to check electrical specifications over hours-long runs. | [Analog / RF](../../resources/tags/analog-rf.md) · [Simulation](../../resources/tags/simulation.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2609.33356) | — | — | — |
 
 <a id="architecture-hls-codesign"></a>
 
@@ -203,35 +138,17 @@
 
 ### 2026-09
 
-- **[HLSFactory-Agent](../../resources/architecture-hls-codesign/hlsfactory-agent.md)** — Extracts and evaluates agentic HLS tasks from repositories to build a reproducible large-scale dataset.
-
-  `HLS` `Dataset` `Repository-level tasks` · Paper / Open-source project
-
-  [Paper](https://arxiv.org/abs/2609.09519)
-
-  [sharc-lab/hlsfactory-agent](https://github.com/sharc-lab/hlsfactory-agent) · ★ 2 · pushed 2026-10-23 · fetched 2026-10-27
-
-- **[HLS-Eval](../../resources/architecture-hls-codesign/hls-eval.md)** — Evaluation framework for agentic HLS design tasks, compiler self-verification, and trajectory analysis.
-
-  `HLS` `Benchmark` `Evaluation` · Open-source project / Benchmark / dataset
-
-  [Paper](https://arxiv.org/abs/2609.09526)
-
-  [sharc-lab/HLS-Eval](https://github.com/sharc-lab/HLS-Eval) · ★ 29 · pushed 2026-10-19 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[HLSFactory-Agent](../../resources/architecture-hls-codesign/hlsfactory-agent.md)**<br>Extracts and evaluates agentic HLS tasks from repositories to build a reproducible large-scale dataset. | [HLS](../../resources/tags/hls.md) · [Dataset](../../resources/tags/dataset.md) · [Repository-level tasks](../../resources/tags/repository-level.md)<br>Paper / Open-source project | [Paper](https://arxiv.org/abs/2609.09519) | [sharc-lab/hlsfactory-agent](https://github.com/sharc-lab/hlsfactory-agent) | 2 | 2026-10-23<br>Fetched 2026-10-27 |
+| **[HLS-Eval](../../resources/architecture-hls-codesign/hls-eval.md)**<br>Evaluation framework for agentic HLS design tasks, compiler self-verification, and trajectory analysis. | [HLS](../../resources/tags/hls.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Open-source project / Benchmark / dataset | [Paper](https://arxiv.org/abs/2609.09526) | [sharc-lab/HLS-Eval](https://github.com/sharc-lab/HLS-Eval) | 29 | 2026-10-19<br>Fetched 2026-10-27 |
 
 ### 2026 · month not verified
 
-- **[HWE Bench · RISC-V design](../../resources/architecture-hls-codesign/hwe-bench-riscv.md)** — Has agents design RV32IM CPUs from scratch, gates candidates with formal proofs, and scores surviving designs using FPGA-grounded performance.
-
-  `RISC-V` `Formal verification` `FPGA` `Benchmark` · Benchmark / dataset
-
-  [FeSens/auto-arch-tournament](https://github.com/FeSens/auto-arch-tournament) · ★ 201 · pushed 2026-10-05 · fetched 2026-10-27
-
-- **[DPC4](../../resources/architecture-hls-codesign/dpc4.md)** — CPU data-prefetcher design competition evaluated with ChampSim.
-
-  `Architecture exploration` `Simulation` `Evaluation` · Benchmark / dataset
-
-  [Source](https://sites.google.com/view/dpc4-2026/home)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[HWE Bench · RISC-V design](../../resources/architecture-hls-codesign/hwe-bench-riscv.md)**<br>Has agents design RV32IM CPUs from scratch, gates candidates with formal proofs, and scores surviving designs using FPGA-grounded performance. | [RISC-V](../../resources/tags/risc-v.md) · [Formal verification](../../resources/tags/formal.md) · [FPGA](../../resources/tags/fpga.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | — | [FeSens/auto-arch-tournament](https://github.com/FeSens/auto-arch-tournament) | 201 | 2026-10-05<br>Fetched 2026-10-27 |
+| **[DPC4](../../resources/architecture-hls-codesign/dpc4.md)**<br>CPU data-prefetcher design competition evaluated with ChampSim. | [Architecture exploration](../../resources/tags/architecture.md) · [Simulation](../../resources/tags/simulation.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | [Source](https://sites.google.com/view/dpc4-2026/home) | — | — | — |
 
 <a id="board-system-design"></a>
 
@@ -239,8 +156,6 @@
 
 ### 2026-03
 
-- **[HWE-Bench · Schematic design](../../resources/board-system-design/hwe-bench-schematic.md)** — Board-level design benchmark with 300 tasks and a knowledge base of 2,914 IC datasheets.
-
-  `Board / PCB` `Benchmark` `Dataset` · Benchmark / dataset
-
-  [Paper](https://arxiv.org/abs/2603.18102)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[HWE-Bench · Schematic design](../../resources/board-system-design/hwe-bench-schematic.md)**<br>Board-level design benchmark with 300 tasks and a knowledge base of 2,914 IC datasheets. | [Board / PCB](../../resources/tags/board.md) · [Benchmark](../../resources/tags/benchmark.md) · [Dataset](../../resources/tags/dataset.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2603.18102) | — | — | — |

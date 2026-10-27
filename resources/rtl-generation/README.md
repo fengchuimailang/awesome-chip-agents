@@ -8,266 +8,131 @@ Newest publication month first. Cross-references share the original record; repo
 
 ## 2026-10
 
-- **[ScaleBench](../../resources/rtl-generation/scalebench.md)** — Evaluates specification-to-RTL generation on 200 designs with formal equivalence checks.
-
-  `RTL` `Code generation` `Formal verification` `Benchmark` · Benchmark / dataset
-
-  [hkust-zhiyao/CorrectRTL](https://github.com/hkust-zhiyao/CorrectRTL) · ★ 3 · pushed 2026-10-20 · fetched 2026-10-27
-
-- **[CorrectRTL](../../resources/rtl-generation/correctrtl.md)** — Generates RTL through structural planning, retrieval, and SVA-guided self-correction.
-
-  `RTL` `Code generation` `Formal verification` · Paper
-
-  [Paper](https://arxiv.org/abs/2610.24977)
-
-  [hkust-zhiyao/CorrectRTL](https://github.com/hkust-zhiyao/CorrectRTL) · ★ 3 · pushed 2026-10-20 · fetched 2026-10-27
-
-- **[SparseCraft](../../resources/architecture-hls-codesign/sparsecraft.md)** — Uses agents to co-optimize sparse accelerator software and Chisel RTL with cycle-accurate simulation and bit-exact verification.
-
-  `Architecture exploration` `HW/SW co-design` `RTL` `Simulation` · Paper · cross-reference
-
-  [Paper](https://arxiv.org/abs/2610.05037)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[ScaleBench](../../resources/rtl-generation/scalebench.md)**<br>Evaluates specification-to-RTL generation on 200 designs with formal equivalence checks. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Formal verification](../../resources/tags/formal.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | — | [hkust-zhiyao/CorrectRTL](https://github.com/hkust-zhiyao/CorrectRTL) | 3 | 2026-10-20<br>Fetched 2026-10-27 |
+| **[CorrectRTL](../../resources/rtl-generation/correctrtl.md)**<br>Generates RTL through structural planning, retrieval, and SVA-guided self-correction. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Formal verification](../../resources/tags/formal.md)<br>Paper | [Paper](https://arxiv.org/abs/2610.24977) | [hkust-zhiyao/CorrectRTL](https://github.com/hkust-zhiyao/CorrectRTL) | 3 | 2026-10-20<br>Fetched 2026-10-27 |
+| **[SparseCraft](../../resources/architecture-hls-codesign/sparsecraft.md)**<br>Uses agents to co-optimize sparse accelerator software and Chisel RTL with cycle-accurate simulation and bit-exact verification. | [Architecture exploration](../../resources/tags/architecture.md) · [HW/SW co-design](../../resources/tags/codesign.md) · [RTL](../../resources/tags/rtl.md) · [Simulation](../../resources/tags/simulation.md)<br>Paper · cross-reference | [Paper](https://arxiv.org/abs/2610.05037) | — | — | — |
 
 ## 2026-09
 
-- **[AHRR](../../resources/architecture-hls-codesign/ahrr.md)** — Combines agent-based HLS design with post-HLS RTL refinement (AHRR), evaluated on 11 FPGA tasks.
-
-  `HLS` `RTL` `FPGA` `PPA / QoR` · Paper / Open-source project · cross-reference
-
-  [Paper](https://arxiv.org/abs/2609.21157)
-
-  [ZijD/AHRR](https://github.com/ZijD/AHRR) · ★ 6 · pushed 2026-09-17 · fetched 2026-10-27
-
-- **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)** — Evaluation code and collateral for measuring generated RTL beyond compilation, including functional equivalence, completeness, and QoR.
-
-  `RTL` `Benchmark` `Evaluation` `PPA / QoR` · Open-source project / Benchmark / dataset
-
-  [Paper](https://arxiv.org/abs/2609.25335)
-
-  [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) · ★ 0 · pushed 2026-10-12 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[AHRR](../../resources/architecture-hls-codesign/ahrr.md)**<br>Combines agent-based HLS design with post-HLS RTL refinement (AHRR), evaluated on 11 FPGA tasks. | [HLS](../../resources/tags/hls.md) · [RTL](../../resources/tags/rtl.md) · [FPGA](../../resources/tags/fpga.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>Paper / Open-source project · cross-reference | [Paper](https://arxiv.org/abs/2609.21157) | [ZijD/AHRR](https://github.com/ZijD/AHRR) | 6 | 2026-09-17<br>Fetched 2026-10-27 |
+| **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)**<br>Evaluation code and collateral for measuring generated RTL beyond compilation, including functional equivalence, completeness, and QoR. | [RTL](../../resources/tags/rtl.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>Open-source project / Benchmark / dataset | [Paper](https://arxiv.org/abs/2609.25335) | [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) | 0 | 2026-10-12<br>Fetched 2026-10-27 |
 
 ## 2026-08
 
-- **[NoTB](../../resources/verification-debugging/notb.md)** — Uses cross-model formal consensus to triage generated RTL without relying on a hand-written testbench oracle.
-
-  `RTL` `Formal verification` `Evaluation` · Paper · cross-reference
-
-  [Paper](https://arxiv.org/abs/2608.21962)
-
-- **[LACE](../../resources/architecture-hls-codesign/lace.md)** — Coordinates agents for RISC-V instruction-extension design, RTL editing, and formal verification.
-
-  `RISC-V` `Code editing` `Formal verification` `Multi-agent` · Paper / Open-source project · cross-reference
-
-  [Paper](https://arxiv.org/abs/2608.02915)
-
-  [UMN-ZhaoLab/LACE](https://github.com/UMN-ZhaoLab/LACE) · ★ 4 · pushed 2026-09-02 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[NoTB](../../resources/verification-debugging/notb.md)**<br>Uses cross-model formal consensus to triage generated RTL without relying on a hand-written testbench oracle. | [RTL](../../resources/tags/rtl.md) · [Formal verification](../../resources/tags/formal.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Paper · cross-reference | [Paper](https://arxiv.org/abs/2608.21962) | — | — | — |
+| **[LACE](../../resources/architecture-hls-codesign/lace.md)**<br>Coordinates agents for RISC-V instruction-extension design, RTL editing, and formal verification. | [RISC-V](../../resources/tags/risc-v.md) · [Code editing](../../resources/tags/editing.md) · [Formal verification](../../resources/tags/formal.md) · [Multi-agent](../../resources/tags/multi-agent.md)<br>Paper / Open-source project · cross-reference | [Paper](https://arxiv.org/abs/2608.02915) | [UMN-ZhaoLab/LACE](https://github.com/UMN-ZhaoLab/LACE) | 4 | 2026-09-02<br>Fetched 2026-10-27 |
 
 ## 2026-06
 
-- **[RTL-BenchLS](../../resources/rtl-generation/rtl-benchls.md)** — Provides more than 10,000 formally verified Verilog designs for round-trip reasoning, masked-content reasoning, and repository-issue repair, with data and evaluation code.
-
-  `RTL` `Formal verification` `Dataset` `Benchmark` · Benchmark / dataset
-
-  [Paper](https://arxiv.org/abs/2606.08976)
-
-  [hkust-zhiyao/RTL-BenchLS](https://github.com/hkust-zhiyao/RTL-BenchLS) · ★ 5 · pushed 2026-06-08 · fetched 2026-10-27
-
-- **[HORIZON](../../resources/rtl-generation/horizon.md)** — Treats hardware development as repository-level code evolution with agents that modify and verify designs across files.
-
-  `RTL` `Code editing` `Repository-level tasks` `Verification` · Paper
-
-  [Paper](https://arxiv.org/abs/2606.28279)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[RTL-BenchLS](../../resources/rtl-generation/rtl-benchls.md)**<br>Provides more than 10,000 formally verified Verilog designs for round-trip reasoning, masked-content reasoning, and repository-issue repair, with data and evaluation code. | [RTL](../../resources/tags/rtl.md) · [Formal verification](../../resources/tags/formal.md) · [Dataset](../../resources/tags/dataset.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2606.08976) | [hkust-zhiyao/RTL-BenchLS](https://github.com/hkust-zhiyao/RTL-BenchLS) | 5 | 2026-06-08<br>Fetched 2026-10-27 |
+| **[HORIZON](../../resources/rtl-generation/horizon.md)**<br>Treats hardware development as repository-level code evolution with agents that modify and verify designs across files. | [RTL](../../resources/tags/rtl.md) · [Code editing](../../resources/tags/editing.md) · [Repository-level tasks](../../resources/tags/repository-level.md) · [Verification](../../resources/tags/verification.md)<br>Paper | [Paper](https://arxiv.org/abs/2606.28279) | — | — | — |
 
 ## 2026-02
 
-- **[ACE-RTL](../../resources/rtl-generation/ace-rtl.md)** — Combines an RTL-specialized generator with reasoning agents for verification-guided RTL generation and repair.
-
-  `RTL` `Code generation` `Debugging` · Paper / Open-source project
-
-  [Paper](https://arxiv.org/abs/2602.10218)
-
-  [NVlabs/ACE-RTL](https://github.com/NVlabs/ACE-RTL) · ★ 39 · pushed 2026-09-20 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[ACE-RTL](../../resources/rtl-generation/ace-rtl.md)**<br>Combines an RTL-specialized generator with reasoning agents for verification-guided RTL generation and repair. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Debugging](../../resources/tags/debugging.md)<br>Paper / Open-source project | [Paper](https://arxiv.org/abs/2602.10218) | [NVlabs/ACE-RTL](https://github.com/NVlabs/ACE-RTL) | 39 | 2026-09-20<br>Fetched 2026-10-27 |
 
 ## 2026-01
 
-- **[Veri-Sure](../../resources/rtl-generation/veri-sure.md)** — Coordinates agents through a design contract, dependency-slicing-guided local repairs, temporal trace analysis, and formal verification for RTL generation and debugging.
-
-  `RTL` `Code generation` `Formal verification` `Multi-agent` · Paper / Open-source project
-
-  [Paper](https://arxiv.org/abs/2601.19747)
-
-  [xyjoey/Veri-Sure](https://github.com/xyjoey/Veri-Sure) · ★ 28 · pushed 2026-10-26 · fetched 2026-10-27
-
-- **[ChipBench](../../resources/rtl-generation/chipbench.md)** — Benchmark covering Verilog generation, debugging, and reference-model generation on realistic, hierarchical hardware modules.
-
-  `RTL` `Code generation` `Debugging` `Benchmark` · Benchmark / dataset
-
-  [Paper](https://arxiv.org/abs/2601.21448)
-
-  [zhongkaiyu/ChipBench](https://github.com/zhongkaiyu/ChipBench) · ★ 44 · pushed 2026-08-06 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Veri-Sure](../../resources/rtl-generation/veri-sure.md)**<br>Coordinates agents through a design contract, dependency-slicing-guided local repairs, temporal trace analysis, and formal verification for RTL generation and debugging. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Formal verification](../../resources/tags/formal.md) · [Multi-agent](../../resources/tags/multi-agent.md)<br>Paper / Open-source project | [Paper](https://arxiv.org/abs/2601.19747) | [xyjoey/Veri-Sure](https://github.com/xyjoey/Veri-Sure) | 28 | 2026-10-26<br>Fetched 2026-10-27 |
+| **[ChipBench](../../resources/rtl-generation/chipbench.md)**<br>Benchmark covering Verilog generation, debugging, and reference-model generation on realistic, hierarchical hardware modules. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Debugging](../../resources/tags/debugging.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2601.21448) | [zhongkaiyu/ChipBench](https://github.com/zhongkaiyu/ChipBench) | 44 | 2026-08-06<br>Fetched 2026-10-27 |
 
 ## 2026 · month not verified
 
-- **[SynthAgentic-Eval](../../resources/rtl-generation/synthagentic-eval.md)** — Synthesis-aware evaluation data for 32 models on 202 Verilog tasks.
-
-  `RTL` `Evaluation` `Dataset` `PPA / QoR` · Benchmark / dataset
-
-  [owenfucell/SynthAgentic](https://github.com/owenfucell/SynthAgentic) · ★ 0 · pushed 2026-05-10 · fetched 2026-10-27
-
-- **[RTL-BenchMT](../../resources/rtl-generation/rtl-benchmt.md)** — Public dataset and evaluation code for agent-assisted maintenance of RTL benchmarks.
-
-  `RTL` `Benchmark` `Dataset` · Benchmark / dataset
-
-  [hkust-zhiyao/RTL-BenchMT](https://github.com/hkust-zhiyao/RTL-BenchMT) · ★ 4 · pushed 2026-09-03 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[SynthAgentic-Eval](../../resources/rtl-generation/synthagentic-eval.md)**<br>Synthesis-aware evaluation data for 32 models on 202 Verilog tasks. | [RTL](../../resources/tags/rtl.md) · [Evaluation](../../resources/tags/evaluation.md) · [Dataset](../../resources/tags/dataset.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>Benchmark / dataset | — | [owenfucell/SynthAgentic](https://github.com/owenfucell/SynthAgentic) | 0 | 2026-05-10<br>Fetched 2026-10-27 |
+| **[RTL-BenchMT](../../resources/rtl-generation/rtl-benchmt.md)**<br>Public dataset and evaluation code for agent-assisted maintenance of RTL benchmarks. | [RTL](../../resources/tags/rtl.md) · [Benchmark](../../resources/tags/benchmark.md) · [Dataset](../../resources/tags/dataset.md)<br>Benchmark / dataset | — | [hkust-zhiyao/RTL-BenchMT](https://github.com/hkust-zhiyao/RTL-BenchMT) | 4 | 2026-09-03<br>Fetched 2026-10-27 |
 
 ## 2025-06
 
-- **[Spec2RTL-Agent](../../resources/rtl-generation/spec2rtl-agent.md)** — Converts complex specifications into synthesizable designs through multi-agent planning and HLS.
-
-  `RTL` `Code generation` `Multi-agent` `HLS` · Paper
-
-  [Paper](https://research.nvidia.com/publication/2025-06_spec2rtl-agent-automated-hardware-code-generation-complex-specifications-using)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Spec2RTL-Agent](../../resources/rtl-generation/spec2rtl-agent.md)**<br>Converts complex specifications into synthesizable designs through multi-agent planning and HLS. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [HLS](../../resources/tags/hls.md)<br>Paper | [Paper](https://research.nvidia.com/publication/2025-06_spec2rtl-agent-automated-hardware-code-generation-complex-specifications-using) | — | — | — |
 
 ## 2025-03
 
-- **[OpenLLM-RTL](../../resources/rtl-generation/openllm-rtl.md)** — Collection covering RTLLM 2.0, AssertEval, and RTL code datasets for RTL generation and assertion generation.
-
-  `RTL` `Dataset` `Benchmark` `Verification` · Benchmark / dataset
-
-  [Paper](https://arxiv.org/abs/2503.15112)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[OpenLLM-RTL](../../resources/rtl-generation/openllm-rtl.md)**<br>Collection covering RTLLM 2.0, AssertEval, and RTL code datasets for RTL generation and assertion generation. | [RTL](../../resources/tags/rtl.md) · [Dataset](../../resources/tags/dataset.md) · [Benchmark](../../resources/tags/benchmark.md) · [Verification](../../resources/tags/verification.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2503.15112) | — | — | — |
 
 ## 2024-12
 
-- **[MAGE](../../resources/rtl-generation/mage.md)** — Uses multi-agent candidate exploration and checkpoint-based feedback to improve RTL correctness.
-
-  `RTL` `Code generation` `Multi-agent` · Paper / Open-source project
-
-  [Paper](https://arxiv.org/abs/2412.07822)
-
-  [stable-lab/MAGE](https://github.com/stable-lab/MAGE) · ★ 142 · pushed 2025-04-11 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[MAGE](../../resources/rtl-generation/mage.md)**<br>Uses multi-agent candidate exploration and checkpoint-based feedback to improve RTL correctness. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Multi-agent](../../resources/tags/multi-agent.md)<br>Paper / Open-source project | [Paper](https://arxiv.org/abs/2412.07822) | [stable-lab/MAGE](https://github.com/stable-lab/MAGE) | 142 | 2025-04-11<br>Fetched 2026-10-27 |
 
 ## 2024-08
 
-- **[VerilogCoder](../../resources/rtl-generation/verilogcoder.md)** — Coordinates planning, simulation, and waveform tracing agents to generate and debug Verilog.
-
-  `RTL` `Code generation` `Debugging` `Waveforms` · Paper / Open-source project
-
-  [Paper](https://arxiv.org/abs/2408.08927)
-
-  [NVlabs/VerilogCoder](https://github.com/NVlabs/VerilogCoder) · ★ 188 · pushed 2025-03-10 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[VerilogCoder](../../resources/rtl-generation/verilogcoder.md)**<br>Coordinates planning, simulation, and waveform tracing agents to generate and debug Verilog. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Debugging](../../resources/tags/debugging.md) · [Waveforms](../../resources/tags/waveform.md)<br>Paper / Open-source project | [Paper](https://arxiv.org/abs/2408.08927) | [NVlabs/VerilogCoder](https://github.com/NVlabs/VerilogCoder) | 188 | 2025-03-10<br>Fetched 2026-10-27 |
 
 ## 2024 · month not verified
 
-- **[RTL-Repo](../../resources/rtl-generation/rtl-repo.md)** — Repository-level Verilog completion benchmark with more than 4,000 GitHub code samples and full-repository context.
-
-  `RTL` `Repository-level tasks` `Benchmark` · Benchmark / dataset
-
-  [AUCOHL/RTL-Repo](https://github.com/AUCOHL/RTL-Repo) · ★ 35 · pushed 2024-06-05 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[RTL-Repo](../../resources/rtl-generation/rtl-repo.md)**<br>Repository-level Verilog completion benchmark with more than 4,000 GitHub code samples and full-repository context. | [RTL](../../resources/tags/rtl.md) · [Repository-level tasks](../../resources/tags/repository-level.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | — | [AUCOHL/RTL-Repo](https://github.com/AUCOHL/RTL-Repo) | 35 | 2024-06-05<br>Fetched 2026-10-27 |
 
 ## 2023-11
 
-- **[AutoChip](../../resources/rtl-generation/autochip.md)** — Early feedback-driven HDL generation work that uses compiler and simulation output to iteratively improve Verilog.
-
-  `RTL` `Code generation` `Simulation` · Paper / Open-source project
-
-  [Paper](https://arxiv.org/abs/2311.04887)
-
-  [shailja-thakur/AutoChip](https://github.com/shailja-thakur/AutoChip) · ★ 64 · pushed 2025-03-10 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[AutoChip](../../resources/rtl-generation/autochip.md)**<br>Early feedback-driven HDL generation work that uses compiler and simulation output to iteratively improve Verilog. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Simulation](../../resources/tags/simulation.md)<br>Paper / Open-source project | [Paper](https://arxiv.org/abs/2311.04887) | [shailja-thakur/AutoChip](https://github.com/shailja-thakur/AutoChip) | 64 | 2025-03-10<br>Fetched 2026-10-27 |
 
 ## Date not recorded
 
-- **[VerilogEval](../../resources/rtl-generation/verilogeval.md)** — HDLBits-based benchmark and harness for evaluating Verilog generation with simulation-based functional checks.
-
-  `RTL` `Benchmark` `Simulation` · Benchmark / dataset
-
-  [NVlabs/verilog-eval](https://github.com/NVlabs/verilog-eval) · ★ 487 · pushed 2025-07-14 · fetched 2026-10-27
-
-- **[Silimate](../../resources/rtl-generation/silimate.md)** — AI-driven RTL and implementation optimization product for exploring design choices and PPA.
-
-  `Commercial platform` `RTL` `PPA / QoR` `Vendor-reported` · Tool / platform
-
-  [Source](https://www.silimate.com/)
-
-- **[SCORE](../../resources/rtl-generation/score.md)** — Open dataset of consistently generated Verilog RTL from SoC generators and hardware construction languages, useful for reproducible synthesis, verification, and agent evaluation, but not itself an agent benchmark.
-
-  `RTL` `Dataset` `Evaluation` · Benchmark / dataset
-
-  [SJTU-YONGFU-RESEARCH-GRP/score](https://github.com/SJTU-YONGFU-RESEARCH-GRP/score) · ★ 4 · pushed 2026-09-03 · fetched 2026-10-27
-
-- **[RTLLM](../../resources/rtl-generation/rtllm.md)** — Open-source RTL generation benchmark and evaluation code.
-
-  `RTL` `Code generation` `Benchmark` `Evaluation` · Open-source project / Benchmark / dataset
-
-  [hkust-zhiyao/RTLLM](https://github.com/hkust-zhiyao/RTLLM) · ★ 238 · pushed 2026-08-15 · fetched 2026-10-27
-
-- **[CVDP](../../resources/rtl-generation/cvdp.md)** — NVIDIA benchmark for evaluating RTL coding tasks, including generation, editing, and debugging.
-
-  `RTL` `Code generation` `Debugging` `Benchmark` · Benchmark / dataset
-
-  [NVlabs/cvdp_benchmark](https://github.com/NVlabs/cvdp_benchmark) · ★ 243 · pushed 2026-06-08 · fetched 2026-10-27
-
-- **[Cadence ChipStack](../../resources/rtl-generation/cadence-chipstack.md)** — Commercial multi-agent workflows for RTL design and verification; vendor-reported capabilities.
-
-  `Commercial platform` `RTL` `Verification` `Multi-agent` `Vendor-reported` · Tool / platform
-
-  [Source](https://www.cadence.com/en_US/home/ai/agentic-ai-super-agents.html)
-
-- **[ArchXBench](../../resources/rtl-generation/archxbench.md)** — Benchmark suite for more complex, multi-cycle, pipelined, and hierarchical RTL tasks across several application domains.
-
-  `RTL` `Code generation` `Benchmark` · Benchmark / dataset
-
-  [sureshpurini/ArchXBench](https://github.com/sureshpurini/ArchXBench) · ★ 18 · pushed 2026-07-26 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[VerilogEval](../../resources/rtl-generation/verilogeval.md)**<br>HDLBits-based benchmark and harness for evaluating Verilog generation with simulation-based functional checks. | [RTL](../../resources/tags/rtl.md) · [Benchmark](../../resources/tags/benchmark.md) · [Simulation](../../resources/tags/simulation.md)<br>Benchmark / dataset | — | [NVlabs/verilog-eval](https://github.com/NVlabs/verilog-eval) | 487 | 2025-07-14<br>Fetched 2026-10-27 |
+| **[Silimate](../../resources/rtl-generation/silimate.md)**<br>AI-driven RTL and implementation optimization product for exploring design choices and PPA. | [Commercial platform](../../resources/tags/commercial.md) · [RTL](../../resources/tags/rtl.md) · [PPA / QoR](../../resources/tags/ppa.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Tool / platform | [Source](https://www.silimate.com/) | — | — | — |
+| **[SCORE](../../resources/rtl-generation/score.md)**<br>Open dataset of consistently generated Verilog RTL from SoC generators and hardware construction languages, useful for reproducible synthesis, verification, and agent evaluation, but not itself an agent benchmark. | [RTL](../../resources/tags/rtl.md) · [Dataset](../../resources/tags/dataset.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | — | [SJTU-YONGFU-RESEARCH-GRP/score](https://github.com/SJTU-YONGFU-RESEARCH-GRP/score) | 4 | 2026-09-03<br>Fetched 2026-10-27 |
+| **[RTLLM](../../resources/rtl-generation/rtllm.md)**<br>Open-source RTL generation benchmark and evaluation code. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Open-source project / Benchmark / dataset | — | [hkust-zhiyao/RTLLM](https://github.com/hkust-zhiyao/RTLLM) | 238 | 2026-08-15<br>Fetched 2026-10-27 |
+| **[CVDP](../../resources/rtl-generation/cvdp.md)**<br>NVIDIA benchmark for evaluating RTL coding tasks, including generation, editing, and debugging. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Debugging](../../resources/tags/debugging.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | — | [NVlabs/cvdp_benchmark](https://github.com/NVlabs/cvdp_benchmark) | 243 | 2026-06-08<br>Fetched 2026-10-27 |
+| **[Cadence ChipStack](../../resources/rtl-generation/cadence-chipstack.md)**<br>Commercial multi-agent workflows for RTL design and verification; vendor-reported capabilities. | [Commercial platform](../../resources/tags/commercial.md) · [RTL](../../resources/tags/rtl.md) · [Verification](../../resources/tags/verification.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Tool / platform | [Source](https://www.cadence.com/en_US/home/ai/agentic-ai-super-agents.html) | — | — | — |
+| **[ArchXBench](../../resources/rtl-generation/archxbench.md)**<br>Benchmark suite for more complex, multi-cycle, pipelined, and hierarchical RTL tasks across several application domains. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | — | [sureshpurini/ArchXBench](https://github.com/sureshpurini/ArchXBench) | 18 | 2026-07-26<br>Fetched 2026-10-27 |
 
 # Related News and Videos
 
 ## 2026-09
 
-- **[ChipStack RTL / PPA announcement](../../resources/rtl-generation/chipstack-rtl-announcement.md)** — Announces RTL generation, editing, and early PPA optimization capabilities.
-
-  `Announcement` `Commercial platform` `RTL` `PPA / QoR` `Vendor-reported` · News / announcement
-
-  [Source](https://login.cadence.com/content/cadence-www/global/en_US/home/company/newsroom/press-releases/pr/2026/cadence-expands-chipstack-ai-super-agent-with-a-new-agent-for.html)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[ChipStack RTL / PPA announcement](../../resources/rtl-generation/chipstack-rtl-announcement.md)**<br>Announces RTL generation, editing, and early PPA optimization capabilities. | [Announcement](../../resources/tags/news.md) · [Commercial platform](../../resources/tags/commercial.md) · [RTL](../../resources/tags/rtl.md) · [PPA / QoR](../../resources/tags/ppa.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://login.cadence.com/content/cadence-www/global/en_US/home/company/newsroom/press-releases/pr/2026/cadence-expands-chipstack-ai-super-agent-with-a-new-agent-for.html) | — | — | — |
 
 ## 2026-03
 
-- **[Synopsys Converge · AgentEngineer](../../resources/rtl-generation/synopsys-converge-2026.md)** — Demonstrates an agentic specification-to-RTL and verification workflow.
-
-  `Announcement` `RTL` `EDA workflows` `Vendor-reported` · News / announcement
-
-  [Source](https://news.synopsys.com/2026-03-11-Synopsys-Outlines-Vision-for-Engineering-the-Future)
-
-- **[GTC San Jose · Chip-design agents](../../resources/rtl-generation/gtc-san-jose-2026.md)** — Discusses chip-design agents, RTL generation, and testbench creation.
-
-  `Announcement` `RTL` `Testbench` `Vendor-reported` · News / announcement
-
-  [NVlabs/ACE-RTL](https://github.com/NVlabs/ACE-RTL) · ★ 39 · pushed 2026-09-20 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Synopsys Converge · AgentEngineer](../../resources/rtl-generation/synopsys-converge-2026.md)**<br>Demonstrates an agentic specification-to-RTL and verification workflow. | [Announcement](../../resources/tags/news.md) · [RTL](../../resources/tags/rtl.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://news.synopsys.com/2026-03-11-Synopsys-Outlines-Vision-for-Engineering-the-Future) | — | — | — |
+| **[GTC San Jose · Chip-design agents](../../resources/rtl-generation/gtc-san-jose-2026.md)**<br>Discusses chip-design agents, RTL generation, and testbench creation. | [Announcement](../../resources/tags/news.md) · [RTL](../../resources/tags/rtl.md) · [Testbench](../../resources/tags/testbench.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | — | [NVlabs/ACE-RTL](https://github.com/NVlabs/ACE-RTL) | 39 | 2026-09-20<br>Fetched 2026-10-27 |
 
 ## 2026-02
 
-- **[ChipStack demo](../../resources/rtl-generation/chipstack-demo.md)** — Official overview of its agentic workflow for front-end silicon design and verification.
-
-  `Talk / video` `RTL` `Verification` `Vendor-reported` · Talk / video
-
-  [Source](https://www.youtube.com/watch?v=p_U-4-jKgcU)
-
-- **[ChipStack early access](../../resources/rtl-generation/chipstack-early-access.md)** — Announces early access to front-end design and verification agents.
-
-  `Announcement` `Commercial platform` `RTL` `Verification` `Vendor-reported` · News / announcement
-
-  [Source](https://www.cadence.com/en_US/home/company/newsroom/press-releases/pr/2026/cadence-unleashes-chipstack-ai-super-agent-pioneering-a-new.html)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[ChipStack demo](../../resources/rtl-generation/chipstack-demo.md)**<br>Official overview of its agentic workflow for front-end silicon design and verification. | [Talk / video](../../resources/tags/video.md) · [RTL](../../resources/tags/rtl.md) · [Verification](../../resources/tags/verification.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Talk / video | [Source](https://www.youtube.com/watch?v=p_U-4-jKgcU) | — | — | — |
+| **[ChipStack early access](../../resources/rtl-generation/chipstack-early-access.md)**<br>Announces early access to front-end design and verification agents. | [Announcement](../../resources/tags/news.md) · [Commercial platform](../../resources/tags/commercial.md) · [RTL](../../resources/tags/rtl.md) · [Verification](../../resources/tags/verification.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://www.cadence.com/en_US/home/company/newsroom/press-releases/pr/2026/cadence-unleashes-chipstack-ai-super-agent-pioneering-a-new.html) | — | — | — |
 
 ## 2026 · month not verified
 
-- **[GTC Taipei 2026 keynote](../../resources/rtl-generation/gtc-taipei-2026-keynote.md)** — See around **1:12:10** for discussion of Cadence Chip Design Super Agent and expert sub-agents for RTL generation and testbench creation.
-
-  `Talk / video` `RTL` `Testbench` `Vendor-reported` · Talk / video
-
-  [Source](https://www.youtube.com/watch?v=wSp6AiNIrsY)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[GTC Taipei 2026 keynote](../../resources/rtl-generation/gtc-taipei-2026-keynote.md)**<br>See around **1:12:10** for discussion of Cadence Chip Design Super Agent and expert sub-agents for RTL generation and testbench creation. | [Talk / video](../../resources/tags/video.md) · [RTL](../../resources/tags/rtl.md) · [Testbench](../../resources/tags/testbench.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Talk / video | [Source](https://www.youtube.com/watch?v=wSp6AiNIrsY) | — | — | — |
 
 ## 2025-05
 
-- **[AlphaEvolve chip-design case](../../resources/rtl-generation/alphaevolve-chip-case.md)** — Reports an agent-proposed Verilog optimization used in a TPU design.
-
-  `Announcement` `RTL` `Code editing` `PPA / QoR` `Vendor-reported` · News / announcement
-
-  [Source](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[AlphaEvolve chip-design case](../../resources/rtl-generation/alphaevolve-chip-case.md)**<br>Reports an agent-proposed Verilog optimization used in a TPU design. | [Announcement](../../resources/tags/news.md) · [RTL](../../resources/tags/rtl.md) · [Code editing](../../resources/tags/editing.md) · [PPA / QoR](../../resources/tags/ppa.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/) | — | — | — |

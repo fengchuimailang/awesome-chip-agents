@@ -4,40 +4,42 @@
 
 [Home](../../README.md) · [简体中文](README_zh.md)
 
-- [RTL](rtl.md) · 38
-- [Code generation](generation.md) · 12
-- [Code editing](editing.md) · 3
-- [Verification](verification.md) · 10
-- [Debugging](debugging.md) · 10
-- [Formal verification](formal.md) · 10
-- [Simulation](simulation.md) · 7
-- [Testbench](testbench.md) · 4
-- [Waveforms](waveform.md) · 3
-- [Specifications](specification.md) · 1
-- [Physical design](physical-design.md) · 10
-- [PPA / QoR](ppa.md) · 11
-- [DRC](drc.md) · 2
-- [EDA workflows](eda-flow.md) · 14
-- [Analog / RF](analog-rf.md) · 5
-- [Circuit sizing](sizing.md) · 3
-- [Architecture exploration](architecture.md) · 6
-- [HLS](hls.md) · 4
-- [HW/SW co-design](codesign.md) · 2
-- [RISC-V](risc-v.md) · 3
-- [FPGA](fpga.md) · 2
-- [Repository-level tasks](repository-level.md) · 4
-- [Multi-agent](multi-agent.md) · 15
-- [Tool use](tool-use.md) · 7
-- [Memory / experience](memory.md) · 1
-- [Infrastructure](infrastructure.md) · 5
-- [Benchmark](benchmark.md) · 22
-- [Dataset](dataset.md) · 8
-- [Evaluation](evaluation.md) · 15
-- [Commercial platform](commercial.md) · 14
-- [Overview / tutorial](overview.md) · 3
-- [Board / PCB](board.md) · 2
-- [Packaging / 3D IC](packaging.md) · 2
-- [System design](system.md) · 2
-- [Vendor-reported](vendor-report.md) · 28
-- [Announcement](news.md) · 12
-- [Talk / video](video.md) · 5
+| Tag | Resources |
+| --- | ---: |
+| [RTL](rtl.md) | 38 |
+| [Code generation](generation.md) | 12 |
+| [Code editing](editing.md) | 3 |
+| [Verification](verification.md) | 10 |
+| [Debugging](debugging.md) | 10 |
+| [Formal verification](formal.md) | 10 |
+| [Simulation](simulation.md) | 7 |
+| [Testbench](testbench.md) | 4 |
+| [Waveforms](waveform.md) | 3 |
+| [Specifications](specification.md) | 1 |
+| [Physical design](physical-design.md) | 10 |
+| [PPA / QoR](ppa.md) | 11 |
+| [DRC](drc.md) | 2 |
+| [EDA workflows](eda-flow.md) | 14 |
+| [Analog / RF](analog-rf.md) | 5 |
+| [Circuit sizing](sizing.md) | 3 |
+| [Architecture exploration](architecture.md) | 6 |
+| [HLS](hls.md) | 4 |
+| [HW/SW co-design](codesign.md) | 2 |
+| [RISC-V](risc-v.md) | 3 |
+| [FPGA](fpga.md) | 2 |
+| [Repository-level tasks](repository-level.md) | 4 |
+| [Multi-agent](multi-agent.md) | 15 |
+| [Tool use](tool-use.md) | 7 |
+| [Memory / experience](memory.md) | 1 |
+| [Infrastructure](infrastructure.md) | 5 |
+| [Benchmark](benchmark.md) | 22 |
+| [Dataset](dataset.md) | 8 |
+| [Evaluation](evaluation.md) | 15 |
+| [Commercial platform](commercial.md) | 14 |
+| [Overview / tutorial](overview.md) | 3 |
+| [Board / PCB](board.md) | 2 |
+| [Packaging / 3D IC](packaging.md) | 2 |
+| [System design](system.md) | 2 |
+| [Vendor-reported](vendor-report.md) | 28 |
+| [Announcement](news.md) | 12 |
+| [Talk / video](video.md) | 5 |

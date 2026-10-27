@@ -8,96 +8,49 @@ Newest publication month first. Cross-references share the original record; repo
 
 ## 2026-10
 
-- **[ArchAgent](../../resources/architecture-hls-codesign/archagent.md)** — Introduces ArchAgent, a hierarchical multi-agent framework for chip and system architecture exploration using a deterministic analytical evaluator.
-
-  `Architecture exploration` `System design` `Multi-agent` `Evaluation` · Paper
-
-  [Paper](https://arxiv.org/abs/2610.23724)
-
-- **[SparseCraft](../../resources/architecture-hls-codesign/sparsecraft.md)** — Uses agents to co-optimize sparse accelerator software and Chisel RTL with cycle-accurate simulation and bit-exact verification.
-
-  `Architecture exploration` `HW/SW co-design` `RTL` `Simulation` · Paper
-
-  [Paper](https://arxiv.org/abs/2610.05037)
-
-- **[DuoDiscover](../../resources/architecture-hls-codesign/duodiscover.md)** — Co-discovers hardware optimization targets and fast proxy evaluators.
-
-  `Architecture exploration` `Evaluation` `Multi-agent` · Paper
-
-  [Paper](https://arxiv.org/abs/2610.17184)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[ArchAgent](../../resources/architecture-hls-codesign/archagent.md)**<br>Introduces ArchAgent, a hierarchical multi-agent framework for chip and system architecture exploration using a deterministic analytical evaluator. | [Architecture exploration](../../resources/tags/architecture.md) · [System design](../../resources/tags/system.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Paper | [Paper](https://arxiv.org/abs/2610.23724) | — | — | — |
+| **[SparseCraft](../../resources/architecture-hls-codesign/sparsecraft.md)**<br>Uses agents to co-optimize sparse accelerator software and Chisel RTL with cycle-accurate simulation and bit-exact verification. | [Architecture exploration](../../resources/tags/architecture.md) · [HW/SW co-design](../../resources/tags/codesign.md) · [RTL](../../resources/tags/rtl.md) · [Simulation](../../resources/tags/simulation.md)<br>Paper | [Paper](https://arxiv.org/abs/2610.05037) | — | — | — |
+| **[DuoDiscover](../../resources/architecture-hls-codesign/duodiscover.md)**<br>Co-discovers hardware optimization targets and fast proxy evaluators. | [Architecture exploration](../../resources/tags/architecture.md) · [Evaluation](../../resources/tags/evaluation.md) · [Multi-agent](../../resources/tags/multi-agent.md)<br>Paper | [Paper](https://arxiv.org/abs/2610.17184) | — | — | — |
 
 ## 2026-09
 
-- **[AHRR](../../resources/architecture-hls-codesign/ahrr.md)** — Combines agent-based HLS design with post-HLS RTL refinement (AHRR), evaluated on 11 FPGA tasks.
-
-  `HLS` `RTL` `FPGA` `PPA / QoR` · Paper / Open-source project
-
-  [Paper](https://arxiv.org/abs/2609.21157)
-
-  [ZijD/AHRR](https://github.com/ZijD/AHRR) · ★ 6 · pushed 2026-09-17 · fetched 2026-10-27
-
-- **[HLSFactory-Agent](../../resources/architecture-hls-codesign/hlsfactory-agent.md)** — Extracts and evaluates agentic HLS tasks from repositories to build a reproducible large-scale dataset.
-
-  `HLS` `Dataset` `Repository-level tasks` · Paper / Open-source project
-
-  [Paper](https://arxiv.org/abs/2609.09519)
-
-  [sharc-lab/hlsfactory-agent](https://github.com/sharc-lab/hlsfactory-agent) · ★ 2 · pushed 2026-10-23 · fetched 2026-10-27
-
-- **[HLS-Eval](../../resources/architecture-hls-codesign/hls-eval.md)** — Evaluation framework for agentic HLS design tasks, compiler self-verification, and trajectory analysis.
-
-  `HLS` `Benchmark` `Evaluation` · Open-source project / Benchmark / dataset
-
-  [Paper](https://arxiv.org/abs/2609.09526)
-
-  [sharc-lab/HLS-Eval](https://github.com/sharc-lab/HLS-Eval) · ★ 29 · pushed 2026-10-19 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[AHRR](../../resources/architecture-hls-codesign/ahrr.md)**<br>Combines agent-based HLS design with post-HLS RTL refinement (AHRR), evaluated on 11 FPGA tasks. | [HLS](../../resources/tags/hls.md) · [RTL](../../resources/tags/rtl.md) · [FPGA](../../resources/tags/fpga.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>Paper / Open-source project | [Paper](https://arxiv.org/abs/2609.21157) | [ZijD/AHRR](https://github.com/ZijD/AHRR) | 6 | 2026-09-17<br>Fetched 2026-10-27 |
+| **[HLSFactory-Agent](../../resources/architecture-hls-codesign/hlsfactory-agent.md)**<br>Extracts and evaluates agentic HLS tasks from repositories to build a reproducible large-scale dataset. | [HLS](../../resources/tags/hls.md) · [Dataset](../../resources/tags/dataset.md) · [Repository-level tasks](../../resources/tags/repository-level.md)<br>Paper / Open-source project | [Paper](https://arxiv.org/abs/2609.09519) | [sharc-lab/hlsfactory-agent](https://github.com/sharc-lab/hlsfactory-agent) | 2 | 2026-10-23<br>Fetched 2026-10-27 |
+| **[HLS-Eval](../../resources/architecture-hls-codesign/hls-eval.md)**<br>Evaluation framework for agentic HLS design tasks, compiler self-verification, and trajectory analysis. | [HLS](../../resources/tags/hls.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Open-source project / Benchmark / dataset | [Paper](https://arxiv.org/abs/2609.09526) | [sharc-lab/HLS-Eval](https://github.com/sharc-lab/HLS-Eval) | 29 | 2026-10-19<br>Fetched 2026-10-27 |
 
 ## 2026-08
 
-- **[LACE](../../resources/architecture-hls-codesign/lace.md)** — Coordinates agents for RISC-V instruction-extension design, RTL editing, and formal verification.
-
-  `RISC-V` `Code editing` `Formal verification` `Multi-agent` · Paper / Open-source project
-
-  [Paper](https://arxiv.org/abs/2608.02915)
-
-  [UMN-ZhaoLab/LACE](https://github.com/UMN-ZhaoLab/LACE) · ★ 4 · pushed 2026-09-02 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[LACE](../../resources/architecture-hls-codesign/lace.md)**<br>Coordinates agents for RISC-V instruction-extension design, RTL editing, and formal verification. | [RISC-V](../../resources/tags/risc-v.md) · [Code editing](../../resources/tags/editing.md) · [Formal verification](../../resources/tags/formal.md) · [Multi-agent](../../resources/tags/multi-agent.md)<br>Paper / Open-source project | [Paper](https://arxiv.org/abs/2608.02915) | [UMN-ZhaoLab/LACE](https://github.com/UMN-ZhaoLab/LACE) | 4 | 2026-09-02<br>Fetched 2026-10-27 |
 
 ## 2026-06
 
-- **[CHIA](../../resources/architecture-hls-codesign/chia.md)** — Defines an open framework for agentic hardware/software co-design research with Chipyard and gem5 integration.
-
-  `Architecture exploration` `HW/SW co-design` `Infrastructure` · Paper
-
-  [Paper](https://arxiv.org/abs/2606.27350)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[CHIA](../../resources/architecture-hls-codesign/chia.md)**<br>Defines an open framework for agentic hardware/software co-design research with Chipyard and gem5 integration. | [Architecture exploration](../../resources/tags/architecture.md) · [HW/SW co-design](../../resources/tags/codesign.md) · [Infrastructure](../../resources/tags/infrastructure.md)<br>Paper | [Paper](https://arxiv.org/abs/2606.27350) | — | — | — |
 
 ## 2026 · month not verified
 
-- **[HWE Bench · RISC-V design](../../resources/architecture-hls-codesign/hwe-bench-riscv.md)** — Has agents design RV32IM CPUs from scratch, gates candidates with formal proofs, and scores surviving designs using FPGA-grounded performance.
-
-  `RISC-V` `Formal verification` `FPGA` `Benchmark` · Benchmark / dataset
-
-  [FeSens/auto-arch-tournament](https://github.com/FeSens/auto-arch-tournament) · ★ 201 · pushed 2026-10-05 · fetched 2026-10-27
-
-- **[DPC4](../../resources/architecture-hls-codesign/dpc4.md)** — CPU data-prefetcher design competition evaluated with ChampSim.
-
-  `Architecture exploration` `Simulation` `Evaluation` · Benchmark / dataset
-
-  [Source](https://sites.google.com/view/dpc4-2026/home)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[HWE Bench · RISC-V design](../../resources/architecture-hls-codesign/hwe-bench-riscv.md)**<br>Has agents design RV32IM CPUs from scratch, gates candidates with formal proofs, and scores surviving designs using FPGA-grounded performance. | [RISC-V](../../resources/tags/risc-v.md) · [Formal verification](../../resources/tags/formal.md) · [FPGA](../../resources/tags/fpga.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | — | [FeSens/auto-arch-tournament](https://github.com/FeSens/auto-arch-tournament) | 201 | 2026-10-05<br>Fetched 2026-10-27 |
+| **[DPC4](../../resources/architecture-hls-codesign/dpc4.md)**<br>CPU data-prefetcher design competition evaluated with ChampSim. | [Architecture exploration](../../resources/tags/architecture.md) · [Simulation](../../resources/tags/simulation.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | [Source](https://sites.google.com/view/dpc4-2026/home) | — | — | — |
 
 ## 2025-06
 
-- **[Spec2RTL-Agent](../../resources/rtl-generation/spec2rtl-agent.md)** — Converts complex specifications into synthesizable designs through multi-agent planning and HLS.
-
-  `RTL` `Code generation` `Multi-agent` `HLS` · Paper · cross-reference
-
-  [Paper](https://research.nvidia.com/publication/2025-06_spec2rtl-agent-automated-hardware-code-generation-complex-specifications-using)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Spec2RTL-Agent](../../resources/rtl-generation/spec2rtl-agent.md)**<br>Converts complex specifications into synthesizable designs through multi-agent planning and HLS. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [HLS](../../resources/tags/hls.md)<br>Paper · cross-reference | [Paper](https://research.nvidia.com/publication/2025-06_spec2rtl-agent-automated-hardware-code-generation-complex-specifications-using) | — | — | — |
 
 # Related News and Videos
 
 ## 2026-10
 
-- **[DuoDiscover announcement](../../resources/architecture-hls-codesign/duodiscover-announcement.md)** — Introduces joint discovery of optimization targets and proxy evaluators.
-
-  `Announcement` `Architecture exploration` `Evaluation` `Vendor-reported` · News / announcement
-
-  [Source](https://duodiscover.github.io/)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[DuoDiscover announcement](../../resources/architecture-hls-codesign/duodiscover-announcement.md)**<br>Introduces joint discovery of optimization targets and proxy evaluators. | [Announcement](../../resources/tags/news.md) · [Architecture exploration](../../resources/tags/architecture.md) · [Evaluation](../../resources/tags/evaluation.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://duodiscover.github.io/) | — | — | — |

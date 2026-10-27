@@ -4,40 +4,42 @@
 
 [首页](../../README_zh.md) · [English](README.md)
 
-- [RTL](rtl.md) · 38
-- [代码生成](generation.md) · 12
-- [代码编辑](editing.md) · 3
-- [验证](verification.md) · 10
-- [调试](debugging.md) · 10
-- [形式验证](formal.md) · 10
-- [仿真](simulation.md) · 7
-- [测试平台](testbench.md) · 4
-- [波形分析](waveform.md) · 3
-- [规格推断](specification.md) · 1
-- [物理设计](physical-design.md) · 10
-- [PPA / QoR](ppa.md) · 11
-- [DRC](drc.md) · 2
-- [EDA 流程](eda-flow.md) · 14
-- [模拟 / RF](analog-rf.md) · 5
-- [电路尺寸优化](sizing.md) · 3
-- [架构探索](architecture.md) · 6
-- [HLS](hls.md) · 4
-- [软硬件协同](codesign.md) · 2
-- [RISC-V](risc-v.md) · 3
-- [FPGA](fpga.md) · 2
-- [仓库级任务](repository-level.md) · 4
-- [多 Agent](multi-agent.md) · 15
-- [工具调用](tool-use.md) · 7
-- [记忆与经验](memory.md) · 1
-- [基础设施](infrastructure.md) · 5
-- [基准](benchmark.md) · 22
-- [数据集](dataset.md) · 8
-- [评测](evaluation.md) · 15
-- [商业平台](commercial.md) · 14
-- [综述 / 教程](overview.md) · 3
-- [板级 / PCB](board.md) · 2
-- [封装 / 3D IC](packaging.md) · 2
-- [系统设计](system.md) · 2
-- [厂商报告](vendor-report.md) · 28
-- [公告](news.md) · 12
-- [演讲 / 视频](video.md) · 5
+| 标签 | 资源数 |
+| --- | ---: |
+| [RTL](rtl.md) | 38 |
+| [代码生成](generation.md) | 12 |
+| [代码编辑](editing.md) | 3 |
+| [验证](verification.md) | 10 |
+| [调试](debugging.md) | 10 |
+| [形式验证](formal.md) | 10 |
+| [仿真](simulation.md) | 7 |
+| [测试平台](testbench.md) | 4 |
+| [波形分析](waveform.md) | 3 |
+| [规格推断](specification.md) | 1 |
+| [物理设计](physical-design.md) | 10 |
+| [PPA / QoR](ppa.md) | 11 |
+| [DRC](drc.md) | 2 |
+| [EDA 流程](eda-flow.md) | 14 |
+| [模拟 / RF](analog-rf.md) | 5 |
+| [电路尺寸优化](sizing.md) | 3 |
+| [架构探索](architecture.md) | 6 |
+| [HLS](hls.md) | 4 |
+| [软硬件协同](codesign.md) | 2 |
+| [RISC-V](risc-v.md) | 3 |
+| [FPGA](fpga.md) | 2 |
+| [仓库级任务](repository-level.md) | 4 |
+| [多 Agent](multi-agent.md) | 15 |
+| [工具调用](tool-use.md) | 7 |
+| [记忆与经验](memory.md) | 1 |
+| [基础设施](infrastructure.md) | 5 |
+| [基准](benchmark.md) | 22 |
+| [数据集](dataset.md) | 8 |
+| [评测](evaluation.md) | 15 |
+| [商业平台](commercial.md) | 14 |
+| [综述 / 教程](overview.md) | 3 |
+| [板级 / PCB](board.md) | 2 |
+| [封装 / 3D IC](packaging.md) | 2 |
+| [系统设计](system.md) | 2 |
+| [厂商报告](vendor-report.md) | 28 |
+| [公告](news.md) | 12 |
+| [演讲 / 视频](video.md) | 5 |

@@ -209,32 +209,38 @@ def is_benchmark_resource(meta):
         "benchmark" in meta["types"] or set(meta["tags"]) & {"benchmark", "dataset"})
 
 
-def repo_line(repo, cache, lang):
-    """将仓库快照格式化为指定语言的索引行。"""
+def repo_cells(repo, cache, lang):
+    """返回仓库、Stars 和推送时间三个表格单元格。"""
     snapshot = cache.get(repo.lower(), {})
+    repository = f"[{repo}](https://github.com/{repo})"
+    if snapshot.get("fetch_error"):
+        repository += "<br>" + text_pair(
+            "Refresh failed; previous snapshot" if "stars" in snapshot else "Refresh failed",
+            "刷新失败，保留上次快照" if "stars" in snapshot else "刷新失败", lang)
+    if snapshot.get("archived"):
+        repository += "<br>" + text_pair("Archived", "已归档", lang)
     if "stars" not in snapshot:
-        return f"[{repo}](https://github.com/{repo}) · " + text_pair("metadata unavailable", "指标暂不可用", lang)
+        return repository, "—", text_pair("Metadata unavailable", "指标暂不可用", lang)
     pushed = (snapshot.get("pushed_at") or "")[:10] or "—"
     fetched = snapshot["fetched_at"][:10]
-    line = f"[{repo}](https://github.com/{repo}) · ★ {snapshot['stars']:,} · "
-    line += text_pair(f"pushed {pushed} · fetched {fetched}", f"最近推送 {pushed} · 采集 {fetched}", lang)
-    if snapshot.get("fetch_error"):
-        line += text_pair(" · refresh failed; previous snapshot", " · 刷新失败，保留上次快照", lang)
-    if snapshot.get("archived"):
-        line += text_pair(" · archived", " · 已归档", lang)
-    return line
+    return repository, f"{snapshot['stars']:,}", pushed + "<br>" + text_pair(f"Fetched {fetched}", f"采集 {fetched}", lang)
+
+
+def table_row(cells):
+    """转义单元格分隔符和换行，避免内容破坏 Markdown 表格。"""
+    return "| " + " | ".join(str(cell).replace("|", r"\|").replace("\n", "<br>") for cell in cells) + " |"
 
 
 def entry(record, taxonomy, cache, lang, prefix, cross=False):
-    """生成一条索引资源条目，包含简介、标签和来源信息。"""
+    """生成资源表格的一行，包含简介、标签、来源和仓库指标。"""
     m = record["meta"]
     kind = " / ".join(taxonomy["types"][t][lang] for t in m["types"])
     suffix = text_pair(" · cross-reference", " · 跨方向索引", lang) if cross else ""
     # A short purpose line complements the original full title on the detail page.
     summary = m["summary"][lang]
-    lines = [f"- **[{m['name']}]({resource_url(record, prefix)})** — {summary}"]
-    labels = " ".join(f"`{taxonomy['tags'][tag][lang]}`" for tag in m["tags"])
-    lines.append(f"  {labels} · {kind}{suffix}")
+    resource = f"**[{m['name']}]({resource_url(record, prefix)})**<br>{summary}"
+    labels = " · ".join(f"[{taxonomy['tags'][tag][lang]}]({prefix}resources/tags/{tag}.md)" for tag in m["tags"])
+    labels += f"<br>{kind}{suffix}"
     paper = next((link for link in m["links"] if link["kind"] == "paper"), None)
     repos = repositories(m)
     sources = []
@@ -242,11 +248,12 @@ def entry(record, taxonomy, cache, lang, prefix, cross=False):
         sources.append(f"[{text_pair('Paper', '论文', lang)}]({paper['url']})")
     if not sources and not repos:
         sources.append(f"[{text_pair('Source', '原始来源', lang)}]({m['links'][0]['url']})")
-    if sources:
-        lines.append("  " + " · ".join(sources))
-    if repos:
-        lines.append("  " + " / ".join(repo_line(repo, cache, lang) for repo in repos))
-    return "\n\n".join(lines)
+    # Keep the repository, star count and dates aligned when a resource links
+    # multiple repositories. Each repository occupies the same numbered line.
+    activities = [repo_cells(repo, cache, lang) for repo in repos]
+    columns = ["<br><br>".join(f"{i + 1}. {cells[column]}" if len(activities) > 1 else cells[column]
+                              for i, cells in enumerate(activities)) or "—" for column in range(3)]
+    return table_row([resource, labels, " · ".join(sources) or "—", *columns])
 
 
 def grouped(records, taxonomy, cache, lang, prefix, cross_ids=None, heading_level=2):
@@ -256,8 +263,16 @@ def grouped(records, taxonomy, cache, lang, prefix, cross_ids=None, heading_leve
         groups.setdefault(month(record["meta"], lang), []).append(record)
     blocks = []
     for heading, group in groups.items():
-        blocks.append(f"{'#' * heading_level} {heading}\n\n" + "\n\n".join(
-            entry(r, taxonomy, cache, lang, prefix, r["meta"]["id"] in (cross_ids or set())) for r in group))
+        header = table_row([
+            text_pair("Resource / Summary", "资源 / 简介", lang),
+            text_pair("Tags / Type", "标签 / 类型", lang),
+            text_pair("Paper / Source", "论文 / 来源", lang),
+            text_pair("Repository", "仓库", lang), "Stars",
+            text_pair("Last push (UTC)", "最近推送（UTC）", lang),
+        ])
+        rows = [header, "| --- | --- | --- | --- | ---: | --- |"]
+        rows.extend(entry(r, taxonomy, cache, lang, prefix, r["meta"]["id"] in (cross_ids or set())) for r in group)
+        blocks.append(f"{'#' * heading_level} {heading}\n\n" + "\n".join(rows))
     return "\n\n".join(blocks)
 
 
@@ -386,9 +401,12 @@ def render_all(taxonomy, records, cache):
             (direction, labels, [r for r in benchmarks if r["meta"]["direction"] == direction])
             for direction, labels in taxonomy["directions"].items()
         ]
-        benchmark_parts.append("\n".join(
-            f"- [{labels[lang]}](#{direction}) · {len(subset)}"
-            for direction, labels, subset in direction_groups if subset))
+        benchmark_parts.append("\n".join([
+            table_row([text_pair("Direction", "方向", lang), text_pair("Resources", "资源数", lang)]),
+            "| --- | ---: |",
+            *(table_row([f"[{labels[lang]}](#{direction})", len(subset)])
+              for direction, labels, subset in direction_groups if subset),
+        ]))
         for direction, labels, subset in direction_groups:
             if subset:
                 benchmark_parts.extend([
@@ -396,11 +414,12 @@ def render_all(taxonomy, records, cache):
                     grouped(subset, taxonomy, cache, lang, "../../", heading_level=3),
                 ])
         outputs[ROOT / "resources/benchmarks" / filename] = generated + "\n\n".join(benchmark_parts) + "\n"
-        tagrows=[]
+        tagrows=[table_row([text_pair("Tag", "标签", lang), text_pair("Resources", "资源数", lang)]),
+                 "| --- | ---: |"]
         for tag, labels in taxonomy["tags"].items():
             subset=[r for r in records if tag in r["meta"]["tags"]]
             if subset:
-                tagrows.append(f"- [{labels[lang]}]({tag}.md) · {len(subset)}")
+                tagrows.append(table_row([f"[{labels[lang]}]({tag}.md)", len(subset)]))
         outputs[ROOT / "resources/tags" / filename] = generated + f"# {text_pair('Tag Index','标签索引',lang)}\n\n[{text_pair('Home','首页',lang)}](../../{filename}) · [{language}]({other})\n\n" + "\n".join(tagrows) + "\n"
     for tag, labels in taxonomy["tags"].items():
         subset=[r for r in records if tag in r["meta"]["tags"]]

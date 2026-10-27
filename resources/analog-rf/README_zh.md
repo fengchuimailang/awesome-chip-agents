@@ -8,50 +8,31 @@
 
 ## 2026-10
 
-- **[RFChipAgent](../../resources/analog-rf/rfchipagent.md)** — 在人工监督下协调文档检索、拓扑选择、原理图与测试平台组装，以及仿真引导的电路尺寸优化。
-
-  `模拟 / RF` `电路尺寸优化` `仿真` `多 Agent` · 论文
-
-  [论文](https://arxiv.org/abs/2610.10858)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[RFChipAgent](../../resources/analog-rf/rfchipagent.md)**<br>在人工监督下协调文档检索、拓扑选择、原理图与测试平台组装，以及仿真引导的电路尺寸优化。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [电路尺寸优化](../../resources/tags/sizing.md) · [仿真](../../resources/tags/simulation.md) · [多 Agent](../../resources/tags/multi-agent.md)<br>论文 | [论文](https://arxiv.org/abs/2610.10858) | — | — | — |
 
 ## 2026-09
 
-- **[Long-Horizon Analog Design Bench](../../resources/analog-rf/long-horizon-analog-design-bench.md)** — 使用 17 位芯片设计者贡献的 50 项晶体管级设计任务评测 Agent，通过开源仿真器和隔离的验证器，在数小时运行过程中检查电气规格是否满足。
-
-  `模拟 / RF` `仿真` `基准` `评测` · 基准 / 数据集
-
-  [论文](https://arxiv.org/abs/2609.33356)
-
-- **[AgenticSizing](../../resources/analog-rf/agenticsizing.md)** — 分析电路拓扑与功能块、复用设计知识，并通过仿真反馈协调专门的尺寸优化 Agent。
-
-  `模拟 / RF` `电路尺寸优化` `仿真` `多 Agent` · 论文 / 开源项目
-
-  [论文](https://arxiv.org/abs/2609.25873)
-
-  [aprilaihub/agentic-analog-sizing](https://github.com/aprilaihub/agentic-analog-sizing) · ★ 3 · 最近推送 2026-09-22 · 采集 2026-10-27
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[Long-Horizon Analog Design Bench](../../resources/analog-rf/long-horizon-analog-design-bench.md)**<br>使用 17 位芯片设计者贡献的 50 项晶体管级设计任务评测 Agent，通过开源仿真器和隔离的验证器，在数小时运行过程中检查电气规格是否满足。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2609.33356) | — | — | — |
+| **[AgenticSizing](../../resources/analog-rf/agenticsizing.md)**<br>分析电路拓扑与功能块、复用设计知识，并通过仿真反馈协调专门的尺寸优化 Agent。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [电路尺寸优化](../../resources/tags/sizing.md) · [仿真](../../resources/tags/simulation.md) · [多 Agent](../../resources/tags/multi-agent.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2609.25873) | [aprilaihub/agentic-analog-sizing](https://github.com/aprilaihub/agentic-analog-sizing) | 3 | 2026-09-22<br>采集 2026-10-27 |
 
 ## 2026-03
 
-- **[AnalogAgent](../../resources/analog-rf/analogagent.md)** — 使用自我改进的 LLM Agent 和持久化经验自动化模拟设计，并在任务间迁移知识。
-
-  `模拟 / RF` `工具调用` `记忆与经验` · 论文
-
-  [论文](https://arxiv.org/abs/2603.23910)
-
-  [TheWind-upBird/Analogagent](https://github.com/TheWind-upBird/Analogagent) · ★ 13 · 最近推送 2026-06-08 · 采集 2026-10-27
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[AnalogAgent](../../resources/analog-rf/analogagent.md)**<br>使用自我改进的 LLM Agent 和持久化经验自动化模拟设计，并在任务间迁移知识。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [工具调用](../../resources/tags/tool-use.md) · [记忆与经验](../../resources/tags/memory.md)<br>论文 | [论文](https://arxiv.org/abs/2603.23910) | [TheWind-upBird/Analogagent](https://github.com/TheWind-upBird/Analogagent) | 13 | 2026-06-08<br>采集 2026-10-27 |
 
 ## 2026 · 月份待核实
 
-- **[Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md)** — 支持选择语言模型的商业 Agent 平台，提供面向验证、物理实现和模拟/混合信号设计的专用 Agent。
-
-  `商业平台` `EDA 流程` `多 Agent` `厂商报告` · 工具 / 平台 · 跨方向索引
-
-  [原始来源](https://www.synopsys.com/ai/agentic-ai.html)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md)**<br>支持选择语言模型的商业 Agent 平台，提供面向验证、物理实现和模拟/混合信号设计的专用 Agent。 | [商业平台](../../resources/tags/commercial.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [多 Agent](../../resources/tags/multi-agent.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 · 跨方向索引 | [原始来源](https://www.synopsys.com/ai/agentic-ai.html) | — | — | — |
 
 ## 日期待核实
 
-- **[Cadence ViraStack](../../resources/analog-rf/cadence-virastack.md)** — Cadence 所述的定制与模拟设计 Agent 自动化，覆盖原理图创建、测试平台开发、电路优化和版图迁移。
-
-  `商业平台` `模拟 / RF` `电路尺寸优化` `厂商报告` · 工具 / 平台
-
-  [原始来源](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/virastack-ai-super-agent.html)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[Cadence ViraStack](../../resources/analog-rf/cadence-virastack.md)**<br>Cadence 所述的定制与模拟设计 Agent 自动化，覆盖原理图创建、测试平台开发、电路优化和版图迁移。 | [商业平台](../../resources/tags/commercial.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [电路尺寸优化](../../resources/tags/sizing.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 | [原始来源](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/virastack-ai-super-agent.html) | — | — | — |

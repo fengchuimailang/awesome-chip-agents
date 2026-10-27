@@ -8,32 +8,21 @@
 
 ## 2026-03
 
-- **[HWE-Bench · Schematic design](../../resources/board-system-design/hwe-bench-schematic.md)** — 板级设计基准，包含 300 个任务和 2,914 个 IC 数据手册组成的知识库。
-
-  `板级 / PCB` `基准` `数据集` · 基准 / 数据集
-
-  [论文](https://arxiv.org/abs/2603.18102)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[HWE-Bench · Schematic design](../../resources/board-system-design/hwe-bench-schematic.md)**<br>板级设计基准，包含 300 个任务和 2,914 个 IC 数据手册组成的知识库。 | [板级 / PCB](../../resources/tags/board.md) · [基准](../../resources/tags/benchmark.md) · [数据集](../../resources/tags/dataset.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2603.18102) | — | — | — |
 
 ## 日期待核实
 
-- **[Cadence SystemStack](../../resources/board-system-design/cadence-systemstack.md)** — 厂商产品组合中列出的多物理场 Agent；具体功能和可用情况尚不明确。
-
-  `商业平台` `系统设计` `厂商报告` · 工具 / 平台
-
-  [原始来源](https://www.cadence.com/en_US/home/ai/agentic-ai-super-agents.html)
-
-- **[Cadence AuraStack](../../resources/board-system-design/cadence-aurastack.md)** — Cadence 所述的 PCB 与先进封装设计 Agent 协同，涉及规划、实现、约束管理、可制造性和多物理场分析。
-
-  `商业平台` `板级 / PCB` `封装 / 3D IC` `厂商报告` · 工具 / 平台
-
-  [原始来源](https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/aurastack-ai-super-agent.html)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[Cadence SystemStack](../../resources/board-system-design/cadence-systemstack.md)**<br>厂商产品组合中列出的多物理场 Agent；具体功能和可用情况尚不明确。 | [商业平台](../../resources/tags/commercial.md) · [系统设计](../../resources/tags/system.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 | [原始来源](https://www.cadence.com/en_US/home/ai/agentic-ai-super-agents.html) | — | — | — |
+| **[Cadence AuraStack](../../resources/board-system-design/cadence-aurastack.md)**<br>Cadence 所述的 PCB 与先进封装设计 Agent 协同，涉及规划、实现、约束管理、可制造性和多物理场分析。 | [商业平台](../../resources/tags/commercial.md) · [板级 / PCB](../../resources/tags/board.md) · [封装 / 3D IC](../../resources/tags/packaging.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 | [原始来源](https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/aurastack-ai-super-agent.html) | — | — | — |
 
 # 相关动态与视频
 
 ## 2026-10
 
-- **[Siemens / NVIDIA · 3D IC](../../resources/board-system-design/siemens-nvidia-3dic-2026.md)** — 公布面向 3D IC 电热协同设计的 Agent 流程；能力与效果由厂商报告。
-
-  `公告` `封装 / 3D IC` `EDA 流程` `厂商报告` · 新闻 / 公告
-
-  [原始来源](https://news.siemens.com/en-us/siemens-nvidia-gtc-3d-ic-thermal-ai/)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[Siemens / NVIDIA · 3D IC](../../resources/board-system-design/siemens-nvidia-3dic-2026.md)**<br>公布面向 3D IC 电热协同设计的 Agent 流程；能力与效果由厂商报告。 | [公告](../../resources/tags/news.md) · [封装 / 3D IC](../../resources/tags/packaging.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>新闻 / 公告 | [原始来源](https://news.siemens.com/en-us/siemens-nvidia-gtc-3d-ic-thermal-ai/) | — | — | — |

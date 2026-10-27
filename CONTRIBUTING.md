@@ -8,7 +8,7 @@ Keep resources directly relevant to **LLM agents for chip design or their evalua
 
 - `README.md`, `README_zh.md`: generated bilingual direction navigation / 自动生成的中英文方向导航。
 - `resources/<direction>/<id>.md`: one editorial file per research work or project, with shared metadata and English/Chinese descriptions / 每项工作一份详情，共用元数据，提供中英文说明。
-- `resources/<direction>/README*.md`: generated monthly indexes and cross-references / 自动生成的月度索引与跨方向入口。
+- `resources/<direction>/README*.md`: generated monthly tables and cross-references, with resource summaries, tags/types, sources, repositories, Stars, and push/collection dates / 自动生成的月度表格与跨方向入口，展示资源简介、标签与类型、来源、仓库、Stars、推送及采集日期。
 - `resources/tags/`: generated tag indexes / 自动生成的标签索引。
 - `resources/benchmarks/`: generated benchmark and dataset catalog, grouped by primary direction and publication month / 自动生成的基准与数据集总索引，按主要方向和发布月份组织。
 - `resources/news/`, `resources/videos/`: generated chronological news and video indexes / 自动生成的动态和视频时间索引。

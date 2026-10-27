@@ -6,38 +6,25 @@
 
 ## 2026-07
 
-- **[InnoStack demo](../../resources/physical-design/innostack-demo.md)** — Official product demonstration covering agent-assisted multi-block physical-design work from synthesis through post-route.
-
-  `Talk / video` `Physical design` `EDA workflows` `Vendor-reported` · Talk / video
-
-  [Source](https://www.youtube.com/watch?v=my-8jSjaZlQ)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[InnoStack demo](../../resources/physical-design/innostack-demo.md)**<br>Official product demonstration covering agent-assisted multi-block physical-design work from synthesis through post-route. | [Talk / video](../../resources/tags/video.md) · [Physical design](../../resources/tags/physical-design.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Talk / video | [Source](https://www.youtube.com/watch?v=my-8jSjaZlQ) | — | — | — |
 
 ## 2026-02
 
-- **[ChipStack demo](../../resources/rtl-generation/chipstack-demo.md)** — Official overview of its agentic workflow for front-end silicon design and verification.
-
-  `Talk / video` `RTL` `Verification` `Vendor-reported` · Talk / video
-
-  [Source](https://www.youtube.com/watch?v=p_U-4-jKgcU)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[ChipStack demo](../../resources/rtl-generation/chipstack-demo.md)**<br>Official overview of its agentic workflow for front-end silicon design and verification. | [Talk / video](../../resources/tags/video.md) · [RTL](../../resources/tags/rtl.md) · [Verification](../../resources/tags/verification.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Talk / video | [Source](https://www.youtube.com/watch?v=p_U-4-jKgcU) | — | — | — |
 
 ## 2026 · month not verified
 
-- **[GTC Taipei 2026 keynote](../../resources/rtl-generation/gtc-taipei-2026-keynote.md)** — See around **1:12:10** for discussion of Cadence Chip Design Super Agent and expert sub-agents for RTL generation and testbench creation.
-
-  `Talk / video` `RTL` `Testbench` `Vendor-reported` · Talk / video
-
-  [Source](https://www.youtube.com/watch?v=wSp6AiNIrsY)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[GTC Taipei 2026 keynote](../../resources/rtl-generation/gtc-taipei-2026-keynote.md)**<br>See around **1:12:10** for discussion of Cadence Chip Design Super Agent and expert sub-agents for RTL generation and testbench creation. | [Talk / video](../../resources/tags/video.md) · [RTL](../../resources/tags/rtl.md) · [Testbench](../../resources/tags/testbench.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Talk / video | [Source](https://www.youtube.com/watch?v=wSp6AiNIrsY) | — | — | — |
 
 ## Date not recorded
 
-- **[Formal workflow webinar](../../resources/verification-debugging/formal-workflow-webinar.md)** — NVIDIA's Ghaith Bany Hamid discusses domain-adapted LLMs and GenFV with Synopsys VC Formal for assertion and helper-property generation and iterative refinement.
-
-  `Talk / video` `Formal verification` `Verification` `Vendor-reported` · Talk / video
-
-  [Source](https://www.synopsys.com/webinars/scaling-ai-agents-formal-workflow.html)
-
-- **[AgentEngineer webinar](../../resources/agent-infrastructure/agentengineer-webinar.md)** — Paras Mal Jain of Synopsys presents domain-aware agents, multi-agent EDA workflow execution, and engineering oversight.
-
-  `Talk / video` `Multi-agent` `EDA workflows` `Vendor-reported` · Talk / video
-
-  [Source](https://www.synopsys.com/webinars/agentic-ai-nuts-bolts-agentengineer.html)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Formal workflow webinar](../../resources/verification-debugging/formal-workflow-webinar.md)**<br>NVIDIA's Ghaith Bany Hamid discusses domain-adapted LLMs and GenFV with Synopsys VC Formal for assertion and helper-property generation and iterative refinement. | [Talk / video](../../resources/tags/video.md) · [Formal verification](../../resources/tags/formal.md) · [Verification](../../resources/tags/verification.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Talk / video | [Source](https://www.synopsys.com/webinars/scaling-ai-agents-formal-workflow.html) | — | — | — |
+| **[AgentEngineer webinar](../../resources/agent-infrastructure/agentengineer-webinar.md)**<br>Paras Mal Jain of Synopsys presents domain-aware agents, multi-agent EDA workflow execution, and engineering oversight. | [Talk / video](../../resources/tags/video.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Talk / video | [Source](https://www.synopsys.com/webinars/agentic-ai-nuts-bolts-agentengineer.html) | — | — | — |

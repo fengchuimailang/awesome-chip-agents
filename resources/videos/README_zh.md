@@ -6,38 +6,25 @@
 
 ## 2026-07
 
-- **[InnoStack demo](../../resources/physical-design/innostack-demo.md)** — 官方产品演示，介绍 Agent 如何辅助多模块物理设计，从综合推进到布线后流程。
-
-  `演讲 / 视频` `物理设计` `EDA 流程` `厂商报告` · 演讲 / 视频
-
-  [原始来源](https://www.youtube.com/watch?v=my-8jSjaZlQ)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[InnoStack demo](../../resources/physical-design/innostack-demo.md)**<br>官方产品演示，介绍 Agent 如何辅助多模块物理设计，从综合推进到布线后流程。 | [演讲 / 视频](../../resources/tags/video.md) · [物理设计](../../resources/tags/physical-design.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>演讲 / 视频 | [原始来源](https://www.youtube.com/watch?v=my-8jSjaZlQ) | — | — | — |
 
 ## 2026-02
 
-- **[ChipStack demo](../../resources/rtl-generation/chipstack-demo.md)** — 官方概览视频，介绍面向芯片前端设计与验证的 Agent 工作流。
-
-  `演讲 / 视频` `RTL` `验证` `厂商报告` · 演讲 / 视频
-
-  [原始来源](https://www.youtube.com/watch?v=p_U-4-jKgcU)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[ChipStack demo](../../resources/rtl-generation/chipstack-demo.md)**<br>官方概览视频，介绍面向芯片前端设计与验证的 Agent 工作流。 | [演讲 / 视频](../../resources/tags/video.md) · [RTL](../../resources/tags/rtl.md) · [验证](../../resources/tags/verification.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>演讲 / 视频 | [原始来源](https://www.youtube.com/watch?v=p_U-4-jKgcU) | — | — | — |
 
 ## 2026 · 月份待核实
 
-- **[GTC Taipei 2026 keynote](../../resources/rtl-generation/gtc-taipei-2026-keynote.md)** — 可从 **1:12:10** 左右观看 Cadence Chip Design Super Agent 及用于 RTL 生成和测试平台创建的专家子 Agent 相关讨论。
-
-  `演讲 / 视频` `RTL` `测试平台` `厂商报告` · 演讲 / 视频
-
-  [原始来源](https://www.youtube.com/watch?v=wSp6AiNIrsY)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[GTC Taipei 2026 keynote](../../resources/rtl-generation/gtc-taipei-2026-keynote.md)**<br>可从 **1:12:10** 左右观看 Cadence Chip Design Super Agent 及用于 RTL 生成和测试平台创建的专家子 Agent 相关讨论。 | [演讲 / 视频](../../resources/tags/video.md) · [RTL](../../resources/tags/rtl.md) · [测试平台](../../resources/tags/testbench.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>演讲 / 视频 | [原始来源](https://www.youtube.com/watch?v=wSp6AiNIrsY) | — | — | — |
 
 ## 日期待核实
 
-- **[Formal workflow webinar](../../resources/verification-debugging/formal-workflow-webinar.md)** — NVIDIA 的 Ghaith Bany Hamid 讨论领域适配 LLM、GenFV 与 Synopsys VC Formal 的结合，涉及断言、辅助属性生成和迭代改进。
-
-  `演讲 / 视频` `形式验证` `验证` `厂商报告` · 演讲 / 视频
-
-  [原始来源](https://www.synopsys.com/webinars/scaling-ai-agents-formal-workflow.html)
-
-- **[AgentEngineer webinar](../../resources/agent-infrastructure/agentengineer-webinar.md)** — Synopsys 的 Paras Mal Jain 介绍具备领域知识的 Agent、多 Agent EDA 工作流执行和工程师监督。
-
-  `演讲 / 视频` `多 Agent` `EDA 流程` `厂商报告` · 演讲 / 视频
-
-  [原始来源](https://www.synopsys.com/webinars/agentic-ai-nuts-bolts-agentengineer.html)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[Formal workflow webinar](../../resources/verification-debugging/formal-workflow-webinar.md)**<br>NVIDIA 的 Ghaith Bany Hamid 讨论领域适配 LLM、GenFV 与 Synopsys VC Formal 的结合，涉及断言、辅助属性生成和迭代改进。 | [演讲 / 视频](../../resources/tags/video.md) · [形式验证](../../resources/tags/formal.md) · [验证](../../resources/tags/verification.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>演讲 / 视频 | [原始来源](https://www.synopsys.com/webinars/scaling-ai-agents-formal-workflow.html) | — | — | — |
+| **[AgentEngineer webinar](../../resources/agent-infrastructure/agentengineer-webinar.md)**<br>Synopsys 的 Paras Mal Jain 介绍具备领域知识的 Agent、多 Agent EDA 工作流执行和工程师监督。 | [演讲 / 视频](../../resources/tags/video.md) · [多 Agent](../../resources/tags/multi-agent.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>演讲 / 视频 | [原始来源](https://www.synopsys.com/webinars/agentic-ai-nuts-bolts-agentengineer.html) | — | — | — |

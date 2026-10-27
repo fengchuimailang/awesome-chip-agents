@@ -8,92 +8,59 @@
 
 ## 2026-10
 
-- **[Back to the Future](../../resources/verification-debugging/back-to-the-future.md)** — 将仿真波形转换为关系型 SQLite 数据库，协调 Agent 查询信号行为并将异常关联到 RTL。
-
-  `波形分析` `调试` `基础设施` · 论文 · 跨方向索引
-
-  [论文](https://arxiv.org/abs/2610.06790)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[Back to the Future](../../resources/verification-debugging/back-to-the-future.md)**<br>将仿真波形转换为关系型 SQLite 数据库，协调 Agent 查询信号行为并将异常关联到 RTL。 | [波形分析](../../resources/tags/waveform.md) · [调试](../../resources/tags/debugging.md) · [基础设施](../../resources/tags/infrastructure.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2610.06790) | — | — | — |
 
 ## 2026-06
 
-- **[CHIA](../../resources/architecture-hls-codesign/chia.md)** — 提供面向 Agentic 软硬件协同设计研究的开源框架，并集成 Chipyard 和 gem5。
-
-  `架构探索` `软硬件协同` `基础设施` · 论文 · 跨方向索引
-
-  [论文](https://arxiv.org/abs/2606.27350)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[CHIA](../../resources/architecture-hls-codesign/chia.md)**<br>提供面向 Agentic 软硬件协同设计研究的开源框架，并集成 Chipyard 和 gem5。 | [架构探索](../../resources/tags/architecture.md) · [软硬件协同](../../resources/tags/codesign.md) · [基础设施](../../resources/tags/infrastructure.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2606.27350) | — | — | — |
 
 ## 2026-03
 
-- **[FluxEDA](../../resources/agent-infrastructure/fluxeda.md)** — 为可复现的长时运行 Agentic EDA 流程提供有状态执行和工具集成基础设施。
-
-  `基础设施` `EDA 流程` `工具调用` · 论文
-
-  [论文](https://arxiv.org/abs/2603.25243)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[FluxEDA](../../resources/agent-infrastructure/fluxeda.md)**<br>为可复现的长时运行 Agentic EDA 流程提供有状态执行和工具集成基础设施。 | [基础设施](../../resources/tags/infrastructure.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 | [论文](https://arxiv.org/abs/2603.25243) | — | — | — |
 
 ## 2026 · 月份待核实
 
-- **[Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md)** — 支持选择语言模型的商业 Agent 平台，提供面向验证、物理实现和模拟/混合信号设计的专用 Agent。
-
-  `商业平台` `EDA 流程` `多 Agent` `厂商报告` · 工具 / 平台
-
-  [原始来源](https://www.synopsys.com/ai/agentic-ai.html)
-
-- **[AgentEngineer architecture](../../resources/agent-infrastructure/agentengineer-architecture.md)** — 官方架构介绍，说明 Agent 如何围绕复杂工程目标协调任务 Agent 和 EDA 工具、评估中间结果，并通过记忆和人工审查检查点保持上下文与监督。
-
-  `综述 / 教程` `基础设施` `多 Agent` `厂商报告` · 综述 / 教程
-
-  [原始来源](https://www.synopsys.com/blogs/chip-design/long-horizon-agentengineer-solutions.html)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md)**<br>支持选择语言模型的商业 Agent 平台，提供面向验证、物理实现和模拟/混合信号设计的专用 Agent。 | [商业平台](../../resources/tags/commercial.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [多 Agent](../../resources/tags/multi-agent.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 | [原始来源](https://www.synopsys.com/ai/agentic-ai.html) | — | — | — |
+| **[AgentEngineer architecture](../../resources/agent-infrastructure/agentengineer-architecture.md)**<br>官方架构介绍，说明 Agent 如何围绕复杂工程目标协调任务 Agent 和 EDA 工具、评估中间结果，并通过记忆和人工审查检查点保持上下文与监督。 | [综述 / 教程](../../resources/tags/overview.md) · [基础设施](../../resources/tags/infrastructure.md) · [多 Agent](../../resources/tags/multi-agent.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>综述 / 教程 | [原始来源](https://www.synopsys.com/blogs/chip-design/long-horizon-agentengineer-solutions.html) | — | — | — |
 
 ## 2025 · 月份待核实
 
-- **[Synopsys.ai brochure](../../resources/agent-infrastructure/synopsys-ai-brochure.md)** — 官方宣传册，第 2–3 页介绍 AgentEngineer 与 Synopsys 的 L1–L5 AI 能力框架：辅助、执行、编排、规划和决策。
-
-  `综述 / 教程` `商业平台` `厂商报告` · 综述 / 教程
-
-  [原始来源](https://www.synopsys.com/content/dam/synopsys/resources/ai-solutions/synopsys-ai-brochure.pdf#page=2)
-
-- **[LLMs for EDA: Future or Mirage?](../../resources/agent-infrastructure/llms-for-eda-survey.md)** — 综述 LLM 在 EDA 中的应用，包括代码生成、验证和 Agent 工作流。
-
-  `综述 / 教程` `EDA 流程` `评测` · 综述 / 教程
-
-  [论文](https://doi.org/10.1145/3736167)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[Synopsys.ai brochure](../../resources/agent-infrastructure/synopsys-ai-brochure.md)**<br>官方宣传册，第 2–3 页介绍 AgentEngineer 与 Synopsys 的 L1–L5 AI 能力框架：辅助、执行、编排、规划和决策。 | [综述 / 教程](../../resources/tags/overview.md) · [商业平台](../../resources/tags/commercial.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>综述 / 教程 | [原始来源](https://www.synopsys.com/content/dam/synopsys/resources/ai-solutions/synopsys-ai-brochure.pdf#page=2) | — | — | — |
+| **[LLMs for EDA: Future or Mirage?](../../resources/agent-infrastructure/llms-for-eda-survey.md)**<br>综述 LLM 在 EDA 中的应用，包括代码生成、验证和 Agent 工作流。 | [综述 / 教程](../../resources/tags/overview.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [评测](../../resources/tags/evaluation.md)<br>综述 / 教程 | [论文](https://doi.org/10.1145/3736167) | — | — | — |
 
 ## 日期待核实
 
-- **[Chipmind](../../resources/agent-infrastructure/chipmind.md)** — 面向芯片设计和 EDA 自动化的商业 AI Agent 平台。
-
-  `商业平台` `EDA 流程` `厂商报告` · 工具 / 平台
-
-  [原始来源](https://www.chipmind.ai/)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[Chipmind](../../resources/agent-infrastructure/chipmind.md)**<br>面向芯片设计和 EDA 自动化的商业 AI Agent 平台。 | [商业平台](../../resources/tags/commercial.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 | [原始来源](https://www.chipmind.ai/) | — | — | — |
 
 # 相关动态与视频
 
 ## 2026-10
 
-- **[Mistral / NVIDIA · Evaluation plans](../../resources/agent-infrastructure/mistral-nvidia-evaluation-2026.md)** — 宣布开展工程工具与 CAE / EDA Agent 评测的计划。
-
-  `公告` `评测` `基准` `厂商报告` · 新闻 / 公告
-
-  [原始来源](https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[Mistral / NVIDIA · Evaluation plans](../../resources/agent-infrastructure/mistral-nvidia-evaluation-2026.md)**<br>宣布开展工程工具与 CAE / EDA Agent 评测的计划。 | [公告](../../resources/tags/news.md) · [评测](../../resources/tags/evaluation.md) · [基准](../../resources/tags/benchmark.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>新闻 / 公告 | [原始来源](https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/) | — | — | — |
 
 ## 2026-09
 
-- **[GPT-Synopsys partnership](../../resources/agent-infrastructure/gpt-synopsys-announcement.md)** — 宣布联合开发面向 Synopsys 芯片设计流程的专用模型。
-
-  `公告` `商业平台` `EDA 流程` `厂商报告` · 新闻 / 公告
-
-  [原始来源](https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design)
-
-- **[AgentEngineer / Autopilot announcement](../../resources/agent-infrastructure/agentengineer-autopilot-announcement.md)** — 公布领域专用 Agent 与 Autopilot 编排平台。
-
-  `公告` `商业平台` `多 Agent` `厂商报告` · 新闻 / 公告
-
-  [原始来源](https://news.synopsys.com/2026-09-28-Synopsys-Powers-Autonomous-Engineering-with-a-Broad-Portfolio-of-Long-Horizon-Agents-and-Autopilot-Platform)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[GPT-Synopsys partnership](../../resources/agent-infrastructure/gpt-synopsys-announcement.md)**<br>宣布联合开发面向 Synopsys 芯片设计流程的专用模型。 | [公告](../../resources/tags/news.md) · [商业平台](../../resources/tags/commercial.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>新闻 / 公告 | [原始来源](https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design) | — | — | — |
+| **[AgentEngineer / Autopilot announcement](../../resources/agent-infrastructure/agentengineer-autopilot-announcement.md)**<br>公布领域专用 Agent 与 Autopilot 编排平台。 | [公告](../../resources/tags/news.md) · [商业平台](../../resources/tags/commercial.md) · [多 Agent](../../resources/tags/multi-agent.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>新闻 / 公告 | [原始来源](https://news.synopsys.com/2026-09-28-Synopsys-Powers-Autonomous-Engineering-with-a-Broad-Portfolio-of-Long-Horizon-Agents-and-Autopilot-Platform) | — | — | — |
 
 ## 日期待核实
 
-- **[AgentEngineer webinar](../../resources/agent-infrastructure/agentengineer-webinar.md)** — Synopsys 的 Paras Mal Jain 介绍具备领域知识的 Agent、多 Agent EDA 工作流执行和工程师监督。
-
-  `演讲 / 视频` `多 Agent` `EDA 流程` `厂商报告` · 演讲 / 视频
-
-  [原始来源](https://www.synopsys.com/webinars/agentic-ai-nuts-bolts-agentengineer.html)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[AgentEngineer webinar](../../resources/agent-infrastructure/agentengineer-webinar.md)**<br>Synopsys 的 Paras Mal Jain 介绍具备领域知识的 Agent、多 Agent EDA 工作流执行和工程师监督。 | [演讲 / 视频](../../resources/tags/video.md) · [多 Agent](../../resources/tags/multi-agent.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>演讲 / 视频 | [原始来源](https://www.synopsys.com/webinars/agentic-ai-nuts-bolts-agentengineer.html) | — | — | — |

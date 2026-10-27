@@ -19,7 +19,7 @@ Review both language indexes together: confirm headings and resource entries cor
 
 ## Style and Naming
 
-Use Markdown with ATX headings (`##`), hyphen bullets, and concise descriptions. Edit resource JSON metadata comments and English/Chinese editorial sections; do not hand-edit generated indexes or rendered metadata blocks. Keep one canonical file per work, one primary direction, and multiple fixed-vocabulary tags; use `also_in` and `related` for cross-references. Preserve original titles and source notes. Sort by publication month descending, keeping year-only and undated records explicit; repository push times never determine publication groups. Distinguish vendor-reported claims from independently evaluated results. Preserve the exact filename `README_zh.md` for the Chinese edition.
+Use Markdown with ATX headings (`##`), tables for generated resource indexes, hyphen bullets for editorial lists, and concise descriptions. Edit resource JSON metadata comments and English/Chinese editorial sections; do not hand-edit generated indexes or rendered metadata blocks. Keep one canonical file per work, one primary direction, and multiple fixed-vocabulary tags; use `also_in` and `related` for cross-references. Preserve original titles and source notes. Sort by publication month descending, keeping year-only and undated records explicit; repository push times never determine publication groups. Distinguish vendor-reported claims from independently evaluated results. Preserve the exact filename `README_zh.md` for the Chinese edition.
 
 ## Contribution Guidelines
 

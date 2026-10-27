@@ -8,126 +8,73 @@
 
 ## 2026-09
 
-- **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)** — 评测生成 RTL 的代码和配套材料，覆盖功能等价、模块完整性和 QoR，而不只是编译。
-
-  `RTL` `基准` `评测` `PPA / QoR` · 开源项目 / 基准 / 数据集 · 跨方向索引
-
-  [论文](https://arxiv.org/abs/2609.25335)
-
-  [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) · ★ 0 · 最近推送 2026-10-12 · 采集 2026-10-27
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)**<br>评测生成 RTL 的代码和配套材料，覆盖功能等价、模块完整性和 QoR，而不只是编译。 | [RTL](../../resources/tags/rtl.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>开源项目 / 基准 / 数据集 · 跨方向索引 | [论文](https://arxiv.org/abs/2609.25335) | [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) | 0 | 2026-10-12<br>采集 2026-10-27 |
 
 ## 2026-08
 
-- **[GoalEvolve](../../resources/physical-design/goalevolve.md)** — 通过多 Agent 搜索和工具反馈，让物理设计算法朝明确的 QoR 目标演化。
-
-  `物理设计` `PPA / QoR` `多 Agent` · 论文
-
-  [论文](https://arxiv.org/abs/2608.16733)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[GoalEvolve](../../resources/physical-design/goalevolve.md)**<br>通过多 Agent 搜索和工具反馈，让物理设计算法朝明确的 QoR 目标演化。 | [物理设计](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [多 Agent](../../resources/tags/multi-agent.md)<br>论文 | [论文](https://arxiv.org/abs/2608.16733) | — | — | — |
 
 ## 2026-06
 
-- **[PDAgent-Bench](../../resources/physical-design/pdagent-bench.md)** — 评测 VLSI 物理设计工作流中的上下文 grounding、任务执行和 Agent 架构选择。
-
-  `物理设计` `基准` `评测` · 基准 / 数据集
-
-  [论文](https://arxiv.org/abs/2606.17253)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[PDAgent-Bench](../../resources/physical-design/pdagent-bench.md)**<br>评测 VLSI 物理设计工作流中的上下文 grounding、任务执行和 Agent 架构选择。 | [物理设计](../../resources/tags/physical-design.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2606.17253) | — | — | — |
 
 ## 2026-05
 
-- **[PostEDA-Bench](../../resources/physical-design/posteda-bench.md)** — 评测初始 EDA 生成后，Agent 收敛 PPA 目标和修复 DRC 违规的能力。
-
-  `物理设计` `PPA / QoR` `DRC` `基准` · 基准 / 数据集
-
-  [论文](https://arxiv.org/abs/2605.06936)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[PostEDA-Bench](../../resources/physical-design/posteda-bench.md)**<br>评测初始 EDA 生成后，Agent 收敛 PPA 目标和修复 DRC 违规的能力。 | [物理设计](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [DRC](../../resources/tags/drc.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2605.06936) | — | — | — |
 
 ## 2026-03
 
-- **[FluxEDA](../../resources/agent-infrastructure/fluxeda.md)** — 为可复现的长时运行 Agentic EDA 流程提供有状态执行和工具集成基础设施。
-
-  `基础设施` `EDA 流程` `工具调用` · 论文 · 跨方向索引
-
-  [论文](https://arxiv.org/abs/2603.25243)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[FluxEDA](../../resources/agent-infrastructure/fluxeda.md)**<br>为可复现的长时运行 Agentic EDA 流程提供有状态执行和工具集成基础设施。 | [基础设施](../../resources/tags/infrastructure.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2603.25243) | — | — | — |
 
 ## 2026 · 月份待核实
 
-- **[Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md)** — 支持选择语言模型的商业 Agent 平台，提供面向验证、物理实现和模拟/混合信号设计的专用 Agent。
-
-  `商业平台` `EDA 流程` `多 Agent` `厂商报告` · 工具 / 平台 · 跨方向索引
-
-  [原始来源](https://www.synopsys.com/ai/agentic-ai.html)
-
-- **[Build-A-Chip-Bench](../../resources/physical-design/build-a-chip-bench.md)** — 以正确性门槛和 PPA 评测工作负载到 GDS 的 Agent；结果由开发方报告。
-
-  `EDA 流程` `PPA / QoR` `基准` `厂商报告` · 基准 / 数据集
-
-  [原始来源](https://chipagents.ai/research/build-a-chip-bench)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md)**<br>支持选择语言模型的商业 Agent 平台，提供面向验证、物理实现和模拟/混合信号设计的专用 Agent。 | [商业平台](../../resources/tags/commercial.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [多 Agent](../../resources/tags/multi-agent.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 · 跨方向索引 | [原始来源](https://www.synopsys.com/ai/agentic-ai.html) | — | — | — |
+| **[Build-A-Chip-Bench](../../resources/physical-design/build-a-chip-bench.md)**<br>以正确性门槛和 PPA 评测工作负载到 GDS 的 Agent；结果由开发方报告。 | [EDA 流程](../../resources/tags/eda-flow.md) · [PPA / QoR](../../resources/tags/ppa.md) · [基准](../../resources/tags/benchmark.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>基准 / 数据集 | [原始来源](https://chipagents.ai/research/build-a-chip-bench) | — | — | — |
 
 ## 2025-06
 
-- **[ORFS-agent](../../resources/physical-design/orfs-agent.md)** — 使用 LLM Agent 迭代调整 OpenROAD Flow Scripts 参数，以改善物理设计指标。
-
-  `物理设计` `PPA / QoR` `工具调用` · 论文
-
-  [论文](https://arxiv.org/abs/2506.08332)
-
-  [ABKGroup/ORFS-Agent](https://github.com/ABKGroup/ORFS-Agent) · ★ 36 · 最近推送 2026-06-18 · 采集 2026-10-27
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[ORFS-agent](../../resources/physical-design/orfs-agent.md)**<br>使用 LLM Agent 迭代调整 OpenROAD Flow Scripts 参数，以改善物理设计指标。 | [物理设计](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 | [论文](https://arxiv.org/abs/2506.08332) | [ABKGroup/ORFS-Agent](https://github.com/ABKGroup/ORFS-Agent) | 36 | 2026-06-18<br>采集 2026-10-27 |
 
 ## 2025 · 月份待核实
 
-- **[OpenROAD Agent](../../resources/physical-design/openroad-agent.md)** — 生成 OpenROAD 脚本，并根据工具反馈自动修正。
-
-  `物理设计` `EDA 流程` `工具调用` · 论文 / 开源项目
-
-  [OpenROAD-Assistant/OpenROAD-Agent](https://github.com/OpenROAD-Assistant/OpenROAD-Agent) · ★ 37 · 最近推送 2025-07-24 · 采集 2026-10-27
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[OpenROAD Agent](../../resources/physical-design/openroad-agent.md)**<br>生成 OpenROAD 脚本，并根据工具反馈自动修正。 | [物理设计](../../resources/tags/physical-design.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 / 开源项目 | — | [OpenROAD-Assistant/OpenROAD-Agent](https://github.com/OpenROAD-Assistant/OpenROAD-Agent) | 37 | 2025-07-24<br>采集 2026-10-27 |
 
 ## 2024 · 月份待核实
 
-- **[ChatEDA](../../resources/physical-design/chateda.md)** — 使用 LLM Agent 分解 EDA 任务、生成脚本并执行从 RTL 到 GDSII 的设计流程。
-
-  `EDA 流程` `工具调用` · 论文 / 开源项目
-
-  [论文](https://doi.org/10.1109/TCAD.2024.3383347)
-
-  [wuhy68/ChatEDA](https://github.com/wuhy68/ChatEDA) · ★ 63 · 最近推送 2025-05-21 · 采集 2026-10-27
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[ChatEDA](../../resources/physical-design/chateda.md)**<br>使用 LLM Agent 分解 EDA 任务、生成脚本并执行从 RTL 到 GDSII 的设计流程。 | [EDA 流程](../../resources/tags/eda-flow.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 / 开源项目 | [论文](https://doi.org/10.1109/TCAD.2024.3383347) | [wuhy68/ChatEDA](https://github.com/wuhy68/ChatEDA) | 63 | 2025-05-21<br>采集 2026-10-27 |
 
 ## 日期待核实
 
-- **[OpenROAD](../../resources/physical-design/openroad.md)** — 开源 RTL-to-GDS 流程及研究平台，供 Agent 芯片设计和优化项目使用。
-
-  `物理设计` `EDA 流程` `基础设施` · 开源项目
-
-  [The-OpenROAD-Project/OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) · ★ 3,230 · 最近推送 2026-10-27 · 采集 2026-10-27
-
-- **[DRCHealer](../../resources/physical-design/drchealer.md)** — 面向物理验证的研究原型，将自然语言设计规则转换为 KLayout DRC 脚本，诊断 GDSII 违规，并执行有次数限制且重新验证的几何修复。
-
-  `物理设计` `DRC` `验证` `工具调用` · 开源项目
-
-  [burcgokden/DRCHealer](https://github.com/burcgokden/DRCHealer) · ★ 1 · 最近推送 2026-07-24 · 采集 2026-10-27
-
-- **[CircuitNet](../../resources/physical-design/circuitnet.md)** — 开源 EDA 数据集，涵盖拥塞、DRC、IR drop 和时序预测等任务，可用于物理设计机器学习评测，但本身不是 Agent 基准。
-
-  `物理设计` `数据集` `评测` · 基准 / 数据集
-
-  [circuitnet/CircuitNet](https://github.com/circuitnet/CircuitNet) · ★ 519 · 最近推送 2026-05-17 · 采集 2026-10-27
-
-- **[Cadence InnoStack](../../resources/physical-design/cadence-innostack.md)** — Cadence 所述的数字实现与签核 Agent 工作流，覆盖从综合到布局布线的流程。
-
-  `商业平台` `物理设计` `EDA 流程` `厂商报告` · 工具 / 平台
-
-  [原始来源](https://www.cadence.com/en_US/home/tools/system-design-and-verification/innostack-ai-superagent.html)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[OpenROAD](../../resources/physical-design/openroad.md)**<br>开源 RTL-to-GDS 流程及研究平台，供 Agent 芯片设计和优化项目使用。 | [物理设计](../../resources/tags/physical-design.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [基础设施](../../resources/tags/infrastructure.md)<br>开源项目 | — | [The-OpenROAD-Project/OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) | 3,230 | 2026-10-27<br>采集 2026-10-27 |
+| **[DRCHealer](../../resources/physical-design/drchealer.md)**<br>面向物理验证的研究原型，将自然语言设计规则转换为 KLayout DRC 脚本，诊断 GDSII 违规，并执行有次数限制且重新验证的几何修复。 | [物理设计](../../resources/tags/physical-design.md) · [DRC](../../resources/tags/drc.md) · [验证](../../resources/tags/verification.md) · [工具调用](../../resources/tags/tool-use.md)<br>开源项目 | — | [burcgokden/DRCHealer](https://github.com/burcgokden/DRCHealer) | 1 | 2026-07-24<br>采集 2026-10-27 |
+| **[CircuitNet](../../resources/physical-design/circuitnet.md)**<br>开源 EDA 数据集，涵盖拥塞、DRC、IR drop 和时序预测等任务，可用于物理设计机器学习评测，但本身不是 Agent 基准。 | [物理设计](../../resources/tags/physical-design.md) · [数据集](../../resources/tags/dataset.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | — | [circuitnet/CircuitNet](https://github.com/circuitnet/CircuitNet) | 519 | 2026-05-17<br>采集 2026-10-27 |
+| **[Cadence InnoStack](../../resources/physical-design/cadence-innostack.md)**<br>Cadence 所述的数字实现与签核 Agent 工作流，覆盖从综合到布局布线的流程。 | [商业平台](../../resources/tags/commercial.md) · [物理设计](../../resources/tags/physical-design.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 | [原始来源](https://www.cadence.com/en_US/home/tools/system-design-and-verification/innostack-ai-superagent.html) | — | — | — |
 
 # 相关动态与视频
 
 ## 2026-07
 
-- **[Synopsys / AMD / Microsoft](../../resources/physical-design/synopsys-amd-microsoft-2026.md)** — 宣布开放调试与实现流程的评估申请。
-
-  `公告` `调试` `PPA / QoR` `商业平台` `厂商报告` · 新闻 / 公告
-
-  [原始来源](https://news.synopsys.com/2026-07-27-Synopsys-Advances-Agentic-AI-Chip-Design-with-AMD-and-Microsoft)
-
-- **[InnoStack demo](../../resources/physical-design/innostack-demo.md)** — 官方产品演示，介绍 Agent 如何辅助多模块物理设计，从综合推进到布线后流程。
-
-  `演讲 / 视频` `物理设计` `EDA 流程` `厂商报告` · 演讲 / 视频
-
-  [原始来源](https://www.youtube.com/watch?v=my-8jSjaZlQ)
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[Synopsys / AMD / Microsoft](../../resources/physical-design/synopsys-amd-microsoft-2026.md)**<br>宣布开放调试与实现流程的评估申请。 | [公告](../../resources/tags/news.md) · [调试](../../resources/tags/debugging.md) · [PPA / QoR](../../resources/tags/ppa.md) · [商业平台](../../resources/tags/commercial.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>新闻 / 公告 | [原始来源](https://news.synopsys.com/2026-07-27-Synopsys-Advances-Agentic-AI-Chip-Design-with-AMD-and-Microsoft) | — | — | — |
+| **[InnoStack demo](../../resources/physical-design/innostack-demo.md)**<br>官方产品演示，介绍 Agent 如何辅助多模块物理设计，从综合推进到布线后流程。 | [演讲 / 视频](../../resources/tags/video.md) · [物理设计](../../resources/tags/physical-design.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>演讲 / 视频 | [原始来源](https://www.youtube.com/watch?v=my-8jSjaZlQ) | — | — | — |

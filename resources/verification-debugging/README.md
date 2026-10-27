@@ -8,158 +8,95 @@ Newest publication month first. Cross-references share the original record; repo
 
 ## 2026-10
 
-- **[Back to the Future](../../resources/verification-debugging/back-to-the-future.md)** — Converts simulation waveforms into a relational SQLite database and coordinates agents to query signal behavior and correlate anomalies with RTL.
-
-  `Waveforms` `Debugging` `Infrastructure` · Paper
-
-  [Paper](https://arxiv.org/abs/2610.06790)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Back to the Future](../../resources/verification-debugging/back-to-the-future.md)**<br>Converts simulation waveforms into a relational SQLite database and coordinates agents to query signal behavior and correlate anomalies with RTL. | [Waveforms](../../resources/tags/waveform.md) · [Debugging](../../resources/tags/debugging.md) · [Infrastructure](../../resources/tags/infrastructure.md)<br>Paper | [Paper](https://arxiv.org/abs/2610.06790) | — | — | — |
 
 ## 2026-09
 
-- **[VeriBugBench](../../resources/verification-debugging/veribugbench.md)** — Benchmark construction code for empirically grounded Verilog debugging tasks with mutation and execution-based filtering.
-
-  `RTL` `Debugging` `Benchmark` · Open-source project / Benchmark / dataset
-
-  [Paper](https://arxiv.org/abs/2609.18022)
-
-  [wndif/VeriBugBench](https://github.com/wndif/VeriBugBench) · ★ 2 · pushed 2026-09-01 · fetched 2026-10-27
-
-- **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)** — Evaluation code and collateral for measuring generated RTL beyond compilation, including functional equivalence, completeness, and QoR.
-
-  `RTL` `Benchmark` `Evaluation` `PPA / QoR` · Open-source project / Benchmark / dataset · cross-reference
-
-  [Paper](https://arxiv.org/abs/2609.25335)
-
-  [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) · ★ 0 · pushed 2026-10-12 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[VeriBugBench](../../resources/verification-debugging/veribugbench.md)**<br>Benchmark construction code for empirically grounded Verilog debugging tasks with mutation and execution-based filtering. | [RTL](../../resources/tags/rtl.md) · [Debugging](../../resources/tags/debugging.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Open-source project / Benchmark / dataset | [Paper](https://arxiv.org/abs/2609.18022) | [wndif/VeriBugBench](https://github.com/wndif/VeriBugBench) | 2 | 2026-09-01<br>Fetched 2026-10-27 |
+| **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)**<br>Evaluation code and collateral for measuring generated RTL beyond compilation, including functional equivalence, completeness, and QoR. | [RTL](../../resources/tags/rtl.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>Open-source project / Benchmark / dataset · cross-reference | [Paper](https://arxiv.org/abs/2609.25335) | [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) | 0 | 2026-10-12<br>Fetched 2026-10-27 |
 
 ## 2026-08
 
-- **[NoTB](../../resources/verification-debugging/notb.md)** — Uses cross-model formal consensus to triage generated RTL without relying on a hand-written testbench oracle.
-
-  `RTL` `Formal verification` `Evaluation` · Paper
-
-  [Paper](https://arxiv.org/abs/2608.21962)
-
-- **[LACE](../../resources/architecture-hls-codesign/lace.md)** — Coordinates agents for RISC-V instruction-extension design, RTL editing, and formal verification.
-
-  `RISC-V` `Code editing` `Formal verification` `Multi-agent` · Paper / Open-source project · cross-reference
-
-  [Paper](https://arxiv.org/abs/2608.02915)
-
-  [UMN-ZhaoLab/LACE](https://github.com/UMN-ZhaoLab/LACE) · ★ 4 · pushed 2026-09-02 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[NoTB](../../resources/verification-debugging/notb.md)**<br>Uses cross-model formal consensus to triage generated RTL without relying on a hand-written testbench oracle. | [RTL](../../resources/tags/rtl.md) · [Formal verification](../../resources/tags/formal.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Paper | [Paper](https://arxiv.org/abs/2608.21962) | — | — | — |
+| **[LACE](../../resources/architecture-hls-codesign/lace.md)**<br>Coordinates agents for RISC-V instruction-extension design, RTL editing, and formal verification. | [RISC-V](../../resources/tags/risc-v.md) · [Code editing](../../resources/tags/editing.md) · [Formal verification](../../resources/tags/formal.md) · [Multi-agent](../../resources/tags/multi-agent.md)<br>Paper / Open-source project · cross-reference | [Paper](https://arxiv.org/abs/2608.02915) | [UMN-ZhaoLab/LACE](https://github.com/UMN-ZhaoLab/LACE) | 4 | 2026-09-02<br>Fetched 2026-10-27 |
 
 ## 2026-07
 
-- **[WaveformQA](../../resources/verification-debugging/waveformqa.md)** — Tests temporal reasoning over digital waveforms for hardware debugging and verification.
-
-  `Waveforms` `Debugging` `Benchmark` · Benchmark / dataset
-
-  [Paper](https://arxiv.org/abs/2607.20638)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[WaveformQA](../../resources/verification-debugging/waveformqa.md)**<br>Tests temporal reasoning over digital waveforms for hardware debugging and verification. | [Waveforms](../../resources/tags/waveform.md) · [Debugging](../../resources/tags/debugging.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2607.20638) | — | — | — |
 
 ## 2026-04
 
-- **[HWE-Bench · Bug repair](../../resources/verification-debugging/hwe-bench-bug-repair.md)** — Repository-level benchmark with 417 fail-to-pass bug-fix tasks from six open-source hardware projects.
-
-  `RTL` `Debugging` `Repository-level tasks` `Benchmark` · Benchmark / dataset
-
-  [Paper](https://arxiv.org/abs/2604.14709)
-
-  [pku-liang/hwe-bench](https://github.com/pku-liang/hwe-bench) · ★ 67 · pushed 2026-08-01 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[HWE-Bench · Bug repair](../../resources/verification-debugging/hwe-bench-bug-repair.md)**<br>Repository-level benchmark with 417 fail-to-pass bug-fix tasks from six open-source hardware projects. | [RTL](../../resources/tags/rtl.md) · [Debugging](../../resources/tags/debugging.md) · [Repository-level tasks](../../resources/tags/repository-level.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2604.14709) | [pku-liang/hwe-bench](https://github.com/pku-liang/hwe-bench) | 67 | 2026-08-01<br>Fetched 2026-10-27 |
 
 ## 2026-03
 
-- **[SpecLoop](../../resources/verification-debugging/specloop.md)** — Uses an agentic loop to infer specifications from RTL and refine them with formal-verification feedback.
-
-  `RTL` `Specifications` `Formal verification` · Paper
-
-  [Paper](https://arxiv.org/abs/2603.02895)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[SpecLoop](../../resources/verification-debugging/specloop.md)**<br>Uses an agentic loop to infer specifications from RTL and refine them with formal-verification feedback. | [RTL](../../resources/tags/rtl.md) · [Specifications](../../resources/tags/specification.md) · [Formal verification](../../resources/tags/formal.md)<br>Paper | [Paper](https://arxiv.org/abs/2603.02895) | — | — | — |
 
 ## 2026-02
 
-- **[ACE-RTL](../../resources/rtl-generation/ace-rtl.md)** — Combines an RTL-specialized generator with reasoning agents for verification-guided RTL generation and repair.
-
-  `RTL` `Code generation` `Debugging` · Paper / Open-source project · cross-reference
-
-  [Paper](https://arxiv.org/abs/2602.10218)
-
-  [NVlabs/ACE-RTL](https://github.com/NVlabs/ACE-RTL) · ★ 39 · pushed 2026-09-20 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[ACE-RTL](../../resources/rtl-generation/ace-rtl.md)**<br>Combines an RTL-specialized generator with reasoning agents for verification-guided RTL generation and repair. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Debugging](../../resources/tags/debugging.md)<br>Paper / Open-source project · cross-reference | [Paper](https://arxiv.org/abs/2602.10218) | [NVlabs/ACE-RTL](https://github.com/NVlabs/ACE-RTL) | 39 | 2026-09-20<br>Fetched 2026-10-27 |
 
 ## 2026-01
 
-- **[Veri-Sure](../../resources/rtl-generation/veri-sure.md)** — Coordinates agents through a design contract, dependency-slicing-guided local repairs, temporal trace analysis, and formal verification for RTL generation and debugging.
-
-  `RTL` `Code generation` `Formal verification` `Multi-agent` · Paper / Open-source project · cross-reference
-
-  [Paper](https://arxiv.org/abs/2601.19747)
-
-  [xyjoey/Veri-Sure](https://github.com/xyjoey/Veri-Sure) · ★ 28 · pushed 2026-10-26 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Veri-Sure](../../resources/rtl-generation/veri-sure.md)**<br>Coordinates agents through a design contract, dependency-slicing-guided local repairs, temporal trace analysis, and formal verification for RTL generation and debugging. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Formal verification](../../resources/tags/formal.md) · [Multi-agent](../../resources/tags/multi-agent.md)<br>Paper / Open-source project · cross-reference | [Paper](https://arxiv.org/abs/2601.19747) | [xyjoey/Veri-Sure](https://github.com/xyjoey/Veri-Sure) | 28 | 2026-10-26<br>Fetched 2026-10-27 |
 
 ## 2026 · month not verified
 
-- **[Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md)** — Commercial agentic platform supporting language-model choice and specialized agents for verification, physical implementation, and analog/mixed-signal workflows.
-
-  `Commercial platform` `EDA workflows` `Multi-agent` `Vendor-reported` · Tool / platform · cross-reference
-
-  [Source](https://www.synopsys.com/ai/agentic-ai.html)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md)**<br>Commercial agentic platform supporting language-model choice and specialized agents for verification, physical implementation, and analog/mixed-signal workflows. | [Commercial platform](../../resources/tags/commercial.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Tool / platform · cross-reference | [Source](https://www.synopsys.com/ai/agentic-ai.html) | — | — | — |
 
 ## 2024-08
 
-- **[VerilogCoder](../../resources/rtl-generation/verilogcoder.md)** — Coordinates planning, simulation, and waveform tracing agents to generate and debug Verilog.
-
-  `RTL` `Code generation` `Debugging` `Waveforms` · Paper / Open-source project · cross-reference
-
-  [Paper](https://arxiv.org/abs/2408.08927)
-
-  [NVlabs/VerilogCoder](https://github.com/NVlabs/VerilogCoder) · ★ 188 · pushed 2025-03-10 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[VerilogCoder](../../resources/rtl-generation/verilogcoder.md)**<br>Coordinates planning, simulation, and waveform tracing agents to generate and debug Verilog. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Debugging](../../resources/tags/debugging.md) · [Waveforms](../../resources/tags/waveform.md)<br>Paper / Open-source project · cross-reference | [Paper](https://arxiv.org/abs/2408.08927) | [NVlabs/VerilogCoder](https://github.com/NVlabs/VerilogCoder) | 188 | 2025-03-10<br>Fetched 2026-10-27 |
 
 ## 2024-07
 
-- **[AutoBench](../../resources/verification-debugging/autobench.md)** — Generates self-checking HDL testbenches from design descriptions and evaluates their quality.
-
-  `RTL` `Testbench` `Verification` · Paper
-
-  [Paper](https://arxiv.org/abs/2407.03891)
-
-  [AutoBench/AutoBench](https://github.com/AutoBench/AutoBench) · ★ 46 · pushed 2025-04-11 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[AutoBench](../../resources/verification-debugging/autobench.md)**<br>Generates self-checking HDL testbenches from design descriptions and evaluates their quality. | [RTL](../../resources/tags/rtl.md) · [Testbench](../../resources/tags/testbench.md) · [Verification](../../resources/tags/verification.md)<br>Paper | [Paper](https://arxiv.org/abs/2407.03891) | [AutoBench/AutoBench](https://github.com/AutoBench/AutoBench) | 46 | 2025-04-11<br>Fetched 2026-10-27 |
 
 ## 2023-11
 
-- **[RTLFixer](../../resources/verification-debugging/rtlfixer.md)** — Applies retrieval and ReAct-style tool feedback to repair Verilog compilation errors.
-
-  `RTL` `Debugging` `Tool use` · Paper / Open-source project
-
-  [Paper](https://arxiv.org/abs/2311.16543)
-
-  [NVlabs/RTLFixer](https://github.com/NVlabs/RTLFixer) · ★ 60 · pushed 2024-05-23 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[RTLFixer](../../resources/verification-debugging/rtlfixer.md)**<br>Applies retrieval and ReAct-style tool feedback to repair Verilog compilation errors. | [RTL](../../resources/tags/rtl.md) · [Debugging](../../resources/tags/debugging.md) · [Tool use](../../resources/tags/tool-use.md)<br>Paper / Open-source project | [Paper](https://arxiv.org/abs/2311.16543) | [NVlabs/RTLFixer](https://github.com/NVlabs/RTLFixer) | 60 | 2024-05-23<br>Fetched 2026-10-27 |
 
 ## Date not recorded
 
-- **[Cadence ChipStack](../../resources/rtl-generation/cadence-chipstack.md)** — Commercial multi-agent workflows for RTL design and verification; vendor-reported capabilities.
-
-  `Commercial platform` `RTL` `Verification` `Multi-agent` `Vendor-reported` · Tool / platform · cross-reference
-
-  [Source](https://www.cadence.com/en_US/home/ai/agentic-ai-super-agents.html)
-
-- **[ai-chip-design-platform](../../resources/verification-debugging/ai-chip-design-platform.md)** — Multi-agent RISC-V RTL verification platform covering semantic analysis, testbench generation, RTL/Spike comparison, coverage-directed testing, formal checks, and auditable verification evidence.
-
-  `RISC-V` `Verification` `Testbench` `Formal verification` · Open-source project
-
-  [HUNT-001/ai-chip-design-platform](https://github.com/HUNT-001/ai-chip-design-platform) · ★ 12 · pushed 2026-10-07 · fetched 2026-10-27
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Cadence ChipStack](../../resources/rtl-generation/cadence-chipstack.md)**<br>Commercial multi-agent workflows for RTL design and verification; vendor-reported capabilities. | [Commercial platform](../../resources/tags/commercial.md) · [RTL](../../resources/tags/rtl.md) · [Verification](../../resources/tags/verification.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Tool / platform · cross-reference | [Source](https://www.cadence.com/en_US/home/ai/agentic-ai-super-agents.html) | — | — | — |
+| **[ai-chip-design-platform](../../resources/verification-debugging/ai-chip-design-platform.md)**<br>Multi-agent RISC-V RTL verification platform covering semantic analysis, testbench generation, RTL/Spike comparison, coverage-directed testing, formal checks, and auditable verification evidence. | [RISC-V](../../resources/tags/risc-v.md) · [Verification](../../resources/tags/verification.md) · [Testbench](../../resources/tags/testbench.md) · [Formal verification](../../resources/tags/formal.md)<br>Open-source project | — | [HUNT-001/ai-chip-design-platform](https://github.com/HUNT-001/ai-chip-design-platform) | 12 | 2026-10-07<br>Fetched 2026-10-27 |
 
 # Related News and Videos
 
 ## 2026-07
 
-- **[Synopsys / NVIDIA workflows](../../resources/verification-debugging/synopsys-nvidia-workflows-2026.md)** — Describes an agent orchestrating test planning, coverage, and debugging.
-
-  `Announcement` `Verification` `Multi-agent` `Vendor-reported` · News / announcement
-
-  [Source](https://news.synopsys.com/2026-07-26-Synopsys-Showcases-Comprehensive-Autonomous-Engineering-Workflows-from-Silicon-to-Systems%2C-Developed-with-NVIDIA-Technology)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Synopsys / NVIDIA workflows](../../resources/verification-debugging/synopsys-nvidia-workflows-2026.md)**<br>Describes an agent orchestrating test planning, coverage, and debugging. | [Announcement](../../resources/tags/news.md) · [Verification](../../resources/tags/verification.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://news.synopsys.com/2026-07-26-Synopsys-Showcases-Comprehensive-Autonomous-Engineering-Workflows-from-Silicon-to-Systems%2C-Developed-with-NVIDIA-Technology) | — | — | — |
 
 ## Date not recorded
 
-- **[Formal workflow webinar](../../resources/verification-debugging/formal-workflow-webinar.md)** — NVIDIA's Ghaith Bany Hamid discusses domain-adapted LLMs and GenFV with Synopsys VC Formal for assertion and helper-property generation and iterative refinement.
-
-  `Talk / video` `Formal verification` `Verification` `Vendor-reported` · Talk / video
-
-  [Source](https://www.synopsys.com/webinars/scaling-ai-agents-formal-workflow.html)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Formal workflow webinar](../../resources/verification-debugging/formal-workflow-webinar.md)**<br>NVIDIA's Ghaith Bany Hamid discusses domain-adapted LLMs and GenFV with Synopsys VC Formal for assertion and helper-property generation and iterative refinement. | [Talk / video](../../resources/tags/video.md) · [Formal verification](../../resources/tags/formal.md) · [Verification](../../resources/tags/verification.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Talk / video | [Source](https://www.synopsys.com/webinars/scaling-ai-agents-formal-workflow.html) | — | — | — |

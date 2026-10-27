@@ -8,32 +8,21 @@ Newest publication month first. Cross-references share the original record; repo
 
 ## 2026-03
 
-- **[HWE-Bench · Schematic design](../../resources/board-system-design/hwe-bench-schematic.md)** — Board-level design benchmark with 300 tasks and a knowledge base of 2,914 IC datasheets.
-
-  `Board / PCB` `Benchmark` `Dataset` · Benchmark / dataset
-
-  [Paper](https://arxiv.org/abs/2603.18102)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[HWE-Bench · Schematic design](../../resources/board-system-design/hwe-bench-schematic.md)**<br>Board-level design benchmark with 300 tasks and a knowledge base of 2,914 IC datasheets. | [Board / PCB](../../resources/tags/board.md) · [Benchmark](../../resources/tags/benchmark.md) · [Dataset](../../resources/tags/dataset.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2603.18102) | — | — | — |
 
 ## Date not recorded
 
-- **[Cadence SystemStack](../../resources/board-system-design/cadence-systemstack.md)** — A multiphysics agent listed in the vendor portfolio; availability remains unclear.
-
-  `Commercial platform` `System design` `Vendor-reported` · Tool / platform
-
-  [Source](https://www.cadence.com/en_US/home/ai/agentic-ai-super-agents.html)
-
-- **[Cadence AuraStack](../../resources/board-system-design/cadence-aurastack.md)** — Vendor-described agentic orchestration for PCB and advanced-packaging design, including planning, implementation, constraints, manufacturability, and multiphysics analysis.
-
-  `Commercial platform` `Board / PCB` `Packaging / 3D IC` `Vendor-reported` · Tool / platform
-
-  [Source](https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/aurastack-ai-super-agent.html)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Cadence SystemStack](../../resources/board-system-design/cadence-systemstack.md)**<br>A multiphysics agent listed in the vendor portfolio; availability remains unclear. | [Commercial platform](../../resources/tags/commercial.md) · [System design](../../resources/tags/system.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Tool / platform | [Source](https://www.cadence.com/en_US/home/ai/agentic-ai-super-agents.html) | — | — | — |
+| **[Cadence AuraStack](../../resources/board-system-design/cadence-aurastack.md)**<br>Vendor-described agentic orchestration for PCB and advanced-packaging design, including planning, implementation, constraints, manufacturability, and multiphysics analysis. | [Commercial platform](../../resources/tags/commercial.md) · [Board / PCB](../../resources/tags/board.md) · [Packaging / 3D IC](../../resources/tags/packaging.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Tool / platform | [Source](https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/aurastack-ai-super-agent.html) | — | — | — |
 
 # Related News and Videos
 
 ## 2026-10
 
-- **[Siemens / NVIDIA · 3D IC](../../resources/board-system-design/siemens-nvidia-3dic-2026.md)** — Announces an agentic 3D IC electrothermal workflow; capabilities are vendor-reported.
-
-  `Announcement` `Packaging / 3D IC` `EDA workflows` `Vendor-reported` · News / announcement
-
-  [Source](https://news.siemens.com/en-us/siemens-nvidia-gtc-3d-ic-thermal-ai/)
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Siemens / NVIDIA · 3D IC](../../resources/board-system-design/siemens-nvidia-3dic-2026.md)**<br>Announces an agentic 3D IC electrothermal workflow; capabilities are vendor-reported. | [Announcement](../../resources/tags/news.md) · [Packaging / 3D IC](../../resources/tags/packaging.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://news.siemens.com/en-us/siemens-nvidia-gtc-3d-ic-thermal-ai/) | — | — | — |
