@@ -24,6 +24,11 @@
       "kind": "source"
     },
     {
+      "label": "HWE Bench V2 results and methodology changes",
+      "url": "https://hwebench.com/v2.html",
+      "kind": "source"
+    },
+    {
       "label": "implementation and run data",
       "url": "https://github.com/FeSens/auto-arch-tournament",
       "kind": "repository"
@@ -32,8 +37,8 @@
   "related": [],
   "also_in": [],
   "summary": [
-    "Has agents design RV32IM CPUs from scratch, gates candidates with formal proofs, and scores surviving designs using FPGA-grounded performance.",
-    "让 Agent 从零设计 RV32IM CPU，通过形式证明筛选候选，再用 FPGA 实测性能评分。"
+    "Evolves RV32IM CPUs with formal and simulation gates; V2 scores vendor-timed FPGA designs on hidden programs.",
+    "通过形式验证与仿真检查迭代优化 RV32IM CPU；V2 结合 FPGA 厂商时序分析和隐藏程序评分。"
   ]
 }
 -->
@@ -50,6 +55,7 @@
 ## Links / 相关链接
 
 - **Source / 原始来源：** [HWE Bench: An Unbounded Benchmark for LLM Hardware Development on RISC-V](https://hwebench.com/)
+- **Source / 原始来源：** [HWE Bench V2 results and methodology changes](https://hwebench.com/v2.html)
 - **Repository / 仓库：** [implementation and run data](https://github.com/FeSens/auto-arch-tournament)
 - **Paper / 论文：** No separate paper link recorded / 暂未记录独立论文链接。
 
@@ -68,10 +74,18 @@ Stars 与推送时间来自 GitHub API 快照；推送可能涉及任一分支�
 
 ### Benchmarks and Datasets
 
-[HWE Bench: An Unbounded Benchmark for LLM Hardware Development on RISC-V](https://hwebench.com/) (2026) — Has agents design RV32IM CPUs from scratch, gates candidates with formal proofs, and scores surviving designs using FPGA-grounded performance; the public [implementation and run data](https://github.com/FeSens/auto-arch-tournament) are separate from the similarly named HWE-Bench bug-repair benchmark above.
+[HWE Bench: An Unbounded Benchmark for LLM Hardware Development on RISC-V](https://hwebench.com/) (2026) — Evaluates agent-driven RV32IM CPU optimization with formal and simulation checks; provides public [implementation and run data](https://github.com/FeSens/auto-arch-tournament). This is a different project from the similarly named [HWE-Bench bug-repair benchmark](../verification-debugging/hwe-bench-bug-repair.md).
+
+[V2](https://hwebench.com/v2.html) (2026-10) starts each run from the same core and scores vendor-tool FPGA timing combined with performance on five hidden programs. It includes memory-stall logic in the timed circuit and reports six runs per agent system. V1's nextpnr timing omitted classes of circuit paths; its scores are not comparable with V2.
+
+The authors disclose gaps in fetch-address checks and arithmetic verification, including an incorrect signed DIV/REM specification. Two final designs also supplied different code to formal verification and synthesis; both pass rechecking when formal verification sees the synthesized version. Rankings depend on the target FPGA, and passing the benchmark does not establish complete CPU correctness. The record retains year-only dating because the original first-public month remains unverified.
 
 ## 简体中文
 
 ### 基准与数据集
 
-[HWE Bench: An Unbounded Benchmark for LLM Hardware Development on RISC-V](https://hwebench.com/)（2026）— 让 Agent 从零设计 RV32IM CPU，通过形式证明筛选候选，再用 FPGA 实测性能评分；提供[公开实现和运行数据](https://github.com/FeSens/auto-arch-tournament)，与上面的 HWE-Bench 硬件 Bug 修复基准并非同一项目。
+[HWE Bench: An Unbounded Benchmark for LLM Hardware Development on RISC-V](https://hwebench.com/)（2026）— 通过形式验证与仿真检查评测 Agent 驱动的 RV32IM CPU 优化，提供[公开实现和运行数据](https://github.com/FeSens/auto-arch-tournament)。它与名称相近的 [HWE-Bench 硬件 Bug 修复基准](../verification-debugging/hwe-bench-bug-repair.md)并非同一项目。
+
+[V2](https://hwebench.com/v2.html)（2026-10）每次从同一核心出发，结合厂商工具的 FPGA 时序分析与五个隐藏程序的性能评分，将内存停顿逻辑纳入时序分析电路，每个 Agent 系统运行六次。V1 使用的 nextpnr 计时遗漏了部分类型的电路路径，其分数不能与 V2 直接比较。
+
+作者披露取指地址检查和算术验证中的缺口，包括有符号 DIV / REM 形式规格有误。另外两个最终设计向形式验证和综合提供了不同代码；改用综合版本后，两者均通过复核。排名受目标 FPGA 影响，通过基准不能证明完整的 CPU 正确性。由于最初公开月份仍待核实，本条目保留仅年份的归档日期。

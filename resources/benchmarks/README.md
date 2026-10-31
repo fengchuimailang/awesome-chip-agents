@@ -147,7 +147,7 @@
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[HWE Bench · RISC-V design](../../resources/architecture-hls-codesign/hwe-bench-riscv.md)**<br>Has agents design RV32IM CPUs from scratch, gates candidates with formal proofs, and scores surviving designs using FPGA-grounded performance. | [RISC-V](../../resources/tags/risc-v.md) · [Formal verification](../../resources/tags/formal.md) · [FPGA](../../resources/tags/fpga.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | — | [FeSens/auto-arch-tournament](https://github.com/FeSens/auto-arch-tournament) | 201 | 2026-10-05<br>Fetched 2026-10-27 |
+| **[HWE Bench · RISC-V design](../../resources/architecture-hls-codesign/hwe-bench-riscv.md)**<br>Evolves RV32IM CPUs with formal and simulation gates; V2 scores vendor-timed FPGA designs on hidden programs. | [RISC-V](../../resources/tags/risc-v.md) · [Formal verification](../../resources/tags/formal.md) · [FPGA](../../resources/tags/fpga.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | — | [FeSens/auto-arch-tournament](https://github.com/FeSens/auto-arch-tournament) | 201 | 2026-10-05<br>Fetched 2026-10-27 |
 | **[DPC4](../../resources/architecture-hls-codesign/dpc4.md)**<br>CPU data-prefetcher design competition evaluated with ChampSim. | [Architecture exploration](../../resources/tags/architecture.md) · [Simulation](../../resources/tags/simulation.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | [Source](https://sites.google.com/view/dpc4-2026/home) | — | — | — |
 
 <a id="board-system-design"></a>

@@ -6,6 +6,7 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [CovR](../../resources/verification-debugging/covr.md) | 2026-09-15 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [GTC San Jose · Chip-design agents](../../resources/rtl-generation/gtc-san-jose-2026.md) | 2026-03 | RTL Generation and Editing / RTL 生成与编辑 |
 | [GTC Taipei 2026 keynote](../../resources/rtl-generation/gtc-taipei-2026-keynote.md) | 2026 | RTL Generation and Editing / RTL 生成与编辑 |
 | [AutoBench](../../resources/verification-debugging/autobench.md) | 2024-07 | Verification, Debugging and Specifications / 验证、调试与规格推断 |

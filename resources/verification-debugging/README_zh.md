@@ -16,6 +16,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[CovR](../../resources/verification-debugging/covr.md)**<br>结合 Agent 测试平台迭代与仿真、覆盖率奖励，训练面向覆盖率的验证模型。 | [验证](../../resources/tags/verification.md) · [测试平台](../../resources/tags/testbench.md) · [仿真](../../resources/tags/simulation.md) · [评测](../../resources/tags/evaluation.md)<br>论文 | [论文](https://arxiv.org/abs/2609.19189) | — | — | — |
 | **[VeriBugBench](../../resources/verification-debugging/veribugbench.md)**<br>用于构建真实感 Verilog 调试任务的基准代码，包含变异和基于执行的筛选。 | [RTL](../../resources/tags/rtl.md) · [调试](../../resources/tags/debugging.md) · [基准](../../resources/tags/benchmark.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.18022) | [wndif/VeriBugBench](https://github.com/wndif/VeriBugBench) | 2 | 2026-09-01<br>采集 2026-10-27 |
 | **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)**<br>评测生成 RTL 的代码和配套材料，覆盖功能等价、模块完整性和 QoR，而不只是编译。 | [RTL](../../resources/tags/rtl.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>开源项目 / 基准 / 数据集 · 跨方向索引 | [论文](https://arxiv.org/abs/2609.25335) | [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) | 0 | 2026-10-12<br>采集 2026-10-27 |
 

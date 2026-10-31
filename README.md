@@ -13,10 +13,10 @@ Each record has one primary direction. Cross-references link to the same detail 
 | Direction | Primary resources |
 | --- | ---: |
 | [RTL Generation and Editing](resources/rtl-generation/README.md) | 23 |
-| [Verification, Debugging and Specifications](resources/verification-debugging/README.md) | 9 |
+| [Verification, Debugging and Specifications](resources/verification-debugging/README.md) | 10 |
 | [Physical Design and EDA Flows](resources/physical-design/README.md) | 11 |
 | [Analog and RF Design](resources/analog-rf/README.md) | 5 |
-| [Architecture, HLS and Hardware/Software Co-design](resources/architecture-hls-codesign/README.md) | 10 |
+| [Architecture, HLS and Hardware/Software Co-design](resources/architecture-hls-codesign/README.md) | 11 |
 | [Agent Infrastructure and Overviews](resources/agent-infrastructure/README.md) | 6 |
 | [Board, Packaging and System Design](resources/board-system-design/README.md) | 3 |
 

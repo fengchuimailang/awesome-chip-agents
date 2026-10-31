@@ -11,10 +11,12 @@
 | [DuoDiscover announcement](../../resources/architecture-hls-codesign/duodiscover-announcement.md) | 2026-10 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [DuoDiscover](../../resources/architecture-hls-codesign/duodiscover.md) | 2026-10 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [Long-Horizon Analog Design Bench](../../resources/analog-rf/long-horizon-analog-design-bench.md) | 2026-09-27 | Analog and RF Design / 模拟与 RF 电路 |
+| [CovR](../../resources/verification-debugging/covr.md) | 2026-09-15 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [HLS-Eval](../../resources/architecture-hls-codesign/hls-eval.md) | 2026-09 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [GRADE-RTL](../../resources/rtl-generation/grade-rtl.md) | 2026-09 | RTL Generation and Editing / RTL 生成与编辑 |
 | [NoTB](../../resources/verification-debugging/notb.md) | 2026-08 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [PDAgent-Bench](../../resources/physical-design/pdagent-bench.md) | 2026-06 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
+| [Agentic Architect](../../resources/architecture-hls-codesign/agentic-architect.md) | 2026-04-28 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [SynthAgentic-Eval](../../resources/rtl-generation/synthagentic-eval.md) | 2026 | RTL Generation and Editing / RTL 生成与编辑 |
 | [DPC4](../../resources/architecture-hls-codesign/dpc4.md) | 2026 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [LLMs for EDA: Future or Mirage?](../../resources/agent-infrastructure/llms-for-eda-survey.md) | 2025 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |

@@ -147,7 +147,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[HWE Bench · RISC-V design](../../resources/architecture-hls-codesign/hwe-bench-riscv.md)**<br>让 Agent 从零设计 RV32IM CPU，通过形式证明筛选候选，再用 FPGA 实测性能评分。 | [RISC-V](../../resources/tags/risc-v.md) · [形式验证](../../resources/tags/formal.md) · [FPGA](../../resources/tags/fpga.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | — | [FeSens/auto-arch-tournament](https://github.com/FeSens/auto-arch-tournament) | 201 | 2026-10-05<br>采集 2026-10-27 |
+| **[HWE Bench · RISC-V design](../../resources/architecture-hls-codesign/hwe-bench-riscv.md)**<br>通过形式验证与仿真检查迭代优化 RV32IM CPU；V2 结合 FPGA 厂商时序分析和隐藏程序评分。 | [RISC-V](../../resources/tags/risc-v.md) · [形式验证](../../resources/tags/formal.md) · [FPGA](../../resources/tags/fpga.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | — | [FeSens/auto-arch-tournament](https://github.com/FeSens/auto-arch-tournament) | 201 | 2026-10-05<br>采集 2026-10-27 |
 | **[DPC4](../../resources/architecture-hls-codesign/dpc4.md)**<br>CPU 数据预取器设计竞赛，使用 ChampSim 评估。 | [架构探索](../../resources/tags/architecture.md) · [仿真](../../resources/tags/simulation.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | [原始来源](https://sites.google.com/view/dpc4-2026/home) | — | — | — |
 
 <a id="board-system-design"></a>

@@ -10,6 +10,8 @@
 | [SparseCraft](../../resources/architecture-hls-codesign/sparsecraft.md) | 2026-10 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [Long-Horizon Analog Design Bench](../../resources/analog-rf/long-horizon-analog-design-bench.md) | 2026-09-27 | Analog and RF Design / 模拟与 RF 电路 |
 | [AgenticSizing](../../resources/analog-rf/agenticsizing.md) | 2026-09-22 | Analog and RF Design / 模拟与 RF 电路 |
+| [CovR](../../resources/verification-debugging/covr.md) | 2026-09-15 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
+| [Agentic Architect](../../resources/architecture-hls-codesign/agentic-architect.md) | 2026-04-28 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [DPC4](../../resources/architecture-hls-codesign/dpc4.md) | 2026 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [AutoChip](../../resources/rtl-generation/autochip.md) | 2023-11 | RTL Generation and Editing / RTL 生成与编辑 |
 | [VerilogEval](../../resources/rtl-generation/verilogeval.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |

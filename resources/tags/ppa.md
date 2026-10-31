@@ -12,6 +12,7 @@
 | [GoalEvolve](../../resources/physical-design/goalevolve.md) | 2026-08 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [Synopsys / AMD / Microsoft](../../resources/physical-design/synopsys-amd-microsoft-2026.md) | 2026-07-27 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [PostEDA-Bench](../../resources/physical-design/posteda-bench.md) | 2026-05 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
+| [Agentic Architect](../../resources/architecture-hls-codesign/agentic-architect.md) | 2026-04-28 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [SynthAgentic-Eval](../../resources/rtl-generation/synthagentic-eval.md) | 2026 | RTL Generation and Editing / RTL 生成与编辑 |
 | [Build-A-Chip-Bench](../../resources/physical-design/build-a-chip-bench.md) | 2026 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [ORFS-agent](../../resources/physical-design/orfs-agent.md) | 2025-06 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |

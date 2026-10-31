@@ -6,6 +6,8 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [ChipAgents IC-star](../../resources/agent-infrastructure/chipagents-ic-star-announcement.md) | 2026-10-27 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [Cadence Maestro](../../resources/agent-infrastructure/cadence-maestro-announcement.md) | 2026-10-26 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [GPT-Synopsys partnership](../../resources/agent-infrastructure/gpt-synopsys-announcement.md) | 2026-09-30 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [AgentEngineer / Autopilot announcement](../../resources/agent-infrastructure/agentengineer-autopilot-announcement.md) | 2026-09-28 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [ChipStack RTL / PPA announcement](../../resources/rtl-generation/chipstack-rtl-announcement.md) | 2026-09-22 | RTL Generation and Editing / RTL 生成与编辑 |

@@ -6,6 +6,7 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [Cadence Maestro](../../resources/agent-infrastructure/cadence-maestro-announcement.md) | 2026-10-26 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Siemens / NVIDIA · 3D IC](../../resources/board-system-design/siemens-nvidia-3dic-2026.md) | 2026-10-21 | Board, Packaging and System Design / 板级、封装与系统设计 |
 | [GPT-Synopsys partnership](../../resources/agent-infrastructure/gpt-synopsys-announcement.md) | 2026-09-30 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [InnoStack demo](../../resources/physical-design/innostack-demo.md) | 2026-07-22 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |

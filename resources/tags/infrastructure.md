@@ -6,6 +6,8 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [ChipAgents IC-star](../../resources/agent-infrastructure/chipagents-ic-star-announcement.md) | 2026-10-27 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [Cadence Maestro](../../resources/agent-infrastructure/cadence-maestro-announcement.md) | 2026-10-26 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Back to the Future](../../resources/verification-debugging/back-to-the-future.md) | 2026-10-05 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [CHIA](../../resources/architecture-hls-codesign/chia.md) | 2026-06 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [FluxEDA](../../resources/agent-infrastructure/fluxeda.md) | 2026-03 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |

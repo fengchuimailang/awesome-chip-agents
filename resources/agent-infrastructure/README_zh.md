@@ -50,6 +50,8 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[ChipAgents IC-star](../../resources/agent-infrastructure/chipagents-ic-star-announcement.md)**<br>宣布由 IC-star 协调设计知识、Agent、模型路由及物理反馈，覆盖数字和模拟工作流；能力为厂商报告。 | [公告](../../resources/tags/news.md) · [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [商业平台](../../resources/tags/commercial.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>新闻 / 公告 | [原始来源](https://chipagents.ai/newsroom/chipagents-ic-star-full-stack-agentic-ai) | — | — | — |
+| **[Cadence Maestro](../../resources/agent-infrastructure/cadence-maestro-announcement.md)**<br>宣布以 EDA / SDA 工具反馈训练领域模型与 Agent 技能，供 Cadence AI Super Agents 使用；结果为厂商报告。 | [公告](../../resources/tags/news.md) · [基础设施](../../resources/tags/infrastructure.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [商业平台](../../resources/tags/commercial.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>新闻 / 公告 | [原始来源](https://www.cadence.com/en_US/home/company/newsroom/press-releases/pr/2026/cadence-introduces-maestro-a-domain-specialized-ai-model.html) | — | — | — |
 | **[Mistral / NVIDIA · Evaluation plans](../../resources/agent-infrastructure/mistral-nvidia-evaluation-2026.md)**<br>宣布开展工程工具与 CAE / EDA Agent 评测的计划。 | [公告](../../resources/tags/news.md) · [评测](../../resources/tags/evaluation.md) · [基准](../../resources/tags/benchmark.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>新闻 / 公告 | [原始来源](https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/) | — | — | — |
 
 ## 2026-09

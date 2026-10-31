@@ -34,11 +34,17 @@ Newest publication month first. Cross-references share the original record; repo
 | --- | --- | --- | --- | ---: | --- |
 | **[CHIA](../../resources/architecture-hls-codesign/chia.md)**<br>Defines an open framework for agentic hardware/software co-design research with Chipyard and gem5 integration. | [Architecture exploration](../../resources/tags/architecture.md) · [HW/SW co-design](../../resources/tags/codesign.md) · [Infrastructure](../../resources/tags/infrastructure.md)<br>Paper | [Paper](https://arxiv.org/abs/2606.27350) | — | — | — |
 
+## 2026-04
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Agentic Architect](../../resources/architecture-hls-codesign/agentic-architect.md)**<br>Evolves CPU microarchitectural designs using LLM-generated code changes, cycle-accurate simulation, and area and power constraints. | [Architecture exploration](../../resources/tags/architecture.md) · [Simulation](../../resources/tags/simulation.md) · [PPA / QoR](../../resources/tags/ppa.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Paper | [Paper](https://arxiv.org/abs/2604.25083) | — | — | — |
+
 ## 2026 · month not verified
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[HWE Bench · RISC-V design](../../resources/architecture-hls-codesign/hwe-bench-riscv.md)**<br>Has agents design RV32IM CPUs from scratch, gates candidates with formal proofs, and scores surviving designs using FPGA-grounded performance. | [RISC-V](../../resources/tags/risc-v.md) · [Formal verification](../../resources/tags/formal.md) · [FPGA](../../resources/tags/fpga.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | — | [FeSens/auto-arch-tournament](https://github.com/FeSens/auto-arch-tournament) | 201 | 2026-10-05<br>Fetched 2026-10-27 |
+| **[HWE Bench · RISC-V design](../../resources/architecture-hls-codesign/hwe-bench-riscv.md)**<br>Evolves RV32IM CPUs with formal and simulation gates; V2 scores vendor-timed FPGA designs on hidden programs. | [RISC-V](../../resources/tags/risc-v.md) · [Formal verification](../../resources/tags/formal.md) · [FPGA](../../resources/tags/fpga.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | — | [FeSens/auto-arch-tournament](https://github.com/FeSens/auto-arch-tournament) | 201 | 2026-10-05<br>Fetched 2026-10-27 |
 | **[DPC4](../../resources/architecture-hls-codesign/dpc4.md)**<br>CPU data-prefetcher design competition evaluated with ChampSim. | [Architecture exploration](../../resources/tags/architecture.md) · [Simulation](../../resources/tags/simulation.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | [Source](https://sites.google.com/view/dpc4-2026/home) | — | — | — |
 
 ## 2025-06
