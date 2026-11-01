@@ -57,7 +57,7 @@
 
 | Repository / 仓库 | Stars | Last push (UTC) / 最近推送 | Fetched (UTC) / 采集时间 | Status / 状态 |
 | --- | ---: | --- | --- | --- |
-| [hkust-zhiyao/CorrectRTL](https://github.com/hkust-zhiyao/CorrectRTL) | 3 | 2026-10-20T01:33:57Z | 2026-10-27T08:48:11Z | Snapshot / 快照 |
+| [hkust-zhiyao/CorrectRTL](https://github.com/hkust-zhiyao/CorrectRTL) | 4 | 2026-10-20T01:33:57Z | 2026-11-01T20:22:55Z | Snapshot / 快照 |
 
 Stars and push times are GitHub API snapshots. A push may update any branch and does not establish a functional release or research quality.
 

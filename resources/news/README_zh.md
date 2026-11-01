@@ -34,7 +34,7 @@
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
 | **[Synopsys Converge · AgentEngineer](../../resources/rtl-generation/synopsys-converge-2026.md)**<br>展示从规格到 RTL 生成与验证的 Agent 流程。 | [公告](../../resources/tags/news.md) · [RTL](../../resources/tags/rtl.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>新闻 / 公告 | [原始来源](https://news.synopsys.com/2026-03-11-Synopsys-Outlines-Vision-for-Engineering-the-Future) | — | — | — |
-| **[GTC San Jose · Chip-design agents](../../resources/rtl-generation/gtc-san-jose-2026.md)**<br>讨论芯片设计 Agent、RTL 生成和测试平台创建。 | [公告](../../resources/tags/news.md) · [RTL](../../resources/tags/rtl.md) · [测试平台](../../resources/tags/testbench.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>新闻 / 公告 | — | [NVlabs/ACE-RTL](https://github.com/NVlabs/ACE-RTL) | 39 | 2026-09-20<br>采集 2026-10-27 |
+| **[GTC San Jose · Chip-design agents](../../resources/rtl-generation/gtc-san-jose-2026.md)**<br>讨论芯片设计 Agent、RTL 生成和测试平台创建。 | [公告](../../resources/tags/news.md) · [RTL](../../resources/tags/rtl.md) · [测试平台](../../resources/tags/testbench.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>新闻 / 公告 | — | [NVlabs/ACE-RTL](https://github.com/NVlabs/ACE-RTL) | 42 | 2026-09-20<br>采集 2026-11-01 |
 
 ## 2026-02
 

@@ -58,7 +58,7 @@
 
 | Repository / 仓库 | Stars | Last push (UTC) / 最近推送 | Fetched (UTC) / 采集时间 | Status / 状态 |
 | --- | ---: | --- | --- | --- |
-| [sharc-lab/hlsfactory-agent](https://github.com/sharc-lab/hlsfactory-agent) | 2 | 2026-10-23T01:21:07Z | 2026-10-27T08:48:11Z | Snapshot / 快照 |
+| [sharc-lab/hlsfactory-agent](https://github.com/sharc-lab/hlsfactory-agent) | 2 | 2026-10-29T21:31:17Z | 2026-11-01T20:22:55Z | Snapshot / 快照 |
 
 Stars and push times are GitHub API snapshots. A push may update any branch and does not establish a functional release or research quality.
 

@@ -50,7 +50,7 @@
 
 | Repository / 仓库 | Stars | Last push (UTC) / 最近推送 | Fetched (UTC) / 采集时间 | Status / 状态 |
 | --- | ---: | --- | --- | --- |
-| [NVlabs/verilog-eval](https://github.com/NVlabs/verilog-eval) | 487 | 2025-07-14T21:47:51Z | 2026-10-27T08:48:11Z | Snapshot / 快照 |
+| [NVlabs/verilog-eval](https://github.com/NVlabs/verilog-eval) | 491 | 2025-07-14T21:47:51Z | 2026-11-01T20:22:55Z | Snapshot / 快照 |
 
 Stars and push times are GitHub API snapshots. A push may update any branch and does not establish a functional release or research quality.
 

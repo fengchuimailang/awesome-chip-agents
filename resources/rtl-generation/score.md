@@ -50,7 +50,7 @@
 
 | Repository / 仓库 | Stars | Last push (UTC) / 最近推送 | Fetched (UTC) / 采集时间 | Status / 状态 |
 | --- | ---: | --- | --- | --- |
-| [SJTU-YONGFU-RESEARCH-GRP/score](https://github.com/SJTU-YONGFU-RESEARCH-GRP/score) | 4 | 2026-09-03T10:17:15Z | 2026-10-27T08:48:11Z | Snapshot / 快照 |
+| [SJTU-YONGFU-RESEARCH-GRP/score](https://github.com/SJTU-YONGFU-RESEARCH-GRP/score) | 4 | 2026-09-03T10:17:15Z | 2026-11-01T20:22:55Z | Snapshot / 快照 |
 
 Stars and push times are GitHub API snapshots. A push may update any branch and does not establish a functional release or research quality.
 

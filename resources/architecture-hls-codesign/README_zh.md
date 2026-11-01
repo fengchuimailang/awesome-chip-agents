@@ -18,15 +18,15 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[AHRR](../../resources/architecture-hls-codesign/ahrr.md)**<br>将 Agent 驱动的 HLS 设计与 HLS 后的 RTL 精修结合为 AHRR，在 11 项 FPGA 任务上评测。 | [HLS](../../resources/tags/hls.md) · [RTL](../../resources/tags/rtl.md) · [FPGA](../../resources/tags/fpga.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2609.21157) | [ZijD/AHRR](https://github.com/ZijD/AHRR) | 6 | 2026-09-17<br>采集 2026-10-27 |
-| **[HLSFactory-Agent](../../resources/architecture-hls-codesign/hlsfactory-agent.md)**<br>从仓库中抽取并评测 Agentic HLS 任务，构建可复现的大规模数据集。 | [HLS](../../resources/tags/hls.md) · [数据集](../../resources/tags/dataset.md) · [仓库级任务](../../resources/tags/repository-level.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2609.09519) | [sharc-lab/hlsfactory-agent](https://github.com/sharc-lab/hlsfactory-agent) | 2 | 2026-10-23<br>采集 2026-10-27 |
-| **[HLS-Eval](../../resources/architecture-hls-codesign/hls-eval.md)**<br>评测 Agentic HLS 设计任务、编译器自验证和 Agent 轨迹的框架。 | [HLS](../../resources/tags/hls.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.09526) | [sharc-lab/HLS-Eval](https://github.com/sharc-lab/HLS-Eval) | 29 | 2026-10-19<br>采集 2026-10-27 |
+| **[AHRR](../../resources/architecture-hls-codesign/ahrr.md)**<br>将 Agent 驱动的 HLS 设计与 HLS 后的 RTL 精修结合为 AHRR，在 11 项 FPGA 任务上评测。 | [HLS](../../resources/tags/hls.md) · [RTL](../../resources/tags/rtl.md) · [FPGA](../../resources/tags/fpga.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2609.21157) | [ZijD/AHRR](https://github.com/ZijD/AHRR) | 7 | 2026-09-17<br>采集 2026-11-01 |
+| **[HLSFactory-Agent](../../resources/architecture-hls-codesign/hlsfactory-agent.md)**<br>从仓库中抽取并评测 Agentic HLS 任务，构建可复现的大规模数据集。 | [HLS](../../resources/tags/hls.md) · [数据集](../../resources/tags/dataset.md) · [仓库级任务](../../resources/tags/repository-level.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2609.09519) | [sharc-lab/hlsfactory-agent](https://github.com/sharc-lab/hlsfactory-agent) | 2 | 2026-10-29<br>采集 2026-11-01 |
+| **[HLS-Eval](../../resources/architecture-hls-codesign/hls-eval.md)**<br>评测 Agentic HLS 设计任务、编译器自验证和 Agent 轨迹的框架。 | [HLS](../../resources/tags/hls.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.09526) | [sharc-lab/HLS-Eval](https://github.com/sharc-lab/HLS-Eval) | 29 | 2026-10-30<br>采集 2026-11-01 |
 
 ## 2026-08
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[LACE](../../resources/architecture-hls-codesign/lace.md)**<br>协调多个 Agent 完成 RISC-V 指令扩展设计、RTL 修改和形式验证。 | [RISC-V](../../resources/tags/risc-v.md) · [代码编辑](../../resources/tags/editing.md) · [形式验证](../../resources/tags/formal.md) · [多 Agent](../../resources/tags/multi-agent.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2608.02915) | [UMN-ZhaoLab/LACE](https://github.com/UMN-ZhaoLab/LACE) | 4 | 2026-09-02<br>采集 2026-10-27 |
+| **[LACE](../../resources/architecture-hls-codesign/lace.md)**<br>协调多个 Agent 完成 RISC-V 指令扩展设计、RTL 修改和形式验证。 | [RISC-V](../../resources/tags/risc-v.md) · [代码编辑](../../resources/tags/editing.md) · [形式验证](../../resources/tags/formal.md) · [多 Agent](../../resources/tags/multi-agent.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2608.02915) | [UMN-ZhaoLab/LACE](https://github.com/UMN-ZhaoLab/LACE) | 4 | 2026-09-02<br>采集 2026-11-01 |
 
 ## 2026-06
 
@@ -44,7 +44,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[HWE Bench · RISC-V design](../../resources/architecture-hls-codesign/hwe-bench-riscv.md)**<br>通过形式验证与仿真检查迭代优化 RV32IM CPU；V2 结合 FPGA 厂商时序分析和隐藏程序评分。 | [RISC-V](../../resources/tags/risc-v.md) · [形式验证](../../resources/tags/formal.md) · [FPGA](../../resources/tags/fpga.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | — | [FeSens/auto-arch-tournament](https://github.com/FeSens/auto-arch-tournament) | 201 | 2026-10-05<br>采集 2026-10-27 |
+| **[HWE Bench · RISC-V design](../../resources/architecture-hls-codesign/hwe-bench-riscv.md)**<br>通过形式验证与仿真检查迭代优化 RV32IM CPU；V2 结合 FPGA 厂商时序分析和隐藏程序评分。 | [RISC-V](../../resources/tags/risc-v.md) · [形式验证](../../resources/tags/formal.md) · [FPGA](../../resources/tags/fpga.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | — | [FeSens/auto-arch-tournament](https://github.com/FeSens/auto-arch-tournament) | 204 | 2026-10-05<br>采集 2026-11-01 |
 | **[DPC4](../../resources/architecture-hls-codesign/dpc4.md)**<br>CPU 数据预取器设计竞赛，使用 ChampSim 评估。 | [架构探索](../../resources/tags/architecture.md) · [仿真](../../resources/tags/simulation.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | [原始来源](https://sites.google.com/view/dpc4-2026/home) | — | — | — |
 
 ## 2025-06

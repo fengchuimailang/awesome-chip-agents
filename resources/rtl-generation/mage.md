@@ -56,7 +56,7 @@
 
 | Repository / 仓库 | Stars | Last push (UTC) / 最近推送 | Fetched (UTC) / 采集时间 | Status / 状态 |
 | --- | ---: | --- | --- | --- |
-| [stable-lab/MAGE](https://github.com/stable-lab/MAGE) | 142 | 2025-04-11T07:32:44Z | 2026-10-27T08:48:11Z | Snapshot / 快照 |
+| [stable-lab/MAGE](https://github.com/stable-lab/MAGE) | 143 | 2025-04-11T07:32:44Z | 2026-11-01T20:22:55Z | Snapshot / 快照 |
 
 Stars and push times are GitHub API snapshots. A push may update any branch and does not establish a functional release or research quality.
 

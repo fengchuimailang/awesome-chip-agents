@@ -23,32 +23,32 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[ScaleBench](../../resources/rtl-generation/scalebench.md)**<br>提供 200 项规格到 RTL 任务及形式等价评测材料。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [形式验证](../../resources/tags/formal.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | — | [hkust-zhiyao/CorrectRTL](https://github.com/hkust-zhiyao/CorrectRTL) | 3 | 2026-10-20<br>采集 2026-10-27 |
+| **[ScaleBench](../../resources/rtl-generation/scalebench.md)**<br>提供 200 项规格到 RTL 任务及形式等价评测材料。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [形式验证](../../resources/tags/formal.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | — | [hkust-zhiyao/CorrectRTL](https://github.com/hkust-zhiyao/CorrectRTL) | 4 | 2026-10-20<br>采集 2026-11-01 |
 
 ### 2026-09
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)**<br>评测生成 RTL 的代码和配套材料，覆盖功能等价、模块完整性和 QoR，而不只是编译。 | [RTL](../../resources/tags/rtl.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.25335) | [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) | 0 | 2026-10-12<br>采集 2026-10-27 |
+| **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)**<br>评测生成 RTL 的代码和配套材料，覆盖功能等价、模块完整性和 QoR，而不只是编译。 | [RTL](../../resources/tags/rtl.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.25335) | [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) | 0 | 2026-10-12<br>采集 2026-11-01 |
 
 ### 2026-06
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[RTL-BenchLS](../../resources/rtl-generation/rtl-benchls.md)**<br>提供一万多个经过形式验证的 Verilog 设计，用于往返推理、掩码内容推理和仓库问题修复，并提供数据和评测代码。 | [RTL](../../resources/tags/rtl.md) · [形式验证](../../resources/tags/formal.md) · [数据集](../../resources/tags/dataset.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2606.08976) | [hkust-zhiyao/RTL-BenchLS](https://github.com/hkust-zhiyao/RTL-BenchLS) | 5 | 2026-06-08<br>采集 2026-10-27 |
+| **[RTL-BenchLS](../../resources/rtl-generation/rtl-benchls.md)**<br>提供一万多个经过形式验证的 Verilog 设计，用于往返推理、掩码内容推理和仓库问题修复，并提供数据和评测代码。 | [RTL](../../resources/tags/rtl.md) · [形式验证](../../resources/tags/formal.md) · [数据集](../../resources/tags/dataset.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2606.08976) | [hkust-zhiyao/RTL-BenchLS](https://github.com/hkust-zhiyao/RTL-BenchLS) | 5 | 2026-06-08<br>采集 2026-11-01 |
 
 ### 2026-01
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[ChipBench](../../resources/rtl-generation/chipbench.md)**<br>面向较真实的层次化硬件模块，评测 Verilog 生成、调试和参考模型生成。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [调试](../../resources/tags/debugging.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2601.21448) | [zhongkaiyu/ChipBench](https://github.com/zhongkaiyu/ChipBench) | 44 | 2026-08-06<br>采集 2026-10-27 |
+| **[ChipBench](../../resources/rtl-generation/chipbench.md)**<br>面向较真实的层次化硬件模块，评测 Verilog 生成、调试和参考模型生成。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [调试](../../resources/tags/debugging.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2601.21448) | [zhongkaiyu/ChipBench](https://github.com/zhongkaiyu/ChipBench) | 46 | 2026-08-06<br>采集 2026-11-01 |
 
 ### 2026 · 月份待核实
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[SynthAgentic-Eval](../../resources/rtl-generation/synthagentic-eval.md)**<br>记录 32 个模型在 202 项 Verilog 任务上的综合感知评测结果。 | [RTL](../../resources/tags/rtl.md) · [评测](../../resources/tags/evaluation.md) · [数据集](../../resources/tags/dataset.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>基准 / 数据集 | — | [owenfucell/SynthAgentic](https://github.com/owenfucell/SynthAgentic) | 0 | 2026-05-10<br>采集 2026-10-27 |
-| **[RTL-BenchMT](../../resources/rtl-generation/rtl-benchmt.md)**<br>面向 Agent 辅助 RTL 基准维护的公开数据集和评测代码。 | [RTL](../../resources/tags/rtl.md) · [基准](../../resources/tags/benchmark.md) · [数据集](../../resources/tags/dataset.md)<br>基准 / 数据集 | — | [hkust-zhiyao/RTL-BenchMT](https://github.com/hkust-zhiyao/RTL-BenchMT) | 4 | 2026-09-03<br>采集 2026-10-27 |
+| **[SynthAgentic-Eval](../../resources/rtl-generation/synthagentic-eval.md)**<br>记录 32 个模型在 202 项 Verilog 任务上的综合感知评测结果。 | [RTL](../../resources/tags/rtl.md) · [评测](../../resources/tags/evaluation.md) · [数据集](../../resources/tags/dataset.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>基准 / 数据集 | — | [owenfucell/SynthAgentic](https://github.com/owenfucell/SynthAgentic) | 0 | 2026-05-10<br>采集 2026-11-01 |
+| **[RTL-BenchMT](../../resources/rtl-generation/rtl-benchmt.md)**<br>面向 Agent 辅助 RTL 基准维护的公开数据集和评测代码。 | [RTL](../../resources/tags/rtl.md) · [基准](../../resources/tags/benchmark.md) · [数据集](../../resources/tags/dataset.md)<br>基准 / 数据集 | — | [hkust-zhiyao/RTL-BenchMT](https://github.com/hkust-zhiyao/RTL-BenchMT) | 5 | 2026-09-03<br>采集 2026-11-01 |
 
 ### 2025-03
 
@@ -60,17 +60,17 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[RTL-Repo](../../resources/rtl-generation/rtl-repo.md)**<br>面向仓库级 Verilog 补全的基准，包含 4,000 多个 GitHub 代码样本及完整仓库上下文。 | [RTL](../../resources/tags/rtl.md) · [仓库级任务](../../resources/tags/repository-level.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | — | [AUCOHL/RTL-Repo](https://github.com/AUCOHL/RTL-Repo) | 35 | 2024-06-05<br>采集 2026-10-27 |
+| **[RTL-Repo](../../resources/rtl-generation/rtl-repo.md)**<br>面向仓库级 Verilog 补全的基准，包含 4,000 多个 GitHub 代码样本及完整仓库上下文。 | [RTL](../../resources/tags/rtl.md) · [仓库级任务](../../resources/tags/repository-level.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | — | [AUCOHL/RTL-Repo](https://github.com/AUCOHL/RTL-Repo) | 35 | 2024-06-05<br>采集 2026-11-01 |
 
 ### 日期待核实
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[VerilogEval](../../resources/rtl-generation/verilogeval.md)**<br>基于 HDLBits 的 Verilog 生成评测基准和工具，使用仿真检查功能正确性。 | [RTL](../../resources/tags/rtl.md) · [基准](../../resources/tags/benchmark.md) · [仿真](../../resources/tags/simulation.md)<br>基准 / 数据集 | — | [NVlabs/verilog-eval](https://github.com/NVlabs/verilog-eval) | 487 | 2025-07-14<br>采集 2026-10-27 |
-| **[SCORE](../../resources/rtl-generation/score.md)**<br>汇集由 SoC 生成器和硬件构造语言一致生成的 Verilog RTL，可用于可复现的综合、验证和 Agent 评测，但本身不是 Agent 基准。 | [RTL](../../resources/tags/rtl.md) · [数据集](../../resources/tags/dataset.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | — | [SJTU-YONGFU-RESEARCH-GRP/score](https://github.com/SJTU-YONGFU-RESEARCH-GRP/score) | 4 | 2026-09-03<br>采集 2026-10-27 |
-| **[RTLLM](../../resources/rtl-generation/rtllm.md)**<br>开源 RTL 生成基准与评测代码，包含设计描述、测试平台和评测脚本。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>开源项目 / 基准 / 数据集 | — | [hkust-zhiyao/RTLLM](https://github.com/hkust-zhiyao/RTLLM) | 238 | 2026-08-15<br>采集 2026-10-27 |
-| **[CVDP](../../resources/rtl-generation/cvdp.md)**<br>NVIDIA 发布的 RTL 编码评测基准，覆盖生成、编辑和调试等任务。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [调试](../../resources/tags/debugging.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | — | [NVlabs/cvdp_benchmark](https://github.com/NVlabs/cvdp_benchmark) | 243 | 2026-06-08<br>采集 2026-10-27 |
-| **[ArchXBench](../../resources/rtl-generation/archxbench.md)**<br>面向复杂 RTL 任务的基准，包含多周期、流水线和层次化设计，覆盖多个应用领域。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | — | [sureshpurini/ArchXBench](https://github.com/sureshpurini/ArchXBench) | 18 | 2026-07-26<br>采集 2026-10-27 |
+| **[VerilogEval](../../resources/rtl-generation/verilogeval.md)**<br>基于 HDLBits 的 Verilog 生成评测基准和工具，使用仿真检查功能正确性。 | [RTL](../../resources/tags/rtl.md) · [基准](../../resources/tags/benchmark.md) · [仿真](../../resources/tags/simulation.md)<br>基准 / 数据集 | — | [NVlabs/verilog-eval](https://github.com/NVlabs/verilog-eval) | 491 | 2025-07-14<br>采集 2026-11-01 |
+| **[SCORE](../../resources/rtl-generation/score.md)**<br>汇集由 SoC 生成器和硬件构造语言一致生成的 Verilog RTL，可用于可复现的综合、验证和 Agent 评测，但本身不是 Agent 基准。 | [RTL](../../resources/tags/rtl.md) · [数据集](../../resources/tags/dataset.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | — | [SJTU-YONGFU-RESEARCH-GRP/score](https://github.com/SJTU-YONGFU-RESEARCH-GRP/score) | 4 | 2026-09-03<br>采集 2026-11-01 |
+| **[RTLLM](../../resources/rtl-generation/rtllm.md)**<br>开源 RTL 生成基准与评测代码，包含设计描述、测试平台和评测脚本。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>开源项目 / 基准 / 数据集 | — | [hkust-zhiyao/RTLLM](https://github.com/hkust-zhiyao/RTLLM) | 243 | 2026-08-15<br>采集 2026-11-01 |
+| **[CVDP](../../resources/rtl-generation/cvdp.md)**<br>NVIDIA 发布的 RTL 编码评测基准，覆盖生成、编辑和调试等任务。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [调试](../../resources/tags/debugging.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | — | [NVlabs/cvdp_benchmark](https://github.com/NVlabs/cvdp_benchmark) | 249 | 2026-06-08<br>采集 2026-11-01 |
+| **[ArchXBench](../../resources/rtl-generation/archxbench.md)**<br>面向复杂 RTL 任务的基准，包含多周期、流水线和层次化设计，覆盖多个应用领域。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | — | [sureshpurini/ArchXBench](https://github.com/sureshpurini/ArchXBench) | 18 | 2026-07-26<br>采集 2026-11-01 |
 
 <a id="verification-debugging"></a>
 
@@ -80,7 +80,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[VeriBugBench](../../resources/verification-debugging/veribugbench.md)**<br>用于构建真实感 Verilog 调试任务的基准代码，包含变异和基于执行的筛选。 | [RTL](../../resources/tags/rtl.md) · [调试](../../resources/tags/debugging.md) · [基准](../../resources/tags/benchmark.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.18022) | [wndif/VeriBugBench](https://github.com/wndif/VeriBugBench) | 2 | 2026-09-01<br>采集 2026-10-27 |
+| **[VeriBugBench](../../resources/verification-debugging/veribugbench.md)**<br>用于构建真实感 Verilog 调试任务的基准代码，包含变异和基于执行的筛选。 | [RTL](../../resources/tags/rtl.md) · [调试](../../resources/tags/debugging.md) · [基准](../../resources/tags/benchmark.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.18022) | [wndif/VeriBugBench](https://github.com/wndif/VeriBugBench) | 2 | 2026-09-01<br>采集 2026-11-01 |
 
 ### 2026-07
 
@@ -92,7 +92,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[HWE-Bench · Bug repair](../../resources/verification-debugging/hwe-bench-bug-repair.md)**<br>面向仓库级硬件 Bug 修复的基准，包含来自六个开源硬件项目的 417 个 fail-to-pass 任务。 | [RTL](../../resources/tags/rtl.md) · [调试](../../resources/tags/debugging.md) · [仓库级任务](../../resources/tags/repository-level.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2604.14709) | [pku-liang/hwe-bench](https://github.com/pku-liang/hwe-bench) | 67 | 2026-08-01<br>采集 2026-10-27 |
+| **[HWE-Bench · Bug repair](../../resources/verification-debugging/hwe-bench-bug-repair.md)**<br>面向仓库级硬件 Bug 修复的基准，包含来自六个开源硬件项目的 417 个 fail-to-pass 任务。 | [RTL](../../resources/tags/rtl.md) · [调试](../../resources/tags/debugging.md) · [仓库级任务](../../resources/tags/repository-level.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2604.14709) | [pku-liang/hwe-bench](https://github.com/pku-liang/hwe-bench) | 72 | 2026-08-01<br>采集 2026-11-01 |
 
 <a id="physical-design"></a>
 
@@ -120,7 +120,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[CircuitNet](../../resources/physical-design/circuitnet.md)**<br>开源 EDA 数据集，涵盖拥塞、DRC、IR drop 和时序预测等任务，可用于物理设计机器学习评测，但本身不是 Agent 基准。 | [物理设计](../../resources/tags/physical-design.md) · [数据集](../../resources/tags/dataset.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | — | [circuitnet/CircuitNet](https://github.com/circuitnet/CircuitNet) | 519 | 2026-05-17<br>采集 2026-10-27 |
+| **[CircuitNet](../../resources/physical-design/circuitnet.md)**<br>开源 EDA 数据集，涵盖拥塞、DRC、IR drop 和时序预测等任务，可用于物理设计机器学习评测，但本身不是 Agent 基准。 | [物理设计](../../resources/tags/physical-design.md) · [数据集](../../resources/tags/dataset.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | — | [circuitnet/CircuitNet](https://github.com/circuitnet/CircuitNet) | 519 | 2026-05-17<br>采集 2026-11-01 |
 
 <a id="analog-rf"></a>
 
@@ -140,14 +140,14 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[HLSFactory-Agent](../../resources/architecture-hls-codesign/hlsfactory-agent.md)**<br>从仓库中抽取并评测 Agentic HLS 任务，构建可复现的大规模数据集。 | [HLS](../../resources/tags/hls.md) · [数据集](../../resources/tags/dataset.md) · [仓库级任务](../../resources/tags/repository-level.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2609.09519) | [sharc-lab/hlsfactory-agent](https://github.com/sharc-lab/hlsfactory-agent) | 2 | 2026-10-23<br>采集 2026-10-27 |
-| **[HLS-Eval](../../resources/architecture-hls-codesign/hls-eval.md)**<br>评测 Agentic HLS 设计任务、编译器自验证和 Agent 轨迹的框架。 | [HLS](../../resources/tags/hls.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.09526) | [sharc-lab/HLS-Eval](https://github.com/sharc-lab/HLS-Eval) | 29 | 2026-10-19<br>采集 2026-10-27 |
+| **[HLSFactory-Agent](../../resources/architecture-hls-codesign/hlsfactory-agent.md)**<br>从仓库中抽取并评测 Agentic HLS 任务，构建可复现的大规模数据集。 | [HLS](../../resources/tags/hls.md) · [数据集](../../resources/tags/dataset.md) · [仓库级任务](../../resources/tags/repository-level.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2609.09519) | [sharc-lab/hlsfactory-agent](https://github.com/sharc-lab/hlsfactory-agent) | 2 | 2026-10-29<br>采集 2026-11-01 |
+| **[HLS-Eval](../../resources/architecture-hls-codesign/hls-eval.md)**<br>评测 Agentic HLS 设计任务、编译器自验证和 Agent 轨迹的框架。 | [HLS](../../resources/tags/hls.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.09526) | [sharc-lab/HLS-Eval](https://github.com/sharc-lab/HLS-Eval) | 29 | 2026-10-30<br>采集 2026-11-01 |
 
 ### 2026 · 月份待核实
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[HWE Bench · RISC-V design](../../resources/architecture-hls-codesign/hwe-bench-riscv.md)**<br>通过形式验证与仿真检查迭代优化 RV32IM CPU；V2 结合 FPGA 厂商时序分析和隐藏程序评分。 | [RISC-V](../../resources/tags/risc-v.md) · [形式验证](../../resources/tags/formal.md) · [FPGA](../../resources/tags/fpga.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | — | [FeSens/auto-arch-tournament](https://github.com/FeSens/auto-arch-tournament) | 201 | 2026-10-05<br>采集 2026-10-27 |
+| **[HWE Bench · RISC-V design](../../resources/architecture-hls-codesign/hwe-bench-riscv.md)**<br>通过形式验证与仿真检查迭代优化 RV32IM CPU；V2 结合 FPGA 厂商时序分析和隐藏程序评分。 | [RISC-V](../../resources/tags/risc-v.md) · [形式验证](../../resources/tags/formal.md) · [FPGA](../../resources/tags/fpga.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | — | [FeSens/auto-arch-tournament](https://github.com/FeSens/auto-arch-tournament) | 204 | 2026-10-05<br>采集 2026-11-01 |
 | **[DPC4](../../resources/architecture-hls-codesign/dpc4.md)**<br>CPU 数据预取器设计竞赛，使用 ChampSim 评估。 | [架构探索](../../resources/tags/architecture.md) · [仿真](../../resources/tags/simulation.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | [原始来源](https://sites.google.com/view/dpc4-2026/home) | — | — | — |
 
 <a id="board-system-design"></a>

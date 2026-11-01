@@ -17,15 +17,15 @@ Newest publication month first. Cross-references share the original record; repo
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
 | **[CovR](../../resources/verification-debugging/covr.md)**<br>Combines agentic testbench refinement with simulation and coverage rewards to train coverage-aware verification models. | [Verification](../../resources/tags/verification.md) · [Testbench](../../resources/tags/testbench.md) · [Simulation](../../resources/tags/simulation.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Paper | [Paper](https://arxiv.org/abs/2609.19189) | — | — | — |
-| **[VeriBugBench](../../resources/verification-debugging/veribugbench.md)**<br>Benchmark construction code for empirically grounded Verilog debugging tasks with mutation and execution-based filtering. | [RTL](../../resources/tags/rtl.md) · [Debugging](../../resources/tags/debugging.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Open-source project / Benchmark / dataset | [Paper](https://arxiv.org/abs/2609.18022) | [wndif/VeriBugBench](https://github.com/wndif/VeriBugBench) | 2 | 2026-09-01<br>Fetched 2026-10-27 |
-| **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)**<br>Evaluation code and collateral for measuring generated RTL beyond compilation, including functional equivalence, completeness, and QoR. | [RTL](../../resources/tags/rtl.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>Open-source project / Benchmark / dataset · cross-reference | [Paper](https://arxiv.org/abs/2609.25335) | [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) | 0 | 2026-10-12<br>Fetched 2026-10-27 |
+| **[VeriBugBench](../../resources/verification-debugging/veribugbench.md)**<br>Benchmark construction code for empirically grounded Verilog debugging tasks with mutation and execution-based filtering. | [RTL](../../resources/tags/rtl.md) · [Debugging](../../resources/tags/debugging.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Open-source project / Benchmark / dataset | [Paper](https://arxiv.org/abs/2609.18022) | [wndif/VeriBugBench](https://github.com/wndif/VeriBugBench) | 2 | 2026-09-01<br>Fetched 2026-11-01 |
+| **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)**<br>Evaluation code and collateral for measuring generated RTL beyond compilation, including functional equivalence, completeness, and QoR. | [RTL](../../resources/tags/rtl.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>Open-source project / Benchmark / dataset · cross-reference | [Paper](https://arxiv.org/abs/2609.25335) | [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) | 0 | 2026-10-12<br>Fetched 2026-11-01 |
 
 ## 2026-08
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
 | **[NoTB](../../resources/verification-debugging/notb.md)**<br>Uses cross-model formal consensus to triage generated RTL without relying on a hand-written testbench oracle. | [RTL](../../resources/tags/rtl.md) · [Formal verification](../../resources/tags/formal.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Paper | [Paper](https://arxiv.org/abs/2608.21962) | — | — | — |
-| **[LACE](../../resources/architecture-hls-codesign/lace.md)**<br>Coordinates agents for RISC-V instruction-extension design, RTL editing, and formal verification. | [RISC-V](../../resources/tags/risc-v.md) · [Code editing](../../resources/tags/editing.md) · [Formal verification](../../resources/tags/formal.md) · [Multi-agent](../../resources/tags/multi-agent.md)<br>Paper / Open-source project · cross-reference | [Paper](https://arxiv.org/abs/2608.02915) | [UMN-ZhaoLab/LACE](https://github.com/UMN-ZhaoLab/LACE) | 4 | 2026-09-02<br>Fetched 2026-10-27 |
+| **[LACE](../../resources/architecture-hls-codesign/lace.md)**<br>Coordinates agents for RISC-V instruction-extension design, RTL editing, and formal verification. | [RISC-V](../../resources/tags/risc-v.md) · [Code editing](../../resources/tags/editing.md) · [Formal verification](../../resources/tags/formal.md) · [Multi-agent](../../resources/tags/multi-agent.md)<br>Paper / Open-source project · cross-reference | [Paper](https://arxiv.org/abs/2608.02915) | [UMN-ZhaoLab/LACE](https://github.com/UMN-ZhaoLab/LACE) | 4 | 2026-09-02<br>Fetched 2026-11-01 |
 
 ## 2026-07
 
@@ -37,7 +37,7 @@ Newest publication month first. Cross-references share the original record; repo
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[HWE-Bench · Bug repair](../../resources/verification-debugging/hwe-bench-bug-repair.md)**<br>Repository-level benchmark with 417 fail-to-pass bug-fix tasks from six open-source hardware projects. | [RTL](../../resources/tags/rtl.md) · [Debugging](../../resources/tags/debugging.md) · [Repository-level tasks](../../resources/tags/repository-level.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2604.14709) | [pku-liang/hwe-bench](https://github.com/pku-liang/hwe-bench) | 67 | 2026-08-01<br>Fetched 2026-10-27 |
+| **[HWE-Bench · Bug repair](../../resources/verification-debugging/hwe-bench-bug-repair.md)**<br>Repository-level benchmark with 417 fail-to-pass bug-fix tasks from six open-source hardware projects. | [RTL](../../resources/tags/rtl.md) · [Debugging](../../resources/tags/debugging.md) · [Repository-level tasks](../../resources/tags/repository-level.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2604.14709) | [pku-liang/hwe-bench](https://github.com/pku-liang/hwe-bench) | 72 | 2026-08-01<br>Fetched 2026-11-01 |
 
 ## 2026-03
 
@@ -49,13 +49,13 @@ Newest publication month first. Cross-references share the original record; repo
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[ACE-RTL](../../resources/rtl-generation/ace-rtl.md)**<br>Combines an RTL-specialized generator with reasoning agents for verification-guided RTL generation and repair. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Debugging](../../resources/tags/debugging.md)<br>Paper / Open-source project · cross-reference | [Paper](https://arxiv.org/abs/2602.10218) | [NVlabs/ACE-RTL](https://github.com/NVlabs/ACE-RTL) | 39 | 2026-09-20<br>Fetched 2026-10-27 |
+| **[ACE-RTL](../../resources/rtl-generation/ace-rtl.md)**<br>Combines an RTL-specialized generator with reasoning agents for verification-guided RTL generation and repair. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Debugging](../../resources/tags/debugging.md)<br>Paper / Open-source project · cross-reference | [Paper](https://arxiv.org/abs/2602.10218) | [NVlabs/ACE-RTL](https://github.com/NVlabs/ACE-RTL) | 42 | 2026-09-20<br>Fetched 2026-11-01 |
 
 ## 2026-01
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[Veri-Sure](../../resources/rtl-generation/veri-sure.md)**<br>Coordinates agents through a design contract, dependency-slicing-guided local repairs, temporal trace analysis, and formal verification for RTL generation and debugging. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Formal verification](../../resources/tags/formal.md) · [Multi-agent](../../resources/tags/multi-agent.md)<br>Paper / Open-source project · cross-reference | [Paper](https://arxiv.org/abs/2601.19747) | [xyjoey/Veri-Sure](https://github.com/xyjoey/Veri-Sure) | 28 | 2026-10-26<br>Fetched 2026-10-27 |
+| **[Veri-Sure](../../resources/rtl-generation/veri-sure.md)**<br>Coordinates agents through a design contract, dependency-slicing-guided local repairs, temporal trace analysis, and formal verification for RTL generation and debugging. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Formal verification](../../resources/tags/formal.md) · [Multi-agent](../../resources/tags/multi-agent.md)<br>Paper / Open-source project · cross-reference | [Paper](https://arxiv.org/abs/2601.19747) | [xyjoey/Veri-Sure](https://github.com/xyjoey/Veri-Sure) | 29 | 2026-10-26<br>Fetched 2026-11-01 |
 
 ## 2026 · month not verified
 
@@ -67,26 +67,26 @@ Newest publication month first. Cross-references share the original record; repo
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[VerilogCoder](../../resources/rtl-generation/verilogcoder.md)**<br>Coordinates planning, simulation, and waveform tracing agents to generate and debug Verilog. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Debugging](../../resources/tags/debugging.md) · [Waveforms](../../resources/tags/waveform.md)<br>Paper / Open-source project · cross-reference | [Paper](https://arxiv.org/abs/2408.08927) | [NVlabs/VerilogCoder](https://github.com/NVlabs/VerilogCoder) | 188 | 2025-03-10<br>Fetched 2026-10-27 |
+| **[VerilogCoder](../../resources/rtl-generation/verilogcoder.md)**<br>Coordinates planning, simulation, and waveform tracing agents to generate and debug Verilog. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Debugging](../../resources/tags/debugging.md) · [Waveforms](../../resources/tags/waveform.md)<br>Paper / Open-source project · cross-reference | [Paper](https://arxiv.org/abs/2408.08927) | [NVlabs/VerilogCoder](https://github.com/NVlabs/VerilogCoder) | 191 | 2025-03-10<br>Fetched 2026-11-01 |
 
 ## 2024-07
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[AutoBench](../../resources/verification-debugging/autobench.md)**<br>Generates self-checking HDL testbenches from design descriptions and evaluates their quality. | [RTL](../../resources/tags/rtl.md) · [Testbench](../../resources/tags/testbench.md) · [Verification](../../resources/tags/verification.md)<br>Paper | [Paper](https://arxiv.org/abs/2407.03891) | [AutoBench/AutoBench](https://github.com/AutoBench/AutoBench) | 46 | 2025-04-11<br>Fetched 2026-10-27 |
+| **[AutoBench](../../resources/verification-debugging/autobench.md)**<br>Generates self-checking HDL testbenches from design descriptions and evaluates their quality. | [RTL](../../resources/tags/rtl.md) · [Testbench](../../resources/tags/testbench.md) · [Verification](../../resources/tags/verification.md)<br>Paper | [Paper](https://arxiv.org/abs/2407.03891) | [AutoBench/AutoBench](https://github.com/AutoBench/AutoBench) | 46 | 2025-04-11<br>Fetched 2026-11-01 |
 
 ## 2023-11
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[RTLFixer](../../resources/verification-debugging/rtlfixer.md)**<br>Applies retrieval and ReAct-style tool feedback to repair Verilog compilation errors. | [RTL](../../resources/tags/rtl.md) · [Debugging](../../resources/tags/debugging.md) · [Tool use](../../resources/tags/tool-use.md)<br>Paper / Open-source project | [Paper](https://arxiv.org/abs/2311.16543) | [NVlabs/RTLFixer](https://github.com/NVlabs/RTLFixer) | 60 | 2024-05-23<br>Fetched 2026-10-27 |
+| **[RTLFixer](../../resources/verification-debugging/rtlfixer.md)**<br>Applies retrieval and ReAct-style tool feedback to repair Verilog compilation errors. | [RTL](../../resources/tags/rtl.md) · [Debugging](../../resources/tags/debugging.md) · [Tool use](../../resources/tags/tool-use.md)<br>Paper / Open-source project | [Paper](https://arxiv.org/abs/2311.16543) | [NVlabs/RTLFixer](https://github.com/NVlabs/RTLFixer) | 60 | 2024-05-23<br>Fetched 2026-11-01 |
 
 ## Date not recorded
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
 | **[Cadence ChipStack](../../resources/rtl-generation/cadence-chipstack.md)**<br>Commercial multi-agent workflows for RTL design and verification; vendor-reported capabilities. | [Commercial platform](../../resources/tags/commercial.md) · [RTL](../../resources/tags/rtl.md) · [Verification](../../resources/tags/verification.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Tool / platform · cross-reference | [Source](https://www.cadence.com/en_US/home/ai/agentic-ai-super-agents.html) | — | — | — |
-| **[ai-chip-design-platform](../../resources/verification-debugging/ai-chip-design-platform.md)**<br>Multi-agent RISC-V RTL verification platform covering semantic analysis, testbench generation, RTL/Spike comparison, coverage-directed testing, formal checks, and auditable verification evidence. | [RISC-V](../../resources/tags/risc-v.md) · [Verification](../../resources/tags/verification.md) · [Testbench](../../resources/tags/testbench.md) · [Formal verification](../../resources/tags/formal.md)<br>Open-source project | — | [HUNT-001/ai-chip-design-platform](https://github.com/HUNT-001/ai-chip-design-platform) | 12 | 2026-10-07<br>Fetched 2026-10-27 |
+| **[ai-chip-design-platform](../../resources/verification-debugging/ai-chip-design-platform.md)**<br>Multi-agent RISC-V RTL verification platform covering semantic analysis, testbench generation, RTL/Spike comparison, coverage-directed testing, formal checks, and auditable verification evidence. | [RISC-V](../../resources/tags/risc-v.md) · [Verification](../../resources/tags/verification.md) · [Testbench](../../resources/tags/testbench.md) · [Formal verification](../../resources/tags/formal.md)<br>Open-source project | — | [HUNT-001/ai-chip-design-platform](https://github.com/HUNT-001/ai-chip-design-platform) | 12 | 2026-11-01<br>Fetched 2026-11-01 |
 
 # Related News and Videos
 

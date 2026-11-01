@@ -34,7 +34,7 @@
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
 | **[Synopsys Converge · AgentEngineer](../../resources/rtl-generation/synopsys-converge-2026.md)**<br>Demonstrates an agentic specification-to-RTL and verification workflow. | [Announcement](../../resources/tags/news.md) · [RTL](../../resources/tags/rtl.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://news.synopsys.com/2026-03-11-Synopsys-Outlines-Vision-for-Engineering-the-Future) | — | — | — |
-| **[GTC San Jose · Chip-design agents](../../resources/rtl-generation/gtc-san-jose-2026.md)**<br>Discusses chip-design agents, RTL generation, and testbench creation. | [Announcement](../../resources/tags/news.md) · [RTL](../../resources/tags/rtl.md) · [Testbench](../../resources/tags/testbench.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | — | [NVlabs/ACE-RTL](https://github.com/NVlabs/ACE-RTL) | 39 | 2026-09-20<br>Fetched 2026-10-27 |
+| **[GTC San Jose · Chip-design agents](../../resources/rtl-generation/gtc-san-jose-2026.md)**<br>Discusses chip-design agents, RTL generation, and testbench creation. | [Announcement](../../resources/tags/news.md) · [RTL](../../resources/tags/rtl.md) · [Testbench](../../resources/tags/testbench.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | — | [NVlabs/ACE-RTL](https://github.com/NVlabs/ACE-RTL) | 42 | 2026-09-20<br>Fetched 2026-11-01 |
 
 ## 2026-02
 
