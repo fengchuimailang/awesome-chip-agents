@@ -6,40 +6,40 @@
 
 | Tag | Resources |
 | --- | ---: |
-| [RTL](rtl.md) | 38 |
-| [Code generation](generation.md) | 12 |
+| [RTL](rtl.md) | 43 |
+| [Code generation](generation.md) | 15 |
 | [Code editing](editing.md) | 3 |
-| [Verification](verification.md) | 11 |
-| [Debugging](debugging.md) | 10 |
-| [Formal verification](formal.md) | 10 |
-| [Simulation](simulation.md) | 9 |
+| [Verification](verification.md) | 13 |
+| [Debugging](debugging.md) | 12 |
+| [Formal verification](formal.md) | 12 |
+| [Simulation](simulation.md) | 12 |
 | [Testbench](testbench.md) | 5 |
-| [Waveforms](waveform.md) | 3 |
+| [Waveforms](waveform.md) | 4 |
 | [Specifications](specification.md) | 1 |
-| [Physical design](physical-design.md) | 10 |
-| [PPA / QoR](ppa.md) | 12 |
+| [Physical design](physical-design.md) | 12 |
+| [PPA / QoR](ppa.md) | 14 |
 | [DRC](drc.md) | 2 |
-| [EDA workflows](eda-flow.md) | 15 |
-| [Analog / RF](analog-rf.md) | 5 |
-| [Circuit sizing](sizing.md) | 3 |
-| [Architecture exploration](architecture.md) | 7 |
-| [HLS](hls.md) | 4 |
-| [HW/SW co-design](codesign.md) | 2 |
+| [EDA workflows](eda-flow.md) | 18 |
+| [Analog / RF](analog-rf.md) | 9 |
+| [Circuit sizing](sizing.md) | 4 |
+| [Architecture exploration](architecture.md) | 10 |
+| [HLS](hls.md) | 5 |
+| [HW/SW co-design](codesign.md) | 3 |
 | [RISC-V](risc-v.md) | 3 |
-| [FPGA](fpga.md) | 2 |
+| [FPGA](fpga.md) | 3 |
 | [Repository-level tasks](repository-level.md) | 4 |
-| [Multi-agent](multi-agent.md) | 15 |
-| [Tool use](tool-use.md) | 8 |
+| [Multi-agent](multi-agent.md) | 17 |
+| [Tool use](tool-use.md) | 18 |
 | [Memory / experience](memory.md) | 1 |
-| [Infrastructure](infrastructure.md) | 7 |
-| [Benchmark](benchmark.md) | 22 |
+| [Infrastructure](infrastructure.md) | 9 |
+| [Benchmark](benchmark.md) | 24 |
 | [Dataset](dataset.md) | 8 |
-| [Evaluation](evaluation.md) | 17 |
+| [Evaluation](evaluation.md) | 22 |
 | [Commercial platform](commercial.md) | 16 |
 | [Overview / tutorial](overview.md) | 3 |
 | [Board / PCB](board.md) | 2 |
 | [Packaging / 3D IC](packaging.md) | 2 |
-| [System design](system.md) | 2 |
+| [System design](system.md) | 3 |
 | [Vendor-reported](vendor-report.md) | 30 |
 | [Announcement](news.md) | 14 |
 | [Talk / video](video.md) | 5 |

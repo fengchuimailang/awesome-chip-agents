@@ -6,10 +6,12 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [Formulaic](../../resources/architecture-hls-codesign/formulaic.md) | 2026-10-29 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [ScaleBench](../../resources/rtl-generation/scalebench.md) | 2026-10-18 | RTL Generation and Editing / RTL 生成与编辑 |
 | [CorrectRTL](../../resources/rtl-generation/correctrtl.md) | 2026-10-18 | RTL Generation and Editing / RTL 生成与编辑 |
 | [NoTB](../../resources/verification-debugging/notb.md) | 2026-08 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [LACE](../../resources/architecture-hls-codesign/lace.md) | 2026-08 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
+| [RTL Repair Framework](../../resources/verification-debugging/rtl-repair-framework.md) | 2026-07-30 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [RTL-BenchLS](../../resources/rtl-generation/rtl-benchls.md) | 2026-06 | RTL Generation and Editing / RTL 生成与编辑 |
 | [SpecLoop](../../resources/verification-debugging/specloop.md) | 2026-03 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Veri-Sure](../../resources/rtl-generation/veri-sure.md) | 2026-01-27 | RTL Generation and Editing / RTL 生成与编辑 |

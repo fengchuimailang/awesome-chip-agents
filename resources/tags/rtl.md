@@ -8,12 +8,14 @@
 | --- | --- | --- |
 | [ScaleBench](../../resources/rtl-generation/scalebench.md) | 2026-10-18 | RTL Generation and Editing / RTL 生成与编辑 |
 | [CorrectRTL](../../resources/rtl-generation/correctrtl.md) | 2026-10-18 | RTL Generation and Editing / RTL 生成与编辑 |
+| [CoreSmith](../../resources/physical-design/coresmith.md) | 2026-10-09 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [SparseCraft](../../resources/architecture-hls-codesign/sparsecraft.md) | 2026-10 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [ChipStack RTL / PPA announcement](../../resources/rtl-generation/chipstack-rtl-announcement.md) | 2026-09-22 | RTL Generation and Editing / RTL 生成与编辑 |
 | [AHRR](../../resources/architecture-hls-codesign/ahrr.md) | 2026-09-17 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [VeriBugBench](../../resources/verification-debugging/veribugbench.md) | 2026-09 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [GRADE-RTL](../../resources/rtl-generation/grade-rtl.md) | 2026-09 | RTL Generation and Editing / RTL 生成与编辑 |
 | [NoTB](../../resources/verification-debugging/notb.md) | 2026-08 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
+| [RTL Repair Framework](../../resources/verification-debugging/rtl-repair-framework.md) | 2026-07-30 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [RTL-BenchLS](../../resources/rtl-generation/rtl-benchls.md) | 2026-06 | RTL Generation and Editing / RTL 生成与编辑 |
 | [HORIZON](../../resources/rtl-generation/horizon.md) | 2026-06 | RTL Generation and Editing / RTL 生成与编辑 |
 | [HWE-Bench · Bug repair](../../resources/verification-debugging/hwe-bench-bug-repair.md) | 2026-04 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
@@ -28,8 +30,10 @@
 | [SynthAgentic-Eval](../../resources/rtl-generation/synthagentic-eval.md) | 2026 | RTL Generation and Editing / RTL 生成与编辑 |
 | [RTL-BenchMT](../../resources/rtl-generation/rtl-benchmt.md) | 2026 | RTL Generation and Editing / RTL 生成与编辑 |
 | [GTC Taipei 2026 keynote](../../resources/rtl-generation/gtc-taipei-2026-keynote.md) | 2026 | RTL Generation and Editing / RTL 生成与编辑 |
+| [CorrectHDL](../../resources/rtl-generation/correcthdl.md) | 2025-11-20 | RTL Generation and Editing / RTL 生成与编辑 |
 | [Spec2RTL-Agent](../../resources/rtl-generation/spec2rtl-agent.md) | 2025-06 | RTL Generation and Editing / RTL 生成与编辑 |
 | [AlphaEvolve chip-design case](../../resources/rtl-generation/alphaevolve-chip-case.md) | 2025-05-14 | RTL Generation and Editing / RTL 生成与编辑 |
+| [TuRTLe](../../resources/rtl-generation/turtle.md) | 2025-03-20 | RTL Generation and Editing / RTL 生成与编辑 |
 | [OpenLLM-RTL](../../resources/rtl-generation/openllm-rtl.md) | 2025-03 | RTL Generation and Editing / RTL 生成与编辑 |
 | [MAGE](../../resources/rtl-generation/mage.md) | 2024-12 | RTL Generation and Editing / RTL 生成与编辑 |
 | [VerilogCoder](../../resources/rtl-generation/verilogcoder.md) | 2024-08 | RTL Generation and Editing / RTL 生成与编辑 |
@@ -43,4 +47,5 @@
 | [RTLLM](../../resources/rtl-generation/rtllm.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
 | [CVDP](../../resources/rtl-generation/cvdp.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
 | [Cadence ChipStack](../../resources/rtl-generation/cadence-chipstack.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
+| [Booley](../../resources/agent-infrastructure/booley.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [ArchXBench](../../resources/rtl-generation/archxbench.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |

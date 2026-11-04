@@ -6,6 +6,13 @@
 
 按发布月份倒序排列。跨方向索引共用原始详情；仓库动态不影响排序。
 
+## 2026-10
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[LATCH](../../resources/physical-design/latch.md)**<br>在 16 个设计上研究用于 FPGA 布局布线后时序收敛的 LLM 编排策略。 | [FPGA](../../resources/tags/fpga.md) · [物理设计](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [工具调用](../../resources/tags/tool-use.md) · [评测](../../resources/tags/evaluation.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2610.16625) | [aprilaihub/LATCH](https://github.com/aprilaihub/LATCH) | — | 指标暂不可用 |
+| **[CoreSmith](../../resources/physical-design/coresmith.md)**<br>通过 Agent 与工具反馈修复循环，编排规格、RTL、验证、综合和物理设计。 | [物理设计](../../resources/tags/physical-design.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [RTL](../../resources/tags/rtl.md) · [多 Agent](../../resources/tags/multi-agent.md) · [工具调用](../../resources/tags/tool-use.md)<br>开源项目 / 工具 / 平台 | — | [facebookexperimental/coresmith](https://github.com/facebookexperimental/coresmith) | 50 | 2026-10-29<br>采集 2026-10-31 |
+
 ## 2026-09
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |

@@ -7,10 +7,20 @@
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
 | [ChipAgents IC-star](../../resources/agent-infrastructure/chipagents-ic-star-announcement.md) | 2026-10-27 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [TACS-RF](../../resources/analog-rf/tacs-rf.md) | 2026-10-22 | Analog and RF Design / 模拟与 RF 电路 |
+| [LATCH](../../resources/physical-design/latch.md) | 2026-10-12 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
+| [CoreSmith](../../resources/physical-design/coresmith.md) | 2026-10-09 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
+| [AgenticBBO-Bench](../../resources/architecture-hls-codesign/agentic-bbo-bench.md) | 2026-10-08 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
+| [TraceDSE](../../resources/architecture-hls-codesign/tracedse.md) | 2026-09 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
+| [RTL Repair Framework](../../resources/verification-debugging/rtl-repair-framework.md) | 2026-07-30 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [FluxEDA](../../resources/agent-infrastructure/fluxeda.md) | 2026-03 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [AnalogAgent](../../resources/analog-rf/analogagent.md) | 2026-03 | Analog and RF Design / 模拟与 RF 电路 |
+| [EEschematic](../../resources/analog-rf/eeschematic.md) | 2025-10-19 | Analog and RF Design / 模拟与 RF 电路 |
+| [EEsizer](../../resources/analog-rf/eesizer.md) | 2025-09-29 | Analog and RF Design / 模拟与 RF 电路 |
 | [ORFS-agent](../../resources/physical-design/orfs-agent.md) | 2025-06 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [OpenROAD Agent](../../resources/physical-design/openroad-agent.md) | 2025 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [ChatEDA](../../resources/physical-design/chateda.md) | 2024 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [RTLFixer](../../resources/verification-debugging/rtlfixer.md) | 2023-11 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
+| [EDA_MCP](../../resources/agent-infrastructure/eda-mcp.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [DRCHealer](../../resources/physical-design/drchealer.md) | Unknown / 待核实 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
+| [Booley](../../resources/agent-infrastructure/booley.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |

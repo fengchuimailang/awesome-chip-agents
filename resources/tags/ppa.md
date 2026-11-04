@@ -6,6 +6,7 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [LATCH](../../resources/physical-design/latch.md) | 2026-10-12 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [ChipStack RTL / PPA announcement](../../resources/rtl-generation/chipstack-rtl-announcement.md) | 2026-09-22 | RTL Generation and Editing / RTL 生成与编辑 |
 | [AHRR](../../resources/architecture-hls-codesign/ahrr.md) | 2026-09-17 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [GRADE-RTL](../../resources/rtl-generation/grade-rtl.md) | 2026-09 | RTL Generation and Editing / RTL 生成与编辑 |
@@ -17,4 +18,5 @@
 | [Build-A-Chip-Bench](../../resources/physical-design/build-a-chip-bench.md) | 2026 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [ORFS-agent](../../resources/physical-design/orfs-agent.md) | 2025-06 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [AlphaEvolve chip-design case](../../resources/rtl-generation/alphaevolve-chip-case.md) | 2025-05-14 | RTL Generation and Editing / RTL 生成与编辑 |
+| [TuRTLe](../../resources/rtl-generation/turtle.md) | 2025-03-20 | RTL Generation and Editing / RTL 生成与编辑 |
 | [Silimate](../../resources/rtl-generation/silimate.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |

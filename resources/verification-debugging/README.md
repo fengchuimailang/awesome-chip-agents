@@ -31,6 +31,7 @@ Newest publication month first. Cross-references share the original record; repo
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
+| **[RTL Repair Framework](../../resources/verification-debugging/rtl-repair-framework.md)**<br>Studies counterexample-guided multi-agent RTL repair with Yosys, SymbiYosys, and Z3, including explicit failure analysis. | [RTL](../../resources/tags/rtl.md) · [Formal verification](../../resources/tags/formal.md) · [Debugging](../../resources/tags/debugging.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Tool use](../../resources/tags/tool-use.md)<br>Paper / Open-source project | [Paper](https://arxiv.org/abs/2607.28877) | [trunghafromvietnam/rtl-repair-framework](https://github.com/trunghafromvietnam/rtl-repair-framework) | 1 | 2026-08-03<br>Fetched 2026-10-31 |
 | **[WaveformQA](../../resources/verification-debugging/waveformqa.md)**<br>Tests temporal reasoning over digital waveforms for hardware debugging and verification. | [Waveforms](../../resources/tags/waveform.md) · [Debugging](../../resources/tags/debugging.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2607.20638) | — | — | — |
 
 ## 2026-04
@@ -63,6 +64,12 @@ Newest publication month first. Cross-references share the original record; repo
 | --- | --- | --- | --- | ---: | --- |
 | **[Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md)**<br>Commercial agentic platform supporting language-model choice and specialized agents for verification, physical implementation, and analog/mixed-signal workflows. | [Commercial platform](../../resources/tags/commercial.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Tool / platform · cross-reference | [Source](https://www.synopsys.com/ai/agentic-ai.html) | — | — | — |
 
+## 2025-11
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[CorrectHDL](../../resources/rtl-generation/correcthdl.md)**<br>Generates modular HDL from C/C++ and iteratively repairs it using RAG and simulation against an HLS reference. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [HLS](../../resources/tags/hls.md) · [Verification](../../resources/tags/verification.md) · [Debugging](../../resources/tags/debugging.md)<br>Paper · cross-reference | [Paper](https://arxiv.org/abs/2511.16395) | [AgenticHDL/CorrectHDL](https://github.com/AgenticHDL/CorrectHDL) | 17 | 2026-04-27<br>Fetched 2026-10-31 |
+
 ## 2024-08
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
@@ -86,6 +93,7 @@ Newest publication month first. Cross-references share the original record; repo
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
 | **[Cadence ChipStack](../../resources/rtl-generation/cadence-chipstack.md)**<br>Commercial multi-agent workflows for RTL design and verification; vendor-reported capabilities. | [Commercial platform](../../resources/tags/commercial.md) · [RTL](../../resources/tags/rtl.md) · [Verification](../../resources/tags/verification.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Tool / platform · cross-reference | [Source](https://www.cadence.com/en_US/home/ai/agentic-ai-super-agents.html) | — | — | — |
+| **[Booley](../../resources/agent-infrastructure/booley.md)**<br>Connects coding agents to reproducible RTL tool flows, waveform queries, and deterministic acceptance checks in VS Code. | [Infrastructure](../../resources/tags/infrastructure.md) · [RTL](../../resources/tags/rtl.md) · [Tool use](../../resources/tags/tool-use.md) · [Verification](../../resources/tags/verification.md) · [Waveforms](../../resources/tags/waveform.md)<br>Open-source project / Tool / platform · cross-reference | — | [boldaxolotl/booley](https://github.com/boldaxolotl/booley) | 22 | 2026-10-30<br>Fetched 2026-10-31 |
 | **[ai-chip-design-platform](../../resources/verification-debugging/ai-chip-design-platform.md)**<br>Multi-agent RISC-V RTL verification platform covering semantic analysis, testbench generation, RTL/Spike comparison, coverage-directed testing, formal checks, and auditable verification evidence. | [RISC-V](../../resources/tags/risc-v.md) · [Verification](../../resources/tags/verification.md) · [Testbench](../../resources/tags/testbench.md) · [Formal verification](../../resources/tags/formal.md)<br>Open-source project | — | [HUNT-001/ai-chip-design-platform](https://github.com/HUNT-001/ai-chip-design-platform) | 12 | 2026-11-01<br>Fetched 2026-11-01 |
 
 # Related News and Videos

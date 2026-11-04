@@ -6,40 +6,40 @@
 
 | 标签 | 资源数 |
 | --- | ---: |
-| [RTL](rtl.md) | 38 |
-| [代码生成](generation.md) | 12 |
+| [RTL](rtl.md) | 43 |
+| [代码生成](generation.md) | 15 |
 | [代码编辑](editing.md) | 3 |
-| [验证](verification.md) | 11 |
-| [调试](debugging.md) | 10 |
-| [形式验证](formal.md) | 10 |
-| [仿真](simulation.md) | 9 |
+| [验证](verification.md) | 13 |
+| [调试](debugging.md) | 12 |
+| [形式验证](formal.md) | 12 |
+| [仿真](simulation.md) | 12 |
 | [测试平台](testbench.md) | 5 |
-| [波形分析](waveform.md) | 3 |
+| [波形分析](waveform.md) | 4 |
 | [规格推断](specification.md) | 1 |
-| [物理设计](physical-design.md) | 10 |
-| [PPA / QoR](ppa.md) | 12 |
+| [物理设计](physical-design.md) | 12 |
+| [PPA / QoR](ppa.md) | 14 |
 | [DRC](drc.md) | 2 |
-| [EDA 流程](eda-flow.md) | 15 |
-| [模拟 / RF](analog-rf.md) | 5 |
-| [电路尺寸优化](sizing.md) | 3 |
-| [架构探索](architecture.md) | 7 |
-| [HLS](hls.md) | 4 |
-| [软硬件协同](codesign.md) | 2 |
+| [EDA 流程](eda-flow.md) | 18 |
+| [模拟 / RF](analog-rf.md) | 9 |
+| [电路尺寸优化](sizing.md) | 4 |
+| [架构探索](architecture.md) | 10 |
+| [HLS](hls.md) | 5 |
+| [软硬件协同](codesign.md) | 3 |
 | [RISC-V](risc-v.md) | 3 |
-| [FPGA](fpga.md) | 2 |
+| [FPGA](fpga.md) | 3 |
 | [仓库级任务](repository-level.md) | 4 |
-| [多 Agent](multi-agent.md) | 15 |
-| [工具调用](tool-use.md) | 8 |
+| [多 Agent](multi-agent.md) | 17 |
+| [工具调用](tool-use.md) | 18 |
 | [记忆与经验](memory.md) | 1 |
-| [基础设施](infrastructure.md) | 7 |
-| [基准](benchmark.md) | 22 |
+| [基础设施](infrastructure.md) | 9 |
+| [基准](benchmark.md) | 24 |
 | [数据集](dataset.md) | 8 |
-| [评测](evaluation.md) | 17 |
+| [评测](evaluation.md) | 22 |
 | [商业平台](commercial.md) | 16 |
 | [综述 / 教程](overview.md) | 3 |
 | [板级 / PCB](board.md) | 2 |
 | [封装 / 3D IC](packaging.md) | 2 |
-| [系统设计](system.md) | 2 |
+| [系统设计](system.md) | 3 |
 | [厂商报告](vendor-report.md) | 30 |
 | [公告](news.md) | 14 |
 | [演讲 / 视频](video.md) | 5 |

@@ -31,6 +31,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[RTL Repair Framework](../../resources/verification-debugging/rtl-repair-framework.md)**<br>研究结合 Yosys、SymbiYosys、Z3 的反例引导多 Agent RTL 修复，并分析失败模式。 | [RTL](../../resources/tags/rtl.md) · [形式验证](../../resources/tags/formal.md) · [调试](../../resources/tags/debugging.md) · [多 Agent](../../resources/tags/multi-agent.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2607.28877) | [trunghafromvietnam/rtl-repair-framework](https://github.com/trunghafromvietnam/rtl-repair-framework) | 1 | 2026-08-03<br>采集 2026-10-31 |
 | **[WaveformQA](../../resources/verification-debugging/waveformqa.md)**<br>测试 LLM 对数字波形进行时序推理和硬件调试的能力。 | [波形分析](../../resources/tags/waveform.md) · [调试](../../resources/tags/debugging.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2607.20638) | — | — | — |
 
 ## 2026-04
@@ -63,6 +64,12 @@
 | --- | --- | --- | --- | ---: | --- |
 | **[Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md)**<br>支持选择语言模型的商业 Agent 平台，提供面向验证、物理实现和模拟/混合信号设计的专用 Agent。 | [商业平台](../../resources/tags/commercial.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [多 Agent](../../resources/tags/multi-agent.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 · 跨方向索引 | [原始来源](https://www.synopsys.com/ai/agentic-ai.html) | — | — | — |
 
+## 2025-11
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[CorrectHDL](../../resources/rtl-generation/correcthdl.md)**<br>从 C/C++ 生成模块化 HDL，借助 RAG 及与 HLS 参考设计的仿真对比迭代修复。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [HLS](../../resources/tags/hls.md) · [验证](../../resources/tags/verification.md) · [调试](../../resources/tags/debugging.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2511.16395) | [AgenticHDL/CorrectHDL](https://github.com/AgenticHDL/CorrectHDL) | 17 | 2026-04-27<br>采集 2026-10-31 |
+
 ## 2024-08
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
@@ -86,6 +93,7 @@
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
 | **[Cadence ChipStack](../../resources/rtl-generation/cadence-chipstack.md)**<br>面向 RTL 设计与验证的商业多 Agent 流程；功能由厂商描述。 | [商业平台](../../resources/tags/commercial.md) · [RTL](../../resources/tags/rtl.md) · [验证](../../resources/tags/verification.md) · [多 Agent](../../resources/tags/multi-agent.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 · 跨方向索引 | [原始来源](https://www.cadence.com/en_US/home/ai/agentic-ai-super-agents.html) | — | — | — |
+| **[Booley](../../resources/agent-infrastructure/booley.md)**<br>在 VS Code 中为编码 Agent 提供可复现的 RTL 工具流程、波形查询和确定性验收检查。 | [基础设施](../../resources/tags/infrastructure.md) · [RTL](../../resources/tags/rtl.md) · [工具调用](../../resources/tags/tool-use.md) · [验证](../../resources/tags/verification.md) · [波形分析](../../resources/tags/waveform.md)<br>开源项目 / 工具 / 平台 · 跨方向索引 | — | [boldaxolotl/booley](https://github.com/boldaxolotl/booley) | 22 | 2026-10-30<br>采集 2026-10-31 |
 | **[ai-chip-design-platform](../../resources/verification-debugging/ai-chip-design-platform.md)**<br>面向 RISC-V RTL 的多 Agent 验证平台，覆盖语义分析、测试平台生成、RTL/Spike 对照、覆盖率驱动测试、形式检查和可审计的验证证据。 | [RISC-V](../../resources/tags/risc-v.md) · [验证](../../resources/tags/verification.md) · [测试平台](../../resources/tags/testbench.md) · [形式验证](../../resources/tags/formal.md)<br>开源项目 | — | [HUNT-001/ai-chip-design-platform](https://github.com/HUNT-001/ai-chip-design-platform) | 12 | 2026-11-01<br>采集 2026-11-01 |
 
 # 相关动态与视频

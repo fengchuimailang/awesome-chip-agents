@@ -4,15 +4,15 @@
 
 [首页](../../README_zh.md) · [English](README.md)
 
-共 26 项，先按主要研究方向分类，再按发布月份倒序排列。各条目共用已有详情，提供论文、仓库、标签及动态快照。通用数据集作为支撑资料收录；仅宣布评测计划的新闻保留在动态索引中。
+共 28 项，先按主要研究方向分类，再按发布月份倒序排列。各条目共用已有详情，提供论文、仓库、标签及动态快照。通用数据集作为支撑资料收录；仅宣布评测计划的新闻保留在动态索引中。
 
 | 方向 | 资源数 |
 | --- | ---: |
-| [RTL 生成与编辑](#rtl-generation) | 13 |
+| [RTL 生成与编辑](#rtl-generation) | 14 |
 | [验证、调试与规格推断](#verification-debugging) | 3 |
 | [物理设计与 EDA 流程](#physical-design) | 4 |
 | [模拟与 RF 电路](#analog-rf) | 1 |
-| [架构探索、HLS 与软硬件协同设计](#architecture-hls-codesign) | 4 |
+| [架构探索、HLS 与软硬件协同设计](#architecture-hls-codesign) | 5 |
 | [板级、封装与系统设计](#board-system-design) | 1 |
 
 <a id="rtl-generation"></a>
@@ -54,6 +54,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[TuRTLe](../../resources/rtl-generation/turtle.md)**<br>统一多套 RTL 生成基准，借助 EDA 工具评估语法、功能、可综合性、PPA 和代码补全。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>论文 / 开源项目 / 工具 / 平台 | [论文](https://arxiv.org/abs/2504.01986) | [HPAI-BSC/TuRTLe](https://github.com/HPAI-BSC/TuRTLe) | 53 | 2026-07-22<br>采集 2026-10-31 |
 | **[OpenLLM-RTL](../../resources/rtl-generation/openllm-rtl.md)**<br>汇集 RTLLM 2.0、AssertEval 以及用于 RTL 生成和断言生成的数据集。 | [RTL](../../resources/tags/rtl.md) · [数据集](../../resources/tags/dataset.md) · [基准](../../resources/tags/benchmark.md) · [验证](../../resources/tags/verification.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2503.15112) | — | — | — |
 
 ### 2024 · 月份待核实
@@ -135,6 +136,12 @@
 <a id="architecture-hls-codesign"></a>
 
 ## 架构探索、HLS 与软硬件协同设计
+
+### 2026-10
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[AgenticBBO-Bench](../../resources/architecture-hls-codesign/agentic-bbo-bench.md)**<br>建立有限预算的 Agent 黑盒优化基准，覆盖包括芯片设计在内的五个领域。 | [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [架构探索](../../resources/tags/architecture.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2610.12183) | [lamda-bbo/agentic-bbo](https://github.com/lamda-bbo/agentic-bbo) | — | 指标暂不可用 |
 
 ### 2026-09
 

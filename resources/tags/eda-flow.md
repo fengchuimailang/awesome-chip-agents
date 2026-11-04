@@ -7,7 +7,9 @@
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
 | [Cadence Maestro](../../resources/agent-infrastructure/cadence-maestro-announcement.md) | 2026-10-26 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [TACS-RF](../../resources/analog-rf/tacs-rf.md) | 2026-10-22 | Analog and RF Design / 模拟与 RF 电路 |
 | [Siemens / NVIDIA · 3D IC](../../resources/board-system-design/siemens-nvidia-3dic-2026.md) | 2026-10-21 | Board, Packaging and System Design / 板级、封装与系统设计 |
+| [CoreSmith](../../resources/physical-design/coresmith.md) | 2026-10-09 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [GPT-Synopsys partnership](../../resources/agent-infrastructure/gpt-synopsys-announcement.md) | 2026-09-30 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [InnoStack demo](../../resources/physical-design/innostack-demo.md) | 2026-07-22 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [Synopsys Converge · AgentEngineer](../../resources/rtl-generation/synopsys-converge-2026.md) | 2026-03-11 | RTL Generation and Editing / RTL 生成与编辑 |
@@ -18,6 +20,7 @@
 | [LLMs for EDA: Future or Mirage?](../../resources/agent-infrastructure/llms-for-eda-survey.md) | 2025 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [ChatEDA](../../resources/physical-design/chateda.md) | 2024 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [OpenROAD](../../resources/physical-design/openroad.md) | Unknown / 待核实 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
+| [EDA_MCP](../../resources/agent-infrastructure/eda-mcp.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Chipmind](../../resources/agent-infrastructure/chipmind.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Cadence InnoStack](../../resources/physical-design/cadence-innostack.md) | Unknown / 待核实 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [AgentEngineer webinar](../../resources/agent-infrastructure/agentengineer-webinar.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |

@@ -10,7 +10,10 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[Formulaic](../../resources/architecture-hls-codesign/formulaic.md)**<br>使用 Agent 逐步改进软硬件优化问题，并通过求解器、验证与测量检查各步骤。 | [架构探索](../../resources/tags/architecture.md) · [软硬件协同](../../resources/tags/codesign.md) · [评测](../../resources/tags/evaluation.md) · [形式验证](../../resources/tags/formal.md)<br>论文 | [论文](https://arxiv.org/abs/2610.39380) | — | — | — |
 | **[ArchAgent](../../resources/architecture-hls-codesign/archagent.md)**<br>提出分层多 Agent 框架 ArchAgent，通过确定性的分析评估器探索芯片与系统架构。 | [架构探索](../../resources/tags/architecture.md) · [系统设计](../../resources/tags/system.md) · [多 Agent](../../resources/tags/multi-agent.md) · [评测](../../resources/tags/evaluation.md)<br>论文 | [论文](https://arxiv.org/abs/2610.23724) | — | — | — |
+| **[CoreSmith](../../resources/physical-design/coresmith.md)**<br>通过 Agent 与工具反馈修复循环，编排规格、RTL、验证、综合和物理设计。 | [物理设计](../../resources/tags/physical-design.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [RTL](../../resources/tags/rtl.md) · [多 Agent](../../resources/tags/multi-agent.md) · [工具调用](../../resources/tags/tool-use.md)<br>开源项目 / 工具 / 平台 · 跨方向索引 | — | [facebookexperimental/coresmith](https://github.com/facebookexperimental/coresmith) | 50 | 2026-10-29<br>采集 2026-10-31 |
+| **[AgenticBBO-Bench](../../resources/architecture-hls-codesign/agentic-bbo-bench.md)**<br>建立有限预算的 Agent 黑盒优化基准，覆盖包括芯片设计在内的五个领域。 | [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [架构探索](../../resources/tags/architecture.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2610.12183) | [lamda-bbo/agentic-bbo](https://github.com/lamda-bbo/agentic-bbo) | — | 指标暂不可用 |
 | **[SparseCraft](../../resources/architecture-hls-codesign/sparsecraft.md)**<br>使用 Agent 结合周期精确模拟和位精确验证，协同优化稀疏加速器软件与 Chisel RTL。 | [架构探索](../../resources/tags/architecture.md) · [软硬件协同](../../resources/tags/codesign.md) · [RTL](../../resources/tags/rtl.md) · [仿真](../../resources/tags/simulation.md)<br>论文 | [论文](https://arxiv.org/abs/2610.05037) | — | — | — |
 | **[DuoDiscover](../../resources/architecture-hls-codesign/duodiscover.md)**<br>同时发现硬件优化目标和快速代理评估器。 | [架构探索](../../resources/tags/architecture.md) · [评测](../../resources/tags/evaluation.md) · [多 Agent](../../resources/tags/multi-agent.md)<br>论文 | [论文](https://arxiv.org/abs/2610.17184) | — | — | — |
 
@@ -19,6 +22,7 @@
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
 | **[AHRR](../../resources/architecture-hls-codesign/ahrr.md)**<br>将 Agent 驱动的 HLS 设计与 HLS 后的 RTL 精修结合为 AHRR，在 11 项 FPGA 任务上评测。 | [HLS](../../resources/tags/hls.md) · [RTL](../../resources/tags/rtl.md) · [FPGA](../../resources/tags/fpga.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2609.21157) | [ZijD/AHRR](https://github.com/ZijD/AHRR) | 7 | 2026-09-17<br>采集 2026-11-01 |
+| **[TraceDSE](../../resources/architecture-hls-codesign/tracedse.md)**<br>在 Agent 提案与评审循环中利用执行轨迹，联合映射推理负载并配置异构边缘 SoC。 | [架构探索](../../resources/tags/architecture.md) · [系统设计](../../resources/tags/system.md) · [评测](../../resources/tags/evaluation.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 | [论文](https://arxiv.org/abs/2610.07191) | — | — | — |
 | **[HLSFactory-Agent](../../resources/architecture-hls-codesign/hlsfactory-agent.md)**<br>从仓库中抽取并评测 Agentic HLS 任务，构建可复现的大规模数据集。 | [HLS](../../resources/tags/hls.md) · [数据集](../../resources/tags/dataset.md) · [仓库级任务](../../resources/tags/repository-level.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2609.09519) | [sharc-lab/hlsfactory-agent](https://github.com/sharc-lab/hlsfactory-agent) | 2 | 2026-10-29<br>采集 2026-11-01 |
 | **[HLS-Eval](../../resources/architecture-hls-codesign/hls-eval.md)**<br>评测 Agentic HLS 设计任务、编译器自验证和 Agent 轨迹的框架。 | [HLS](../../resources/tags/hls.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.09526) | [sharc-lab/HLS-Eval](https://github.com/sharc-lab/HLS-Eval) | 29 | 2026-10-30<br>采集 2026-11-01 |
 
@@ -46,6 +50,12 @@
 | --- | --- | --- | --- | ---: | --- |
 | **[HWE Bench · RISC-V design](../../resources/architecture-hls-codesign/hwe-bench-riscv.md)**<br>通过形式验证与仿真检查迭代优化 RV32IM CPU；V2 结合 FPGA 厂商时序分析和隐藏程序评分。 | [RISC-V](../../resources/tags/risc-v.md) · [形式验证](../../resources/tags/formal.md) · [FPGA](../../resources/tags/fpga.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | — | [FeSens/auto-arch-tournament](https://github.com/FeSens/auto-arch-tournament) | 204 | 2026-10-05<br>采集 2026-11-01 |
 | **[DPC4](../../resources/architecture-hls-codesign/dpc4.md)**<br>CPU 数据预取器设计竞赛，使用 ChampSim 评估。 | [架构探索](../../resources/tags/architecture.md) · [仿真](../../resources/tags/simulation.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | [原始来源](https://sites.google.com/view/dpc4-2026/home) | — | — | — |
+
+## 2025-11
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[CorrectHDL](../../resources/rtl-generation/correcthdl.md)**<br>从 C/C++ 生成模块化 HDL，借助 RAG 及与 HLS 参考设计的仿真对比迭代修复。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [HLS](../../resources/tags/hls.md) · [验证](../../resources/tags/verification.md) · [调试](../../resources/tags/debugging.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2511.16395) | [AgenticHDL/CorrectHDL](https://github.com/AgenticHDL/CorrectHDL) | 17 | 2026-04-27<br>采集 2026-10-31 |
 
 ## 2025-06
 

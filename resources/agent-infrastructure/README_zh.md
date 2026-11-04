@@ -42,7 +42,9 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[EDA_MCP](../../resources/agent-infrastructure/eda-mcp.md)**<br>通过 MCP 向 Agent 开放远程 Virtuoso、Eldo 会话，并提供工作区同步和物理验证流程。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md)<br>开源项目 / 工具 / 平台 | — | [SiliCAD/EDA_MCP](https://github.com/SiliCAD/EDA_MCP) | 34 | 2026-10-27<br>采集 2026-10-31 |
 | **[Chipmind](../../resources/agent-infrastructure/chipmind.md)**<br>面向芯片设计和 EDA 自动化的商业 AI Agent 平台。 | [商业平台](../../resources/tags/commercial.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 | [原始来源](https://www.chipmind.ai/) | — | — | — |
+| **[Booley](../../resources/agent-infrastructure/booley.md)**<br>在 VS Code 中为编码 Agent 提供可复现的 RTL 工具流程、波形查询和确定性验收检查。 | [基础设施](../../resources/tags/infrastructure.md) · [RTL](../../resources/tags/rtl.md) · [工具调用](../../resources/tags/tool-use.md) · [验证](../../resources/tags/verification.md) · [波形分析](../../resources/tags/waveform.md)<br>开源项目 / 工具 / 平台 | — | [boldaxolotl/booley](https://github.com/boldaxolotl/booley) | 22 | 2026-10-30<br>采集 2026-10-31 |
 
 # 相关动态与视频
 

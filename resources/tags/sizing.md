@@ -8,4 +8,5 @@
 | --- | --- | --- |
 | [RFChipAgent](../../resources/analog-rf/rfchipagent.md) | 2026-10-07 | Analog and RF Design / 模拟与 RF 电路 |
 | [AgenticSizing](../../resources/analog-rf/agenticsizing.md) | 2026-09-22 | Analog and RF Design / 模拟与 RF 电路 |
+| [EEsizer](../../resources/analog-rf/eesizer.md) | 2025-09-29 | Analog and RF Design / 模拟与 RF 电路 |
 | [Cadence ViraStack](../../resources/analog-rf/cadence-virastack.md) | Unknown / 待核实 | Analog and RF Design / 模拟与 RF 电路 |

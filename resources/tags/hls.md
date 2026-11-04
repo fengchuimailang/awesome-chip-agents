@@ -9,4 +9,5 @@
 | [AHRR](../../resources/architecture-hls-codesign/ahrr.md) | 2026-09-17 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [HLSFactory-Agent](../../resources/architecture-hls-codesign/hlsfactory-agent.md) | 2026-09 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [HLS-Eval](../../resources/architecture-hls-codesign/hls-eval.md) | 2026-09 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
+| [CorrectHDL](../../resources/rtl-generation/correcthdl.md) | 2025-11-20 | RTL Generation and Editing / RTL 生成与编辑 |
 | [Spec2RTL-Agent](../../resources/rtl-generation/spec2rtl-agent.md) | 2025-06 | RTL Generation and Editing / RTL 生成与编辑 |

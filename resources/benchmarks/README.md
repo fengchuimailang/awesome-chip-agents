@@ -4,15 +4,15 @@
 
 [Home](../../README.md) · [简体中文](README_zh.md)
 
-26 resources, grouped by primary direction and newest publication month. Entries link to shared details with papers, repositories, tags, and activity snapshots. General datasets are included as supporting resources; announcements of evaluation plans remain in the news index.
+28 resources, grouped by primary direction and newest publication month. Entries link to shared details with papers, repositories, tags, and activity snapshots. General datasets are included as supporting resources; announcements of evaluation plans remain in the news index.
 
 | Direction | Resources |
 | --- | ---: |
-| [RTL Generation and Editing](#rtl-generation) | 13 |
+| [RTL Generation and Editing](#rtl-generation) | 14 |
 | [Verification, Debugging and Specifications](#verification-debugging) | 3 |
 | [Physical Design and EDA Flows](#physical-design) | 4 |
 | [Analog and RF Design](#analog-rf) | 1 |
-| [Architecture, HLS and Hardware/Software Co-design](#architecture-hls-codesign) | 4 |
+| [Architecture, HLS and Hardware/Software Co-design](#architecture-hls-codesign) | 5 |
 | [Board, Packaging and System Design](#board-system-design) | 1 |
 
 <a id="rtl-generation"></a>
@@ -54,6 +54,7 @@
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
+| **[TuRTLe](../../resources/rtl-generation/turtle.md)**<br>Unifies RTL generation benchmarks and evaluates syntax, functionality, synthesis, PPA, and code completion with EDA tools. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>Paper / Open-source project / Tool / platform | [Paper](https://arxiv.org/abs/2504.01986) | [HPAI-BSC/TuRTLe](https://github.com/HPAI-BSC/TuRTLe) | 53 | 2026-07-22<br>Fetched 2026-10-31 |
 | **[OpenLLM-RTL](../../resources/rtl-generation/openllm-rtl.md)**<br>Collection covering RTLLM 2.0, AssertEval, and RTL code datasets for RTL generation and assertion generation. | [RTL](../../resources/tags/rtl.md) · [Dataset](../../resources/tags/dataset.md) · [Benchmark](../../resources/tags/benchmark.md) · [Verification](../../resources/tags/verification.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2503.15112) | — | — | — |
 
 ### 2024 · month not verified
@@ -135,6 +136,12 @@
 <a id="architecture-hls-codesign"></a>
 
 ## Architecture, HLS and Hardware/Software Co-design
+
+### 2026-10
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[AgenticBBO-Bench](../../resources/architecture-hls-codesign/agentic-bbo-bench.md)**<br>Defines a finite-budget benchmark for agentic black-box optimization across five domains, including chip design. | [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md) · [Architecture exploration](../../resources/tags/architecture.md) · [Tool use](../../resources/tags/tool-use.md)<br>Paper / Benchmark / dataset | [Paper](https://arxiv.org/abs/2610.12183) | [lamda-bbo/agentic-bbo](https://github.com/lamda-bbo/agentic-bbo) | — | Metadata unavailable |
 
 ### 2026-09
 

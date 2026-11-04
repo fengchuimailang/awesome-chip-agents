@@ -42,7 +42,9 @@ Newest publication month first. Cross-references share the original record; repo
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
+| **[EDA_MCP](../../resources/agent-infrastructure/eda-mcp.md)**<br>Exposes remote Virtuoso and Eldo sessions to agents through MCP, with workspace synchronization and physical-verification workflows. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Analog / RF](../../resources/tags/analog-rf.md) · [Simulation](../../resources/tags/simulation.md)<br>Open-source project / Tool / platform | — | [SiliCAD/EDA_MCP](https://github.com/SiliCAD/EDA_MCP) | 34 | 2026-10-27<br>Fetched 2026-10-31 |
 | **[Chipmind](../../resources/agent-infrastructure/chipmind.md)**<br>Commercial AI-agent platform for chip design and EDA automation. | [Commercial platform](../../resources/tags/commercial.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Tool / platform | [Source](https://www.chipmind.ai/) | — | — | — |
+| **[Booley](../../resources/agent-infrastructure/booley.md)**<br>Connects coding agents to reproducible RTL tool flows, waveform queries, and deterministic acceptance checks in VS Code. | [Infrastructure](../../resources/tags/infrastructure.md) · [RTL](../../resources/tags/rtl.md) · [Tool use](../../resources/tags/tool-use.md) · [Verification](../../resources/tags/verification.md) · [Waveforms](../../resources/tags/waveform.md)<br>Open-source project / Tool / platform | — | [boldaxolotl/booley](https://github.com/boldaxolotl/booley) | 22 | 2026-10-30<br>Fetched 2026-10-31 |
 
 # Related News and Videos
 

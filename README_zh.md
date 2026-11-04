@@ -12,12 +12,12 @@
 
 | 方向 | 主要资源数 |
 | --- | ---: |
-| [RTL 生成与编辑](resources/rtl-generation/README_zh.md) | 23 |
-| [验证、调试与规格推断](resources/verification-debugging/README_zh.md) | 10 |
-| [物理设计与 EDA 流程](resources/physical-design/README_zh.md) | 11 |
-| [模拟与 RF 电路](resources/analog-rf/README_zh.md) | 5 |
-| [架构探索、HLS 与软硬件协同设计](resources/architecture-hls-codesign/README_zh.md) | 11 |
-| [Agent 基础设施与综述](resources/agent-infrastructure/README_zh.md) | 6 |
+| [RTL 生成与编辑](resources/rtl-generation/README_zh.md) | 25 |
+| [验证、调试与规格推断](resources/verification-debugging/README_zh.md) | 11 |
+| [物理设计与 EDA 流程](resources/physical-design/README_zh.md) | 13 |
+| [模拟与 RF 电路](resources/analog-rf/README_zh.md) | 8 |
+| [架构探索、HLS 与软硬件协同设计](resources/architecture-hls-codesign/README_zh.md) | 14 |
+| [Agent 基础设施与综述](resources/agent-infrastructure/README_zh.md) | 8 |
 | [板级、封装与系统设计](resources/board-system-design/README_zh.md) | 3 |
 
 ## 其他入口

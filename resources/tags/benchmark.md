@@ -8,6 +8,7 @@
 | --- | --- | --- |
 | [Mistral / NVIDIA · Evaluation plans](../../resources/agent-infrastructure/mistral-nvidia-evaluation-2026.md) | 2026-10-21 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [ScaleBench](../../resources/rtl-generation/scalebench.md) | 2026-10-18 | RTL Generation and Editing / RTL 生成与编辑 |
+| [AgenticBBO-Bench](../../resources/architecture-hls-codesign/agentic-bbo-bench.md) | 2026-10-08 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [Long-Horizon Analog Design Bench](../../resources/analog-rf/long-horizon-analog-design-bench.md) | 2026-09-27 | Analog and RF Design / 模拟与 RF 电路 |
 | [VeriBugBench](../../resources/verification-debugging/veribugbench.md) | 2026-09 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [HLS-Eval](../../resources/architecture-hls-codesign/hls-eval.md) | 2026-09 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
@@ -22,6 +23,7 @@
 | [RTL-BenchMT](../../resources/rtl-generation/rtl-benchmt.md) | 2026 | RTL Generation and Editing / RTL 生成与编辑 |
 | [HWE Bench · RISC-V design](../../resources/architecture-hls-codesign/hwe-bench-riscv.md) | 2026 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [Build-A-Chip-Bench](../../resources/physical-design/build-a-chip-bench.md) | 2026 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
+| [TuRTLe](../../resources/rtl-generation/turtle.md) | 2025-03-20 | RTL Generation and Editing / RTL 生成与编辑 |
 | [OpenLLM-RTL](../../resources/rtl-generation/openllm-rtl.md) | 2025-03 | RTL Generation and Editing / RTL 生成与编辑 |
 | [RTL-Repo](../../resources/rtl-generation/rtl-repo.md) | 2024 | RTL Generation and Editing / RTL 生成与编辑 |
 | [VerilogEval](../../resources/rtl-generation/verilogeval.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |

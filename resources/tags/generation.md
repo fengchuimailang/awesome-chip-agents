@@ -11,7 +11,10 @@
 | [ACE-RTL](../../resources/rtl-generation/ace-rtl.md) | 2026-02 | RTL Generation and Editing / RTL 生成与编辑 |
 | [Veri-Sure](../../resources/rtl-generation/veri-sure.md) | 2026-01-27 | RTL Generation and Editing / RTL 生成与编辑 |
 | [ChipBench](../../resources/rtl-generation/chipbench.md) | 2026-01 | RTL Generation and Editing / RTL 生成与编辑 |
+| [CorrectHDL](../../resources/rtl-generation/correcthdl.md) | 2025-11-20 | RTL Generation and Editing / RTL 生成与编辑 |
+| [EEschematic](../../resources/analog-rf/eeschematic.md) | 2025-10-19 | Analog and RF Design / 模拟与 RF 电路 |
 | [Spec2RTL-Agent](../../resources/rtl-generation/spec2rtl-agent.md) | 2025-06 | RTL Generation and Editing / RTL 生成与编辑 |
+| [TuRTLe](../../resources/rtl-generation/turtle.md) | 2025-03-20 | RTL Generation and Editing / RTL 生成与编辑 |
 | [MAGE](../../resources/rtl-generation/mage.md) | 2024-12 | RTL Generation and Editing / RTL 生成与编辑 |
 | [VerilogCoder](../../resources/rtl-generation/verilogcoder.md) | 2024-08 | RTL Generation and Editing / RTL 生成与编辑 |
 | [AutoChip](../../resources/rtl-generation/autochip.md) | 2023-11 | RTL Generation and Editing / RTL 生成与编辑 |

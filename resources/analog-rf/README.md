@@ -10,6 +10,7 @@ Newest publication month first. Cross-references share the original record; repo
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
+| **[TACS-RF](../../resources/analog-rf/tacs-rf.md)**<br>Uses an LLM coding agent with commercial EDA and electromagnetic tools to design RF and mmWave modules. | [Analog / RF](../../resources/tags/analog-rf.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Tool use](../../resources/tags/tool-use.md) · [Simulation](../../resources/tags/simulation.md)<br>Paper | [Paper](https://arxiv.org/abs/2610.31882) | — | — | — |
 | **[RFChipAgent](../../resources/analog-rf/rfchipagent.md)**<br>Coordinates document retrieval, topology selection, schematic and testbench assembly, and simulation-guided circuit sizing under human supervision. | [Analog / RF](../../resources/tags/analog-rf.md) · [Circuit sizing](../../resources/tags/sizing.md) · [Simulation](../../resources/tags/simulation.md) · [Multi-agent](../../resources/tags/multi-agent.md)<br>Paper | [Paper](https://arxiv.org/abs/2610.10858) | — | — | — |
 
 ## 2026-09
@@ -31,8 +32,21 @@ Newest publication month first. Cross-references share the original record; repo
 | --- | --- | --- | --- | ---: | --- |
 | **[Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md)**<br>Commercial agentic platform supporting language-model choice and specialized agents for verification, physical implementation, and analog/mixed-signal workflows. | [Commercial platform](../../resources/tags/commercial.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Tool / platform · cross-reference | [Source](https://www.synopsys.com/ai/agentic-ai.html) | — | — | — |
 
+## 2025-10
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[EEschematic](../../resources/analog-rf/eeschematic.md)**<br>Converts SPICE netlists into editable analog schematics and iteratively refines placement and wiring with multimodal feedback. | [Analog / RF](../../resources/tags/analog-rf.md) · [Code generation](../../resources/tags/generation.md) · [Tool use](../../resources/tags/tool-use.md)<br>Paper / Open-source project | [Paper](https://arxiv.org/abs/2510.17002) | [eelab-dev/EEschematic](https://github.com/eelab-dev/EEschematic) | 39 | 2025-10-20<br>Fetched 2026-10-31 |
+
+## 2025-09
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[EEsizer](../../resources/analog-rf/eesizer.md)**<br>Uses LLM function calls, ngspice measurements, and optimization history to iteratively size analog and mixed-signal circuits. | [Analog / RF](../../resources/tags/analog-rf.md) · [Circuit sizing](../../resources/tags/sizing.md) · [Simulation](../../resources/tags/simulation.md) · [Tool use](../../resources/tags/tool-use.md)<br>Paper / Open-source project | [Paper](https://arxiv.org/abs/2509.25510) | [eelab-dev/EEsizer](https://github.com/eelab-dev/EEsizer) | 38 | 2026-04-23<br>Fetched 2026-10-31 |
+
 ## Date not recorded
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
+| **[EDA_MCP](../../resources/agent-infrastructure/eda-mcp.md)**<br>Exposes remote Virtuoso and Eldo sessions to agents through MCP, with workspace synchronization and physical-verification workflows. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Analog / RF](../../resources/tags/analog-rf.md) · [Simulation](../../resources/tags/simulation.md)<br>Open-source project / Tool / platform · cross-reference | — | [SiliCAD/EDA_MCP](https://github.com/SiliCAD/EDA_MCP) | 34 | 2026-10-27<br>Fetched 2026-10-31 |
 | **[Cadence ViraStack](../../resources/analog-rf/cadence-virastack.md)**<br>Vendor-described agentic automation for custom and analog design, including schematic creation, testbench development, circuit optimization, and layout migration. | [Commercial platform](../../resources/tags/commercial.md) · [Analog / RF](../../resources/tags/analog-rf.md) · [Circuit sizing](../../resources/tags/sizing.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Tool / platform | [Source](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/virastack-ai-super-agent.html) | — | — | — |

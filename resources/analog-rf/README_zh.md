@@ -10,6 +10,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[TACS-RF](../../resources/analog-rf/tacs-rf.md)**<br>使用 LLM 编码 Agent 调用商业 EDA 与电磁仿真工具设计 RF 和毫米波模块。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [工具调用](../../resources/tags/tool-use.md) · [仿真](../../resources/tags/simulation.md)<br>论文 | [论文](https://arxiv.org/abs/2610.31882) | — | — | — |
 | **[RFChipAgent](../../resources/analog-rf/rfchipagent.md)**<br>在人工监督下协调文档检索、拓扑选择、原理图与测试平台组装，以及仿真引导的电路尺寸优化。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [电路尺寸优化](../../resources/tags/sizing.md) · [仿真](../../resources/tags/simulation.md) · [多 Agent](../../resources/tags/multi-agent.md)<br>论文 | [论文](https://arxiv.org/abs/2610.10858) | — | — | — |
 
 ## 2026-09
@@ -31,8 +32,21 @@
 | --- | --- | --- | --- | ---: | --- |
 | **[Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md)**<br>支持选择语言模型的商业 Agent 平台，提供面向验证、物理实现和模拟/混合信号设计的专用 Agent。 | [商业平台](../../resources/tags/commercial.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [多 Agent](../../resources/tags/multi-agent.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 · 跨方向索引 | [原始来源](https://www.synopsys.com/ai/agentic-ai.html) | — | — | — |
 
+## 2025-10
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[EEschematic](../../resources/analog-rf/eeschematic.md)**<br>将 SPICE 网表转换为可编辑的模拟电路原理图，并通过多模态反馈迭代调整布局与连线。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [代码生成](../../resources/tags/generation.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2510.17002) | [eelab-dev/EEschematic](https://github.com/eelab-dev/EEschematic) | 39 | 2025-10-20<br>采集 2026-10-31 |
+
+## 2025-09
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[EEsizer](../../resources/analog-rf/eesizer.md)**<br>结合 LLM 函数调用、ngspice 测量与优化历史，迭代调整模拟及混合信号电路尺寸。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [电路尺寸优化](../../resources/tags/sizing.md) · [仿真](../../resources/tags/simulation.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2509.25510) | [eelab-dev/EEsizer](https://github.com/eelab-dev/EEsizer) | 38 | 2026-04-23<br>采集 2026-10-31 |
+
 ## 日期待核实
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[EDA_MCP](../../resources/agent-infrastructure/eda-mcp.md)**<br>通过 MCP 向 Agent 开放远程 Virtuoso、Eldo 会话，并提供工作区同步和物理验证流程。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md)<br>开源项目 / 工具 / 平台 · 跨方向索引 | — | [SiliCAD/EDA_MCP](https://github.com/SiliCAD/EDA_MCP) | 34 | 2026-10-27<br>采集 2026-10-31 |
 | **[Cadence ViraStack](../../resources/analog-rf/cadence-virastack.md)**<br>Cadence 所述的定制与模拟设计 Agent 自动化，覆盖原理图创建、测试平台开发、电路优化和版图迁移。 | [商业平台](../../resources/tags/commercial.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [电路尺寸优化](../../resources/tags/sizing.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 | [原始来源](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/virastack-ai-super-agent.html) | — | — | — |

@@ -8,6 +8,15 @@
     "last_attempt_at": "2026-11-01T20:22:55Z",
     "fetch_error": null
   },
+  "agentichdl/correcthdl": {
+    "full_name": "AgenticHDL/CorrectHDL",
+    "stars": 17,
+    "pushed_at": "2026-04-27T15:29:03Z",
+    "fetched_at": "2026-10-31T05:54:35Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-31T05:54:35Z",
+    "fetch_error": null
+  },
   "aprilaihub/agentic-analog-sizing": {
     "full_name": "aprilaihub/agentic-analog-sizing",
     "stars": 4,
@@ -35,6 +44,15 @@
     "last_attempt_at": "2026-11-01T20:22:55Z",
     "fetch_error": null
   },
+  "boldaxolotl/booley": {
+    "full_name": "boldaxolotl/booley",
+    "stars": 22,
+    "pushed_at": "2026-10-30T22:10:52Z",
+    "fetched_at": "2026-10-31T05:54:36Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-31T05:54:36Z",
+    "fetch_error": null
+  },
   "burcgokden/drchealer": {
     "full_name": "burcgokden/DRCHealer",
     "stars": 1,
@@ -51,6 +69,33 @@
     "fetched_at": "2026-11-01T20:22:55Z",
     "archived": false,
     "last_attempt_at": "2026-11-01T20:22:55Z",
+    "fetch_error": null
+  },
+  "eelab-dev/eeschematic": {
+    "full_name": "eelab-dev/EEschematic",
+    "stars": 39,
+    "pushed_at": "2025-10-20T01:07:30Z",
+    "fetched_at": "2026-10-31T05:54:35Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-31T05:54:35Z",
+    "fetch_error": null
+  },
+  "eelab-dev/eesizer": {
+    "full_name": "eelab-dev/EEsizer",
+    "stars": 38,
+    "pushed_at": "2026-04-23T22:00:32Z",
+    "fetched_at": "2026-10-31T05:54:35Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-31T05:54:35Z",
+    "fetch_error": null
+  },
+  "facebookexperimental/coresmith": {
+    "full_name": "facebookexperimental/coresmith",
+    "stars": 50,
+    "pushed_at": "2026-10-29T04:50:24Z",
+    "fetched_at": "2026-10-31T05:54:36Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-31T05:54:36Z",
     "fetch_error": null
   },
   "fesens/auto-arch-tournament": {
@@ -96,6 +141,15 @@
     "fetched_at": "2026-11-01T20:22:55Z",
     "archived": false,
     "last_attempt_at": "2026-11-01T20:22:55Z",
+    "fetch_error": null
+  },
+  "hpai-bsc/turtle": {
+    "full_name": "HPAI-BSC/TuRTLe",
+    "stars": 53,
+    "pushed_at": "2026-07-22T09:21:39Z",
+    "fetched_at": "2026-10-31T05:54:36Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-31T05:54:36Z",
     "fetch_error": null
   },
   "hsc-research/grade-rtl": {
@@ -215,6 +269,15 @@
     "last_attempt_at": "2026-11-01T20:22:55Z",
     "fetch_error": null
   },
+  "silicad/eda_mcp": {
+    "full_name": "SiliCAD/EDA_MCP",
+    "stars": 34,
+    "pushed_at": "2026-10-27T20:33:43Z",
+    "fetched_at": "2026-10-31T05:54:35Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-31T05:54:35Z",
+    "fetch_error": null
+  },
   "sjtu-yongfu-research-grp/score": {
     "full_name": "SJTU-YONGFU-RESEARCH-GRP/score",
     "stars": 4,
@@ -258,6 +321,15 @@
     "fetched_at": "2026-11-01T20:22:55Z",
     "archived": false,
     "last_attempt_at": "2026-11-01T20:22:55Z",
+    "fetch_error": null
+  },
+  "trunghafromvietnam/rtl-repair-framework": {
+    "full_name": "trunghafromvietnam/rtl-repair-framework",
+    "stars": 1,
+    "pushed_at": "2026-08-03T09:02:08Z",
+    "fetched_at": "2026-10-31T05:54:35Z",
+    "archived": false,
+    "last_attempt_at": "2026-10-31T05:54:35Z",
     "fetch_error": null
   },
   "umn-zhaolab/lace": {

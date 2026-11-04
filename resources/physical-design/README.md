@@ -6,6 +6,13 @@
 
 Newest publication month first. Cross-references share the original record; repository activity does not affect ordering.
 
+## 2026-10
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[LATCH](../../resources/physical-design/latch.md)**<br>Studies LLM orchestration strategies for iterative post-route FPGA timing closure across sixteen designs. | [FPGA](../../resources/tags/fpga.md) · [Physical design](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [Tool use](../../resources/tags/tool-use.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Paper / Open-source project | [Paper](https://arxiv.org/abs/2610.16625) | [aprilaihub/LATCH](https://github.com/aprilaihub/LATCH) | — | Metadata unavailable |
+| **[CoreSmith](../../resources/physical-design/coresmith.md)**<br>Orchestrates specification, RTL, verification, synthesis, and physical design with agents and tool-feedback repair loops. | [Physical design](../../resources/tags/physical-design.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [RTL](../../resources/tags/rtl.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Tool use](../../resources/tags/tool-use.md)<br>Open-source project / Tool / platform | — | [facebookexperimental/coresmith](https://github.com/facebookexperimental/coresmith) | 50 | 2026-10-29<br>Fetched 2026-10-31 |
+
 ## 2026-09
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
