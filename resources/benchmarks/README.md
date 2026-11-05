@@ -4,14 +4,14 @@
 
 [Home](../../README.md) · [简体中文](README_zh.md)
 
-28 resources, grouped by primary direction and newest publication month. Entries link to shared details with papers, repositories, tags, and activity snapshots. General datasets are included as supporting resources; announcements of evaluation plans remain in the news index.
+29 resources, grouped by primary direction and newest publication month. Entries link to shared details with papers, repositories, tags, and activity snapshots. General datasets are included as supporting resources; announcements of evaluation plans remain in the news index.
 
 | Direction | Resources |
 | --- | ---: |
 | [RTL Generation and Editing](#rtl-generation) | 14 |
 | [Verification, Debugging and Specifications](#verification-debugging) | 3 |
 | [Physical Design and EDA Flows](#physical-design) | 4 |
-| [Analog and RF Design](#analog-rf) | 1 |
+| [Analog and RF Design](#analog-rf) | 2 |
 | [Architecture, HLS and Hardware/Software Co-design](#architecture-hls-codesign) | 5 |
 | [Board, Packaging and System Design](#board-system-design) | 1 |
 
@@ -132,6 +132,12 @@
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
 | **[Long-Horizon Analog Design Bench](../../resources/analog-rf/long-horizon-analog-design-bench.md)**<br>Evaluates agents on 50 transistor-level design tasks contributed by 17 chip designers, using an open-source simulator and an isolated verifier to check electrical specifications over hours-long runs. | [Analog / RF](../../resources/tags/analog-rf.md) · [Simulation](../../resources/tags/simulation.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2609.33356) | — | — | — |
+
+### 2026-07
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Razavi-Bench](../../resources/analog-rf/razavi-bench.md)**<br>Evaluates analog-circuit reasoning on 50 multimodal questions adapted from Razavi's articles, supporting direct QA and agent evaluation with optional ngspice/Sky130 tools. | [Analog / RF](../../resources/tags/analog-rf.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md) · [Tool use](../../resources/tags/tool-use.md) · [Simulation](../../resources/tags/simulation.md)<br>Benchmark / dataset | — | [Arcadia-1/razavi-bench](https://github.com/Arcadia-1/razavi-bench) | — | Metadata unavailable |
 
 <a id="architecture-hls-codesign"></a>
 

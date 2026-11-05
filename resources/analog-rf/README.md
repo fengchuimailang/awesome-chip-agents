@@ -20,6 +20,12 @@ Newest publication month first. Cross-references share the original record; repo
 | **[Long-Horizon Analog Design Bench](../../resources/analog-rf/long-horizon-analog-design-bench.md)**<br>Evaluates agents on 50 transistor-level design tasks contributed by 17 chip designers, using an open-source simulator and an isolated verifier to check electrical specifications over hours-long runs. | [Analog / RF](../../resources/tags/analog-rf.md) · [Simulation](../../resources/tags/simulation.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2609.33356) | — | — | — |
 | **[AgenticSizing](../../resources/analog-rf/agenticsizing.md)**<br>Analyzes circuit topology and functional blocks, reuses design knowledge, and coordinates specialized sizing agents through simulation feedback. | [Analog / RF](../../resources/tags/analog-rf.md) · [Circuit sizing](../../resources/tags/sizing.md) · [Simulation](../../resources/tags/simulation.md) · [Multi-agent](../../resources/tags/multi-agent.md)<br>Paper / Open-source project | [Paper](https://arxiv.org/abs/2609.25873) | [aprilaihub/agentic-analog-sizing](https://github.com/aprilaihub/agentic-analog-sizing) | 4 | 2026-09-22<br>Fetched 2026-11-01 |
 
+## 2026-07
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Razavi-Bench](../../resources/analog-rf/razavi-bench.md)**<br>Evaluates analog-circuit reasoning on 50 multimodal questions adapted from Razavi's articles, supporting direct QA and agent evaluation with optional ngspice/Sky130 tools. | [Analog / RF](../../resources/tags/analog-rf.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md) · [Tool use](../../resources/tags/tool-use.md) · [Simulation](../../resources/tags/simulation.md)<br>Benchmark / dataset | — | [Arcadia-1/razavi-bench](https://github.com/Arcadia-1/razavi-bench) | — | Metadata unavailable |
+
 ## 2026-03
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |

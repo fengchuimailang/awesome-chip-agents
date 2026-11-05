@@ -12,7 +12,7 @@
 | [Verification](verification.md) | 13 |
 | [Debugging](debugging.md) | 12 |
 | [Formal verification](formal.md) | 12 |
-| [Simulation](simulation.md) | 13 |
+| [Simulation](simulation.md) | 14 |
 | [Testbench](testbench.md) | 5 |
 | [Waveforms](waveform.md) | 4 |
 | [Specifications](specification.md) | 1 |
@@ -20,7 +20,7 @@
 | [PPA / QoR](ppa.md) | 14 |
 | [DRC](drc.md) | 2 |
 | [EDA workflows](eda-flow.md) | 19 |
-| [Analog / RF](analog-rf.md) | 10 |
+| [Analog / RF](analog-rf.md) | 11 |
 | [Circuit sizing](sizing.md) | 4 |
 | [Architecture exploration](architecture.md) | 10 |
 | [HLS](hls.md) | 5 |
@@ -29,12 +29,12 @@
 | [FPGA](fpga.md) | 3 |
 | [Repository-level tasks](repository-level.md) | 4 |
 | [Multi-agent](multi-agent.md) | 17 |
-| [Tool use](tool-use.md) | 19 |
+| [Tool use](tool-use.md) | 20 |
 | [Memory / experience](memory.md) | 1 |
 | [Infrastructure](infrastructure.md) | 10 |
-| [Benchmark](benchmark.md) | 24 |
+| [Benchmark](benchmark.md) | 25 |
 | [Dataset](dataset.md) | 8 |
-| [Evaluation](evaluation.md) | 22 |
+| [Evaluation](evaluation.md) | 23 |
 | [Commercial platform](commercial.md) | 16 |
 | [Overview / tutorial](overview.md) | 3 |
 | [Board / PCB](board.md) | 2 |

@@ -20,6 +20,12 @@
 | **[Long-Horizon Analog Design Bench](../../resources/analog-rf/long-horizon-analog-design-bench.md)**<br>使用 17 位芯片设计者贡献的 50 项晶体管级设计任务评测 Agent，通过开源仿真器和隔离的验证器，在数小时运行过程中检查电气规格是否满足。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2609.33356) | — | — | — |
 | **[AgenticSizing](../../resources/analog-rf/agenticsizing.md)**<br>分析电路拓扑与功能块、复用设计知识，并通过仿真反馈协调专门的尺寸优化 Agent。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [电路尺寸优化](../../resources/tags/sizing.md) · [仿真](../../resources/tags/simulation.md) · [多 Agent](../../resources/tags/multi-agent.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2609.25873) | [aprilaihub/agentic-analog-sizing](https://github.com/aprilaihub/agentic-analog-sizing) | 4 | 2026-09-22<br>采集 2026-11-01 |
 
+## 2026-07
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[Razavi-Bench](../../resources/analog-rf/razavi-bench.md)**<br>使用改编自 Razavi 文章的 50 道多模态题评测模拟电路推理，支持直接问答与 Agent 评测，并提供可选的 ngspice/Sky130 工具。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [工具调用](../../resources/tags/tool-use.md) · [仿真](../../resources/tags/simulation.md)<br>基准 / 数据集 | — | [Arcadia-1/razavi-bench](https://github.com/Arcadia-1/razavi-bench) | — | 指标暂不可用 |
+
 ## 2026-03
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
