@@ -13,5 +13,6 @@
 | [AnalogAgent](../../resources/analog-rf/analogagent.md) | 2026-03 | Analog and RF Design / 模拟与 RF 电路 |
 | [EEschematic](../../resources/analog-rf/eeschematic.md) | 2025-10-19 | Analog and RF Design / 模拟与 RF 电路 |
 | [EEsizer](../../resources/analog-rf/eesizer.md) | 2025-09-29 | Analog and RF Design / 模拟与 RF 电路 |
+| [Virtuoso-Bridge-Lite](../../resources/agent-infrastructure/virtuoso-bridge-lite.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [EDA_MCP](../../resources/agent-infrastructure/eda-mcp.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Cadence ViraStack](../../resources/analog-rf/cadence-virastack.md) | Unknown / 待核实 | Analog and RF Design / 模拟与 RF 电路 |

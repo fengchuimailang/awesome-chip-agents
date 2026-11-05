@@ -17,7 +17,7 @@
 | [物理设计与 EDA 流程](resources/physical-design/README_zh.md) | 13 |
 | [模拟与 RF 电路](resources/analog-rf/README_zh.md) | 8 |
 | [架构探索、HLS 与软硬件协同设计](resources/architecture-hls-codesign/README_zh.md) | 14 |
-| [Agent 基础设施与综述](resources/agent-infrastructure/README_zh.md) | 8 |
+| [Agent 基础设施与综述](resources/agent-infrastructure/README_zh.md) | 9 |
 | [板级、封装与系统设计](resources/board-system-design/README_zh.md) | 3 |
 
 ## 其他入口

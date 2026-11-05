@@ -16,5 +16,6 @@
 | [DPC4](../../resources/architecture-hls-codesign/dpc4.md) | 2026 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [EEsizer](../../resources/analog-rf/eesizer.md) | 2025-09-29 | Analog and RF Design / 模拟与 RF 电路 |
 | [AutoChip](../../resources/rtl-generation/autochip.md) | 2023-11 | RTL Generation and Editing / RTL 生成与编辑 |
+| [Virtuoso-Bridge-Lite](../../resources/agent-infrastructure/virtuoso-bridge-lite.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [VerilogEval](../../resources/rtl-generation/verilogeval.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
 | [EDA_MCP](../../resources/agent-infrastructure/eda-mcp.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |

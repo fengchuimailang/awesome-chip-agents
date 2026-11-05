@@ -17,7 +17,7 @@ Each record has one primary direction. Cross-references link to the same detail 
 | [Physical Design and EDA Flows](resources/physical-design/README.md) | 13 |
 | [Analog and RF Design](resources/analog-rf/README.md) | 8 |
 | [Architecture, HLS and Hardware/Software Co-design](resources/architecture-hls-codesign/README.md) | 14 |
-| [Agent Infrastructure and Overviews](resources/agent-infrastructure/README.md) | 8 |
+| [Agent Infrastructure and Overviews](resources/agent-infrastructure/README.md) | 9 |
 | [Board, Packaging and System Design](resources/board-system-design/README.md) | 3 |
 
 ## Other Indexes

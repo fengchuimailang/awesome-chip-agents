@@ -26,6 +26,15 @@
     "last_attempt_at": "2026-11-01T20:22:55Z",
     "fetch_error": null
   },
+  "arcadia-1/virtuoso-bridge-lite": {
+    "full_name": "Arcadia-1/virtuoso-bridge-lite",
+    "stars": 997,
+    "pushed_at": "2026-11-04T21:50:47Z",
+    "fetched_at": "2026-11-05T00:47:44Z",
+    "archived": false,
+    "last_attempt_at": "2026-11-05T00:47:44Z",
+    "fetch_error": null
+  },
   "aucohl/rtl-repo": {
     "full_name": "AUCOHL/RTL-Repo",
     "stars": 35,

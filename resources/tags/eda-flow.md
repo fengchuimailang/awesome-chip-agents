@@ -19,6 +19,7 @@
 | [OpenROAD Agent](../../resources/physical-design/openroad-agent.md) | 2025 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [LLMs for EDA: Future or Mirage?](../../resources/agent-infrastructure/llms-for-eda-survey.md) | 2025 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [ChatEDA](../../resources/physical-design/chateda.md) | 2024 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
+| [Virtuoso-Bridge-Lite](../../resources/agent-infrastructure/virtuoso-bridge-lite.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [OpenROAD](../../resources/physical-design/openroad.md) | Unknown / 待核实 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [EDA_MCP](../../resources/agent-infrastructure/eda-mcp.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Chipmind](../../resources/agent-infrastructure/chipmind.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
