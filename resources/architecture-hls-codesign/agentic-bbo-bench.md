@@ -41,7 +41,7 @@
 
 | Repository / 仓库 | Stars | Last push (UTC) / 最近推送 | Fetched (UTC) / 采集时间 | Status / 状态 |
 | --- | ---: | --- | --- | --- |
-| [lamda-bbo/agentic-bbo](https://github.com/lamda-bbo/agentic-bbo) | — | — | — | Unavailable / 暂不可用 |
+| [lamda-bbo/agentic-bbo](https://github.com/lamda-bbo/agentic-bbo) | 5 | 2026-10-12T11:05:35Z | 2026-11-08T20:18:36Z | Snapshot / 快照 |
 
 Stars and push times are GitHub API snapshots. A push may update any branch and does not establish a functional release or research quality.
 

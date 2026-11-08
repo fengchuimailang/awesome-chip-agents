@@ -45,7 +45,7 @@
 
 | Repository / 仓库 | Stars | Last push (UTC) / 最近推送 | Fetched (UTC) / 采集时间 | Status / 状态 |
 | --- | ---: | --- | --- | --- |
-| [HPAI-BSC/TuRTLe](https://github.com/HPAI-BSC/TuRTLe) | 53 | 2026-07-22T09:21:39Z | 2026-10-31T05:54:36Z | Snapshot / 快照 |
+| [HPAI-BSC/TuRTLe](https://github.com/HPAI-BSC/TuRTLe) | 53 | 2026-07-22T09:21:39Z | 2026-11-08T20:18:36Z | Snapshot / 快照 |
 
 Stars and push times are GitHub API snapshots. A push may update any branch and does not establish a functional release or research quality.
 

@@ -64,7 +64,7 @@
 
 | Repository / 仓库 | Stars | Last push (UTC) / 最近推送 | Fetched (UTC) / 采集时间 | Status / 状态 |
 | --- | ---: | --- | --- | --- |
-| [Arcadia-1/razavi-bench](https://github.com/Arcadia-1/razavi-bench) | — | — | — | Unavailable / 暂不可用 |
+| [Arcadia-1/razavi-bench](https://github.com/Arcadia-1/razavi-bench) | 104 | 2026-11-08T18:13:18Z | 2026-11-08T20:18:36Z | Snapshot / 快照 |
 
 Stars and push times are GitHub API snapshots. A push may update any branch and does not establish a functional release or research quality.
 

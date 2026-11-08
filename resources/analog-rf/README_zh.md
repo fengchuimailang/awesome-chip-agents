@@ -18,19 +18,19 @@
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
 | **[Long-Horizon Analog Design Bench](../../resources/analog-rf/long-horizon-analog-design-bench.md)**<br>使用 17 位芯片设计者贡献的 50 项晶体管级设计任务评测 Agent，通过开源仿真器和隔离的验证器，在数小时运行过程中检查电气规格是否满足。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2609.33356) | — | — | — |
-| **[AgenticSizing](../../resources/analog-rf/agenticsizing.md)**<br>分析电路拓扑与功能块、复用设计知识，并通过仿真反馈协调专门的尺寸优化 Agent。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [电路尺寸优化](../../resources/tags/sizing.md) · [仿真](../../resources/tags/simulation.md) · [多 Agent](../../resources/tags/multi-agent.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2609.25873) | [aprilaihub/agentic-analog-sizing](https://github.com/aprilaihub/agentic-analog-sizing) | 4 | 2026-09-22<br>采集 2026-11-01 |
+| **[AgenticSizing](../../resources/analog-rf/agenticsizing.md)**<br>分析电路拓扑与功能块、复用设计知识，并通过仿真反馈协调专门的尺寸优化 Agent。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [电路尺寸优化](../../resources/tags/sizing.md) · [仿真](../../resources/tags/simulation.md) · [多 Agent](../../resources/tags/multi-agent.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2609.25873) | [aprilaihub/agentic-analog-sizing](https://github.com/aprilaihub/agentic-analog-sizing) | 4 | 2026-09-22<br>采集 2026-11-08 |
 
 ## 2026-07
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[Razavi-Bench](../../resources/analog-rf/razavi-bench.md)**<br>使用改编自 Razavi 文章的 50 道多模态题评测模拟电路推理，支持直接问答与 Agent 评测，并提供可选的 ngspice/Sky130 工具。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [工具调用](../../resources/tags/tool-use.md) · [仿真](../../resources/tags/simulation.md)<br>基准 / 数据集 | — | [Arcadia-1/razavi-bench](https://github.com/Arcadia-1/razavi-bench) | — | 指标暂不可用 |
+| **[Razavi-Bench](../../resources/analog-rf/razavi-bench.md)**<br>使用改编自 Razavi 文章的 50 道多模态题评测模拟电路推理，支持直接问答与 Agent 评测，并提供可选的 ngspice/Sky130 工具。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [工具调用](../../resources/tags/tool-use.md) · [仿真](../../resources/tags/simulation.md)<br>基准 / 数据集 | — | [Arcadia-1/razavi-bench](https://github.com/Arcadia-1/razavi-bench) | 104 | 2026-11-08<br>采集 2026-11-08 |
 
 ## 2026-03
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[AnalogAgent](../../resources/analog-rf/analogagent.md)**<br>使用自我改进的 LLM Agent 和持久化经验自动化模拟设计，并在任务间迁移知识。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [工具调用](../../resources/tags/tool-use.md) · [记忆与经验](../../resources/tags/memory.md)<br>论文 | [论文](https://arxiv.org/abs/2603.23910) | [TheWind-upBird/Analogagent](https://github.com/TheWind-upBird/Analogagent) | 14 | 2026-06-08<br>采集 2026-11-01 |
+| **[AnalogAgent](../../resources/analog-rf/analogagent.md)**<br>使用自我改进的 LLM Agent 和持久化经验自动化模拟设计，并在任务间迁移知识。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [工具调用](../../resources/tags/tool-use.md) · [记忆与经验](../../resources/tags/memory.md)<br>论文 | [论文](https://arxiv.org/abs/2603.23910) | [TheWind-upBird/Analogagent](https://github.com/TheWind-upBird/Analogagent) | 15 | 2026-06-08<br>采集 2026-11-08 |
 
 ## 2026 · 月份待核实
 
@@ -42,18 +42,18 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[EEschematic](../../resources/analog-rf/eeschematic.md)**<br>将 SPICE 网表转换为可编辑的模拟电路原理图，并通过多模态反馈迭代调整布局与连线。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [代码生成](../../resources/tags/generation.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2510.17002) | [eelab-dev/EEschematic](https://github.com/eelab-dev/EEschematic) | 39 | 2025-10-20<br>采集 2026-10-31 |
+| **[EEschematic](../../resources/analog-rf/eeschematic.md)**<br>将 SPICE 网表转换为可编辑的模拟电路原理图，并通过多模态反馈迭代调整布局与连线。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [代码生成](../../resources/tags/generation.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2510.17002) | [eelab-dev/EEschematic](https://github.com/eelab-dev/EEschematic) | 39 | 2025-10-20<br>采集 2026-11-08 |
 
 ## 2025-09
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[EEsizer](../../resources/analog-rf/eesizer.md)**<br>结合 LLM 函数调用、ngspice 测量与优化历史，迭代调整模拟及混合信号电路尺寸。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [电路尺寸优化](../../resources/tags/sizing.md) · [仿真](../../resources/tags/simulation.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2509.25510) | [eelab-dev/EEsizer](https://github.com/eelab-dev/EEsizer) | 38 | 2026-04-23<br>采集 2026-10-31 |
+| **[EEsizer](../../resources/analog-rf/eesizer.md)**<br>结合 LLM 函数调用、ngspice 测量与优化历史，迭代调整模拟及混合信号电路尺寸。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [电路尺寸优化](../../resources/tags/sizing.md) · [仿真](../../resources/tags/simulation.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2509.25510) | [eelab-dev/EEsizer](https://github.com/eelab-dev/EEsizer) | 39 | 2026-04-23<br>采集 2026-11-08 |
 
 ## 日期待核实
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[Virtuoso-Bridge-Lite](../../resources/agent-infrastructure/virtuoso-bridge-lite.md)**<br>通过 Python、命令行和可选 MCP 接口，将模拟与混合信号设计 Agent 连接到 Virtuoso、Spectre，支持设计编辑、仿真与结果读取。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>开源项目 / 工具 / 平台 · 跨方向索引 | — | [Arcadia-1/virtuoso-bridge-lite](https://github.com/Arcadia-1/virtuoso-bridge-lite) | 997 | 2026-11-04<br>采集 2026-11-05 |
-| **[EDA_MCP](../../resources/agent-infrastructure/eda-mcp.md)**<br>通过 MCP 向 Agent 开放远程 Virtuoso、Eldo 会话，并提供工作区同步和物理验证流程。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md)<br>开源项目 / 工具 / 平台 · 跨方向索引 | — | [SiliCAD/EDA_MCP](https://github.com/SiliCAD/EDA_MCP) | 34 | 2026-10-27<br>采集 2026-10-31 |
+| **[Virtuoso-Bridge-Lite](../../resources/agent-infrastructure/virtuoso-bridge-lite.md)**<br>通过 Python、命令行和可选 MCP 接口，将模拟与混合信号设计 Agent 连接到 Virtuoso、Spectre，支持设计编辑、仿真与结果读取。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>开源项目 / 工具 / 平台 · 跨方向索引 | — | [Arcadia-1/virtuoso-bridge-lite](https://github.com/Arcadia-1/virtuoso-bridge-lite) | 1,025 | 2026-11-05<br>采集 2026-11-08 |
+| **[EDA_MCP](../../resources/agent-infrastructure/eda-mcp.md)**<br>通过 MCP 向 Agent 开放远程 Virtuoso、Eldo 会话，并提供工作区同步和物理验证流程。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md)<br>开源项目 / 工具 / 平台 · 跨方向索引 | — | [SiliCAD/EDA_MCP](https://github.com/SiliCAD/EDA_MCP) | 36 | 2026-10-27<br>采集 2026-11-08 |
 | **[Cadence ViraStack](../../resources/analog-rf/cadence-virastack.md)**<br>Cadence 所述的定制与模拟设计 Agent 自动化，覆盖原理图创建、测试平台开发、电路优化和版图迁移。 | [商业平台](../../resources/tags/commercial.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [电路尺寸优化](../../resources/tags/sizing.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 | [原始来源](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/virastack-ai-super-agent.html) | — | — | — |

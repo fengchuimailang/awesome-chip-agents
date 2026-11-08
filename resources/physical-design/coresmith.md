@@ -42,7 +42,7 @@
 
 | Repository / 仓库 | Stars | Last push (UTC) / 最近推送 | Fetched (UTC) / 采集时间 | Status / 状态 |
 | --- | ---: | --- | --- | --- |
-| [facebookexperimental/coresmith](https://github.com/facebookexperimental/coresmith) | 50 | 2026-10-29T04:50:24Z | 2026-10-31T05:54:36Z | Snapshot / 快照 |
+| [facebookexperimental/coresmith](https://github.com/facebookexperimental/coresmith) | 51 | 2026-10-29T04:50:24Z | 2026-11-08T20:18:36Z | Snapshot / 快照 |
 
 Stars and push times are GitHub API snapshots. A push may update any branch and does not establish a functional release or research quality.
 

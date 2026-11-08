@@ -51,7 +51,7 @@
 
 | Repository / 仓库 | Stars | Last push (UTC) / 最近推送 | Fetched (UTC) / 采集时间 | Status / 状态 |
 | --- | ---: | --- | --- | --- |
-| [OpenROAD-Assistant/OpenROAD-Agent](https://github.com/OpenROAD-Assistant/OpenROAD-Agent) | 37 | 2025-07-24T23:22:56Z | 2026-11-01T20:22:55Z | Snapshot / 快照 |
+| [OpenROAD-Assistant/OpenROAD-Agent](https://github.com/OpenROAD-Assistant/OpenROAD-Agent) | 37 | 2025-07-24T23:22:56Z | 2026-11-08T20:18:36Z | Snapshot / 快照 |
 
 Stars and push times are GitHub API snapshots. A push may update any branch and does not establish a functional release or research quality.
 
