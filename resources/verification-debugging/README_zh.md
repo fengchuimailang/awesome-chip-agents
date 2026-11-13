@@ -24,6 +24,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[wave-mcp](../../resources/agent-infrastructure/wave-mcp.md)**<br>通过 MCP 为 LLM Agent 提供 FST 波形查询、RTL 驱动分析、值与 X 态追踪及波形对比。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [波形分析](../../resources/tags/waveform.md) · [调试](../../resources/tags/debugging.md)<br>开源项目 / 工具 / 平台 · 跨方向索引 | — | [Tencent/wave-mcp](https://github.com/Tencent/wave-mcp) | 282 | 2026-10-23<br>采集 2026-11-13 |
 | **[NoTB](../../resources/verification-debugging/notb.md)**<br>使用跨模型形式共识筛选生成的 RTL，不依赖手写测试平台 Oracle。 | [RTL](../../resources/tags/rtl.md) · [形式验证](../../resources/tags/formal.md) · [评测](../../resources/tags/evaluation.md)<br>论文 | [论文](https://arxiv.org/abs/2608.21962) | — | — | — |
 | **[LACE](../../resources/architecture-hls-codesign/lace.md)**<br>协调多个 Agent 完成 RISC-V 指令扩展设计、RTL 修改和形式验证。 | [RISC-V](../../resources/tags/risc-v.md) · [代码编辑](../../resources/tags/editing.md) · [形式验证](../../resources/tags/formal.md) · [多 Agent](../../resources/tags/multi-agent.md)<br>论文 / 开源项目 · 跨方向索引 | [论文](https://arxiv.org/abs/2608.02915) | [UMN-ZhaoLab/LACE](https://github.com/UMN-ZhaoLab/LACE) | 4 | 2026-09-02<br>采集 2026-11-08 |
 

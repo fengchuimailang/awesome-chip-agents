@@ -12,6 +12,12 @@ Newest publication month first. Cross-references share the original record; repo
 | --- | --- | --- | --- | ---: | --- |
 | **[Back to the Future](../../resources/verification-debugging/back-to-the-future.md)**<br>Converts simulation waveforms into a relational SQLite database and coordinates agents to query signal behavior and correlate anomalies with RTL. | [Waveforms](../../resources/tags/waveform.md) · [Debugging](../../resources/tags/debugging.md) · [Infrastructure](../../resources/tags/infrastructure.md)<br>Paper · cross-reference | [Paper](https://arxiv.org/abs/2610.06790) | — | — | — |
 
+## 2026-08
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[wave-mcp](../../resources/agent-infrastructure/wave-mcp.md)**<br>Exposes FST waveform queries, RTL driver analysis, value/X tracing, and waveform comparison to LLM agents through MCP. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [Waveforms](../../resources/tags/waveform.md) · [Debugging](../../resources/tags/debugging.md)<br>Open-source project / Tool / platform | — | [Tencent/wave-mcp](https://github.com/Tencent/wave-mcp) | 282 | 2026-10-23<br>Fetched 2026-11-13 |
+
 ## 2026-06
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |

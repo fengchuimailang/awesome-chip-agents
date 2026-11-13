@@ -8,6 +8,7 @@
 | --- | --- | --- |
 | [Back to the Future](../../resources/verification-debugging/back-to-the-future.md) | 2026-10-05 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [VeriBugBench](../../resources/verification-debugging/veribugbench.md) | 2026-09 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
+| [wave-mcp](../../resources/agent-infrastructure/wave-mcp.md) | 2026-08 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [RTL Repair Framework](../../resources/verification-debugging/rtl-repair-framework.md) | 2026-07-30 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Synopsys / AMD / Microsoft](../../resources/physical-design/synopsys-amd-microsoft-2026.md) | 2026-07-27 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [WaveformQA](../../resources/verification-debugging/waveformqa.md) | 2026-07 | Verification, Debugging and Specifications / 验证、调试与规格推断 |

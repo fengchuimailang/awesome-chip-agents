@@ -14,6 +14,7 @@
 | [AHRR](../../resources/architecture-hls-codesign/ahrr.md) | 2026-09-17 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [VeriBugBench](../../resources/verification-debugging/veribugbench.md) | 2026-09 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [GRADE-RTL](../../resources/rtl-generation/grade-rtl.md) | 2026-09 | RTL Generation and Editing / RTL 生成与编辑 |
+| [wave-mcp](../../resources/agent-infrastructure/wave-mcp.md) | 2026-08 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [NoTB](../../resources/verification-debugging/notb.md) | 2026-08 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [RTL Repair Framework](../../resources/verification-debugging/rtl-repair-framework.md) | 2026-07-30 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [RTL-BenchLS](../../resources/rtl-generation/rtl-benchls.md) | 2026-06 | RTL Generation and Editing / RTL 生成与编辑 |
