@@ -17,6 +17,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[agentic-asic](../../resources/agent-infrastructure/agentic-asic.md)**<br>作为 MCP 客户端编排 RTL 审查、仿真、形式验证、综合、布局布线、GDS 检查及 FPGA 流程，并生成结构化报告。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [物理设计](../../resources/tags/physical-design.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>开源项目 / 工具 / 平台 · 跨方向索引 | — | [zesun33/agentic-asic](https://github.com/zesun33/agentic-asic) | 1 | 2026-10-05<br>采集 2026-11-13 |
 | **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)**<br>评测生成 RTL 的代码和配套材料，覆盖功能等价、模块完整性和 QoR，而不只是编译。 | [RTL](../../resources/tags/rtl.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>开源项目 / 基准 / 数据集 · 跨方向索引 | [论文](https://arxiv.org/abs/2609.25335) | [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) | 0 | 2026-10-12<br>采集 2026-11-08 |
 
 ## 2026-08
@@ -29,6 +30,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[hw-agent-tooling](../../resources/agent-infrastructure/hw-agent-tooling.md)**<br>硬件 Agent 工具组合的入口页，链接九个分别发布的 RTL、验证、物理设计、FPGA 与 SPICE MCP 服务。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [综述 / 教程](../../resources/tags/overview.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>开源项目 / 综述 / 教程 · 跨方向索引 | — | [zesun33/hw-agent-tooling](https://github.com/zesun33/hw-agent-tooling) | 0 | 2026-10-05<br>采集 2026-11-13 |
 | **[PDAgent-Bench](../../resources/physical-design/pdagent-bench.md)**<br>评测 VLSI 物理设计工作流中的上下文 grounding、任务执行和 Agent 架构选择。 | [物理设计](../../resources/tags/physical-design.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2606.17253) | — | — | — |
 
 ## 2026-05
@@ -43,12 +45,30 @@
 | --- | --- | --- | --- | ---: | --- |
 | **[FluxEDA](../../resources/agent-infrastructure/fluxeda.md)**<br>为可复现的长时运行 Agentic EDA 流程提供有状态执行和工具集成基础设施。 | [基础设施](../../resources/tags/infrastructure.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2603.25243) | — | — | — |
 
+## 2026-02
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[OpenROAD MCP](../../resources/agent-infrastructure/openroad-mcp.md)**<br>通过 MCP 会话、Tcl 命令、指标和报告图像检查，将 Agent 连接到 OpenROAD 与 ORFS。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [物理设计](../../resources/tags/physical-design.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>开源项目 / 工具 / 平台 · 跨方向索引 | — | [The-OpenROAD-Project/OpenROAD-MCP](https://github.com/The-OpenROAD-Project/OpenROAD-MCP) | 35 | 2026-11-13<br>采集 2026-11-13 |
+
 ## 2026 · 月份待核实
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
 | **[Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md)**<br>支持选择语言模型的商业 Agent 平台，提供面向验证、物理实现和模拟/混合信号设计的专用 Agent。 | [商业平台](../../resources/tags/commercial.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [多 Agent](../../resources/tags/multi-agent.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 · 跨方向索引 | [原始来源](https://www.synopsys.com/ai/agentic-ai.html) | — | — | — |
 | **[Build-A-Chip-Bench](../../resources/physical-design/build-a-chip-bench.md)**<br>以正确性门槛和 PPA 评测工作负载到 GDS 的 Agent；结果由开发方报告。 | [EDA 流程](../../resources/tags/eda-flow.md) · [PPA / QoR](../../resources/tags/ppa.md) · [基准](../../resources/tags/benchmark.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>基准 / 数据集 | [原始来源](https://chipagents.ai/research/build-a-chip-bench) | — | — | — |
+
+## 2025-08
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[AutoEDA](../../resources/agent-infrastructure/autoeda.md)**<br>研究基于 MCP 的微服务 LLM Agent，覆盖 RTL-to-GDSII 任务分解、工具选择、执行和自动错误处理。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [多 Agent](../../resources/tags/multi-agent.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [物理设计](../../resources/tags/physical-design.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2508.01012) | — | — | — |
+
+## 2025-07
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[MCP4EDA](../../resources/agent-infrastructure/mcp4eda.md)**<br>基于 MCP 的 RTL-to-GDSII 框架，集成综合、仿真、OpenLane，并利用后端反馈优化综合。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [物理设计](../../resources/tags/physical-design.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>论文 / 开源项目 / 工具 / 平台 · 跨方向索引 | [论文](https://arxiv.org/abs/2507.19570) | [NellyW8/MCP4EDA](https://github.com/NellyW8/MCP4EDA) | 113 | 2025-07-29<br>采集 2026-11-13 |
 
 ## 2025-06
 

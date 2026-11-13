@@ -98,6 +98,15 @@
     "last_attempt_at": "2026-11-08T20:18:36Z",
     "fetch_error": null
   },
+  "cognitohazard/ltspice-mcp": {
+    "full_name": "Cognitohazard/ltspice-mcp",
+    "stars": 71,
+    "pushed_at": "2026-11-13T04:41:37Z",
+    "fetched_at": "2026-11-13T07:27:00Z",
+    "archived": false,
+    "last_attempt_at": "2026-11-13T07:27:00Z",
+    "fetch_error": null
+  },
   "eelab-dev/eeschematic": {
     "full_name": "eelab-dev/EEschematic",
     "stars": 39,
@@ -132,6 +141,24 @@
     "fetched_at": "2026-11-08T20:18:36Z",
     "archived": false,
     "last_attempt_at": "2026-11-08T20:18:36Z",
+    "fetch_error": null
+  },
+  "ghensley/circuit-sim-mcp": {
+    "full_name": "ghensley/circuit-sim-mcp",
+    "stars": 1,
+    "pushed_at": "2025-07-11T01:18:35Z",
+    "fetched_at": "2026-11-13T07:27:00Z",
+    "archived": false,
+    "last_attempt_at": "2026-11-13T07:27:00Z",
+    "fetch_error": null
+  },
+  "gokeshenzhen/traceweave": {
+    "full_name": "gokeshenzhen/TraceWeave",
+    "stars": 131,
+    "pushed_at": "2026-10-13T11:54:53Z",
+    "fetched_at": "2026-11-13T07:27:00Z",
+    "archived": false,
+    "last_attempt_at": "2026-11-13T07:27:00Z",
     "fetch_error": null
   },
   "hkust-zhiyao/correctrtl": {
@@ -197,6 +224,15 @@
     "last_attempt_at": "2026-11-08T20:18:36Z",
     "fetch_error": null
   },
+  "jiegec/waveform-mcp": {
+    "full_name": "jiegec/waveform-mcp",
+    "stars": 49,
+    "pushed_at": "2026-11-10T16:22:07Z",
+    "fetched_at": "2026-11-13T07:27:00Z",
+    "archived": false,
+    "last_attempt_at": "2026-11-13T07:27:00Z",
+    "fetch_error": null
+  },
   "lamda-bbo/agentic-bbo": {
     "full_name": "lamda-bbo/agentic-bbo",
     "stars": 5,
@@ -204,6 +240,33 @@
     "fetched_at": "2026-11-08T20:18:36Z",
     "archived": false,
     "last_attempt_at": "2026-11-08T20:18:36Z",
+    "fetch_error": null
+  },
+  "leonardoab1/qucs-mcp": {
+    "full_name": "leonardoAB1/qucs-mcp",
+    "stars": 2,
+    "pushed_at": "2026-07-11T06:34:12Z",
+    "fetched_at": "2026-11-13T07:27:00Z",
+    "archived": false,
+    "last_attempt_at": "2026-11-13T07:27:00Z",
+    "fetch_error": null
+  },
+  "littleblackcq/eda-mcp": {
+    "full_name": "LittleBlackCQ/eda-mcp",
+    "stars": 2,
+    "pushed_at": "2026-06-17T06:42:14Z",
+    "fetched_at": "2026-11-13T07:27:00Z",
+    "archived": false,
+    "last_attempt_at": "2026-11-13T07:27:00Z",
+    "fetch_error": null
+  },
+  "nellyw8/mcp4eda": {
+    "full_name": "NellyW8/MCP4EDA",
+    "stars": 113,
+    "pushed_at": "2025-07-29T15:06:21Z",
+    "fetched_at": "2026-11-13T07:27:00Z",
+    "archived": false,
+    "last_attempt_at": "2026-11-13T07:27:00Z",
     "fetch_error": null
   },
   "nvlabs/ace-rtl": {
@@ -359,6 +422,15 @@
     "last_attempt_at": "2026-11-08T20:18:36Z",
     "fetch_error": null
   },
+  "the-openroad-project/openroad-mcp": {
+    "full_name": "The-OpenROAD-Project/OpenROAD-MCP",
+    "stars": 35,
+    "pushed_at": "2026-11-13T00:29:54Z",
+    "fetched_at": "2026-11-13T07:27:00Z",
+    "archived": false,
+    "last_attempt_at": "2026-11-13T07:27:00Z",
+    "fetch_error": null
+  },
   "thewind-upbird/analogagent": {
     "full_name": "TheWind-upBird/Analogagent",
     "stars": 15,
@@ -411,6 +483,24 @@
     "fetched_at": "2026-11-08T20:18:36Z",
     "archived": false,
     "last_attempt_at": "2026-11-08T20:18:36Z",
+    "fetch_error": null
+  },
+  "zesun33/agentic-asic": {
+    "full_name": "zesun33/agentic-asic",
+    "stars": 1,
+    "pushed_at": "2026-10-05T13:18:48Z",
+    "fetched_at": "2026-11-13T07:27:00Z",
+    "archived": false,
+    "last_attempt_at": "2026-11-13T07:27:00Z",
+    "fetch_error": null
+  },
+  "zesun33/hw-agent-tooling": {
+    "full_name": "zesun33/hw-agent-tooling",
+    "stars": 0,
+    "pushed_at": "2026-10-05T14:14:42Z",
+    "fetched_at": "2026-11-13T07:27:00Z",
+    "archived": false,
+    "last_attempt_at": "2026-11-13T07:27:00Z",
     "fetch_error": null
   },
   "zhongkaiyu/chipbench": {

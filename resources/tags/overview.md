@@ -6,6 +6,7 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [hw-agent-tooling](../../resources/agent-infrastructure/hw-agent-tooling.md) | 2026-06-16 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [AgentEngineer architecture](../../resources/agent-infrastructure/agentengineer-architecture.md) | 2026 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Synopsys.ai brochure](../../resources/agent-infrastructure/synopsys-ai-brochure.md) | 2025 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [LLMs for EDA: Future or Mirage?](../../resources/agent-infrastructure/llms-for-eda-survey.md) | 2025 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |

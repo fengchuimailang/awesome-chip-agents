@@ -11,9 +11,12 @@
 | [Long-Horizon Analog Design Bench](../../resources/analog-rf/long-horizon-analog-design-bench.md) | 2026-09-27 | Analog and RF Design / 模拟与 RF 电路 |
 | [AgenticSizing](../../resources/analog-rf/agenticsizing.md) | 2026-09-22 | Analog and RF Design / 模拟与 RF 电路 |
 | [Razavi-Bench](../../resources/analog-rf/razavi-bench.md) | 2026-07-02 | Analog and RF Design / 模拟与 RF 电路 |
+| [ltspice-mcp](../../resources/agent-infrastructure/ltspice-mcp.md) | 2026-04-06 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [AnalogAgent](../../resources/analog-rf/analogagent.md) | 2026-03 | Analog and RF Design / 模拟与 RF 电路 |
 | [EEschematic](../../resources/analog-rf/eeschematic.md) | 2025-10-19 | Analog and RF Design / 模拟与 RF 电路 |
 | [EEsizer](../../resources/analog-rf/eesizer.md) | 2025-09-29 | Analog and RF Design / 模拟与 RF 电路 |
 | [Virtuoso-Bridge-Lite](../../resources/agent-infrastructure/virtuoso-bridge-lite.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [qucs-mcp](../../resources/agent-infrastructure/qucs-mcp.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [EDA_MCP](../../resources/agent-infrastructure/eda-mcp.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [circuit-sim-mcp](../../resources/agent-infrastructure/circuit-sim-mcp.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Cadence ViraStack](../../resources/analog-rf/cadence-virastack.md) | Unknown / 待核实 | Analog and RF Design / 模拟与 RF 电路 |

@@ -8,10 +8,14 @@
 | --- | --- | --- |
 | [LATCH](../../resources/physical-design/latch.md) | 2026-10-12 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [CoreSmith](../../resources/physical-design/coresmith.md) | 2026-10-09 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
+| [agentic-asic](../../resources/agent-infrastructure/agentic-asic.md) | 2026-09-05 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [GoalEvolve](../../resources/physical-design/goalevolve.md) | 2026-08 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [InnoStack demo](../../resources/physical-design/innostack-demo.md) | 2026-07-22 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [PDAgent-Bench](../../resources/physical-design/pdagent-bench.md) | 2026-06 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [PostEDA-Bench](../../resources/physical-design/posteda-bench.md) | 2026-05 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
+| [OpenROAD MCP](../../resources/agent-infrastructure/openroad-mcp.md) | 2026-02-19 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [AutoEDA](../../resources/agent-infrastructure/autoeda.md) | 2025-08-01 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [MCP4EDA](../../resources/agent-infrastructure/mcp4eda.md) | 2025-07-25 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [ORFS-agent](../../resources/physical-design/orfs-agent.md) | 2025-06 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [OpenROAD Agent](../../resources/physical-design/openroad-agent.md) | 2025 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [OpenROAD](../../resources/physical-design/openroad.md) | Unknown / 待核实 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |

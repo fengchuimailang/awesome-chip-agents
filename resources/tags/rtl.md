@@ -12,6 +12,7 @@
 | [SparseCraft](../../resources/architecture-hls-codesign/sparsecraft.md) | 2026-10 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [ChipStack RTL / PPA announcement](../../resources/rtl-generation/chipstack-rtl-announcement.md) | 2026-09-22 | RTL Generation and Editing / RTL 生成与编辑 |
 | [AHRR](../../resources/architecture-hls-codesign/ahrr.md) | 2026-09-17 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
+| [agentic-asic](../../resources/agent-infrastructure/agentic-asic.md) | 2026-09-05 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [VeriBugBench](../../resources/verification-debugging/veribugbench.md) | 2026-09 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [GRADE-RTL](../../resources/rtl-generation/grade-rtl.md) | 2026-09 | RTL Generation and Editing / RTL 生成与编辑 |
 | [wave-mcp](../../resources/agent-infrastructure/wave-mcp.md) | 2026-08 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
@@ -32,6 +33,7 @@
 | [RTL-BenchMT](../../resources/rtl-generation/rtl-benchmt.md) | 2026 | RTL Generation and Editing / RTL 生成与编辑 |
 | [GTC Taipei 2026 keynote](../../resources/rtl-generation/gtc-taipei-2026-keynote.md) | 2026 | RTL Generation and Editing / RTL 生成与编辑 |
 | [CorrectHDL](../../resources/rtl-generation/correcthdl.md) | 2025-11-20 | RTL Generation and Editing / RTL 生成与编辑 |
+| [MCP4EDA](../../resources/agent-infrastructure/mcp4eda.md) | 2025-07-25 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Spec2RTL-Agent](../../resources/rtl-generation/spec2rtl-agent.md) | 2025-06 | RTL Generation and Editing / RTL 生成与编辑 |
 | [AlphaEvolve chip-design case](../../resources/rtl-generation/alphaevolve-chip-case.md) | 2025-05-14 | RTL Generation and Editing / RTL 生成与编辑 |
 | [TuRTLe](../../resources/rtl-generation/turtle.md) | 2025-03-20 | RTL Generation and Editing / RTL 生成与编辑 |
@@ -46,6 +48,7 @@
 | [Silimate](../../resources/rtl-generation/silimate.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
 | [SCORE](../../resources/rtl-generation/score.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
 | [RTLLM](../../resources/rtl-generation/rtllm.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
+| [eda-mcp (LittleBlackCQ)](../../resources/agent-infrastructure/eda-mcp-littleblackcq.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [CVDP](../../resources/rtl-generation/cvdp.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
 | [Cadence ChipStack](../../resources/rtl-generation/cadence-chipstack.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
 | [Booley](../../resources/agent-infrastructure/booley.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |

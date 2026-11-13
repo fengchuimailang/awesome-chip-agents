@@ -20,6 +20,7 @@
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
 | **[AHRR](../../resources/architecture-hls-codesign/ahrr.md)**<br>将 Agent 驱动的 HLS 设计与 HLS 后的 RTL 精修结合为 AHRR，在 11 项 FPGA 任务上评测。 | [HLS](../../resources/tags/hls.md) · [RTL](../../resources/tags/rtl.md) · [FPGA](../../resources/tags/fpga.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>论文 / 开源项目 · 跨方向索引 | [论文](https://arxiv.org/abs/2609.21157) | [ZijD/AHRR](https://github.com/ZijD/AHRR) | 8 | 2026-09-17<br>采集 2026-11-08 |
+| **[agentic-asic](../../resources/agent-infrastructure/agentic-asic.md)**<br>作为 MCP 客户端编排 RTL 审查、仿真、形式验证、综合、布局布线、GDS 检查及 FPGA 流程，并生成结构化报告。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [物理设计](../../resources/tags/physical-design.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>开源项目 / 工具 / 平台 · 跨方向索引 | — | [zesun33/agentic-asic](https://github.com/zesun33/agentic-asic) | 1 | 2026-10-05<br>采集 2026-11-13 |
 | **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)**<br>评测生成 RTL 的代码和配套材料，覆盖功能等价、模块完整性和 QoR，而不只是编译。 | [RTL](../../resources/tags/rtl.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.25335) | [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) | 0 | 2026-10-12<br>采集 2026-11-08 |
 
 ## 2026-08
@@ -39,6 +40,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[hw-agent-tooling](../../resources/agent-infrastructure/hw-agent-tooling.md)**<br>硬件 Agent 工具组合的入口页，链接九个分别发布的 RTL、验证、物理设计、FPGA 与 SPICE MCP 服务。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [综述 / 教程](../../resources/tags/overview.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>开源项目 / 综述 / 教程 · 跨方向索引 | — | [zesun33/hw-agent-tooling](https://github.com/zesun33/hw-agent-tooling) | 0 | 2026-10-05<br>采集 2026-11-13 |
 | **[RTL-BenchLS](../../resources/rtl-generation/rtl-benchls.md)**<br>提供一万多个经过形式验证的 Verilog 设计，用于往返推理、掩码内容推理和仓库问题修复，并提供数据和评测代码。 | [RTL](../../resources/tags/rtl.md) · [形式验证](../../resources/tags/formal.md) · [数据集](../../resources/tags/dataset.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2606.08976) | [hkust-zhiyao/RTL-BenchLS](https://github.com/hkust-zhiyao/RTL-BenchLS) | 5 | 2026-06-08<br>采集 2026-11-08 |
 | **[HORIZON](../../resources/rtl-generation/horizon.md)**<br>将硬件开发视为仓库级代码演化，由 Agent 跨文件修改和验证设计。 | [RTL](../../resources/tags/rtl.md) · [代码编辑](../../resources/tags/editing.md) · [仓库级任务](../../resources/tags/repository-level.md) · [验证](../../resources/tags/verification.md)<br>论文 | [论文](https://arxiv.org/abs/2606.28279) | — | — | — |
 
@@ -67,6 +69,18 @@
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
 | **[CorrectHDL](../../resources/rtl-generation/correcthdl.md)**<br>从 C/C++ 生成模块化 HDL，借助 RAG 及与 HLS 参考设计的仿真对比迭代修复。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [HLS](../../resources/tags/hls.md) · [验证](../../resources/tags/verification.md) · [调试](../../resources/tags/debugging.md)<br>论文 | [论文](https://arxiv.org/abs/2511.16395) | [AgenticHDL/CorrectHDL](https://github.com/AgenticHDL/CorrectHDL) | 17 | 2026-04-27<br>采集 2026-11-08 |
+
+## 2025-08
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[AutoEDA](../../resources/agent-infrastructure/autoeda.md)**<br>研究基于 MCP 的微服务 LLM Agent，覆盖 RTL-to-GDSII 任务分解、工具选择、执行和自动错误处理。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [多 Agent](../../resources/tags/multi-agent.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [物理设计](../../resources/tags/physical-design.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2508.01012) | — | — | — |
+
+## 2025-07
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[MCP4EDA](../../resources/agent-infrastructure/mcp4eda.md)**<br>基于 MCP 的 RTL-to-GDSII 框架，集成综合、仿真、OpenLane，并利用后端反馈优化综合。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [物理设计](../../resources/tags/physical-design.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>论文 / 开源项目 / 工具 / 平台 · 跨方向索引 | [论文](https://arxiv.org/abs/2507.19570) | [NellyW8/MCP4EDA](https://github.com/NellyW8/MCP4EDA) | 113 | 2025-07-29<br>采集 2026-11-13 |
 
 ## 2025-06
 
@@ -113,6 +127,7 @@
 | **[Silimate](../../resources/rtl-generation/silimate.md)**<br>以 AI 驱动 RTL 和实现优化，探索设计方案和 PPA。 | [商业平台](../../resources/tags/commercial.md) · [RTL](../../resources/tags/rtl.md) · [PPA / QoR](../../resources/tags/ppa.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 | [原始来源](https://www.silimate.com/) | — | — | — |
 | **[SCORE](../../resources/rtl-generation/score.md)**<br>汇集由 SoC 生成器和硬件构造语言一致生成的 Verilog RTL，可用于可复现的综合、验证和 Agent 评测，但本身不是 Agent 基准。 | [RTL](../../resources/tags/rtl.md) · [数据集](../../resources/tags/dataset.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | — | [SJTU-YONGFU-RESEARCH-GRP/score](https://github.com/SJTU-YONGFU-RESEARCH-GRP/score) | 4 | 2026-09-03<br>采集 2026-11-08 |
 | **[RTLLM](../../resources/rtl-generation/rtllm.md)**<br>开源 RTL 生成基准与评测代码，包含设计描述、测试平台和评测脚本。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>开源项目 / 基准 / 数据集 | — | [hkust-zhiyao/RTLLM](https://github.com/hkust-zhiyao/RTLLM) | 244 | 2026-08-15<br>采集 2026-11-08 |
+| **[eda-mcp (LittleBlackCQ)](../../resources/agent-infrastructure/eda-mcp-littleblackcq.md)**<br>Docker 化 MCP 服务，打包 Yosys 综合、Icarus 仿真、Verilator lint 和 waveform-cli 查询。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [仿真](../../resources/tags/simulation.md) · [波形分析](../../resources/tags/waveform.md)<br>工具 / 平台 · 跨方向索引 | — | [LittleBlackCQ/eda-mcp](https://github.com/LittleBlackCQ/eda-mcp) | 2 | 2026-06-17<br>采集 2026-11-13 |
 | **[CVDP](../../resources/rtl-generation/cvdp.md)**<br>NVIDIA 发布的 RTL 编码评测基准，覆盖生成、编辑和调试等任务。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [调试](../../resources/tags/debugging.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | — | [NVlabs/cvdp_benchmark](https://github.com/NVlabs/cvdp_benchmark) | 256 | 2026-06-08<br>采集 2026-11-08 |
 | **[Cadence ChipStack](../../resources/rtl-generation/cadence-chipstack.md)**<br>面向 RTL 设计与验证的商业多 Agent 流程；功能由厂商描述。 | [商业平台](../../resources/tags/commercial.md) · [RTL](../../resources/tags/rtl.md) · [验证](../../resources/tags/verification.md) · [多 Agent](../../resources/tags/multi-agent.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 | [原始来源](https://www.cadence.com/en_US/home/ai/agentic-ai-super-agents.html) | — | — | — |
 | **[Booley](../../resources/agent-infrastructure/booley.md)**<br>在 VS Code 中为编码 Agent 提供可复现的 RTL 工具流程、波形查询和确定性验收检查。 | [基础设施](../../resources/tags/infrastructure.md) · [RTL](../../resources/tags/rtl.md) · [工具调用](../../resources/tags/tool-use.md) · [验证](../../resources/tags/verification.md) · [波形分析](../../resources/tags/waveform.md)<br>开源项目 / 工具 / 平台 · 跨方向索引 | — | [boldaxolotl/booley](https://github.com/boldaxolotl/booley) | 25 | 2026-11-08<br>采集 2026-11-08 |

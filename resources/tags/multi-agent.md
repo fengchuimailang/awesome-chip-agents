@@ -19,6 +19,7 @@
 | [Veri-Sure](../../resources/rtl-generation/veri-sure.md) | 2026-01-27 | RTL Generation and Editing / RTL 生成与编辑 |
 | [Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md) | 2026 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [AgentEngineer architecture](../../resources/agent-infrastructure/agentengineer-architecture.md) | 2026 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [AutoEDA](../../resources/agent-infrastructure/autoeda.md) | 2025-08-01 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Spec2RTL-Agent](../../resources/rtl-generation/spec2rtl-agent.md) | 2025-06 | RTL Generation and Editing / RTL 生成与编辑 |
 | [MAGE](../../resources/rtl-generation/mage.md) | 2024-12 | RTL Generation and Editing / RTL 生成与编辑 |
 | [Cadence ChipStack](../../resources/rtl-generation/cadence-chipstack.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |

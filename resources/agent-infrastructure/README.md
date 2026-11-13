@@ -12,23 +12,44 @@ Newest publication month first. Cross-references share the original record; repo
 | --- | --- | --- | --- | ---: | --- |
 | **[Back to the Future](../../resources/verification-debugging/back-to-the-future.md)**<br>Converts simulation waveforms into a relational SQLite database and coordinates agents to query signal behavior and correlate anomalies with RTL. | [Waveforms](../../resources/tags/waveform.md) · [Debugging](../../resources/tags/debugging.md) · [Infrastructure](../../resources/tags/infrastructure.md)<br>Paper · cross-reference | [Paper](https://arxiv.org/abs/2610.06790) | — | — | — |
 
+## 2026-09
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[agentic-asic](../../resources/agent-infrastructure/agentic-asic.md)**<br>An MCP client orchestrating RTL review, simulation, formal checks, synthesis, P&R, GDS checks, and an FPGA track with structured reports. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [Physical design](../../resources/tags/physical-design.md) · [EDA workflows](../../resources/tags/eda-flow.md)<br>Open-source project / Tool / platform | — | [zesun33/agentic-asic](https://github.com/zesun33/agentic-asic) | 1 | 2026-10-05<br>Fetched 2026-11-13 |
+
 ## 2026-08
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
+| **[TraceWeave](../../resources/agent-infrastructure/traceweave.md)**<br>An RTL/SoC debugging MCP server linking compile records, logs, RTL, waveforms, signal connectivity, and X/Z provenance. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [Verification](../../resources/tags/verification.md) · [Debugging](../../resources/tags/debugging.md) · [Waveforms](../../resources/tags/waveform.md)<br>Open-source project / Tool / platform | — | [gokeshenzhen/TraceWeave](https://github.com/gokeshenzhen/TraceWeave) | 131 | 2026-10-13<br>Fetched 2026-11-13 |
 | **[wave-mcp](../../resources/agent-infrastructure/wave-mcp.md)**<br>Exposes FST waveform queries, RTL driver analysis, value/X tracing, and waveform comparison to LLM agents through MCP. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [Waveforms](../../resources/tags/waveform.md) · [Debugging](../../resources/tags/debugging.md)<br>Open-source project / Tool / platform | — | [Tencent/wave-mcp](https://github.com/Tencent/wave-mcp) | 282 | 2026-10-23<br>Fetched 2026-11-13 |
 
 ## 2026-06
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
+| **[hw-agent-tooling](../../resources/agent-infrastructure/hw-agent-tooling.md)**<br>A portfolio landing page linking nine separately distributed MCP servers for RTL, verification, physical design, FPGA, and SPICE. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [Overview / tutorial](../../resources/tags/overview.md) · [EDA workflows](../../resources/tags/eda-flow.md)<br>Open-source project / Survey / tutorial | — | [zesun33/hw-agent-tooling](https://github.com/zesun33/hw-agent-tooling) | 0 | 2026-10-05<br>Fetched 2026-11-13 |
 | **[CHIA](../../resources/architecture-hls-codesign/chia.md)**<br>Defines an open framework for agentic hardware/software co-design research with Chipyard and gem5 integration. | [Architecture exploration](../../resources/tags/architecture.md) · [HW/SW co-design](../../resources/tags/codesign.md) · [Infrastructure](../../resources/tags/infrastructure.md)<br>Paper · cross-reference | [Paper](https://arxiv.org/abs/2606.27350) | — | — | — |
+
+## 2026-04
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[ltspice-mcp](../../resources/agent-infrastructure/ltspice-mcp.md)**<br>MCP tools and a Python API for LTspice/ngspice experiments, schematic editing, sweeps, result analysis, and waveform plots. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [Analog / RF](../../resources/tags/analog-rf.md) · [Simulation](../../resources/tags/simulation.md)<br>Open-source project / Tool / platform | — | [Cognitohazard/ltspice-mcp](https://github.com/Cognitohazard/ltspice-mcp) | 71 | 2026-11-13<br>Fetched 2026-11-13 |
 
 ## 2026-03
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
+| **[waveform-mcp](../../resources/agent-infrastructure/waveform-mcp.md)**<br>A Rust MCP server and CLI using wellen to query VCD/FST hierarchy, signal metadata, values, and events. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [Waveforms](../../resources/tags/waveform.md) · [Debugging](../../resources/tags/debugging.md)<br>Open-source project / Tool / platform | — | [jiegec/waveform-mcp](https://github.com/jiegec/waveform-mcp) | 49 | 2026-11-10<br>Fetched 2026-11-13 |
 | **[FluxEDA](../../resources/agent-infrastructure/fluxeda.md)**<br>Provides stateful execution and tool integration for reproducible, long-running agentic EDA workflows. | [Infrastructure](../../resources/tags/infrastructure.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Tool use](../../resources/tags/tool-use.md)<br>Paper | [Paper](https://arxiv.org/abs/2603.25243) | — | — | — |
+
+## 2026-02
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[OpenROAD MCP](../../resources/agent-infrastructure/openroad-mcp.md)**<br>Connects agents to OpenROAD and ORFS through MCP sessions, Tcl commands, metrics, and report-image inspection. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [Physical design](../../resources/tags/physical-design.md) · [EDA workflows](../../resources/tags/eda-flow.md)<br>Open-source project / Tool / platform | — | [The-OpenROAD-Project/OpenROAD-MCP](https://github.com/The-OpenROAD-Project/OpenROAD-MCP) | 35 | 2026-11-13<br>Fetched 2026-11-13 |
 
 ## 2026 · month not verified
 
@@ -36,6 +57,18 @@ Newest publication month first. Cross-references share the original record; repo
 | --- | --- | --- | --- | ---: | --- |
 | **[Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md)**<br>Commercial agentic platform supporting language-model choice and specialized agents for verification, physical implementation, and analog/mixed-signal workflows. | [Commercial platform](../../resources/tags/commercial.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Tool / platform | [Source](https://www.synopsys.com/ai/agentic-ai.html) | — | — | — |
 | **[AgentEngineer architecture](../../resources/agent-infrastructure/agentengineer-architecture.md)**<br>Official architecture overview explaining how agents pursue complex engineering goals by coordinating task agents and EDA tools, evaluating intermediate results, and retaining context with memory and human review checkpoints. | [Overview / tutorial](../../resources/tags/overview.md) · [Infrastructure](../../resources/tags/infrastructure.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Survey / tutorial | [Source](https://www.synopsys.com/blogs/chip-design/long-horizon-agentengineer-solutions.html) | — | — | — |
+
+## 2025-08
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[AutoEDA](../../resources/agent-infrastructure/autoeda.md)**<br>A paper on MCP-based microservice LLM agents for RTL-to-GDSII task decomposition, tool selection, execution, and automated error handling. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Physical design](../../resources/tags/physical-design.md)<br>Paper | [Paper](https://arxiv.org/abs/2508.01012) | — | — | — |
+
+## 2025-07
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[MCP4EDA](../../resources/agent-infrastructure/mcp4eda.md)**<br>An MCP-based RTL-to-GDSII framework integrating synthesis, simulation, OpenLane, and backend feedback for synthesis optimization. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [Physical design](../../resources/tags/physical-design.md) · [EDA workflows](../../resources/tags/eda-flow.md)<br>Paper / Open-source project / Tool / platform | [Paper](https://arxiv.org/abs/2507.19570) | [NellyW8/MCP4EDA](https://github.com/NellyW8/MCP4EDA) | 113 | 2025-07-29<br>Fetched 2026-11-13 |
 
 ## 2025 · month not verified
 
@@ -49,7 +82,10 @@ Newest publication month first. Cross-references share the original record; repo
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
 | **[Virtuoso-Bridge-Lite](../../resources/agent-infrastructure/virtuoso-bridge-lite.md)**<br>Connects analog and mixed-signal design agents to Virtuoso and Spectre through Python, CLI, and optional MCP interfaces for design editing, simulation, and result reading. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [Analog / RF](../../resources/tags/analog-rf.md) · [Simulation](../../resources/tags/simulation.md) · [EDA workflows](../../resources/tags/eda-flow.md)<br>Open-source project / Tool / platform | — | [Arcadia-1/virtuoso-bridge-lite](https://github.com/Arcadia-1/virtuoso-bridge-lite) | 1,025 | 2026-11-05<br>Fetched 2026-11-08 |
+| **[qucs-mcp](../../resources/agent-infrastructure/qucs-mcp.md)**<br>A Python MCP server for generating Qucs schematics, running headless QucsStudio simulations, and parsing result files. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [Analog / RF](../../resources/tags/analog-rf.md) · [Simulation](../../resources/tags/simulation.md)<br>Open-source project / Tool / platform | — | [leonardoAB1/qucs-mcp](https://github.com/leonardoAB1/qucs-mcp) | 2 | 2026-07-11<br>Fetched 2026-11-13 |
+| **[eda-mcp (LittleBlackCQ)](../../resources/agent-infrastructure/eda-mcp-littleblackcq.md)**<br>A Dockerized MCP server bundling Yosys synthesis, Icarus simulation, Verilator lint, and waveform-cli queries. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [Simulation](../../resources/tags/simulation.md) · [Waveforms](../../resources/tags/waveform.md)<br>Tool / platform | — | [LittleBlackCQ/eda-mcp](https://github.com/LittleBlackCQ/eda-mcp) | 2 | 2026-06-17<br>Fetched 2026-11-13 |
 | **[EDA_MCP](../../resources/agent-infrastructure/eda-mcp.md)**<br>Exposes remote Virtuoso and Eldo sessions to agents through MCP, with workspace synchronization and physical-verification workflows. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Analog / RF](../../resources/tags/analog-rf.md) · [Simulation](../../resources/tags/simulation.md)<br>Open-source project / Tool / platform | — | [SiliCAD/EDA_MCP](https://github.com/SiliCAD/EDA_MCP) | 36 | 2026-10-27<br>Fetched 2026-11-08 |
+| **[circuit-sim-mcp](../../resources/agent-infrastructure/circuit-sim-mcp.md)**<br>A PySpice/ngspice MCP server for circuit construction, DC, AC, and transient simulation, and result inspection. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [Analog / RF](../../resources/tags/analog-rf.md) · [Simulation](../../resources/tags/simulation.md)<br>Tool / platform | — | [ghensley/circuit-sim-mcp](https://github.com/ghensley/circuit-sim-mcp) | 1 | 2025-07-11<br>Fetched 2026-11-13 |
 | **[Chipmind](../../resources/agent-infrastructure/chipmind.md)**<br>Commercial AI-agent platform for chip design and EDA automation. | [Commercial platform](../../resources/tags/commercial.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Tool / platform | [Source](https://www.chipmind.ai/) | — | — | — |
 | **[Booley](../../resources/agent-infrastructure/booley.md)**<br>Connects coding agents to reproducible RTL tool flows, waveform queries, and deterministic acceptance checks in VS Code. | [Infrastructure](../../resources/tags/infrastructure.md) · [RTL](../../resources/tags/rtl.md) · [Tool use](../../resources/tags/tool-use.md) · [Verification](../../resources/tags/verification.md) · [Waveforms](../../resources/tags/waveform.md)<br>Open-source project / Tool / platform | — | [boldaxolotl/booley](https://github.com/boldaxolotl/booley) | 25 | 2026-11-08<br>Fetched 2026-11-08 |
 

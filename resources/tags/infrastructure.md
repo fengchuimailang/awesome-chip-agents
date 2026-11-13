@@ -9,11 +9,22 @@
 | [ChipAgents IC-star](../../resources/agent-infrastructure/chipagents-ic-star-announcement.md) | 2026-10-27 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Cadence Maestro](../../resources/agent-infrastructure/cadence-maestro-announcement.md) | 2026-10-26 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Back to the Future](../../resources/verification-debugging/back-to-the-future.md) | 2026-10-05 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
+| [agentic-asic](../../resources/agent-infrastructure/agentic-asic.md) | 2026-09-05 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [TraceWeave](../../resources/agent-infrastructure/traceweave.md) | 2026-08-27 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [wave-mcp](../../resources/agent-infrastructure/wave-mcp.md) | 2026-08 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [hw-agent-tooling](../../resources/agent-infrastructure/hw-agent-tooling.md) | 2026-06-16 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [CHIA](../../resources/architecture-hls-codesign/chia.md) | 2026-06 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
+| [ltspice-mcp](../../resources/agent-infrastructure/ltspice-mcp.md) | 2026-04-06 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [waveform-mcp](../../resources/agent-infrastructure/waveform-mcp.md) | 2026-03-11 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [FluxEDA](../../resources/agent-infrastructure/fluxeda.md) | 2026-03 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [OpenROAD MCP](../../resources/agent-infrastructure/openroad-mcp.md) | 2026-02-19 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [AgentEngineer architecture](../../resources/agent-infrastructure/agentengineer-architecture.md) | 2026 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [AutoEDA](../../resources/agent-infrastructure/autoeda.md) | 2025-08-01 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [MCP4EDA](../../resources/agent-infrastructure/mcp4eda.md) | 2025-07-25 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Virtuoso-Bridge-Lite](../../resources/agent-infrastructure/virtuoso-bridge-lite.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [qucs-mcp](../../resources/agent-infrastructure/qucs-mcp.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [OpenROAD](../../resources/physical-design/openroad.md) | Unknown / 待核实 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
+| [eda-mcp (LittleBlackCQ)](../../resources/agent-infrastructure/eda-mcp-littleblackcq.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [EDA_MCP](../../resources/agent-infrastructure/eda-mcp.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [circuit-sim-mcp](../../resources/agent-infrastructure/circuit-sim-mcp.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Booley](../../resources/agent-infrastructure/booley.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |

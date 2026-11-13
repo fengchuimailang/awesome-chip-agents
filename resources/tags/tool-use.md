@@ -11,19 +11,30 @@
 | [LATCH](../../resources/physical-design/latch.md) | 2026-10-12 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [CoreSmith](../../resources/physical-design/coresmith.md) | 2026-10-09 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [AgenticBBO-Bench](../../resources/architecture-hls-codesign/agentic-bbo-bench.md) | 2026-10-08 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
+| [agentic-asic](../../resources/agent-infrastructure/agentic-asic.md) | 2026-09-05 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [TraceDSE](../../resources/architecture-hls-codesign/tracedse.md) | 2026-09 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
+| [TraceWeave](../../resources/agent-infrastructure/traceweave.md) | 2026-08-27 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [wave-mcp](../../resources/agent-infrastructure/wave-mcp.md) | 2026-08 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [RTL Repair Framework](../../resources/verification-debugging/rtl-repair-framework.md) | 2026-07-30 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Razavi-Bench](../../resources/analog-rf/razavi-bench.md) | 2026-07-02 | Analog and RF Design / 模拟与 RF 电路 |
+| [hw-agent-tooling](../../resources/agent-infrastructure/hw-agent-tooling.md) | 2026-06-16 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [ltspice-mcp](../../resources/agent-infrastructure/ltspice-mcp.md) | 2026-04-06 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [waveform-mcp](../../resources/agent-infrastructure/waveform-mcp.md) | 2026-03-11 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [FluxEDA](../../resources/agent-infrastructure/fluxeda.md) | 2026-03 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [AnalogAgent](../../resources/analog-rf/analogagent.md) | 2026-03 | Analog and RF Design / 模拟与 RF 电路 |
+| [OpenROAD MCP](../../resources/agent-infrastructure/openroad-mcp.md) | 2026-02-19 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [EEschematic](../../resources/analog-rf/eeschematic.md) | 2025-10-19 | Analog and RF Design / 模拟与 RF 电路 |
 | [EEsizer](../../resources/analog-rf/eesizer.md) | 2025-09-29 | Analog and RF Design / 模拟与 RF 电路 |
+| [AutoEDA](../../resources/agent-infrastructure/autoeda.md) | 2025-08-01 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [MCP4EDA](../../resources/agent-infrastructure/mcp4eda.md) | 2025-07-25 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [ORFS-agent](../../resources/physical-design/orfs-agent.md) | 2025-06 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [OpenROAD Agent](../../resources/physical-design/openroad-agent.md) | 2025 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [ChatEDA](../../resources/physical-design/chateda.md) | 2024 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [RTLFixer](../../resources/verification-debugging/rtlfixer.md) | 2023-11 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Virtuoso-Bridge-Lite](../../resources/agent-infrastructure/virtuoso-bridge-lite.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [qucs-mcp](../../resources/agent-infrastructure/qucs-mcp.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [eda-mcp (LittleBlackCQ)](../../resources/agent-infrastructure/eda-mcp-littleblackcq.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [EDA_MCP](../../resources/agent-infrastructure/eda-mcp.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [DRCHealer](../../resources/physical-design/drchealer.md) | Unknown / 待核实 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
+| [circuit-sim-mcp](../../resources/agent-infrastructure/circuit-sim-mcp.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Booley](../../resources/agent-infrastructure/booley.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |

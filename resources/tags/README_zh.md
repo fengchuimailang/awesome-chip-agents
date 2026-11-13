@@ -6,21 +6,21 @@
 
 | 标签 | 资源数 |
 | --- | ---: |
-| [RTL](rtl.md) | 44 |
+| [RTL](rtl.md) | 47 |
 | [代码生成](generation.md) | 15 |
 | [代码编辑](editing.md) | 3 |
-| [验证](verification.md) | 13 |
-| [调试](debugging.md) | 13 |
+| [验证](verification.md) | 14 |
+| [调试](debugging.md) | 15 |
 | [形式验证](formal.md) | 12 |
-| [仿真](simulation.md) | 14 |
+| [仿真](simulation.md) | 18 |
 | [测试平台](testbench.md) | 5 |
-| [波形分析](waveform.md) | 5 |
+| [波形分析](waveform.md) | 8 |
 | [规格推断](specification.md) | 1 |
-| [物理设计](physical-design.md) | 12 |
+| [物理设计](physical-design.md) | 16 |
 | [PPA / QoR](ppa.md) | 14 |
 | [DRC](drc.md) | 2 |
-| [EDA 流程](eda-flow.md) | 19 |
-| [模拟 / RF](analog-rf.md) | 11 |
+| [EDA 流程](eda-flow.md) | 24 |
+| [模拟 / RF](analog-rf.md) | 14 |
 | [电路尺寸优化](sizing.md) | 4 |
 | [架构探索](architecture.md) | 10 |
 | [HLS](hls.md) | 5 |
@@ -28,15 +28,15 @@
 | [RISC-V](risc-v.md) | 3 |
 | [FPGA](fpga.md) | 3 |
 | [仓库级任务](repository-level.md) | 4 |
-| [多 Agent](multi-agent.md) | 17 |
-| [工具调用](tool-use.md) | 21 |
+| [多 Agent](multi-agent.md) | 18 |
+| [工具调用](tool-use.md) | 32 |
 | [记忆与经验](memory.md) | 1 |
-| [基础设施](infrastructure.md) | 11 |
+| [基础设施](infrastructure.md) | 22 |
 | [基准](benchmark.md) | 25 |
 | [数据集](dataset.md) | 8 |
 | [评测](evaluation.md) | 23 |
 | [商业平台](commercial.md) | 16 |
-| [综述 / 教程](overview.md) | 3 |
+| [综述 / 教程](overview.md) | 4 |
 | [板级 / PCB](board.md) | 2 |
 | [封装 / 3D IC](packaging.md) | 2 |
 | [系统设计](system.md) | 3 |

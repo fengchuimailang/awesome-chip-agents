@@ -17,6 +17,7 @@ Newest publication month first. Cross-references share the original record; repo
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
+| **[agentic-asic](../../resources/agent-infrastructure/agentic-asic.md)**<br>An MCP client orchestrating RTL review, simulation, formal checks, synthesis, P&R, GDS checks, and an FPGA track with structured reports. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [Physical design](../../resources/tags/physical-design.md) · [EDA workflows](../../resources/tags/eda-flow.md)<br>Open-source project / Tool / platform · cross-reference | — | [zesun33/agentic-asic](https://github.com/zesun33/agentic-asic) | 1 | 2026-10-05<br>Fetched 2026-11-13 |
 | **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)**<br>Evaluation code and collateral for measuring generated RTL beyond compilation, including functional equivalence, completeness, and QoR. | [RTL](../../resources/tags/rtl.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>Open-source project / Benchmark / dataset · cross-reference | [Paper](https://arxiv.org/abs/2609.25335) | [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) | 0 | 2026-10-12<br>Fetched 2026-11-08 |
 
 ## 2026-08
@@ -29,6 +30,7 @@ Newest publication month first. Cross-references share the original record; repo
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
+| **[hw-agent-tooling](../../resources/agent-infrastructure/hw-agent-tooling.md)**<br>A portfolio landing page linking nine separately distributed MCP servers for RTL, verification, physical design, FPGA, and SPICE. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [Overview / tutorial](../../resources/tags/overview.md) · [EDA workflows](../../resources/tags/eda-flow.md)<br>Open-source project / Survey / tutorial · cross-reference | — | [zesun33/hw-agent-tooling](https://github.com/zesun33/hw-agent-tooling) | 0 | 2026-10-05<br>Fetched 2026-11-13 |
 | **[PDAgent-Bench](../../resources/physical-design/pdagent-bench.md)**<br>Benchmarks grounding, task execution, and agent architecture choices for VLSI physical-design workflows. | [Physical design](../../resources/tags/physical-design.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2606.17253) | — | — | — |
 
 ## 2026-05
@@ -43,12 +45,30 @@ Newest publication month first. Cross-references share the original record; repo
 | --- | --- | --- | --- | ---: | --- |
 | **[FluxEDA](../../resources/agent-infrastructure/fluxeda.md)**<br>Provides stateful execution and tool integration for reproducible, long-running agentic EDA workflows. | [Infrastructure](../../resources/tags/infrastructure.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Tool use](../../resources/tags/tool-use.md)<br>Paper · cross-reference | [Paper](https://arxiv.org/abs/2603.25243) | — | — | — |
 
+## 2026-02
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[OpenROAD MCP](../../resources/agent-infrastructure/openroad-mcp.md)**<br>Connects agents to OpenROAD and ORFS through MCP sessions, Tcl commands, metrics, and report-image inspection. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [Physical design](../../resources/tags/physical-design.md) · [EDA workflows](../../resources/tags/eda-flow.md)<br>Open-source project / Tool / platform · cross-reference | — | [The-OpenROAD-Project/OpenROAD-MCP](https://github.com/The-OpenROAD-Project/OpenROAD-MCP) | 35 | 2026-11-13<br>Fetched 2026-11-13 |
+
 ## 2026 · month not verified
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
 | **[Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md)**<br>Commercial agentic platform supporting language-model choice and specialized agents for verification, physical implementation, and analog/mixed-signal workflows. | [Commercial platform](../../resources/tags/commercial.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Tool / platform · cross-reference | [Source](https://www.synopsys.com/ai/agentic-ai.html) | — | — | — |
 | **[Build-A-Chip-Bench](../../resources/physical-design/build-a-chip-bench.md)**<br>Evaluates workload-to-GDS agents using correctness gates and PPA; developer-reported results. | [EDA workflows](../../resources/tags/eda-flow.md) · [PPA / QoR](../../resources/tags/ppa.md) · [Benchmark](../../resources/tags/benchmark.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Benchmark / dataset | [Source](https://chipagents.ai/research/build-a-chip-bench) | — | — | — |
+
+## 2025-08
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[AutoEDA](../../resources/agent-infrastructure/autoeda.md)**<br>A paper on MCP-based microservice LLM agents for RTL-to-GDSII task decomposition, tool selection, execution, and automated error handling. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Physical design](../../resources/tags/physical-design.md)<br>Paper · cross-reference | [Paper](https://arxiv.org/abs/2508.01012) | — | — | — |
+
+## 2025-07
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[MCP4EDA](../../resources/agent-infrastructure/mcp4eda.md)**<br>An MCP-based RTL-to-GDSII framework integrating synthesis, simulation, OpenLane, and backend feedback for synthesis optimization. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [Physical design](../../resources/tags/physical-design.md) · [EDA workflows](../../resources/tags/eda-flow.md)<br>Paper / Open-source project / Tool / platform · cross-reference | [Paper](https://arxiv.org/abs/2507.19570) | [NellyW8/MCP4EDA](https://github.com/NellyW8/MCP4EDA) | 113 | 2025-07-29<br>Fetched 2026-11-13 |
 
 ## 2025-06
 

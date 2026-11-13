@@ -26,6 +26,18 @@
 | --- | --- | --- | --- | ---: | --- |
 | **[Razavi-Bench](../../resources/analog-rf/razavi-bench.md)**<br>使用改编自 Razavi 文章的 50 道多模态题评测模拟电路推理，支持直接问答与 Agent 评测，并提供可选的 ngspice/Sky130 工具。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [工具调用](../../resources/tags/tool-use.md) · [仿真](../../resources/tags/simulation.md)<br>基准 / 数据集 | — | [Arcadia-1/razavi-bench](https://github.com/Arcadia-1/razavi-bench) | 104 | 2026-11-08<br>采集 2026-11-08 |
 
+## 2026-06
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[hw-agent-tooling](../../resources/agent-infrastructure/hw-agent-tooling.md)**<br>硬件 Agent 工具组合的入口页，链接九个分别发布的 RTL、验证、物理设计、FPGA 与 SPICE MCP 服务。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [综述 / 教程](../../resources/tags/overview.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>开源项目 / 综述 / 教程 · 跨方向索引 | — | [zesun33/hw-agent-tooling](https://github.com/zesun33/hw-agent-tooling) | 0 | 2026-10-05<br>采集 2026-11-13 |
+
+## 2026-04
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[ltspice-mcp](../../resources/agent-infrastructure/ltspice-mcp.md)**<br>通过 MCP 工具与 Python API 提供 LTspice/ngspice 实验、原理图编辑、扫描、结果分析和波形绘图。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md)<br>开源项目 / 工具 / 平台 · 跨方向索引 | — | [Cognitohazard/ltspice-mcp](https://github.com/Cognitohazard/ltspice-mcp) | 71 | 2026-11-13<br>采集 2026-11-13 |
+
 ## 2026-03
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
@@ -55,5 +67,7 @@
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
 | **[Virtuoso-Bridge-Lite](../../resources/agent-infrastructure/virtuoso-bridge-lite.md)**<br>通过 Python、命令行和可选 MCP 接口，将模拟与混合信号设计 Agent 连接到 Virtuoso、Spectre，支持设计编辑、仿真与结果读取。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>开源项目 / 工具 / 平台 · 跨方向索引 | — | [Arcadia-1/virtuoso-bridge-lite](https://github.com/Arcadia-1/virtuoso-bridge-lite) | 1,025 | 2026-11-05<br>采集 2026-11-08 |
+| **[qucs-mcp](../../resources/agent-infrastructure/qucs-mcp.md)**<br>Python MCP 服务，用于生成 Qucs 原理图、运行无界面 QucsStudio 仿真并解析结果文件。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md)<br>开源项目 / 工具 / 平台 · 跨方向索引 | — | [leonardoAB1/qucs-mcp](https://github.com/leonardoAB1/qucs-mcp) | 2 | 2026-07-11<br>采集 2026-11-13 |
 | **[EDA_MCP](../../resources/agent-infrastructure/eda-mcp.md)**<br>通过 MCP 向 Agent 开放远程 Virtuoso、Eldo 会话，并提供工作区同步和物理验证流程。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md)<br>开源项目 / 工具 / 平台 · 跨方向索引 | — | [SiliCAD/EDA_MCP](https://github.com/SiliCAD/EDA_MCP) | 36 | 2026-10-27<br>采集 2026-11-08 |
+| **[circuit-sim-mcp](../../resources/agent-infrastructure/circuit-sim-mcp.md)**<br>基于 PySpice/ngspice 的 MCP 服务，支持电路构建、DC、AC、瞬态仿真和结果检查。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md)<br>工具 / 平台 · 跨方向索引 | — | [ghensley/circuit-sim-mcp](https://github.com/ghensley/circuit-sim-mcp) | 1 | 2025-07-11<br>采集 2026-11-13 |
 | **[Cadence ViraStack](../../resources/analog-rf/cadence-virastack.md)**<br>Cadence 所述的定制与模拟设计 Agent 自动化，覆盖原理图创建、测试平台开发、电路优化和版图迁移。 | [商业平台](../../resources/tags/commercial.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [电路尺寸优化](../../resources/tags/sizing.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 | [原始来源](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/virastack-ai-super-agent.html) | — | — | — |
