@@ -11,6 +11,7 @@
 | [Siemens / NVIDIA · 3D IC](../../resources/board-system-design/siemens-nvidia-3dic-2026.md) | 2026-10-21 | Board, Packaging and System Design / 板级、封装与系统设计 |
 | [CoreSmith](../../resources/physical-design/coresmith.md) | 2026-10-09 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [GPT-Synopsys partnership](../../resources/agent-infrastructure/gpt-synopsys-announcement.md) | 2026-09-30 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [Vivado MCP Server](../../resources/agent-infrastructure/vivado-mcp-server.md) | 2026-09-25 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [agentic-asic](../../resources/agent-infrastructure/agentic-asic.md) | 2026-09-05 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Analog Canvas](../../resources/agent-infrastructure/analog-canvas.md) | 2026-08-14 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [InnoStack demo](../../resources/physical-design/innostack-demo.md) | 2026-07-22 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |

@@ -19,27 +19,27 @@
 | [物理设计](physical-design.md) | 16 |
 | [PPA / QoR](ppa.md) | 14 |
 | [DRC](drc.md) | 2 |
-| [EDA 流程](eda-flow.md) | 27 |
+| [EDA 流程](eda-flow.md) | 28 |
 | [模拟 / RF](analog-rf.md) | 15 |
 | [电路尺寸优化](sizing.md) | 4 |
 | [架构探索](architecture.md) | 13 |
 | [HLS](hls.md) | 5 |
 | [软硬件协同](codesign.md) | 5 |
 | [RISC-V](risc-v.md) | 4 |
-| [FPGA](fpga.md) | 5 |
+| [FPGA](fpga.md) | 6 |
 | [仓库级任务](repository-level.md) | 4 |
 | [多 Agent](multi-agent.md) | 22 |
-| [工具调用](tool-use.md) | 39 |
+| [工具调用](tool-use.md) | 40 |
 | [记忆与经验](memory.md) | 1 |
-| [基础设施](infrastructure.md) | 26 |
+| [基础设施](infrastructure.md) | 27 |
 | [基准](benchmark.md) | 26 |
 | [数据集](dataset.md) | 9 |
 | [评测](evaluation.md) | 24 |
-| [商业平台](commercial.md) | 22 |
+| [商业平台](commercial.md) | 23 |
 | [综述 / 教程](overview.md) | 4 |
 | [板级 / PCB](board.md) | 3 |
 | [封装 / 3D IC](packaging.md) | 2 |
 | [系统设计](system.md) | 4 |
-| [厂商报告](vendor-report.md) | 40 |
+| [厂商报告](vendor-report.md) | 41 |
 | [公告](news.md) | 15 |
 | [演讲 / 视频](video.md) | 5 |

@@ -16,6 +16,7 @@ Newest publication month first. Cross-references share the original record; repo
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
+| **[Vivado MCP Server](../../resources/agent-infrastructure/vivado-mcp-server.md)**<br>AMD's early-access Vivado MCP server connects the Vitis Unified IDE AI assistant to a local Vivado toolchain through MCP configuration. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [FPGA](../../resources/tags/fpga.md) · [Commercial platform](../../resources/tags/commercial.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Tool / platform | [Source](https://docs.amd.com/r/2026.1-English/ug1400-vitis-embedded/Configuring-the-Vivado-MCP-Server) | — | — | — |
 | **[agentic-asic](../../resources/agent-infrastructure/agentic-asic.md)**<br>An MCP client orchestrating RTL review, simulation, formal checks, synthesis, P&R, GDS checks, and an FPGA track with structured reports. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [Physical design](../../resources/tags/physical-design.md) · [EDA workflows](../../resources/tags/eda-flow.md)<br>Open-source project / Tool / platform | — | [zesun33/agentic-asic](https://github.com/zesun33/agentic-asic) | 1 | 2026-10-05<br>Fetched 2026-11-15 |
 
 ## 2026-08

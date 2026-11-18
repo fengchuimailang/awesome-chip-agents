@@ -13,6 +13,7 @@
 | [DuoDiscover announcement](../../resources/architecture-hls-codesign/duodiscover-announcement.md) | 2026-10 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [GPT-Synopsys partnership](../../resources/agent-infrastructure/gpt-synopsys-announcement.md) | 2026-09-30 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [AgentEngineer / Autopilot announcement](../../resources/agent-infrastructure/agentengineer-autopilot-announcement.md) | 2026-09-28 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [Vivado MCP Server](../../resources/agent-infrastructure/vivado-mcp-server.md) | 2026-09-25 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [ChipStack RTL / PPA announcement](../../resources/rtl-generation/chipstack-rtl-announcement.md) | 2026-09-22 | RTL Generation and Editing / RTL 生成与编辑 |
 | [Architect Labs / Redwood](../../resources/architecture-hls-codesign/redwood.md) | 2026-08-26 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [Bronco DVBench announcement](../../resources/verification-debugging/dvbench-announcement.md) | 2026-07-28 | Verification, Debugging and Specifications / 验证、调试与规格推断 |

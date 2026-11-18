@@ -19,27 +19,27 @@
 | [Physical design](physical-design.md) | 16 |
 | [PPA / QoR](ppa.md) | 14 |
 | [DRC](drc.md) | 2 |
-| [EDA workflows](eda-flow.md) | 27 |
+| [EDA workflows](eda-flow.md) | 28 |
 | [Analog / RF](analog-rf.md) | 15 |
 | [Circuit sizing](sizing.md) | 4 |
 | [Architecture exploration](architecture.md) | 13 |
 | [HLS](hls.md) | 5 |
 | [HW/SW co-design](codesign.md) | 5 |
 | [RISC-V](risc-v.md) | 4 |
-| [FPGA](fpga.md) | 5 |
+| [FPGA](fpga.md) | 6 |
 | [Repository-level tasks](repository-level.md) | 4 |
 | [Multi-agent](multi-agent.md) | 22 |
-| [Tool use](tool-use.md) | 39 |
+| [Tool use](tool-use.md) | 40 |
 | [Memory / experience](memory.md) | 1 |
-| [Infrastructure](infrastructure.md) | 26 |
+| [Infrastructure](infrastructure.md) | 27 |
 | [Benchmark](benchmark.md) | 26 |
 | [Dataset](dataset.md) | 9 |
 | [Evaluation](evaluation.md) | 24 |
-| [Commercial platform](commercial.md) | 22 |
+| [Commercial platform](commercial.md) | 23 |
 | [Overview / tutorial](overview.md) | 4 |
 | [Board / PCB](board.md) | 3 |
 | [Packaging / 3D IC](packaging.md) | 2 |
 | [System design](system.md) | 4 |
-| [Vendor-reported](vendor-report.md) | 40 |
+| [Vendor-reported](vendor-report.md) | 41 |
 | [Announcement](news.md) | 15 |
 | [Talk / video](video.md) | 5 |
