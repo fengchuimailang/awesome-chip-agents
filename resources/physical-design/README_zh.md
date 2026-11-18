@@ -90,13 +90,18 @@
 | --- | --- | --- | --- | ---: | --- |
 | **[ChatEDA](../../resources/physical-design/chateda.md)**<br>使用 LLM Agent 分解 EDA 任务、生成脚本并执行从 RTL 到 GDSII 的设计流程。 | [EDA 流程](../../resources/tags/eda-flow.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 / 开源项目 | [论文](https://doi.org/10.1109/TCAD.2024.3383347) | [wuhy68/ChatEDA](https://github.com/wuhy68/ChatEDA) | 63 | 2025-05-21<br>采集 2026-11-15 |
 
+## 2022-08
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[CircuitNet](../../resources/physical-design/circuitnet.md)**<br>CircuitNet 为拥塞、DRC、IR-drop 与时序预测等 EDA 任务提供支持性数据集，本身并非代理基准。 | [物理设计](../../resources/tags/physical-design.md) · [数据集](../../resources/tags/dataset.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2208.01040) | [circuitnet/CircuitNet](https://github.com/circuitnet/CircuitNet) | 524 | 2026-05-17<br>采集 2026-11-15 |
+
 ## 日期待核实
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
 | **[OpenROAD](../../resources/physical-design/openroad.md)**<br>开源 RTL-to-GDS 流程及研究平台，供 Agent 芯片设计和优化项目使用。 | [物理设计](../../resources/tags/physical-design.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [基础设施](../../resources/tags/infrastructure.md)<br>开源项目 | — | [The-OpenROAD-Project/OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) | 3,293 | 2026-11-15<br>采集 2026-11-15 |
 | **[DRCHealer](../../resources/physical-design/drchealer.md)**<br>面向物理验证的研究原型，将自然语言设计规则转换为 KLayout DRC 脚本，诊断 GDSII 违规，并执行有次数限制且重新验证的几何修复。 | [物理设计](../../resources/tags/physical-design.md) · [DRC](../../resources/tags/drc.md) · [验证](../../resources/tags/verification.md) · [工具调用](../../resources/tags/tool-use.md)<br>开源项目 | — | [burcgokden/DRCHealer](https://github.com/burcgokden/DRCHealer) | 1 | 2026-07-24<br>采集 2026-11-15 |
-| **[CircuitNet](../../resources/physical-design/circuitnet.md)**<br>开源 EDA 数据集，涵盖拥塞、DRC、IR drop 和时序预测等任务，可用于物理设计机器学习评测，但本身不是 Agent 基准。 | [物理设计](../../resources/tags/physical-design.md) · [数据集](../../resources/tags/dataset.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | — | [circuitnet/CircuitNet](https://github.com/circuitnet/CircuitNet) | 524 | 2026-05-17<br>采集 2026-11-15 |
 | **[Cadence InnoStack](../../resources/physical-design/cadence-innostack.md)**<br>Cadence 所述的数字实现与签核 Agent 工作流，覆盖从综合到布局布线的流程。 | [商业平台](../../resources/tags/commercial.md) · [物理设计](../../resources/tags/physical-design.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 | [原始来源](https://www.cadence.com/en_US/home/tools/system-design-and-verification/innostack-ai-superagent.html) | — | — | — |
 
 # 相关动态与视频

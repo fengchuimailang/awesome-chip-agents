@@ -13,5 +13,5 @@
 | [SynthAgentic-Eval](../../resources/rtl-generation/synthagentic-eval.md) | 2026 | RTL Generation and Editing / RTL 生成与编辑 |
 | [RTL-BenchMT](../../resources/rtl-generation/rtl-benchmt.md) | 2026 | RTL Generation and Editing / RTL 生成与编辑 |
 | [OpenLLM-RTL](../../resources/rtl-generation/openllm-rtl.md) | 2025-03 | RTL Generation and Editing / RTL 生成与编辑 |
+| [CircuitNet](../../resources/physical-design/circuitnet.md) | 2022-08-01 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [SCORE](../../resources/rtl-generation/score.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
-| [CircuitNet](../../resources/physical-design/circuitnet.md) | Unknown / 待核实 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |

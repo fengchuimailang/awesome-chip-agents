@@ -90,13 +90,18 @@ Newest publication month first. Cross-references share the original record; repo
 | --- | --- | --- | --- | ---: | --- |
 | **[ChatEDA](../../resources/physical-design/chateda.md)**<br>An LLM-based agent that decomposes EDA tasks, generates scripts, and executes a flow from RTL toward GDSII. | [EDA workflows](../../resources/tags/eda-flow.md) · [Tool use](../../resources/tags/tool-use.md)<br>Paper / Open-source project | [Paper](https://doi.org/10.1109/TCAD.2024.3383347) | [wuhy68/ChatEDA](https://github.com/wuhy68/ChatEDA) | 63 | 2025-05-21<br>Fetched 2026-11-15 |
 
+## 2022-08
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[CircuitNet](../../resources/physical-design/circuitnet.md)**<br>CircuitNet provides supporting datasets for EDA tasks such as congestion, DRC, IR-drop, and timing prediction, and is not itself an agent benchmark. | [Physical design](../../resources/tags/physical-design.md) · [Dataset](../../resources/tags/dataset.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2208.01040) | [circuitnet/CircuitNet](https://github.com/circuitnet/CircuitNet) | 524 | 2026-05-17<br>Fetched 2026-11-15 |
+
 ## Date not recorded
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
 | **[OpenROAD](../../resources/physical-design/openroad.md)**<br>Open-source RTL-to-GDS flow and research platform used by agentic design and optimization projects. | [Physical design](../../resources/tags/physical-design.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Infrastructure](../../resources/tags/infrastructure.md)<br>Open-source project | — | [The-OpenROAD-Project/OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) | 3,293 | 2026-11-15<br>Fetched 2026-11-15 |
 | **[DRCHealer](../../resources/physical-design/drchealer.md)**<br>Research prototype for physical verification that turns natural-language design rules into KLayout DRC scripts, diagnoses GDSII violations, and applies bounded, re-verified geometric repairs. | [Physical design](../../resources/tags/physical-design.md) · [DRC](../../resources/tags/drc.md) · [Verification](../../resources/tags/verification.md) · [Tool use](../../resources/tags/tool-use.md)<br>Open-source project | — | [burcgokden/DRCHealer](https://github.com/burcgokden/DRCHealer) | 1 | 2026-07-24<br>Fetched 2026-11-15 |
-| **[CircuitNet](../../resources/physical-design/circuitnet.md)**<br>Open EDA dataset for tasks such as congestion, DRC, IR-drop, and timing prediction. | [Physical design](../../resources/tags/physical-design.md) · [Dataset](../../resources/tags/dataset.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | — | [circuitnet/CircuitNet](https://github.com/circuitnet/CircuitNet) | 524 | 2026-05-17<br>Fetched 2026-11-15 |
 | **[Cadence InnoStack](../../resources/physical-design/cadence-innostack.md)**<br>Vendor-described agentic workflow for digital implementation and signoff, from synthesis through place-and-route. | [Commercial platform](../../resources/tags/commercial.md) · [Physical design](../../resources/tags/physical-design.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Tool / platform | [Source](https://www.cadence.com/en_US/home/tools/system-design-and-verification/innostack-ai-superagent.html) | — | — | — |
 
 # Related News and Videos

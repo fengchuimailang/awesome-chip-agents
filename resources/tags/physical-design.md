@@ -18,7 +18,7 @@
 | [MCP4EDA](../../resources/agent-infrastructure/mcp4eda.md) | 2025-07-25 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [ORFS-agent](../../resources/physical-design/orfs-agent.md) | 2025-06 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [OpenROAD Agent](../../resources/physical-design/openroad-agent.md) | 2025 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
+| [CircuitNet](../../resources/physical-design/circuitnet.md) | 2022-08-01 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [OpenROAD](../../resources/physical-design/openroad.md) | Unknown / 待核实 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [DRCHealer](../../resources/physical-design/drchealer.md) | Unknown / 待核实 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
-| [CircuitNet](../../resources/physical-design/circuitnet.md) | Unknown / 待核实 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [Cadence InnoStack](../../resources/physical-design/cadence-innostack.md) | Unknown / 待核实 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |

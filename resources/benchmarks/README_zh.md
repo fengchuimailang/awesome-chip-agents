@@ -118,11 +118,11 @@
 | --- | --- | --- | --- | ---: | --- |
 | **[Build-A-Chip-Bench](../../resources/physical-design/build-a-chip-bench.md)**<br>以正确性门槛和 PPA 评测工作负载到 GDS 的 Agent；结果由开发方报告。 | [EDA 流程](../../resources/tags/eda-flow.md) · [PPA / QoR](../../resources/tags/ppa.md) · [基准](../../resources/tags/benchmark.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>基准 / 数据集 | [原始来源](https://chipagents.ai/research/build-a-chip-bench) | — | — | — |
 
-### 日期待核实
+### 2022-08
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[CircuitNet](../../resources/physical-design/circuitnet.md)**<br>开源 EDA 数据集，涵盖拥塞、DRC、IR drop 和时序预测等任务，可用于物理设计机器学习评测，但本身不是 Agent 基准。 | [物理设计](../../resources/tags/physical-design.md) · [数据集](../../resources/tags/dataset.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | — | [circuitnet/CircuitNet](https://github.com/circuitnet/CircuitNet) | 524 | 2026-05-17<br>采集 2026-11-15 |
+| **[CircuitNet](../../resources/physical-design/circuitnet.md)**<br>CircuitNet 为拥塞、DRC、IR-drop 与时序预测等 EDA 任务提供支持性数据集，本身并非代理基准。 | [物理设计](../../resources/tags/physical-design.md) · [数据集](../../resources/tags/dataset.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2208.01040) | [circuitnet/CircuitNet](https://github.com/circuitnet/CircuitNet) | 524 | 2026-05-17<br>采集 2026-11-15 |
 
 <a id="analog-rf"></a>
 

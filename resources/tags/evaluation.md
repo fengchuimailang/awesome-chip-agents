@@ -27,6 +27,6 @@
 | [DPC4](../../resources/architecture-hls-codesign/dpc4.md) | 2026 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [TuRTLe](../../resources/rtl-generation/turtle.md) | 2025-03-20 | RTL Generation and Editing / RTL 生成与编辑 |
 | [LLMs for EDA: Future or Mirage?](../../resources/agent-infrastructure/llms-for-eda-survey.md) | 2025 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [CircuitNet](../../resources/physical-design/circuitnet.md) | 2022-08-01 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [SCORE](../../resources/rtl-generation/score.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
 | [RTLLM](../../resources/rtl-generation/rtllm.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
-| [CircuitNet](../../resources/physical-design/circuitnet.md) | Unknown / 待核实 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |

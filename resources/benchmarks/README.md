@@ -118,11 +118,11 @@
 | --- | --- | --- | --- | ---: | --- |
 | **[Build-A-Chip-Bench](../../resources/physical-design/build-a-chip-bench.md)**<br>Evaluates workload-to-GDS agents using correctness gates and PPA; developer-reported results. | [EDA workflows](../../resources/tags/eda-flow.md) · [PPA / QoR](../../resources/tags/ppa.md) · [Benchmark](../../resources/tags/benchmark.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Benchmark / dataset | [Source](https://chipagents.ai/research/build-a-chip-bench) | — | — | — |
 
-### Date not recorded
+### 2022-08
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[CircuitNet](../../resources/physical-design/circuitnet.md)**<br>Open EDA dataset for tasks such as congestion, DRC, IR-drop, and timing prediction. | [Physical design](../../resources/tags/physical-design.md) · [Dataset](../../resources/tags/dataset.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | — | [circuitnet/CircuitNet](https://github.com/circuitnet/CircuitNet) | 524 | 2026-05-17<br>Fetched 2026-11-15 |
+| **[CircuitNet](../../resources/physical-design/circuitnet.md)**<br>CircuitNet provides supporting datasets for EDA tasks such as congestion, DRC, IR-drop, and timing prediction, and is not itself an agent benchmark. | [Physical design](../../resources/tags/physical-design.md) · [Dataset](../../resources/tags/dataset.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2208.01040) | [circuitnet/CircuitNet](https://github.com/circuitnet/CircuitNet) | 524 | 2026-05-17<br>Fetched 2026-11-15 |
 
 <a id="analog-rf"></a>
 
