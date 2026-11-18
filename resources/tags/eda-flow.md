@@ -6,6 +6,7 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [ChipOmni](../../resources/agent-infrastructure/chipomni.md) | 2026-11-09 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Cadence Maestro](../../resources/agent-infrastructure/cadence-maestro-announcement.md) | 2026-10-26 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [TACS-RF](../../resources/analog-rf/tacs-rf.md) | 2026-10-22 | Analog and RF Design / 模拟与 RF 电路 |
 | [Siemens / NVIDIA · 3D IC](../../resources/board-system-design/siemens-nvidia-3dic-2026.md) | 2026-10-21 | Board, Packaging and System Design / 板级、封装与系统设计 |

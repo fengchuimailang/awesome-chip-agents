@@ -9,6 +9,7 @@
 | [LATCH](../../resources/physical-design/latch.md) | 2026-10-12 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [CoreSmith](../../resources/physical-design/coresmith.md) | 2026-10-09 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [agentic-asic](../../resources/agent-infrastructure/agentic-asic.md) | 2026-09-05 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [PlaceReasoner-Beta](../../resources/physical-design/place-reasoner-beta.md) | 2026-09 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [GoalEvolve](../../resources/physical-design/goalevolve.md) | 2026-08 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [InnoStack demo](../../resources/physical-design/innostack-demo.md) | 2026-07-22 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [PDAgent-Bench](../../resources/physical-design/pdagent-bench.md) | 2026-06 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |

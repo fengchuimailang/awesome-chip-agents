@@ -43,6 +43,7 @@ Newest publication month first. Cross-references share the original record; repo
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
 | **[hw-agent-tooling](../../resources/agent-infrastructure/hw-agent-tooling.md)**<br>A portfolio landing page linking nine separately distributed MCP servers for RTL, verification, physical design, FPGA, and SPICE. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [Overview / tutorial](../../resources/tags/overview.md) · [EDA workflows](../../resources/tags/eda-flow.md)<br>Open-source project / Survey / tutorial · cross-reference | — | [zesun33/hw-agent-tooling](https://github.com/zesun33/hw-agent-tooling) | 0 | 2026-10-05<br>Fetched 2026-11-15 |
+| **[HierSVA](../../resources/verification-debugging/hiersva.md)**<br>Provides hierarchical RTL assertion data and evaluates generated SVA for proof, vacuity, specification faithfulness, and mutation coverage. | [Formal verification](../../resources/tags/formal.md) · [RTL](../../resources/tags/rtl.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Open-source project / Benchmark / dataset | [Paper](https://arxiv.org/abs/2606.13706) | [HierSVAAnon/HierSVACodeAndArtifacts](https://github.com/HierSVAAnon/HierSVACodeAndArtifacts) | — | Metadata unavailable |
 
 ## 2026-04
 

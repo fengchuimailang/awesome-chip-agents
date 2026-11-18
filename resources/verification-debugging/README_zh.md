@@ -43,6 +43,7 @@
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
 | **[hw-agent-tooling](../../resources/agent-infrastructure/hw-agent-tooling.md)**<br>硬件 Agent 工具组合的入口页，链接九个分别发布的 RTL、验证、物理设计、FPGA 与 SPICE MCP 服务。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [综述 / 教程](../../resources/tags/overview.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>开源项目 / 综述 / 教程 · 跨方向索引 | — | [zesun33/hw-agent-tooling](https://github.com/zesun33/hw-agent-tooling) | 0 | 2026-10-05<br>采集 2026-11-15 |
+| **[HierSVA](../../resources/verification-debugging/hiersva.md)**<br>提供层次化 RTL 断言数据，并从证明、空洞性、规格忠实度和变异覆盖等维度评测生成的 SVA。 | [形式验证](../../resources/tags/formal.md) · [RTL](../../resources/tags/rtl.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2606.13706) | [HierSVAAnon/HierSVACodeAndArtifacts](https://github.com/HierSVAAnon/HierSVACodeAndArtifacts) | — | 指标暂不可用 |
 
 ## 2026-04
 

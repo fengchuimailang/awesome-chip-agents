@@ -6,20 +6,20 @@
 
 | Tag | Resources |
 | --- | ---: |
-| [RTL](rtl.md) | 48 |
+| [RTL](rtl.md) | 50 |
 | [Code generation](generation.md) | 15 |
 | [Code editing](editing.md) | 3 |
 | [Verification](verification.md) | 20 |
 | [Debugging](debugging.md) | 19 |
-| [Formal verification](formal.md) | 13 |
+| [Formal verification](formal.md) | 14 |
 | [Simulation](simulation.md) | 18 |
 | [Testbench](testbench.md) | 6 |
 | [Waveforms](waveform.md) | 10 |
 | [Specifications](specification.md) | 2 |
-| [Physical design](physical-design.md) | 16 |
-| [PPA / QoR](ppa.md) | 14 |
+| [Physical design](physical-design.md) | 17 |
+| [PPA / QoR](ppa.md) | 15 |
 | [DRC](drc.md) | 2 |
-| [EDA workflows](eda-flow.md) | 28 |
+| [EDA workflows](eda-flow.md) | 29 |
 | [Analog / RF](analog-rf.md) | 15 |
 | [Circuit sizing](sizing.md) | 4 |
 | [Architecture exploration](architecture.md) | 13 |
@@ -28,13 +28,13 @@
 | [RISC-V](risc-v.md) | 4 |
 | [FPGA](fpga.md) | 6 |
 | [Repository-level tasks](repository-level.md) | 4 |
-| [Multi-agent](multi-agent.md) | 22 |
-| [Tool use](tool-use.md) | 40 |
+| [Multi-agent](multi-agent.md) | 24 |
+| [Tool use](tool-use.md) | 41 |
 | [Memory / experience](memory.md) | 1 |
-| [Infrastructure](infrastructure.md) | 27 |
-| [Benchmark](benchmark.md) | 26 |
+| [Infrastructure](infrastructure.md) | 28 |
+| [Benchmark](benchmark.md) | 28 |
 | [Dataset](dataset.md) | 9 |
-| [Evaluation](evaluation.md) | 24 |
+| [Evaluation](evaluation.md) | 26 |
 | [Commercial platform](commercial.md) | 23 |
 | [Overview / tutorial](overview.md) | 4 |
 | [Board / PCB](board.md) | 3 |

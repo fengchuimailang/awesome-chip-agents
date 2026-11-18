@@ -6,6 +6,12 @@
 
 Newest publication month first. Cross-references share the original record; repository activity does not affect ordering.
 
+## 2026-11
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[ChipOmni](../../resources/agent-infrastructure/chipomni.md)**<br>Presents a context-evolving, multi-agent EDA framework evaluated on analog, RTL, testbench, and formal-assertion generation tasks. | [Infrastructure](../../resources/tags/infrastructure.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Tool use](../../resources/tags/tool-use.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [RTL](../../resources/tags/rtl.md)<br>Paper | [Paper](https://arxiv.org/abs/2611.13020) | — | — | — |
+
 ## 2026-10
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |

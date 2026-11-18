@@ -4,13 +4,13 @@
 
 [首页](../../README_zh.md) · [English](README.md)
 
-共 30 项，先按主要研究方向分类，再按发布月份倒序排列。各条目共用已有详情，提供论文、仓库、标签及动态快照。通用数据集作为支撑资料收录；仅宣布评测计划的新闻保留在动态索引中。
+共 32 项，先按主要研究方向分类，再按发布月份倒序排列。各条目共用已有详情，提供论文、仓库、标签及动态快照。通用数据集作为支撑资料收录；仅宣布评测计划的新闻保留在动态索引中。
 
 | 方向 | 资源数 |
 | --- | ---: |
 | [RTL 生成与编辑](#rtl-generation) | 14 |
-| [验证、调试与规格推断](#verification-debugging) | 4 |
-| [物理设计与 EDA 流程](#physical-design) | 4 |
+| [验证、调试与规格推断](#verification-debugging) | 5 |
+| [物理设计与 EDA 流程](#physical-design) | 5 |
 | [模拟与 RF 电路](#analog-rf) | 2 |
 | [架构探索、HLS 与软硬件协同设计](#architecture-hls-codesign) | 5 |
 | [板级、封装与系统设计](#board-system-design) | 1 |
@@ -89,6 +89,12 @@
 | --- | --- | --- | --- | ---: | --- |
 | **[WaveformQA](../../resources/verification-debugging/waveformqa.md)**<br>测试 LLM 对数字波形进行时序推理和硬件调试的能力。 | [波形分析](../../resources/tags/waveform.md) · [调试](../../resources/tags/debugging.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2607.20638) | — | — | — |
 
+### 2026-06
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[HierSVA](../../resources/verification-debugging/hiersva.md)**<br>提供层次化 RTL 断言数据，并从证明、空洞性、规格忠实度和变异覆盖等维度评测生成的 SVA。 | [形式验证](../../resources/tags/formal.md) · [RTL](../../resources/tags/rtl.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2606.13706) | [HierSVAAnon/HierSVACodeAndArtifacts](https://github.com/HierSVAAnon/HierSVACodeAndArtifacts) | — | 指标暂不可用 |
+
 ### 2026-04
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
@@ -99,6 +105,12 @@
 <a id="physical-design"></a>
 
 ## 物理设计与 EDA 流程
+
+### 2026-09
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[PlaceReasoner-Beta](../../resources/physical-design/place-reasoner-beta.md)**<br>以验证器引导的 Agent 进行宏单元布局，并提供使用布线后 PPA 与 DRC 评测的开放基准。 | [物理设计](../../resources/tags/physical-design.md) · [多 Agent](../../resources/tags/multi-agent.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.21263) | [fenggev56/PlaceReasoner-Beta](https://github.com/fenggev56/PlaceReasoner-Beta) | — | 指标暂不可用 |
 
 ### 2026-06
 

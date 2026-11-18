@@ -6,6 +6,12 @@
 
 按发布月份倒序排列。跨方向索引共用原始详情；仓库动态不影响排序。
 
+## 2026-11
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[ChipOmni](../../resources/agent-infrastructure/chipomni.md)**<br>提出持续演化上下文的多 Agent EDA 框架，并评测模拟电路、RTL、测试平台和形式断言生成任务。 | [基础设施](../../resources/tags/infrastructure.md) · [多 Agent](../../resources/tags/multi-agent.md) · [工具调用](../../resources/tags/tool-use.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [RTL](../../resources/tags/rtl.md)<br>论文 | [论文](https://arxiv.org/abs/2611.13020) | — | — | — |
+
 ## 2026-10
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |

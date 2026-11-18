@@ -6,12 +6,14 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [ChipOmni](../../resources/agent-infrastructure/chipomni.md) | 2026-11-09 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [ArchAgent](../../resources/architecture-hls-codesign/archagent.md) | 2026-10-16 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [CoreSmith](../../resources/physical-design/coresmith.md) | 2026-10-09 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [RFChipAgent](../../resources/analog-rf/rfchipagent.md) | 2026-10-07 | Analog and RF Design / 模拟与 RF 电路 |
 | [DuoDiscover](../../resources/architecture-hls-codesign/duodiscover.md) | 2026-10 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [AgentEngineer / Autopilot announcement](../../resources/agent-infrastructure/agentengineer-autopilot-announcement.md) | 2026-09-28 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [AgenticSizing](../../resources/analog-rf/agenticsizing.md) | 2026-09-22 | Analog and RF Design / 模拟与 RF 电路 |
+| [PlaceReasoner-Beta](../../resources/physical-design/place-reasoner-beta.md) | 2026-09 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [LACE](../../resources/architecture-hls-codesign/lace.md) | 2026-08 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [GoalEvolve](../../resources/physical-design/goalevolve.md) | 2026-08 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [RTL Repair Framework](../../resources/verification-debugging/rtl-repair-framework.md) | 2026-07-30 | Verification, Debugging and Specifications / 验证、调试与规格推断 |

@@ -9,6 +9,7 @@
 | [LATCH](../../resources/physical-design/latch.md) | 2026-10-12 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [ChipStack RTL / PPA announcement](../../resources/rtl-generation/chipstack-rtl-announcement.md) | 2026-09-22 | RTL Generation and Editing / RTL 生成与编辑 |
 | [AHRR](../../resources/architecture-hls-codesign/ahrr.md) | 2026-09-17 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
+| [PlaceReasoner-Beta](../../resources/physical-design/place-reasoner-beta.md) | 2026-09 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [GRADE-RTL](../../resources/rtl-generation/grade-rtl.md) | 2026-09 | RTL Generation and Editing / RTL 生成与编辑 |
 | [GoalEvolve](../../resources/physical-design/goalevolve.md) | 2026-08 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [Synopsys / AMD / Microsoft](../../resources/physical-design/synopsys-amd-microsoft-2026.md) | 2026-07-27 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |

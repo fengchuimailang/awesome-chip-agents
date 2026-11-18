@@ -4,13 +4,13 @@
 
 [Home](../../README.md) · [简体中文](README_zh.md)
 
-30 resources, grouped by primary direction and newest publication month. Entries link to shared details with papers, repositories, tags, and activity snapshots. General datasets are included as supporting resources; announcements of evaluation plans remain in the news index.
+32 resources, grouped by primary direction and newest publication month. Entries link to shared details with papers, repositories, tags, and activity snapshots. General datasets are included as supporting resources; announcements of evaluation plans remain in the news index.
 
 | Direction | Resources |
 | --- | ---: |
 | [RTL Generation and Editing](#rtl-generation) | 14 |
-| [Verification, Debugging and Specifications](#verification-debugging) | 4 |
-| [Physical Design and EDA Flows](#physical-design) | 4 |
+| [Verification, Debugging and Specifications](#verification-debugging) | 5 |
+| [Physical Design and EDA Flows](#physical-design) | 5 |
 | [Analog and RF Design](#analog-rf) | 2 |
 | [Architecture, HLS and Hardware/Software Co-design](#architecture-hls-codesign) | 5 |
 | [Board, Packaging and System Design](#board-system-design) | 1 |
@@ -89,6 +89,12 @@
 | --- | --- | --- | --- | ---: | --- |
 | **[WaveformQA](../../resources/verification-debugging/waveformqa.md)**<br>Tests temporal reasoning over digital waveforms for hardware debugging and verification. | [Waveforms](../../resources/tags/waveform.md) · [Debugging](../../resources/tags/debugging.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2607.20638) | — | — | — |
 
+### 2026-06
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[HierSVA](../../resources/verification-debugging/hiersva.md)**<br>Provides hierarchical RTL assertion data and evaluates generated SVA for proof, vacuity, specification faithfulness, and mutation coverage. | [Formal verification](../../resources/tags/formal.md) · [RTL](../../resources/tags/rtl.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Open-source project / Benchmark / dataset | [Paper](https://arxiv.org/abs/2606.13706) | [HierSVAAnon/HierSVACodeAndArtifacts](https://github.com/HierSVAAnon/HierSVACodeAndArtifacts) | — | Metadata unavailable |
+
 ### 2026-04
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
@@ -99,6 +105,12 @@
 <a id="physical-design"></a>
 
 ## Physical Design and EDA Flows
+
+### 2026-09
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[PlaceReasoner-Beta](../../resources/physical-design/place-reasoner-beta.md)**<br>Uses verifier-guided agents for macro placement and provides an open benchmark evaluated with routed PPA and DRC. | [Physical design](../../resources/tags/physical-design.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>Open-source project / Benchmark / dataset | [Paper](https://arxiv.org/abs/2609.21263) | [fenggev56/PlaceReasoner-Beta](https://github.com/fenggev56/PlaceReasoner-Beta) | — | Metadata unavailable |
 
 ### 2026-06
 
