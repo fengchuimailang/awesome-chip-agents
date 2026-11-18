@@ -8,6 +8,11 @@ const socialImage = 'social-preview.png';
 await access(join('dist', socialImage));
 let count = 0;
 for (const locale of ['en', 'zh']) {
+  const catalogHtml = await readFile(join('dist', locale, 'catalog', 'index.html'), 'utf8');
+  assert.equal([...catalogHtml.matchAll(/role="article"/g)].length, data.resources.length, locale + ': no-JavaScript catalog must include every resource');
+  const homeHtml = await readFile(join('dist', locale, 'index.html'), 'utf8');
+  assert.ok(homeHtml.includes('?q=mcp&amp;collection=tools'), locale + ': MCP shortcut missing');
+  assert.ok(homeHtml.includes('good%20first%20issue'), locale + ': first contribution link missing');
   for (const resource of data.resources) {
     const path = join('dist', locale, 'resources', resource.id, 'index.html');
     const html = await readFile(path, 'utf8');
@@ -16,6 +21,7 @@ for (const locale of ['en', 'zh']) {
     assert.ok(html.includes(resource.name.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#x27;')), path + ': resource not rendered');
     assert.ok(!html.includes('<!--app-html-->'), path + ': unrendered page');
     assert.ok(!html.includes('<!-- metadata'), path + ': editorial metadata leaked');
+    assert.ok(html.includes('class="detail-actions"'), path + ': primary source and share actions missing');
     for (const match of html.matchAll(/href="([^"]+)"/g)) {
       const href = match[1].split(/[?#]/)[0];
       if (href.startsWith(base) && !href.startsWith('//')) {
@@ -26,4 +32,5 @@ for (const locale of ['en', 'zh']) {
   }
 }
 await access('dist/404.html');
+await access('dist/octicons-license.txt');
 console.log('Verified ' + count + ' resource pages, hydration data, and internal links.');

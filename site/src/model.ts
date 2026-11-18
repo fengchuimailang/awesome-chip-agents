@@ -36,9 +36,7 @@ export const route = (page: Page) => local(page.locale + '/' + (
 export const text = (locale: Locale, en: string, zh: string) => locale === 'zh' ? zh : en;
 export const label = (pair: Pair, locale: Locale) => pair[locale === 'zh' ? 1 : 0];
 export const repoLink = (suffix = '') => catalog.repository ? catalog.repository + suffix : '';
-export const isBenchmark = (resource: Resource) =>
-  !resource.types.some(type => ['news', 'video'].includes(type)) &&
-  (resource.types.includes('benchmark') || resource.tags.some(tag => ['benchmark', 'dataset'].includes(tag)));
+export { isBenchmark } from './lib/catalog-state';
 
 export function parsePage(path: string): Page {
   const parts = path.slice(base.length).split('/').filter(Boolean);

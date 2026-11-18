@@ -31,13 +31,23 @@ Use Tailwind's 4px spacing scale; prefer 8, 12, 16, 24, 32, 48, and 64px. Standa
 
 ## Components and responsive layout / 组件与响应式
 
-Use `Button` for actions, `Badge` for resource tags, composed `Card` sections for resources and panels, `FieldGroup` + `Field` + `FieldLabel` for forms, `InputGroup` for search, `NativeSelect` for filters, `Empty` for no results, and `Separator` for dividers. Preserve semantic headings and visible keyboard focus. Native selects retain the platform's mobile picker.
+Use `Button` for actions, `Badge` for resource tags, composed `Card` sections for resources and panels, `FieldGroup` + `Field` + `FieldLabel` for forms, `InputGroup` for search, `NativeSelect` for filters, `Collapsible` for mobile filters, `ToggleGroup` for view/category choices, `Pagination` for page navigation, `Empty` for no results, and `Separator` for dividers. Preserve semantic headings and visible keyboard focus. Native selects retain the platform's mobile picker.
 
-操作使用 `Button`，资源标签使用 `Badge`，资源与侧栏使用完整组合的 `Card`，表单使用 `FieldGroup` + `Field` + `FieldLabel`，搜索使用 `InputGroup`，筛选使用 `NativeSelect`，无结果使用 `Empty`，分隔使用 `Separator`。保留语义标题和清晰的键盘焦点，原生下拉框在手机上使用系统选择器。
+操作使用 `Button`，资源标签使用 `Badge`，资源与侧栏使用完整组合的 `Card`，表单使用 `FieldGroup` + `Field` + `FieldLabel`，搜索使用 `InputGroup`，筛选使用 `NativeSelect`，手机筛选折叠使用 `Collapsible`，视图和分类选择使用 `ToggleGroup`，翻页使用 `Pagination`，无结果使用 `Empty`，分隔使用 `Separator`。保留语义标题和清晰的键盘焦点，原生下拉框在手机上使用系统选择器。
 
 Change component defaults centrally instead of overriding colors and typography at each call site. Use page classes for layout. On narrow screens, wrap headings and actions and reduce grid columns rather than shrinking body and control text. Keep resource detail prose at 16px in both layouts.
 
 组件的字号、颜色和默认尺寸集中维护，页面样式负责布局。窄屏时让标题和操作换行、减少网格列数，保持正文与控件的可读字号；详情正文在桌面和手机端均为 16px。
+
+## Links and discovery / 链接与发现
+
+Use Lucide SVGs consistently: right arrows for internal detail links, up-right arrows for external links, and stars for snapshot counts. The GitHub mark comes from Octicons; its MIT notice ships in `site/public/octicons-license.txt`. The header reuses the chip favicon. Icons supplement visible labels or accessible names.
+
+统一使用 Lucide SVG：站内详情链接用向右箭头，外链用右上箭头，快照计数用星形图标。GitHub 标识取自 Octicons，MIT 声明随 `site/public/octicons-license.txt` 发布；页头复用芯片 favicon。图标配合可见文字或无障碍名称使用。
+
+Resource cards expose at most one recorded repository, paper, and original-source link; details retain all links. Never infer a website or dataset URL. Compact lists use 16px summaries and 18px titles. Mobile filters start collapsed, with removable selected conditions outside the collapsed region. Page navigation scrolls to and focuses the results toolbar.
+
+资源卡片最多各展示一条已记录的代码仓库、论文和原始来源链接，详情保留全部链接，不推测官网或数据集地址。紧凑列表保持 16px 说明和 18px 标题；手机筛选默认收起，已选条件在折叠区外单独移除。翻页后滚动并聚焦结果工具栏。
 
 ## Maintenance / 维护
 

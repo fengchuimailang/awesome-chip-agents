@@ -8,6 +8,10 @@ Edit `resources/` metadata and English/Chinese descriptions, plus the fixed voca
 
 The website generates English and Simplified Chinese home, catalog, direction, metric, and resource pages as HTML. React hydrates search and filters. Query parameters preserve filters when sharing links or switching languages. Publication dates, year-only precision, unknown dates, cross-references, and source notes follow the catalog. The footer identifies the source revision and local changes.
 
+The interactive catalog shows 24 entries per page, with card and compact list views. URLs preserve `q`, `direction`, `type`, `tag`, `collection`, `sort`, `page`, and `view`. Collections distinguish tools/platforms, papers/benchmarks, and benchmarks/datasets using existing metadata. Home task shortcuts use these same filters. Without JavaScript, catalog HTML includes every resource.
+
+Detail links carry a validated local `from` route to return to the same results. Optional tab-scoped session storage restores the scroll position; browsing works when storage is unavailable. Copy-link actions share the clean resource URL, excluding return context, and show a selectable URL if clipboard access fails. The first-contribution shortcut opens GitHub issues labeled `good first issue`.
+
 See [frontend commands](../site/README.md) and the [website design system](design-system.md) for shared shadcn components, typography, and responsive layout rules. Resource editing remains standard-library-only Python; frontend development additionally requires Node.js 24.
 
 ### Publication
@@ -31,6 +35,8 @@ Use an existing Umami **3.2.0 or newer** instance. Set repository Actions **vari
 Without configuration the site sends no analytics requests. After deployment and real visits, counts are available in your Umami dashboard. Private dashboard/API credentials are never included in the website.
 
 Events include `outbound_link` (resource ID, link kind, destination origin/path, language), `catalog_filter` (filter and value), `catalog_search` (query length and result count), and `contribute` (recommendation entry point). Manual pageviews exclude query strings and referrers. Raw search text is excluded. Do Not Track and Global Privacy Control disable tracking; analytics errors never block navigation.
+
+Successful copy-link actions emit `share_link` with resource ID and language. New source and contribution links reuse outbound-link tracking. No return URL or clipboard content is sent.
 
 ### Download metadata
 
@@ -64,6 +70,10 @@ References: [Vite prerendering](https://vite.dev/guide/ssr.html#pre-rendering-ss
 
 中英文首页、列表、方向、统计和资源详情均生成 HTML，React 接管搜索筛选。URL 查询参数保留筛选条件，支持分享和切换语言。日期精度、未知日期、跨方向入口及来源说明沿用目录。页脚标注来源版本和本地修改状态。
 
+交互列表每页显示 24 项，可切换卡片与紧凑列表。URL 保留 `q`、`direction`、`type`、`tag`、`collection`、`sort`、`page`、`view`。资源集合按已有 metadata 区分工具与平台、论文与基准、基准与数据集，首页任务快捷入口复用这些筛选。关闭 JavaScript 后，列表 HTML 仍包含全部资源。
+
+详情链接通过经过校验的站内 `from` 路径返回原结果；可选的标签页会话存储用于恢复滚动位置，存储不可用时仍可浏览。复制链接使用不含返回上下文的资源地址，剪贴板访问失败时显示可选中复制的地址。首次贡献入口打开 GitHub 中标记为 `good first issue` 的任务。
+
 命令见[网站说明](../site/README.md)，shadcn 公共组件、字号和响应式规则见[网站设计规范](design-system.md)。普通资源编辑仍只依赖 Python 标准库；前端开发另外需要 Node.js 24。
 
 ### 发布
@@ -87,6 +97,8 @@ PR 检查 Markdown 生成结果、运行 Python 测试、构建网站，并验�
 未配置时不发送统计请求。部署并产生真实访问后，在 Umami 后台查看；浏览器代码不包含后台查询密钥。
 
 事件包括 `outbound_link`（资源 ID、类型、目标域名和路径、语言）、`catalog_filter`（筛选项和值）、`catalog_search`（搜索词长度与结果数）及推荐入口的 `contribute`。页面访问去除查询参数和来源网址，不发送搜索原文；遵循 Do Not Track 和 Global Privacy Control，统计故障不影响跳转。
+
+成功复制分享链接后，`share_link` 事件仅包含资源 ID 和语言。新增来源与贡献链接复用外链点击统计，不发送返回地址或剪贴板内容。
 
 ### 下载统计
 
