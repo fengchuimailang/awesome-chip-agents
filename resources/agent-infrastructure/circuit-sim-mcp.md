@@ -56,7 +56,7 @@
 
 | Repository / 仓库 | Stars | Last push (UTC) / 最近推送 | Fetched (UTC) / 采集时间 | Status / 状态 |
 | --- | ---: | --- | --- | --- |
-| [ghensley/circuit-sim-mcp](https://github.com/ghensley/circuit-sim-mcp) | 1 | 2025-07-11T01:18:35Z | 2026-11-15T20:54:38Z | Snapshot / 快照 |
+| [ghensley/circuit-sim-mcp](https://github.com/ghensley/circuit-sim-mcp) | 1 | 2025-07-11T01:18:35Z | 2026-11-22T21:38:14Z | Snapshot / 快照 |
 
 Stars and push times are GitHub API snapshots. A push may update any branch and does not establish a functional release or research quality.
 

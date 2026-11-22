@@ -44,7 +44,7 @@
 
 | Repository / 仓库 | Stars | Last push (UTC) / 最近推送 | Fetched (UTC) / 采集时间 | Status / 状态 |
 | --- | ---: | --- | --- | --- |
-| [Tencent/wave-mcp](https://github.com/Tencent/wave-mcp) | 285 | 2026-10-23T02:50:19Z | 2026-11-15T20:54:38Z | Snapshot / 快照 |
+| [Tencent/wave-mcp](https://github.com/Tencent/wave-mcp) | 291 | 2026-11-20T08:54:28Z | 2026-11-22T21:38:14Z | Snapshot / 快照 |
 
 Stars and push times are GitHub API snapshots. A push may update any branch and does not establish a functional release or research quality.
 

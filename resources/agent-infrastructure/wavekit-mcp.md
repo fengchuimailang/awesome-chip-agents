@@ -72,7 +72,7 @@
 
 | Repository / 仓库 | Stars | Last push (UTC) / 最近推送 | Fetched (UTC) / 采集时间 | Status / 状态 |
 | --- | ---: | --- | --- | --- |
-| [cxzzzz/wavekit-mcp](https://github.com/cxzzzz/wavekit-mcp) | 11 | 2026-07-27T16:22:17Z | 2026-11-17T03:31:57Z | Snapshot / 快照 |
+| [cxzzzz/wavekit-mcp](https://github.com/cxzzzz/wavekit-mcp) | 11 | 2026-07-27T16:22:17Z | 2026-11-22T21:38:14Z | Snapshot / 快照 |
 
 Stars and push times are GitHub API snapshots. A push may update any branch and does not establish a functional release or research quality.
 
@@ -82,7 +82,7 @@ Stars 与推送时间来自 GitHub API 快照；推送可能涉及任一分支�
 
 | Source / 来源 | Downloads / 下载量 | Scope / 范围 | Fetched (UTC) / 采集 | Status / 状态 |
 | --- | ---: | --- | --- | --- |
-| [pypistats: wavekit-mcp](https://pypistats.org/packages/wavekit-mcp) | 85 | PyPI Stats: last month | 2026-11-18T02:39:13Z | Snapshot / 快照 |
+| [pypistats: wavekit-mcp](https://pypistats.org/packages/wavekit-mcp) | 74 | PyPI Stats: last month | 2026-11-22T21:38:19Z | Snapshot / 快照 |
 
 Package and release-asset download counts use different scopes; they are not unique users, verified MCP installations, or website link clicks.
 
