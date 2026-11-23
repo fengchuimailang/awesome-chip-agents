@@ -96,6 +96,12 @@
 
 # 相关动态与视频
 
+## 2026-11
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[OpenAI chip design progress](../../resources/agent-infrastructure/openai-chip-design-2026.md)**<br>报告模型辅助 RTL 与 PPA 优化在 Jalapeño 和 AMD 设计中的应用，并介绍 RISC-V 优化与规格到设计任务的评测。 | [公告](../../resources/tags/news.md) · [商业平台](../../resources/tags/commercial.md) · [厂商报告](../../resources/tags/vendor-report.md) · [RTL](../../resources/tags/rtl.md) · [PPA / QoR](../../resources/tags/ppa.md) · [RISC-V](../../resources/tags/risc-v.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>新闻 / 公告 | [原始来源](https://openai.com/index/advancing-chip-design-with-our-models/) | — | — | — |
+
 ## 2026-10
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |

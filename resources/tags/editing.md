@@ -6,6 +6,7 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [Meta-RTL](../../resources/physical-design/meta-rtl.md) | 2026-11-19 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [LACE](../../resources/architecture-hls-codesign/lace.md) | 2026-08 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [HORIZON](../../resources/rtl-generation/horizon.md) | 2026-06 | RTL Generation and Editing / RTL 生成与编辑 |
 | [AlphaEvolve chip-design case](../../resources/rtl-generation/alphaevolve-chip-case.md) | 2025-05-14 | RTL Generation and Editing / RTL 生成与编辑 |

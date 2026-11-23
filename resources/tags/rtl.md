@@ -6,6 +6,10 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [Meta-RTL](../../resources/physical-design/meta-rtl.md) | 2026-11-19 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
+| [From FIPS to FPGA with LLM Agents](../../resources/verification-debugging/from-fips-to-fpga.md) | 2026-11-19 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
+| [FPGA-GEN](../../resources/architecture-hls-codesign/fpga-gen.md) | 2026-11-19 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
+| [OpenAI chip design progress](../../resources/agent-infrastructure/openai-chip-design-2026.md) | 2026-11-18 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [ScaleBench](../../resources/rtl-generation/scalebench.md) | 2026-10-18 | RTL Generation and Editing / RTL 生成与编辑 |
 | [CorrectRTL](../../resources/rtl-generation/correctrtl.md) | 2026-10-18 | RTL Generation and Editing / RTL 生成与编辑 |
 | [CoreSmith](../../resources/physical-design/coresmith.md) | 2026-10-09 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |

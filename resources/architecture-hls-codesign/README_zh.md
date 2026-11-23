@@ -6,6 +6,12 @@
 
 按发布月份倒序排列。跨方向索引共用原始详情；仓库动态不影响排序。
 
+## 2026-11
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[FPGA-GEN](../../resources/architecture-hls-codesign/fpga-gen.md)**<br>通过受限工具反馈循环和面向目标器件的候选筛选，生成并验证 FPGA 设计用的 HLS C/C++。 | [HLS](../../resources/tags/hls.md) · [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [FPGA](../../resources/tags/fpga.md) · [验证](../../resources/tags/verification.md) · [评测](../../resources/tags/evaluation.md)<br>论文 | [论文](https://arxiv.org/abs/2611.25351) | — | — | — |
+
 ## 2026-10
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |

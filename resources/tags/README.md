@@ -6,27 +6,27 @@
 
 | Tag | Resources |
 | --- | ---: |
-| [RTL](rtl.md) | 48 |
-| [Code generation](generation.md) | 15 |
-| [Code editing](editing.md) | 3 |
-| [Verification](verification.md) | 20 |
+| [RTL](rtl.md) | 52 |
+| [Code generation](generation.md) | 16 |
+| [Code editing](editing.md) | 4 |
+| [Verification](verification.md) | 22 |
 | [Debugging](debugging.md) | 19 |
-| [Formal verification](formal.md) | 13 |
+| [Formal verification](formal.md) | 14 |
 | [Simulation](simulation.md) | 18 |
-| [Testbench](testbench.md) | 6 |
+| [Testbench](testbench.md) | 7 |
 | [Waveforms](waveform.md) | 10 |
 | [Specifications](specification.md) | 2 |
-| [Physical design](physical-design.md) | 16 |
-| [PPA / QoR](ppa.md) | 14 |
+| [Physical design](physical-design.md) | 17 |
+| [PPA / QoR](ppa.md) | 16 |
 | [DRC](drc.md) | 2 |
-| [EDA workflows](eda-flow.md) | 28 |
+| [EDA workflows](eda-flow.md) | 30 |
 | [Analog / RF](analog-rf.md) | 15 |
 | [Circuit sizing](sizing.md) | 4 |
 | [Architecture exploration](architecture.md) | 13 |
-| [HLS](hls.md) | 5 |
+| [HLS](hls.md) | 6 |
 | [HW/SW co-design](codesign.md) | 5 |
-| [RISC-V](risc-v.md) | 4 |
-| [FPGA](fpga.md) | 6 |
+| [RISC-V](risc-v.md) | 5 |
+| [FPGA](fpga.md) | 8 |
 | [Repository-level tasks](repository-level.md) | 4 |
 | [Multi-agent](multi-agent.md) | 22 |
 | [Tool use](tool-use.md) | 40 |
@@ -34,12 +34,12 @@
 | [Infrastructure](infrastructure.md) | 27 |
 | [Benchmark](benchmark.md) | 26 |
 | [Dataset](dataset.md) | 9 |
-| [Evaluation](evaluation.md) | 24 |
-| [Commercial platform](commercial.md) | 23 |
+| [Evaluation](evaluation.md) | 27 |
+| [Commercial platform](commercial.md) | 24 |
 | [Overview / tutorial](overview.md) | 4 |
 | [Board / PCB](board.md) | 3 |
 | [Packaging / 3D IC](packaging.md) | 2 |
 | [System design](system.md) | 4 |
-| [Vendor-reported](vendor-report.md) | 41 |
-| [Announcement](news.md) | 15 |
+| [Vendor-reported](vendor-report.md) | 42 |
+| [Announcement](news.md) | 16 |
 | [Talk / video](video.md) | 5 |

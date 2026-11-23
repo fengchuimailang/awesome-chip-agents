@@ -6,6 +6,8 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [Meta-RTL](../../resources/physical-design/meta-rtl.md) | 2026-11-19 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
+| [OpenAI chip design progress](../../resources/agent-infrastructure/openai-chip-design-2026.md) | 2026-11-18 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [LATCH](../../resources/physical-design/latch.md) | 2026-10-12 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [ChipStack RTL / PPA announcement](../../resources/rtl-generation/chipstack-rtl-announcement.md) | 2026-09-22 | RTL Generation and Editing / RTL 生成与编辑 |
 | [AHRR](../../resources/architecture-hls-codesign/ahrr.md) | 2026-09-17 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |

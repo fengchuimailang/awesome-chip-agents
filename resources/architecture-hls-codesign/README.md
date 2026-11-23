@@ -6,6 +6,12 @@
 
 Newest publication month first. Cross-references share the original record; repository activity does not affect ordering.
 
+## 2026-11
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[FPGA-GEN](../../resources/architecture-hls-codesign/fpga-gen.md)**<br>Uses bounded tool-feedback loops and target-aware candidate selection to generate and validate HLS C/C++ for FPGA designs. | [HLS](../../resources/tags/hls.md) · [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [FPGA](../../resources/tags/fpga.md) · [Verification](../../resources/tags/verification.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Paper | [Paper](https://arxiv.org/abs/2611.25351) | — | — | — |
+
 ## 2026-10
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |

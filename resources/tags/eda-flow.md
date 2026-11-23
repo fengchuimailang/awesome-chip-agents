@@ -6,6 +6,8 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [Meta-RTL](../../resources/physical-design/meta-rtl.md) | 2026-11-19 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
+| [OpenAI chip design progress](../../resources/agent-infrastructure/openai-chip-design-2026.md) | 2026-11-18 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Cadence Maestro](../../resources/agent-infrastructure/cadence-maestro-announcement.md) | 2026-10-26 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [TACS-RF](../../resources/analog-rf/tacs-rf.md) | 2026-10-22 | Analog and RF Design / 模拟与 RF 电路 |
 | [Siemens / NVIDIA · 3D IC](../../resources/board-system-design/siemens-nvidia-3dic-2026.md) | 2026-10-21 | Board, Packaging and System Design / 板级、封装与系统设计 |

@@ -6,6 +6,8 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [From FIPS to FPGA with LLM Agents](../../resources/verification-debugging/from-fips-to-fpga.md) | 2026-11-19 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
+| [FPGA-GEN](../../resources/architecture-hls-codesign/fpga-gen.md) | 2026-11-19 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [LATCH](../../resources/physical-design/latch.md) | 2026-10-12 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [Vivado MCP Server](../../resources/agent-infrastructure/vivado-mcp-server.md) | 2026-09-25 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [AHRR](../../resources/architecture-hls-codesign/ahrr.md) | 2026-09-17 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |

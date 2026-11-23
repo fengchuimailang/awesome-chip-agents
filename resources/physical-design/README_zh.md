@@ -6,6 +6,12 @@
 
 按发布月份倒序排列。跨方向索引共用原始详情；仓库动态不影响排序。
 
+## 2026-11
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[Meta-RTL](../../resources/physical-design/meta-rtl.md)**<br>在固定模型、EDA 流程和单设计预算的条件下，迭代优化 RTL 优化 Agent 的可执行搜索流程。 | [RTL](../../resources/tags/rtl.md) · [代码编辑](../../resources/tags/editing.md) · [物理设计](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [评测](../../resources/tags/evaluation.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>论文 | [论文](https://arxiv.org/abs/2611.25891) | — | — | — |
+
 ## 2026-10
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |

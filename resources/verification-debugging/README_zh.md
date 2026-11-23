@@ -6,6 +6,12 @@
 
 按发布月份倒序排列。跨方向索引共用原始详情；仓库动态不影响排序。
 
+## 2026-11
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[From FIPS to FPGA with LLM Agents](../../resources/verification-debugging/from-fips-to-fpga.md)**<br>研究 Agent 辅助后量子密码 FPGA 设计中的验证关卡与 LLM 审查，并用网表变异和形式检查审计其有效性。 | [RTL](../../resources/tags/rtl.md) · [验证](../../resources/tags/verification.md) · [形式验证](../../resources/tags/formal.md) · [测试平台](../../resources/tags/testbench.md) · [评测](../../resources/tags/evaluation.md) · [FPGA](../../resources/tags/fpga.md)<br>论文 | [论文](https://arxiv.org/abs/2611.25339) | — | — | — |
+
 ## 2026-10
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |

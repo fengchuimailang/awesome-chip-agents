@@ -6,6 +6,12 @@
 
 Newest publication month first. Cross-references share the original record; repository activity does not affect ordering.
 
+## 2026-11
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[From FIPS to FPGA with LLM Agents](../../resources/verification-debugging/from-fips-to-fpga.md)**<br>Studies verification gates and LLM review for an agent-assisted post-quantum cryptography FPGA design, auditing them with netlist mutants and formal checks. | [RTL](../../resources/tags/rtl.md) · [Verification](../../resources/tags/verification.md) · [Formal verification](../../resources/tags/formal.md) · [Testbench](../../resources/tags/testbench.md) · [Evaluation](../../resources/tags/evaluation.md) · [FPGA](../../resources/tags/fpga.md)<br>Paper | [Paper](https://arxiv.org/abs/2611.25339) | — | — | — |
+
 ## 2026-10
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |

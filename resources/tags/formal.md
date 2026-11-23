@@ -6,6 +6,7 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [From FIPS to FPGA with LLM Agents](../../resources/verification-debugging/from-fips-to-fpga.md) | 2026-11-19 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Formulaic](../../resources/architecture-hls-codesign/formulaic.md) | 2026-10-29 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [ScaleBench](../../resources/rtl-generation/scalebench.md) | 2026-10-18 | RTL Generation and Editing / RTL 生成与编辑 |
 | [CorrectRTL](../../resources/rtl-generation/correctrtl.md) | 2026-10-18 | RTL Generation and Editing / RTL 生成与编辑 |
