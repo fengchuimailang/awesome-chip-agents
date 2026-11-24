@@ -20,6 +20,7 @@
 | [CorrectHDL](../../resources/rtl-generation/correcthdl.md) | 2025-11-20 | RTL Generation and Editing / RTL 生成与编辑 |
 | [OpenLLM-RTL](../../resources/rtl-generation/openllm-rtl.md) | 2025-03 | RTL Generation and Editing / RTL 生成与编辑 |
 | [AutoBench](../../resources/verification-debugging/autobench.md) | 2024-07 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
+| [UCAgent](../../resources/verification-debugging/ucagent.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [SigmanticAI](../../resources/rtl-generation/sigmanticai.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
 | [MooresLabAI / MooreIP](../../resources/verification-debugging/mooreip.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Formal workflow webinar](../../resources/verification-debugging/formal-workflow-webinar.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |

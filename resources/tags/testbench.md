@@ -11,5 +11,6 @@
 | [GTC San Jose · Chip-design agents](../../resources/rtl-generation/gtc-san-jose-2026.md) | 2026-03 | RTL Generation and Editing / RTL 生成与编辑 |
 | [GTC Taipei 2026 keynote](../../resources/rtl-generation/gtc-taipei-2026-keynote.md) | 2026 | RTL Generation and Editing / RTL 生成与编辑 |
 | [AutoBench](../../resources/verification-debugging/autobench.md) | 2024-07 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
+| [UCAgent](../../resources/verification-debugging/ucagent.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [MooresLabAI / MooreIP](../../resources/verification-debugging/mooreip.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [ai-chip-design-platform](../../resources/verification-debugging/ai-chip-design-platform.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |

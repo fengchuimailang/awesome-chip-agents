@@ -36,6 +36,7 @@
 | [ChatEDA](../../resources/physical-design/chateda.md) | 2024 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [RTLFixer](../../resources/verification-debugging/rtlfixer.md) | 2023-11 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Virtuoso-Bridge-Lite](../../resources/agent-infrastructure/virtuoso-bridge-lite.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [UCAgent](../../resources/verification-debugging/ucagent.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Silogy / Viv](../../resources/verification-debugging/silogy-viv.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [qucs-mcp](../../resources/agent-infrastructure/qucs-mcp.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [MooresLabAI / MooreIP](../../resources/verification-debugging/mooreip.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |

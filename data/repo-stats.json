@@ -512,6 +512,15 @@
     "last_attempt_at": "2026-11-22T21:38:14Z",
     "fetch_error": null
   },
+  "xs-mlvp/ucagent": {
+    "full_name": "XS-MLVP/UCAgent",
+    "stars": 248,
+    "pushed_at": "2026-11-24T09:16:23Z",
+    "fetched_at": "2026-11-24T09:27:41Z",
+    "archived": false,
+    "last_attempt_at": "2026-11-24T09:27:41Z",
+    "fetch_error": null
+  },
   "xyjoey/veri-sure": {
     "full_name": "xyjoey/Veri-Sure",
     "stars": 30,

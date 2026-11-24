@@ -51,6 +51,7 @@
 | [RTLFixer](../../resources/verification-debugging/rtlfixer.md) | 2023-11 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [AutoChip](../../resources/rtl-generation/autochip.md) | 2023-11 | RTL Generation and Editing / RTL 生成与编辑 |
 | [VerilogEval](../../resources/rtl-generation/verilogeval.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
+| [UCAgent](../../resources/verification-debugging/ucagent.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Silimate](../../resources/rtl-generation/silimate.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
 | [SigmanticAI](../../resources/rtl-generation/sigmanticai.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
 | [SCORE](../../resources/rtl-generation/score.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
