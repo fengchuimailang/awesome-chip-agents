@@ -21,9 +21,9 @@ Open http://localhost:5173/zh/ or http://localhost:5173/en/. The data export run
 
 ## Dependency audit / 依赖审计
 
-Audit snapshot, 2026-11-18: `npm audit --omit=dev` reports no production dependency vulnerabilities. The full audit reports 13 entries (11 high, two moderate) in development dependency chains affected by the [picomatch advisory](https://github.com/advisories/GHSA-fc5q-39xc-vjpf) and [minimatch advisory](https://github.com/advisories/GHSA-g3hv-75wg-m249). `npm audit fix` did not resolve these; the suggested forced fixes downgrade Vite and shadcn across major versions and have not been applied. The deployed website consists of static files, without a Vite development server or shadcn CLI.
+Audit snapshot, 2026-11-24: `npm audit --omit=dev` reports no production dependency vulnerabilities. The full audit reports four moderate findings in development dependency chains through `shadcn` → `ts-morph` → `@ts-morph/common` → `minimatch`, including the [minimatch advisory](https://github.com/advisories/GHSA-g3hv-75wg-m249). `npm audit fix --dry-run` makes no changes; the suggested forced fix downgrades `shadcn` from 4.23.0 to 1.0.0 across major versions and has not been applied. The deployed website consists of static files, without a Vite development server or shadcn CLI.
 
-2026-11-18 审计快照：`npm audit --omit=dev` 未发现生产依赖漏洞。完整审计有 13 个条目（11 个高危、2 个中危），源于 picomatch 与 minimatch 告警影响的开发依赖链。`npm audit fix` 未解决这些问题；建议的强制修复会跨主版本降级 Vite 与 shadcn，因此未采用。线上发布的是静态文件，不运行 Vite 开发服务器或 shadcn CLI。
+2026-11-24 审计快照：`npm audit --omit=dev` 未发现生产依赖漏洞。完整审计有 4 个中危问题，位于 `shadcn` → `ts-morph` → `@ts-morph/common` → `minimatch` 开发依赖链，其中包括 [minimatch 告警](https://github.com/advisories/GHSA-g3hv-75wg-m249)。`npm audit fix --dry-run` 不产生改动；建议的强制修复会将 `shadcn` 从 4.23.0 跨主版本降级到 1.0.0，因此暂未采用。线上发布的是静态文件，不运行 Vite 开发服务器或 shadcn CLI。
 
 ## Production check / 生产构建检查
 
