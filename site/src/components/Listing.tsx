@@ -88,18 +88,20 @@ export function Listing({ page }: { page: Page }) {
       <span className="count">{resources.length} {l('resources', '项资源')}</span></div>
     <p className="catalog-intro">{l('New to the field? ', '第一次来？')}<a href={route({ locale, kind: 'home' }) + '#getting-started'}>{l('Start with five guided reads', '先看五步阅读路线')} →</a></p>
     <form className="catalog-form" role="search" aria-label={l('Search resources', '搜索资源')} onSubmit={event => { event.preventDefault(); track('catalog_search', { query_length: filters.q.length, results: resources.length, language: locale }); }}>
-      <FieldGroup><Field className="gap-0"><FieldLabel className="sr-only" htmlFor="resource-search">{l('Search resources', '搜索资源')}</FieldLabel>
-        <InputGroup><InputGroupInput id="resource-search" type="search" placeholder={l('Search papers, tools, benchmarks…', '搜索论文、工具、基准…')} value={filters.q} onChange={event => update('q', event.target.value)} />
-          <InputGroupAddon><SearchIcon aria-hidden="true" /></InputGroupAddon><InputGroupAddon align="inline-end"><Button type="submit">{l('Search', '搜索')}</Button></InputGroupAddon>
-        </InputGroup>
-      </Field></FieldGroup>
       <Collapsible open={open} onOpenChange={setOpen}>
-        <div className="filter-toolbar">
-          <CollapsibleTrigger asChild><Button type="button" variant="outline" className="mobile-filter-trigger"><SlidersHorizontalIcon data-icon="inline-start" aria-hidden="true" />{l('Filters', '筛选')}{active.length ? ' (' + active.length + ')' : ''}<ChevronDownIcon data-icon="inline-end" aria-hidden="true" /></Button></CollapsibleTrigger>
-          <FieldGroup className="sort-field"><Field orientation="horizontal"><FieldLabel htmlFor="filter-sort">{l('Sort', '排序')}</FieldLabel>
+        <FieldGroup className="catalog-search-row">
+          <Field className="gap-0"><FieldLabel className="sr-only" htmlFor="resource-search">{l('Search resources', '搜索资源')}</FieldLabel>
+            <InputGroup><InputGroupInput id="resource-search" type="search" placeholder={l('Search papers, tools, benchmarks…', '搜索论文、工具、基准…')} value={filters.q} onChange={event => update('q', event.target.value)} />
+              <InputGroupAddon><SearchIcon aria-hidden="true" /></InputGroupAddon><InputGroupAddon align="inline-end"><Button type="submit">{l('Search', '搜索')}</Button></InputGroupAddon>
+            </InputGroup>
+          </Field>
+          <Field className="mobile-filter-field">
+            <CollapsibleTrigger asChild><Button type="button" variant="outline" className="mobile-filter-trigger"><SlidersHorizontalIcon data-icon="inline-start" aria-hidden="true" />{l('Filters', '筛选')}{active.length ? ' (' + active.length + ')' : ''}<ChevronDownIcon data-icon="inline-end" aria-hidden="true" /></Button></CollapsibleTrigger>
+          </Field>
+          <Field className="sort-field" orientation="horizontal"><FieldLabel htmlFor="filter-sort">{l('Sort', '排序')}</FieldLabel>
             <NativeSelect id="filter-sort" value={filters.sort} onChange={event => update('sort', event.target.value as Filters['sort'])}><NativeSelectOption value="date">{l('Newest first', '最新发布')}</NativeSelectOption><NativeSelectOption value="citations">{l('Most cited', '引用最多')}</NativeSelectOption><NativeSelectOption value="stars">{l('Most stars', 'Stars 最多')}</NativeSelectOption><NativeSelectOption value="name">{l('Name', '名称')}</NativeSelectOption></NativeSelect>
-          </Field></FieldGroup>
-        </div>
+          </Field>
+        </FieldGroup>
         <CollapsibleContent forceMount className="filter-content">
           <FieldGroup className={cn('filters', page.kind === 'direction' && 'direction-filters')}>
             {page.kind !== 'direction' && select('direction', 'directions', l('Direction', '方向'))}

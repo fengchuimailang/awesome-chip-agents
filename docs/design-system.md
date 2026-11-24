@@ -10,6 +10,10 @@ Keep the green palette and chip illustration. Use semantic tokens such as `prima
 
 保留绿色主题与芯片插画。使用 `primary`、`muted-foreground`、`card` 和 `border` 等语义颜色。目前采用浅色主题；Inter 字体随网站托管，中文使用系统字体，无需外部字体服务。
 
+Use a warm light background, white content cards, and restrained green tints to separate sections. The hero's dark circuit board is a decorative inline SVG in `ChipIllustration.tsx`, with no external image request. Circuit colors and card shadows use shared tokens.
+
+采用偏暖的浅色底、白色内容卡片和淡绿色分区。首屏的深绿电路板由 `ChipIllustration.tsx` 中的内联 SVG 绘制，仅作装饰，无需外部图片请求；电路颜色与卡片阴影使用统一变量。
+
 ## Type and spacing / 字号与间距
 
 Sizes use rem, with a browser default of 16px. English and Chinese share the same scale; Chinese headings avoid negative letter spacing.
@@ -29,6 +33,10 @@ Use Tailwind's 4px spacing scale; prefer 8, 12, 16, 24, 32, 48, and 64px. Standa
 
 间距使用 Tailwind 的 4px 刻度，优先采用 8、12、16、24、32、48、64px。标准控件至少高 44px，主要大按钮为 48px；标签链接至少高 32px，并允许换行。卡片内边距 24px，紧凑侧栏 16px；统一基础圆角为 12px，控件和标签圆角由此派生。
 
+The hero artwork and reading-path panel use a 24px radius and return to 16px on mobile. Hover effects use a small lift or soft shadow; reduced-motion preferences disable transitions and smooth scrolling.
+
+首屏插画与阅读路线分区使用 24px 圆角，手机端收为 16px。悬停反馈采用轻微抬升或柔和阴影；用户设置减少动态效果时，关闭过渡和顺滑滚动。
+
 ## Components and responsive layout / 组件与响应式
 
 Use `Button` for actions, `Badge` for resource tags, composed `Card` sections for resources and panels, `FieldGroup` + `Field` + `FieldLabel` for forms, `InputGroup` for search, `NativeSelect` for filters, `Collapsible` for mobile filters, `ToggleGroup` for view/category choices, `Pagination` for page navigation, `Empty` for no results, and `Separator` for dividers. Preserve semantic headings and visible keyboard focus. Native selects retain the platform's mobile picker.
@@ -38,6 +46,10 @@ Use `Button` for actions, `Badge` for resource tags, composed `Card` sections fo
 Change component defaults centrally instead of overriding colors and typography at each call site. Use page classes for layout. On narrow screens, wrap headings and actions and reduce grid columns rather than shrinking body and control text. Keep resource detail prose at 16px in both layouts.
 
 组件的字号、颜色和默认尺寸集中维护，页面样式负责布局。窄屏时让标题和操作换行、减少网格列数，保持正文与控件的可读字号；详情正文在桌面和手机端均为 16px。
+
+The five-step reading path uses connected numbered markers: five columns on wide screens, two columns on tablets, and a vertical timeline on mobile. Task and direction cards combine an icon, a descriptive heading, and a clear navigation affordance. Search, sort, filters, and selected conditions share one bordered control panel.
+
+五步阅读路线使用连续的数字标记：宽屏五列、平板两列、手机纵向时间线。任务与方向卡片组合图标、明确标题和跳转提示。搜索、排序、筛选和已选条件集中于同一个带边框的操作面板。
 
 ## Links and discovery / 链接与发现
 

@@ -1,10 +1,11 @@
 import { lazy, Suspense, useEffect, useState, type ReactNode } from 'react';
-import { ArrowRightIcon, LanguagesIcon, StarIcon, WrenchIcon, FileCodeIcon, ActivityIcon, FlaskConicalIcon } from 'lucide-react';
+import { ArrowRightIcon, LanguagesIcon, StarIcon, WrenchIcon, FileCodeIcon, ActivityIcon, FlaskConicalIcon, BookOpenIcon, CircuitBoardIcon, RadioIcon, LayersIcon, NetworkIcon, CpuIcon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Empty, EmptyContent, EmptyDescription, EmptyHeader, EmptyTitle } from '@/components/ui/empty';
 import { Separator } from '@/components/ui/separator';
 import { GitHubIcon } from '@/components/GitHubIcon';
+import { ChipIllustration } from '@/components/ChipIllustration';
 import { External, ResourceCard, ResourceTags } from '@/components/resource';
 import { Listing } from '@/components/Listing';
 import { DetailActions, DetailBack } from '@/components/DetailActions';
@@ -117,43 +118,42 @@ function Home({ locale }: { locale: Locale }) {
   const recentResources = catalog.resources.filter(resource => inCollection(resource, recent)).slice(0, 6);
   const firstIssues = repoLink('/issues?q=' + encodeURIComponent('is:issue is:open label:"good first issue"'));
   const tasks = [
-    { icon: WrenchIcon, query: '?q=mcp&collection=tools', title: l('Find MCP tools', '找 MCP 工具') },
-    { icon: FileCodeIcon, query: '?direction=rtl-generation&tag=generation', title: l('Generate RTL', '生成 RTL') },
-    { icon: ActivityIcon, query: '?tag=waveform', title: l('Debug waveforms', '调试波形') },
-    { icon: FlaskConicalIcon, query: '?collection=benchmarks', title: l('Find benchmarks', '找评测基准') },
+    { icon: WrenchIcon, query: '?q=mcp&collection=tools', title: l('Find MCP tools', '找 MCP 工具'), description: l('Connect agents to your tools.', '连接 Agent 与设计工具。') },
+    { icon: FileCodeIcon, query: '?direction=rtl-generation&tag=generation', title: l('Generate RTL', '生成 RTL'), description: l('From specifications to HDL.', '从设计规格走向 HDL。') },
+    { icon: ActivityIcon, query: '?tag=waveform', title: l('Debug waveforms', '调试波形'), description: l('Understand what went wrong.', '从波形中定位问题。') },
+    { icon: FlaskConicalIcon, query: '?collection=benchmarks', title: l('Find benchmarks', '找评测基准'), description: l('Put your approach to the test.', '为你的方法找到试金石。') },
   ];
+  const directionIcons = [FileCodeIcon, ActivityIcon, CircuitBoardIcon, RadioIcon, LayersIcon, NetworkIcon, CpuIcon];
   return <>
-    <section className="hero"><div><p className="eyebrow">{l('AN OPEN MAP OF CHIP DESIGN × AI', '芯片设计 × AI 的开放资源地图')}</p>
+    <section className="hero"><div className="hero-copy"><p className="eyebrow">{l('AN OPEN MAP OF CHIP DESIGN × AI', '芯片设计 × AI 的开放资源地图')}</p>
       <h1>{l('Discover the agents.', '发现芯片 Agent。')}<br /><em>{l('Build the next chip.', '探索设计新可能。')}</em></h1>
       <p>{l('Papers, tools, benchmarks, and infrastructure for LLM-assisted chip design. Curated in the open, connected by purpose.', '汇集芯片设计 LLM Agent 的论文、工具、评测基准与基础设施。公开维护，按用途连接，让探索更有方向。')}</p>
       <div className="hero-actions"><Button asChild size="lg"><a href="#getting-started">{l('Start with five reads', '从五步阅读开始')}<ArrowRightIcon data-icon="inline-end" aria-hidden="true" /></a></Button>
         <Button asChild variant="outline" size="lg"><a href={route({ locale, kind: 'catalog' })}>{l('Explore resources', '探索资源库')}</a></Button></div>
-      <div className="hero-stats"><span><strong>{catalog.resources.length}</strong>{l('Resources', '项资源')}</span><span><strong>{Object.keys(catalog.taxonomy.directions).length}</strong>{l('Directions', '个方向')}</span><span><strong>EN / 中</strong>{l('One shared catalog', '同一份资源库')}</span></div>
-    </div><div className="circuit" aria-hidden="true"><div className="circuit-label">CHIP AGENT STACK</div>
-      <div className="circuit-chip"><span>LLM</span><strong>AGENT</strong><small>reason · act · verify</small></div>
-      <div className="circuit-nodes"><span>RTL</span><span>EDA</span><span>MCP</span><span>SPICE</span></div><div className="circuit-foot">FROM IDEAS TO IMPLEMENTATION</div></div>
+    </div><ChipIllustration />
+      <div className="hero-stats"><span><strong>{catalog.resources.length}</strong><span>{l('Curated resources', '精选领域资源')}</span></span><span><strong>{Object.keys(catalog.taxonomy.directions).length.toString().padStart(2, '0')}</strong><span>{l('Research directions', '研究方向')}</span></span><span><strong>EN / 中</strong><span>{l('One shared catalog', '双语同步维护')}</span></span></div>
     </section>
     {catalog.reading_paths.map(path => <section id={path.id} key={path.id} className="reading-path" aria-labelledby={path.id + '-heading'}>
-      <div className="section-heading"><div><p className="eyebrow">{l('A GUIDED START', '不知道从哪看？')}</p><h2 id={path.id + '-heading'}>{label(path.title, locale)}</h2></div></div>
-      <p className="reading-summary">{label(path.summary, locale)}</p><p className="fine-print">{l('Before you start: ', '开始前：')}{label(path.prerequisites, locale)}</p>
+      <div className="section-heading"><div><p className="eyebrow">{l('01 / A GUIDED START', '01 / 不知道从哪看？')}</p><h2 id={path.id + '-heading'}>{label(path.title, locale)}</h2></div><BookOpenIcon className="section-icon" aria-hidden="true" /></div>
+      <p className="reading-summary">{label(path.summary, locale)}</p>
       <ol className="reading-steps">{path.steps.map((step, i) => {
         const resource = index[step.resource];
-        return <li key={step.resource}><Card className="reading-step" size="sm"><CardHeader>
-          <p className="eyebrow">{l('STEP ', '第 ')}{i + 1}{l('', ' 步')}</p>
+        return <li key={step.resource}><div className="reading-marker"><span>{(i + 1).toString().padStart(2, '0')}</span><span>{l('STEP ', '第 ')}{i + 1}{l('', ' 步')}</span></div><Card className="reading-step" size="sm"><CardHeader>
           <CardTitle asChild><h3><a href={route({ locale, kind: 'resource', id: resource.id })}>{resource.name}<ArrowRightIcon className="reading-arrow" aria-hidden="true" /></a></h3></CardTitle>
           <CardDescription>{label(step.why, locale)}</CardDescription>
         </CardHeader><CardContent><p className="reading-focus"><strong>{l('Focus on', '重点看什么')}</strong>{label(step.focus, locale)}</p></CardContent></Card></li>;
       })}</ol>
-      <Button asChild variant="link"><a href={route({ locale, kind: 'catalog' }) + '?sort=citations&evidence=code'}>{l('Continue with cited resources that link to code', '继续找有代码链接的资源，按引用排序')}<ArrowRightIcon data-icon="inline-end" aria-hidden="true" /></a></Button>
+      <div className="reading-path-footer"><p className="fine-print">{l('Before you start: ', '开始前：')}{label(path.prerequisites, locale)}</p><Button asChild variant="link"><a href={route({ locale, kind: 'catalog' }) + '?sort=citations&evidence=code'}>{l('Continue exploring with code', '继续探索有代码的资源')}<ArrowRightIcon data-icon="inline-end" aria-hidden="true" /></a></Button></div>
     </section>)}
     <section className="task-section" aria-labelledby="task-heading"><div className="section-heading"><div><p className="eyebrow">{l('START WITH A TASK', '从手头的任务开始')}</p><h2 id="task-heading">{l('What are you working on?', '你想完成什么？')}</h2></div></div>
-      <div className="task-shortcuts">{tasks.map(({ icon: Icon, query, title }) => <Button asChild variant="outline" key={query}><a href={route({ locale, kind: 'catalog' }) + query}><Icon data-icon="inline-start" aria-hidden="true" />{title}<ArrowRightIcon data-icon="inline-end" aria-hidden="true" /></a></Button>)}</div>
+      <div className="task-shortcuts">{tasks.map(({ icon: Icon, query, title, description }) => <a href={route({ locale, kind: 'catalog' }) + query} key={query}><Card className="task-card" size="sm"><CardHeader><div className="task-card-top"><Icon aria-hidden="true" /><ArrowRightIcon aria-hidden="true" /></div><CardTitle asChild><h3>{title}</h3></CardTitle><CardDescription>{description}</CardDescription></CardHeader></Card></a>)}</div>
     </section>
     <section><div className="section-heading"><div><p className="eyebrow">{l('CHOOSE YOUR PATH', '从你的方向出发')}</p><h2>{l('Explore by direction', '按研究方向探索')}</h2></div><Button asChild variant="link"><a href={route({ locale, kind: 'catalog' })}>{l('View everything', '查看全部')}<ArrowRightIcon data-icon="inline-end" aria-hidden="true" /></a></Button></div>
       <div className="direction-grid">{Object.entries(catalog.taxonomy.directions).map(([id, pair], i) => {
         const count = catalog.resources.filter(r => r.direction === id && !r.types.some(type => ['news', 'video'].includes(type))).length;
-        return <a href={route({ locale, kind: 'direction', id })} key={id}><span className="direction-number">0{i + 1}</span><h3>{label(pair, locale)}</h3><span>{count} {l('primary resources', '项主要资源')} →</span></a>;
-      })}<a className="benchmark-tile" href={route({ locale, kind: 'catalog' }) + '?collection=benchmarks'}><span className="direction-number">08</span><h3>{l('Benchmarks & datasets', '基准与数据集')}</h3><span>{l('Find your evaluation starting point', '找到评测的起点')} →</span></a></div>
+        const Icon = directionIcons[i % directionIcons.length];
+        return <a href={route({ locale, kind: 'direction', id })} key={id}><div className="direction-top"><span className="direction-number">0{i + 1}</span><Icon aria-hidden="true" /></div><h3>{label(pair, locale)}</h3><span className="direction-bottom"><span>{count} {l('primary resources', '项主要资源')}</span><ArrowRightIcon aria-hidden="true" /></span></a>;
+      })}<a className="benchmark-tile" href={route({ locale, kind: 'catalog' }) + '?collection=benchmarks'}><div className="direction-top"><span className="direction-number">08</span><FlaskConicalIcon aria-hidden="true" /></div><h3>{l('Benchmarks & datasets', '基准与数据集')}</h3><span className="direction-bottom"><span>{l('Your evaluation starting point', '找到评测的起点')}</span><ArrowRightIcon aria-hidden="true" /></span></a></div>
     </section>
     <section><div className="section-heading"><div><p className="eyebrow">{l('RECENT PUBLICATIONS', '近期发布')}</p><h2>{l('Across the ecosystem', '看看领域新进展')}</h2></div><Button asChild variant="link"><a href={route({ locale, kind: 'catalog' }) + (recent ? '?collection=' + recent : '')}>{l('Browse the library', '浏览资源库')}<ArrowRightIcon data-icon="inline-end" aria-hidden="true" /></a></Button></div>
       <ToggleGroup className="recent-views" type="single" variant="outline" value={recent || 'all'} onValueChange={value => { if (value) setRecent(value === 'all' ? '' : value as Filters['collection']); }} aria-label={l('Recent publication category', '近期发布分类')}>
