@@ -11,8 +11,8 @@
 | [代码编辑](editing.md) | 4 |
 | [验证](verification.md) | 22 |
 | [调试](debugging.md) | 19 |
-| [形式验证](formal.md) | 14 |
-| [仿真](simulation.md) | 18 |
+| [形式验证](formal.md) | 15 |
+| [仿真](simulation.md) | 19 |
 | [测试平台](testbench.md) | 7 |
 | [波形分析](waveform.md) | 10 |
 | [规格推断](specification.md) | 2 |
@@ -20,26 +20,26 @@
 | [PPA / QoR](ppa.md) | 16 |
 | [DRC](drc.md) | 2 |
 | [EDA 流程](eda-flow.md) | 30 |
-| [模拟 / RF](analog-rf.md) | 15 |
-| [电路尺寸优化](sizing.md) | 4 |
-| [架构探索](architecture.md) | 13 |
+| [模拟 / RF](analog-rf.md) | 16 |
+| [电路尺寸优化](sizing.md) | 5 |
+| [架构探索](architecture.md) | 14 |
 | [HLS](hls.md) | 6 |
-| [软硬件协同](codesign.md) | 5 |
+| [软硬件协同](codesign.md) | 6 |
 | [RISC-V](risc-v.md) | 5 |
 | [FPGA](fpga.md) | 8 |
 | [仓库级任务](repository-level.md) | 4 |
-| [多 Agent](multi-agent.md) | 22 |
+| [多 Agent](multi-agent.md) | 23 |
 | [工具调用](tool-use.md) | 40 |
 | [记忆与经验](memory.md) | 1 |
 | [基础设施](infrastructure.md) | 27 |
-| [基准](benchmark.md) | 26 |
+| [基准](benchmark.md) | 27 |
 | [数据集](dataset.md) | 9 |
-| [评测](evaluation.md) | 27 |
+| [评测](evaluation.md) | 28 |
 | [商业平台](commercial.md) | 24 |
 | [综述 / 教程](overview.md) | 4 |
 | [板级 / PCB](board.md) | 3 |
 | [封装 / 3D IC](packaging.md) | 2 |
 | [系统设计](system.md) | 4 |
-| [厂商报告](vendor-report.md) | 42 |
+| [厂商报告](vendor-report.md) | 43 |
 | [公告](news.md) | 16 |
 | [演讲 / 视频](video.md) | 5 |

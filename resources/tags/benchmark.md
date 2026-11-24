@@ -6,6 +6,7 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [SLIC](../../resources/analog-rf/slic.md) | 2026-11-10 | Analog and RF Design / 模拟与 RF 电路 |
 | [Mistral / NVIDIA · Evaluation plans](../../resources/agent-infrastructure/mistral-nvidia-evaluation-2026.md) | 2026-10-21 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [ScaleBench](../../resources/rtl-generation/scalebench.md) | 2026-10-18 | RTL Generation and Editing / RTL 生成与编辑 |
 | [AgenticBBO-Bench](../../resources/architecture-hls-codesign/agentic-bbo-bench.md) | 2026-10-08 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |

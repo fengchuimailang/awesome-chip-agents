@@ -6,6 +6,7 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [Architect Labs / Frostbite](../../resources/architecture-hls-codesign/frostbite.md) | 2026-11-18 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [ArchAgent](../../resources/architecture-hls-codesign/archagent.md) | 2026-10-16 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [CoreSmith](../../resources/physical-design/coresmith.md) | 2026-10-09 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [RFChipAgent](../../resources/analog-rf/rfchipagent.md) | 2026-10-07 | Analog and RF Design / 模拟与 RF 电路 |

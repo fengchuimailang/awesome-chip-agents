@@ -4,14 +4,14 @@
 
 [首页](../../README_zh.md) · [English](README.md)
 
-共 30 项，先按主要研究方向分类，再按发布月份倒序排列。各条目共用已有详情，提供论文、仓库、标签及动态快照。通用数据集作为支撑资料收录；仅宣布评测计划的新闻保留在动态索引中。
+共 31 项，先按主要研究方向分类，再按发布月份倒序排列。各条目共用已有详情，提供论文、仓库、标签及动态快照。通用数据集作为支撑资料收录；仅宣布评测计划的新闻保留在动态索引中。
 
 | 方向 | 资源数 |
 | --- | ---: |
 | [RTL 生成与编辑](#rtl-generation) | 14 |
 | [验证、调试与规格推断](#verification-debugging) | 4 |
 | [物理设计与 EDA 流程](#physical-design) | 4 |
-| [模拟与 RF 电路](#analog-rf) | 2 |
+| [模拟与 RF 电路](#analog-rf) | 3 |
 | [架构探索、HLS 与软硬件协同设计](#architecture-hls-codesign) | 5 |
 | [板级、封装与系统设计](#board-system-design) | 1 |
 
@@ -127,6 +127,12 @@
 <a id="analog-rf"></a>
 
 ## 模拟与 RF 电路
+
+### 2026-11
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[SLIC](../../resources/analog-rf/slic.md)**<br>训练可本地部署的小语言模型，通过仿真反馈优化模拟电路尺寸，并跨放大器拓扑和工艺节点评测。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [电路尺寸优化](../../resources/tags/sizing.md) · [仿真](../../resources/tags/simulation.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>论文 / 开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2611.13452) | [slic-agent/slic-agent](https://github.com/slic-agent/slic-agent) | — | 指标暂不可用 |
 
 ### 2026-09
 

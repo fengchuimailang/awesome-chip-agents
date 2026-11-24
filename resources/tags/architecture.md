@@ -6,6 +6,7 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [Architect Labs / Frostbite](../../resources/architecture-hls-codesign/frostbite.md) | 2026-11-18 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [Formulaic](../../resources/architecture-hls-codesign/formulaic.md) | 2026-10-29 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [ArchAgent](../../resources/architecture-hls-codesign/archagent.md) | 2026-10-16 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [AgenticBBO-Bench](../../resources/architecture-hls-codesign/agentic-bbo-bench.md) | 2026-10-08 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |

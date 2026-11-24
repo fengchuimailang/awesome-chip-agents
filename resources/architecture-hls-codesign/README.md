@@ -79,6 +79,12 @@ Newest publication month first. Cross-references share the original record; repo
 
 # Related News and Videos
 
+## 2026-11
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Architect Labs / Frostbite](../../resources/architecture-hls-codesign/frostbite.md)**<br>Reports agent-driven CPU and software co-design through final GDS; efficiency comparisons are developer-reported pre-silicon estimates. | [Architecture exploration](../../resources/tags/architecture.md) · [HW/SW co-design](../../resources/tags/codesign.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Formal verification](../../resources/tags/formal.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://architectlabs.com/blog/frostbite) | — | — | — |
+
 ## 2026-10
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |

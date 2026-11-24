@@ -6,6 +6,7 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [SLIC](../../resources/analog-rf/slic.md) | 2026-11-10 | Analog and RF Design / 模拟与 RF 电路 |
 | [TACS-RF](../../resources/analog-rf/tacs-rf.md) | 2026-10-22 | Analog and RF Design / 模拟与 RF 电路 |
 | [RFChipAgent](../../resources/analog-rf/rfchipagent.md) | 2026-10-07 | Analog and RF Design / 模拟与 RF 电路 |
 | [Long-Horizon Analog Design Bench](../../resources/analog-rf/long-horizon-analog-design-bench.md) | 2026-09-27 | Analog and RF Design / 模拟与 RF 电路 |

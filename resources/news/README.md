@@ -9,6 +9,7 @@
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
 | **[OpenAI chip design progress](../../resources/agent-infrastructure/openai-chip-design-2026.md)**<br>Reports model-assisted RTL and PPA improvements on Jalapeño and AMD designs, plus evaluations on RISC-V optimization and specification-to-design tasks. | [Announcement](../../resources/tags/news.md) · [Commercial platform](../../resources/tags/commercial.md) · [Vendor-reported](../../resources/tags/vendor-report.md) · [RTL](../../resources/tags/rtl.md) · [PPA / QoR](../../resources/tags/ppa.md) · [RISC-V](../../resources/tags/risc-v.md) · [EDA workflows](../../resources/tags/eda-flow.md)<br>News / announcement | [Source](https://openai.com/index/advancing-chip-design-with-our-models/) | — | — | — |
+| **[Architect Labs / Frostbite](../../resources/architecture-hls-codesign/frostbite.md)**<br>Reports agent-driven CPU and software co-design through final GDS; efficiency comparisons are developer-reported pre-silicon estimates. | [Architecture exploration](../../resources/tags/architecture.md) · [HW/SW co-design](../../resources/tags/codesign.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Formal verification](../../resources/tags/formal.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>News / announcement | [Source](https://architectlabs.com/blog/frostbite) | — | — | — |
 
 ## 2026-10
 

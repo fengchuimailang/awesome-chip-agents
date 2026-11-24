@@ -6,6 +6,7 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [SLIC](../../resources/analog-rf/slic.md) | 2026-11-10 | Analog and RF Design / 模拟与 RF 电路 |
 | [TACS-RF](../../resources/analog-rf/tacs-rf.md) | 2026-10-22 | Analog and RF Design / 模拟与 RF 电路 |
 | [RFChipAgent](../../resources/analog-rf/rfchipagent.md) | 2026-10-07 | Analog and RF Design / 模拟与 RF 电路 |
 | [SparseCraft](../../resources/architecture-hls-codesign/sparsecraft.md) | 2026-10 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |

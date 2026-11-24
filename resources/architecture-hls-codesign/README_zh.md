@@ -79,6 +79,12 @@
 
 # 相关动态与视频
 
+## 2026-11
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[Architect Labs / Frostbite](../../resources/architecture-hls-codesign/frostbite.md)**<br>报告 Agent 驱动 CPU 与软件协同设计直至最终 GDS；能效比较为开发方报告的硅前估计。 | [架构探索](../../resources/tags/architecture.md) · [软硬件协同](../../resources/tags/codesign.md) · [多 Agent](../../resources/tags/multi-agent.md) · [形式验证](../../resources/tags/formal.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>新闻 / 公告 | [原始来源](https://architectlabs.com/blog/frostbite) | — | — | — |
+
 ## 2026-10
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |

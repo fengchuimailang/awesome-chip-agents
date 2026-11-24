@@ -6,6 +6,12 @@
 
 按发布月份倒序排列。跨方向索引共用原始详情；仓库动态不影响排序。
 
+## 2026-11
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[SLIC](../../resources/analog-rf/slic.md)**<br>训练可本地部署的小语言模型，通过仿真反馈优化模拟电路尺寸，并跨放大器拓扑和工艺节点评测。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [电路尺寸优化](../../resources/tags/sizing.md) · [仿真](../../resources/tags/simulation.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>论文 / 开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2611.13452) | [slic-agent/slic-agent](https://github.com/slic-agent/slic-agent) | — | 指标暂不可用 |
+
 ## 2026-10
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |

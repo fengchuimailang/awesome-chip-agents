@@ -6,6 +6,12 @@
 
 Newest publication month first. Cross-references share the original record; repository activity does not affect ordering.
 
+## 2026-11
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[SLIC](../../resources/analog-rf/slic.md)**<br>Trains a local small language model for simulator-guided analog sizing and evaluates it across amplifier topologies and process nodes. | [Analog / RF](../../resources/tags/analog-rf.md) · [Circuit sizing](../../resources/tags/sizing.md) · [Simulation](../../resources/tags/simulation.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Paper / Open-source project / Benchmark / dataset | [Paper](https://arxiv.org/abs/2611.13452) | [slic-agent/slic-agent](https://github.com/slic-agent/slic-agent) | — | Metadata unavailable |
+
 ## 2026-10
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
