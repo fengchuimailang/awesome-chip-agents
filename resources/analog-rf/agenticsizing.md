@@ -53,6 +53,17 @@
 - **Paper / 论文：** [AgenticSizing: A Large Language Model-based Multi-Agent Framework for Analog Circuit Sizing](https://arxiv.org/abs/2609.25873)
 - **Repository / 仓库：** [public implementation](https://github.com/aprilaihub/agentic-analog-sizing)
 
+## Paper citations / 论文引用
+
+- **OpenAlex：** [2 citations / 次引用](https://openalex.org/W7214246236)
+- **DOI：** [10.48550/arxiv.2609.25873](https://doi.org/10.48550/arxiv.2609.25873)
+- **Fetched (UTC) / 采集时间：** 2026-11-24T02:53:34Z
+- **Indexed in / 收录来源：** arXiv (Cornell University)
+
+Exact DOI match in OpenAlex, including arXiv preprints. Counts depend on coverage and paper age; they are not quality scores or evidence of peer review.
+
+按 DOI 精确匹配 OpenAlex，包含 arXiv 预印本。引用量受收录范围和发表时间影响，不代表质量评分或已通过同行评审。
+
 ## Repository activity / 仓库动态
 
 | Repository / 仓库 | Stars | Last push (UTC) / 最近推送 | Fetched (UTC) / 采集时间 | Status / 状态 |

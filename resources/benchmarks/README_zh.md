@@ -29,19 +29,19 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)**<br>评测生成 RTL 的代码和配套材料，覆盖功能等价、模块完整性和 QoR，而不只是编译。 | [RTL](../../resources/tags/rtl.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.25335) | [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) | 0 | 2026-10-12<br>采集 2026-11-22 |
+| **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)**<br>评测生成 RTL 的代码和配套材料，覆盖功能等价、模块完整性和 QoR，而不只是编译。 | [RTL](../../resources/tags/rtl.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.25335) · [引用: 1 · OpenAlex](https://openalex.org/W7214100608)<br>采集 2026-11-24 | [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) | 0 | 2026-10-12<br>采集 2026-11-22 |
 
 ### 2026-06
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[RTL-BenchLS](../../resources/rtl-generation/rtl-benchls.md)**<br>提供一万多个经过形式验证的 Verilog 设计，用于往返推理、掩码内容推理和仓库问题修复，并提供数据和评测代码。 | [RTL](../../resources/tags/rtl.md) · [形式验证](../../resources/tags/formal.md) · [数据集](../../resources/tags/dataset.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2606.08976) | [hkust-zhiyao/RTL-BenchLS](https://github.com/hkust-zhiyao/RTL-BenchLS) | 6 | 2026-06-08<br>采集 2026-11-22 |
+| **[RTL-BenchLS](../../resources/rtl-generation/rtl-benchls.md)**<br>提供一万多个经过形式验证的 Verilog 设计，用于往返推理、掩码内容推理和仓库问题修复，并提供数据和评测代码。 | [RTL](../../resources/tags/rtl.md) · [形式验证](../../resources/tags/formal.md) · [数据集](../../resources/tags/dataset.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2606.08976) · [引用: 5 · OpenAlex](https://openalex.org/W7164053248)<br>采集 2026-11-24 | [hkust-zhiyao/RTL-BenchLS](https://github.com/hkust-zhiyao/RTL-BenchLS) | 6 | 2026-06-08<br>采集 2026-11-22 |
 
 ### 2026-01
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[ChipBench](../../resources/rtl-generation/chipbench.md)**<br>面向较真实的层次化硬件模块，评测 Verilog 生成、调试和参考模型生成。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [调试](../../resources/tags/debugging.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2601.21448) | [zhongkaiyu/ChipBench](https://github.com/zhongkaiyu/ChipBench) | 53 | 2026-11-22<br>采集 2026-11-22 |
+| **[ChipBench](../../resources/rtl-generation/chipbench.md)**<br>面向较真实的层次化硬件模块，评测 Verilog 生成、调试和参考模型生成。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [调试](../../resources/tags/debugging.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2601.21448) · [引用: 18 · OpenAlex](https://openalex.org/W7126243518)<br>采集 2026-11-24 | [zhongkaiyu/ChipBench](https://github.com/zhongkaiyu/ChipBench) | 53 | 2026-11-22<br>采集 2026-11-22 |
 
 ### 2026 · 月份待核实
 
@@ -81,7 +81,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[VeriBugBench](../../resources/verification-debugging/veribugbench.md)**<br>用于构建真实感 Verilog 调试任务的基准代码，包含变异和基于执行的筛选。 | [RTL](../../resources/tags/rtl.md) · [调试](../../resources/tags/debugging.md) · [基准](../../resources/tags/benchmark.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.18022) | [wndif/VeriBugBench](https://github.com/wndif/VeriBugBench) | 3 | 2026-09-01<br>采集 2026-11-22 |
+| **[VeriBugBench](../../resources/verification-debugging/veribugbench.md)**<br>用于构建真实感 Verilog 调试任务的基准代码，包含变异和基于执行的筛选。 | [RTL](../../resources/tags/rtl.md) · [调试](../../resources/tags/debugging.md) · [基准](../../resources/tags/benchmark.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.18022) · [引用: 2 · OpenAlex](https://openalex.org/W7213502839)<br>采集 2026-11-24 | [wndif/VeriBugBench](https://github.com/wndif/VeriBugBench) | 3 | 2026-09-01<br>采集 2026-11-22 |
 
 ### 2026-07
 
@@ -93,14 +93,14 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[HierSVA](../../resources/verification-debugging/hiersva.md)**<br>提供层次化 RTL 断言数据，并从证明、空洞性、规格忠实度和变异覆盖等维度评测生成的 SVA。 | [形式验证](../../resources/tags/formal.md) · [RTL](../../resources/tags/rtl.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2606.13706) | [HierSVAAnon/HierSVACodeAndArtifacts](https://github.com/HierSVAAnon/HierSVACodeAndArtifacts) | 3 | 2026-11-03<br>采集 2026-11-22 |
+| **[HierSVA](../../resources/verification-debugging/hiersva.md)**<br>提供层次化 RTL 断言数据，并从证明、空洞性、规格忠实度和变异覆盖等维度评测生成的 SVA。 | [形式验证](../../resources/tags/formal.md) · [RTL](../../resources/tags/rtl.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2606.13706) · [引用: 1 · OpenAlex](https://openalex.org/W7164826673)<br>采集 2026-11-24 | [HierSVAAnon/HierSVACodeAndArtifacts](https://github.com/HierSVAAnon/HierSVACodeAndArtifacts) | 3 | 2026-11-03<br>采集 2026-11-22 |
 
 ### 2026-04
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[DRAMBench / memory autoformalization](../../resources/verification-debugging/drambench.md)**<br>评测 Agent 将 DRAM 规格转为带时序 Petri 网的能力，提供协议行为与时序约束指标。 | [规格推断](../../resources/tags/specification.md) · [形式验证](../../resources/tags/formal.md) · [验证](../../resources/tags/verification.md) · [基准](../../resources/tags/benchmark.md) · [数据集](../../resources/tags/dataset.md)<br>论文 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2605.00058) | — | — | — |
-| **[HWE-Bench · Bug repair](../../resources/verification-debugging/hwe-bench-bug-repair.md)**<br>面向仓库级硬件 Bug 修复的基准，包含来自六个开源硬件项目的 417 个 fail-to-pass 任务。 | [RTL](../../resources/tags/rtl.md) · [调试](../../resources/tags/debugging.md) · [仓库级任务](../../resources/tags/repository-level.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2604.14709) | [pku-liang/hwe-bench](https://github.com/pku-liang/hwe-bench) | 76 | 2026-11-11<br>采集 2026-11-22 |
+| **[DRAMBench / memory autoformalization](../../resources/verification-debugging/drambench.md)**<br>评测 Agent 将 DRAM 规格转为带时序 Petri 网的能力，提供协议行为与时序约束指标。 | [规格推断](../../resources/tags/specification.md) · [形式验证](../../resources/tags/formal.md) · [验证](../../resources/tags/verification.md) · [基准](../../resources/tags/benchmark.md) · [数据集](../../resources/tags/dataset.md)<br>论文 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2605.00058) · [引用: 0 · OpenAlex](https://openalex.org/W7160183707)<br>采集 2026-11-24 | — | — | — |
+| **[HWE-Bench · Bug repair](../../resources/verification-debugging/hwe-bench-bug-repair.md)**<br>面向仓库级硬件 Bug 修复的基准，包含来自六个开源硬件项目的 417 个 fail-to-pass 任务。 | [RTL](../../resources/tags/rtl.md) · [调试](../../resources/tags/debugging.md) · [仓库级任务](../../resources/tags/repository-level.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2604.14709) · [引用: 17 · OpenAlex](https://openalex.org/W7154689853)<br>采集 2026-11-24 | [pku-liang/hwe-bench](https://github.com/pku-liang/hwe-bench) | 76 | 2026-11-11<br>采集 2026-11-22 |
 
 <a id="physical-design"></a>
 
@@ -110,19 +110,19 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[PlaceReasoner-Beta](../../resources/physical-design/place-reasoner-beta.md)**<br>以验证器引导的 Agent 进行宏单元布局，并提供使用布线后 PPA 与 DRC 评测的开放基准。 | [物理设计](../../resources/tags/physical-design.md) · [多 Agent](../../resources/tags/multi-agent.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.21263) | [fenggev56/PlaceReasoner-Beta](https://github.com/fenggev56/PlaceReasoner-Beta) | 2 | 2026-10-22<br>采集 2026-11-22 |
+| **[PlaceReasoner-Beta](../../resources/physical-design/place-reasoner-beta.md)**<br>以验证器引导的 Agent 进行宏单元布局，并提供使用布线后 PPA 与 DRC 评测的开放基准。 | [物理设计](../../resources/tags/physical-design.md) · [多 Agent](../../resources/tags/multi-agent.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.21263) · [引用: 1 · OpenAlex](https://openalex.org/W7213876703)<br>采集 2026-11-24 | [fenggev56/PlaceReasoner-Beta](https://github.com/fenggev56/PlaceReasoner-Beta) | 2 | 2026-10-22<br>采集 2026-11-22 |
 
 ### 2026-06
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[PDAgent-Bench](../../resources/physical-design/pdagent-bench.md)**<br>评测 VLSI 物理设计工作流中的上下文 grounding、任务执行和 Agent 架构选择。 | [物理设计](../../resources/tags/physical-design.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2606.17253) | — | — | — |
+| **[PDAgent-Bench](../../resources/physical-design/pdagent-bench.md)**<br>评测 VLSI 物理设计工作流中的上下文 grounding、任务执行和 Agent 架构选择。 | [物理设计](../../resources/tags/physical-design.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2606.17253) · [引用: 10 · OpenAlex](https://openalex.org/W7164992111)<br>采集 2026-11-24 | — | — | — |
 
 ### 2026-05
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[PostEDA-Bench](../../resources/physical-design/posteda-bench.md)**<br>评测初始 EDA 生成后，Agent 收敛 PPA 目标和修复 DRC 违规的能力。 | [物理设计](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [DRC](../../resources/tags/drc.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2605.06936) | — | — | — |
+| **[PostEDA-Bench](../../resources/physical-design/posteda-bench.md)**<br>评测初始 EDA 生成后，Agent 收敛 PPA 目标和修复 DRC 违规的能力。 | [物理设计](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [DRC](../../resources/tags/drc.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2605.06936) · [引用: 2 · OpenAlex](https://openalex.org/W7160842974)<br>采集 2026-11-24 | — | — | — |
 
 ### 2026 · 月份待核实
 
@@ -144,13 +144,13 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[SLIC](../../resources/analog-rf/slic.md)**<br>训练可本地部署的小语言模型，通过仿真反馈优化模拟电路尺寸，并跨放大器拓扑和工艺节点评测。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [电路尺寸优化](../../resources/tags/sizing.md) · [仿真](../../resources/tags/simulation.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>论文 / 开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2611.13452) | [slic-agent/slic-agent](https://github.com/slic-agent/slic-agent) | — | 指标暂不可用 |
+| **[SLIC](../../resources/analog-rf/slic.md)**<br>训练可本地部署的小语言模型，通过仿真反馈优化模拟电路尺寸，并跨放大器拓扑和工艺节点评测。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [电路尺寸优化](../../resources/tags/sizing.md) · [仿真](../../resources/tags/simulation.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>论文 / 开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2611.13452) · [引用: 0 · OpenAlex](https://openalex.org/W7225832018)<br>采集 2026-11-24 | [slic-agent/slic-agent](https://github.com/slic-agent/slic-agent) | — | 指标暂不可用 |
 
 ### 2026-09
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[Long-Horizon Analog Design Bench](../../resources/analog-rf/long-horizon-analog-design-bench.md)**<br>使用 17 位芯片设计者贡献的 50 项晶体管级设计任务评测 Agent，通过开源仿真器和隔离的验证器，在数小时运行过程中检查电气规格是否满足。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2609.33356) | — | — | — |
+| **[Long-Horizon Analog Design Bench](../../resources/analog-rf/long-horizon-analog-design-bench.md)**<br>使用 17 位芯片设计者贡献的 50 项晶体管级设计任务评测 Agent，通过开源仿真器和隔离的验证器，在数小时运行过程中检查电气规格是否满足。 | [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2609.33356) · [引用: 5 · OpenAlex](https://openalex.org/W7214808131)<br>采集 2026-11-24 | — | — | — |
 
 ### 2026-07
 
@@ -166,14 +166,14 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[AgenticBBO-Bench](../../resources/architecture-hls-codesign/agentic-bbo-bench.md)**<br>建立有限预算的 Agent 黑盒优化基准，覆盖包括芯片设计在内的五个领域。 | [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [架构探索](../../resources/tags/architecture.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2610.12183) | [lamda-bbo/agentic-bbo](https://github.com/lamda-bbo/agentic-bbo) | 5 | 2026-10-12<br>采集 2026-11-22 |
+| **[AgenticBBO-Bench](../../resources/architecture-hls-codesign/agentic-bbo-bench.md)**<br>建立有限预算的 Agent 黑盒优化基准，覆盖包括芯片设计在内的五个领域。 | [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [架构探索](../../resources/tags/architecture.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2610.12183) · [引用: 0 · OpenAlex](https://openalex.org/W7221155578)<br>采集 2026-11-24 | [lamda-bbo/agentic-bbo](https://github.com/lamda-bbo/agentic-bbo) | 5 | 2026-10-12<br>采集 2026-11-22 |
 
 ### 2026-09
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[HLSFactory-Agent](../../resources/architecture-hls-codesign/hlsfactory-agent.md)**<br>从仓库中抽取并评测 Agentic HLS 任务，构建可复现的大规模数据集。 | [HLS](../../resources/tags/hls.md) · [数据集](../../resources/tags/dataset.md) · [仓库级任务](../../resources/tags/repository-level.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2609.09519) | [sharc-lab/hlsfactory-agent](https://github.com/sharc-lab/hlsfactory-agent) | 2 | 2026-11-19<br>采集 2026-11-22 |
-| **[HLS-Eval](../../resources/architecture-hls-codesign/hls-eval.md)**<br>评测 Agentic HLS 设计任务、编译器自验证和 Agent 轨迹的框架。 | [HLS](../../resources/tags/hls.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.09526) | [sharc-lab/HLS-Eval](https://github.com/sharc-lab/HLS-Eval) | 29 | 2026-11-14<br>采集 2026-11-22 |
+| **[HLSFactory-Agent](../../resources/architecture-hls-codesign/hlsfactory-agent.md)**<br>从仓库中抽取并评测 Agentic HLS 任务，构建可复现的大规模数据集。 | [HLS](../../resources/tags/hls.md) · [数据集](../../resources/tags/dataset.md) · [仓库级任务](../../resources/tags/repository-level.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2609.09519) · [引用: 0 · OpenAlex](https://openalex.org/W7212106900)<br>采集 2026-11-24 | [sharc-lab/hlsfactory-agent](https://github.com/sharc-lab/hlsfactory-agent) | 2 | 2026-11-19<br>采集 2026-11-22 |
+| **[HLS-Eval](../../resources/architecture-hls-codesign/hls-eval.md)**<br>评测 Agentic HLS 设计任务、编译器自验证和 Agent 轨迹的框架。 | [HLS](../../resources/tags/hls.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.09526) · [引用: 1 · OpenAlex](https://openalex.org/W7212187774)<br>采集 2026-11-24 | [sharc-lab/HLS-Eval](https://github.com/sharc-lab/HLS-Eval) | 29 | 2026-11-14<br>采集 2026-11-22 |
 
 ### 2026 · 月份待核实
 
@@ -190,4 +190,4 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[HWE-Bench · Schematic design](../../resources/board-system-design/hwe-bench-schematic.md)**<br>板级设计基准，包含 300 个任务和 2,914 个 IC 数据手册组成的知识库。 | [板级 / PCB](../../resources/tags/board.md) · [基准](../../resources/tags/benchmark.md) · [数据集](../../resources/tags/dataset.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2603.18102) | — | — | — |
+| **[HWE-Bench · Schematic design](../../resources/board-system-design/hwe-bench-schematic.md)**<br>板级设计基准，包含 300 个任务和 2,914 个 IC 数据手册组成的知识库。 | [板级 / PCB](../../resources/tags/board.md) · [基准](../../resources/tags/benchmark.md) · [数据集](../../resources/tags/dataset.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2603.18102) · [引用: 3 · OpenAlex](https://openalex.org/W7139923325)<br>采集 2026-11-24 | — | — | — |

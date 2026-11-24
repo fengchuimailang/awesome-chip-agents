@@ -11,7 +11,7 @@ import { ToggleGroup, ToggleGroupItem } from './ui/toggle-group';
 import { ResourceCard, rememberListing } from './resource';
 import { defaults, filterQuery, findResources, paginate, pageSize, readFilters, type Filters } from '@/lib/catalog-state';
 import { cn } from '@/lib/utils';
-import { catalog, label, text, type Page } from '@/model';
+import { catalog, label, route, text, type Page } from '@/model';
 import { track } from '@/analytics';
 
 function writeFilters(filters: Filters, push = false) {
@@ -73,7 +73,8 @@ export function Listing({ page }: { page: Page }) {
   }
   const reset = () => { const next = { ...defaults, view: filters.view }; setFilters(next); writeFilters(next); };
   const collections = { benchmarks: l('Benchmarks & datasets', '基准与数据集'), tools: l('Tools & platforms', '工具与平台'), research: l('Papers & benchmarks', '论文与基准') };
-  const active = (['direction', 'type', 'tag', 'collection'] as const).filter(key => filters[key]);
+  const evidence = { code: l('Has code link', '有代码链接'), citations: l('Has citation data', '有引用数据') };
+  const active = (['direction', 'type', 'tag', 'collection', 'evidence'] as const).filter(key => filters[key]);
   const select = (key: 'direction' | 'type' | 'tag', vocabulary: 'directions' | 'types' | 'tags', title: string) =>
     <Field className="min-w-0 gap-2"><FieldLabel htmlFor={'filter-' + key}>{title}</FieldLabel>
       <NativeSelect id={'filter-' + key} value={filters[key]} onChange={event => update(key, event.target.value)}>
@@ -85,6 +86,7 @@ export function Listing({ page }: { page: Page }) {
   return <section className="catalog-section">
     <div className="section-heading"><div><p className="eyebrow">{l('THE RESOURCE LIBRARY', '资源库')}</p><h1>{page.kind === 'direction' ? label(catalog.taxonomy.directions[page.id!], locale) : l('Find your next building block.', '找到你的下一块积木。')}</h1></div>
       <span className="count">{resources.length} {l('resources', '项资源')}</span></div>
+    <p className="catalog-intro">{l('New to the field? ', '第一次来？')}<a href={route({ locale, kind: 'home' }) + '#getting-started'}>{l('Start with five guided reads', '先看五步阅读路线')} →</a></p>
     <form className="catalog-form" role="search" aria-label={l('Search resources', '搜索资源')} onSubmit={event => { event.preventDefault(); track('catalog_search', { query_length: filters.q.length, results: resources.length, language: locale }); }}>
       <FieldGroup><Field className="gap-0"><FieldLabel className="sr-only" htmlFor="resource-search">{l('Search resources', '搜索资源')}</FieldLabel>
         <InputGroup><InputGroupInput id="resource-search" type="search" placeholder={l('Search papers, tools, benchmarks…', '搜索论文、工具、基准…')} value={filters.q} onChange={event => update('q', event.target.value)} />
@@ -95,7 +97,7 @@ export function Listing({ page }: { page: Page }) {
         <div className="filter-toolbar">
           <CollapsibleTrigger asChild><Button type="button" variant="outline" className="mobile-filter-trigger"><SlidersHorizontalIcon data-icon="inline-start" aria-hidden="true" />{l('Filters', '筛选')}{active.length ? ' (' + active.length + ')' : ''}<ChevronDownIcon data-icon="inline-end" aria-hidden="true" /></Button></CollapsibleTrigger>
           <FieldGroup className="sort-field"><Field orientation="horizontal"><FieldLabel htmlFor="filter-sort">{l('Sort', '排序')}</FieldLabel>
-            <NativeSelect id="filter-sort" value={filters.sort} onChange={event => update('sort', event.target.value as Filters['sort'])}><NativeSelectOption value="date">{l('Newest first', '最新发布')}</NativeSelectOption><NativeSelectOption value="name">{l('Name', '名称')}</NativeSelectOption></NativeSelect>
+            <NativeSelect id="filter-sort" value={filters.sort} onChange={event => update('sort', event.target.value as Filters['sort'])}><NativeSelectOption value="date">{l('Newest first', '最新发布')}</NativeSelectOption><NativeSelectOption value="citations">{l('Most cited', '引用最多')}</NativeSelectOption><NativeSelectOption value="stars">{l('Most stars', 'Stars 最多')}</NativeSelectOption><NativeSelectOption value="name">{l('Name', '名称')}</NativeSelectOption></NativeSelect>
           </Field></FieldGroup>
         </div>
         <CollapsibleContent forceMount className="filter-content">
@@ -105,17 +107,21 @@ export function Listing({ page }: { page: Page }) {
             <Field className="min-w-0 gap-2"><FieldLabel htmlFor="filter-collection">{l('Collection', '资源集合')}</FieldLabel><NativeSelect id="filter-collection" value={filters.collection} onChange={event => update('collection', event.target.value as Filters['collection'])}>
               <NativeSelectOption value="">{l('All', '全部')}</NativeSelectOption>{Object.entries(collections).map(([id, title]) => <NativeSelectOption key={id} value={id}>{title}</NativeSelectOption>)}
             </NativeSelect></Field>
+            <Field className="min-w-0 gap-2"><FieldLabel htmlFor="filter-evidence">{l('Available material', '资料情况')}</FieldLabel><NativeSelect id="filter-evidence" value={filters.evidence} onChange={event => update('evidence', event.target.value as Filters['evidence'])}>
+              <NativeSelectOption value="">{l('All', '全部')}</NativeSelectOption>{Object.entries(evidence).map(([id, title]) => <NativeSelectOption key={id} value={id}>{title}</NativeSelectOption>)}
+            </NativeSelect></Field>
           </FieldGroup>
         </CollapsibleContent>
       </Collapsible>
       {(active.length > 0 || filters.q) && <div className="selected-filters" aria-label={l('Selected filters', '已选条件')}>
         {active.map(key => {
-          const title = key === 'collection' ? collections[filters.collection as keyof typeof collections] : label(catalog.taxonomy[key === 'direction' ? 'directions' : key === 'type' ? 'types' : 'tags'][filters[key]], locale);
+          const title = key === 'collection' ? collections[filters.collection as keyof typeof collections] : key === 'evidence' ? evidence[filters.evidence as keyof typeof evidence] : label(catalog.taxonomy[key === 'direction' ? 'directions' : key === 'type' ? 'types' : 'tags'][filters[key]], locale);
           return <Button key={key} type="button" variant="outline" onClick={() => update(key, '')} aria-label={l('Remove filter: ', '移除筛选：') + title}>{title}<XIcon data-icon="inline-end" aria-hidden="true" /></Button>;
         })}
         <Button type="button" variant="ghost" onClick={reset}>{l('Clear all', '清除全部')}</Button>
       </div>}
     </form>
+    {(filters.sort === 'citations' || filters.sort === 'stars') && <p className="fine-print" role="status">{filters.sort === 'citations' ? l('OpenAlex snapshots; papers without data appear last. Older papers have had more time to accumulate citations.', '按 OpenAlex 引用快照排序，无数据的排在最后；发表较早的论文有更多时间积累引用。') : l('Sorted by the first repository shown for each resource; unavailable counts appear last. Stars measure attention.', '按每项资源首个仓库的 Stars 排序，暂无数据的排在最后。Stars 反映关注度。')} <a href={route({ locale, kind: 'metrics' })}>{l('About these metrics', '了解统计口径')}</a></p>}
     <div className="results-toolbar" ref={resultsRef} tabIndex={-1}>
       <p className="count" aria-live="polite">{ready && resources.length ? `${(pagination.page - 1) * pageSize + 1}–${Math.min(pagination.page * pageSize, resources.length)} / ` : ''}{resources.length} {l('resources', '项资源')}</p>
       <ToggleGroup type="single" variant="outline" value={filters.view} onValueChange={value => { if (value) update('view', value as Filters['view']); }} aria-label={l('Display mode', '显示方式')}>
@@ -134,6 +140,6 @@ export function Listing({ page }: { page: Page }) {
       <PaginationItem><PaginationNext href={filterQuery({ ...filters, page: pagination.page + 1 })} text={l('Next', '下一页')} aria-label={l('Next page', '下一页')} aria-disabled={pagination.page === pagination.pages} tabIndex={pagination.page === pagination.pages ? -1 : undefined} onClick={event => { event.preventDefault(); if (pagination.page < pagination.pages) update('page', pagination.page + 1); }} /></PaginationItem>
     </PaginationContent></Pagination>}
     <noscript><p className="fine-print">{l('All resources are shown. Enable JavaScript to search, filter, or paginate.', '当前展示全部资源；启用 JavaScript 后可搜索、筛选和分页。')}</p></noscript>
-    <p className="fine-print">{l('Dates reflect publication, not repository activity. Stars are snapshots, not quality scores.', '日期采用资源发布时间，不采用仓库推送时间。Stars 为快照，不代表质量评分。')}</p>
+    <p className="fine-print">{l('Dates reflect publication. Stars and citations are snapshots, not quality scores. A code link does not establish reproducibility.', '日期采用资源发布时间。Stars 与引用数为快照，不代表质量评分；有代码链接不等于已验证可复现。')}</p>
   </section>;
 }

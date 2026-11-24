@@ -8,6 +8,8 @@ import re
 import subprocess
 
 from catalog import ROOT, load_catalog, repositories, sorted_records
+from paper_stats import paper_identity, snapshot_for
+from reading_paths import load_paths
 
 
 def repository_url(root):
@@ -25,6 +27,8 @@ def build_payload(root=ROOT):
     cache = json.loads((root / "data/repo-stats.json").read_text())
     usage_path = root / "data/download-stats.json"
     usage = json.loads(usage_path.read_text()) if usage_path.exists() else {}
+    paper_path = root / "data/paper-stats.json"
+    papers = json.loads(paper_path.read_text()) if paper_path.exists() else {}
     revision = subprocess.run(
         ["git", "rev-parse", "HEAD"], cwd=root, capture_output=True, text=True, check=False,
     ).stdout.strip()
@@ -44,6 +48,7 @@ def build_payload(root=ROOT):
             **meta,
             "description": [part.strip() for part in descriptions.groups()],
             "path": record["path"].relative_to(root).as_posix(),
+            "paper": {"doi": paper_identity(meta), **snapshot_for(meta, papers)},
             "repositories": [
                 {"name": repo, **cache.get(repo.lower(), {})}
                 for repo in repositories(meta)
@@ -59,7 +64,7 @@ def build_payload(root=ROOT):
     return {
         "schema_version": 1, "repository": repository_url(root),
         "revision": revision, "working_tree": bool(dirty),
-        "taxonomy": taxonomy, "resources": exported,
+        "taxonomy": taxonomy, "resources": exported, "reading_paths": load_paths(root, records),
     }
 
 

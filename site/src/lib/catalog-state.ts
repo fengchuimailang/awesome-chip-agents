@@ -3,10 +3,11 @@ import type { Pair, Resource } from '../model';
 export type Taxonomy = Record<'directions' | 'tags' | 'types', Record<string, Pair>>;
 export type Filters = {
   q: string; direction: string; type: string; tag: string;
-  sort: 'date' | 'name'; collection: '' | 'benchmarks' | 'tools' | 'research';
+  sort: 'date' | 'name' | 'citations' | 'stars'; collection: '' | 'benchmarks' | 'tools' | 'research';
+  evidence: '' | 'code' | 'citations';
   page: number; view: 'cards' | 'list';
 };
-export const defaults: Filters = { q: '', direction: '', type: '', tag: '', sort: 'date', collection: '', page: 1, view: 'cards' };
+export const defaults: Filters = { q: '', direction: '', type: '', tag: '', sort: 'date', collection: '', evidence: '', page: 1, view: 'cards' };
 export const pageSize = 24;
 
 export function readFilters(query: string, taxonomy: Taxonomy): Filters {
@@ -17,10 +18,13 @@ export function readFilters(query: string, taxonomy: Taxonomy): Filters {
   };
   const page = params.get('page') || '1';
   const collection = params.get('collection');
+  const sort = params.get('sort');
+  const evidence = params.get('evidence');
   return {
     q: params.get('q') || '', direction: known('direction', 'directions'),
     type: known('type', 'types'), tag: known('tag', 'tags'),
-    sort: params.get('sort') === 'name' ? 'name' : 'date',
+    sort: sort === 'name' || sort === 'citations' || sort === 'stars' ? sort : 'date',
+    evidence: evidence === 'code' || evidence === 'citations' ? evidence : '',
     collection: collection === 'tools' || collection === 'research' || collection === 'benchmarks' ? collection : '',
     page: /^[1-9]\d*$/.test(page) && Number.isSafeInteger(Number(page)) ? Number(page) : 1,
     view: params.get('view') === 'list' ? 'list' : 'cards',
@@ -53,9 +57,19 @@ export function findResources(resources: Resource[], filters: Filters, taxonomy:
     const searchable = [r.name, r.title, ...r.summary, ...r.description, ...r.tags.flatMap(tag => taxonomy.tags[tag])].join(' ').toLocaleLowerCase();
     return (!direction || r.direction === direction || r.also_in.includes(direction)) &&
       (!filters.type || r.types.includes(filters.type)) && (!filters.tag || r.tags.includes(filters.tag)) &&
-      inCollection(r, filters.collection) && words.every(word => searchable.includes(word));
-  }).sort((a, b) => filters.sort === 'name' ? a.name.localeCompare(b.name) :
-    (b.date || '').localeCompare(a.date || '') || b.id.localeCompare(a.id));
+      inCollection(r, filters.collection) && words.every(word => searchable.includes(word)) &&
+      (filters.evidence !== 'code' || r.links.some(link => link.kind === 'repository')) &&
+      (filters.evidence !== 'citations' || r.paper.citation_count !== undefined);
+  }).sort((a, b) => {
+    if (filters.sort === 'name') return a.name.localeCompare(b.name) || a.id.localeCompare(b.id);
+    // Missing data comes after a measured zero. Stars match the first repository shown on cards.
+    const value = (r: Resource) => filters.sort === 'citations' ? r.paper.citation_count : r.repositories[0]?.stars;
+    if (filters.sort === 'citations' || filters.sort === 'stars') {
+      const difference = (value(b) ?? -1) - (value(a) ?? -1);
+      if (difference) return difference;
+    }
+    return (b.date || '').localeCompare(a.date || '') || b.id.localeCompare(a.id);
+  });
 }
 
 export function paginate<T>(items: T[], requestedPage: number) {

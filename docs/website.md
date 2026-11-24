@@ -8,7 +8,9 @@ Edit `resources/` metadata and English/Chinese descriptions, plus the fixed voca
 
 The website generates English and Simplified Chinese home, catalog, direction, metric, and resource pages as HTML. React hydrates search and filters. Query parameters preserve filters when sharing links or switching languages. Publication dates, year-only precision, unknown dates, cross-references, and source notes follow the catalog. The footer identifies the source revision and local changes.
 
-The interactive catalog shows 24 entries per page, with card and compact list views. URLs preserve `q`, `direction`, `type`, `tag`, `collection`, `sort`, `page`, and `view`. Collections distinguish tools/platforms, papers/benchmarks, and benchmarks/datasets using existing metadata. Home task shortcuts use these same filters. Without JavaScript, catalog HTML includes every resource.
+The interactive catalog shows 24 entries per page, with card and compact list views. URLs preserve `q`, `direction`, `type`, `tag`, `collection`, `evidence`, `sort`, `page`, and `view`. Collections distinguish tools/platforms, papers/benchmarks, and benchmarks/datasets using existing metadata. Home task shortcuts use these same filters. Without JavaScript, catalog HTML includes every resource.
+
+The home page starts newcomers on a five-step route from `data/reading-paths.json`, also rendered in both README files. Each step explains its purpose and reading focus. The catalog supports `sort=citations` (OpenAlex), `sort=stars` (the first repository shown), and `evidence=code` or `evidence=citations`. Missing counts sort after measured zeros. Citation cards and details show the source and collection date; failed refreshes retain and label previous values. See the [citation and reading-path policy](../CONTRIBUTING.md#paper-citations-and-reading-paths--论文引用与阅读路线).
 
 Detail links carry a validated local `from` route to return to the same results. Optional tab-scoped session storage restores the scroll position; browsing works when storage is unavailable. Copy-link actions share the clean resource URL, excluding return context, and show a selectable URL if clipboard access fails. The first-contribution shortcut opens GitHub issues labeled `good first issue`.
 
@@ -22,7 +24,7 @@ Enable **Settings → Pages → Build and deployment → Source: GitHub Actions*
 
 The default URL is inferred from the GitHub owner and repository. For a custom domain, configure it in Pages and set repository Actions variable `SITE_URL` to the full HTTPS website root with a trailing slash. The build derives the Vite base path, canonical URLs, alternate-language URLs, sitemap, and robots file.
 
-The existing statistics schedule is Monday 00:00 Asia/Shanghai. It refreshes repository and configured download snapshots, regenerates Markdown, and commits data and rendered content. It explicitly calls deployment after refresh, including partial provider failures, rather than relying on another push workflow triggered by a bot commit. Failed providers retain good snapshots and still report a failed refresh.
+The existing statistics schedule is Monday 00:00 Asia/Shanghai. It refreshes repository and configured download snapshots, checks paper snapshots for the 30-day refresh interval, regenerates Markdown, and commits data and rendered content. It explicitly calls deployment after refresh, including partial provider failures, rather than relying on another push workflow triggered by a bot commit. Failed providers retain good snapshots and still report a failed refresh.
 
 ### Visit and click analytics
 
@@ -70,7 +72,9 @@ References: [Vite prerendering](https://vite.dev/guide/ssr.html#pre-rendering-ss
 
 中英文首页、列表、方向、统计和资源详情均生成 HTML，React 接管搜索筛选。URL 查询参数保留筛选条件，支持分享和切换语言。日期精度、未知日期、跨方向入口及来源说明沿用目录。页脚标注来源版本和本地修改状态。
 
-交互列表每页显示 24 项，可切换卡片与紧凑列表。URL 保留 `q`、`direction`、`type`、`tag`、`collection`、`sort`、`page`、`view`。资源集合按已有 metadata 区分工具与平台、论文与基准、基准与数据集，首页任务快捷入口复用这些筛选。关闭 JavaScript 后，列表 HTML 仍包含全部资源。
+交互列表每页显示 24 项，可切换卡片与紧凑列表。URL 保留 `q`、`direction`、`type`、`tag`、`collection`、`evidence`、`sort`、`page`、`view`。资源集合按已有 metadata 区分工具与平台、论文与基准、基准与数据集，首页任务快捷入口复用这些筛选。关闭 JavaScript 后，列表 HTML 仍包含全部资源。
+
+首页用 `data/reading-paths.json` 的五步路线引导新用户，并同步到中英文 README；每步说明阅读目的与重点。资源库支持按引用数（`sort=citations`，OpenAlex）或首个展示仓库的 Stars（`sort=stars`）排序，以及有代码链接（`evidence=code`）或有引用数据（`evidence=citations`）筛选。缺失计数排在实际零值之后。引用卡片与详情显示来源和采集日期，刷新失败保留并标注旧值。详见[引用与阅读路线规则](../CONTRIBUTING.md#paper-citations-and-reading-paths--论文引用与阅读路线)。
 
 详情链接通过经过校验的站内 `from` 路径返回原结果；可选的标签页会话存储用于恢复滚动位置，存储不可用时仍可浏览。复制链接使用不含返回上下文的资源地址，剪贴板访问失败时显示可选中复制的地址。首次贡献入口打开 GitHub 中标记为 `good first issue` 的任务。
 
@@ -84,7 +88,7 @@ PR 检查 Markdown 生成结果、运行 Python 测试、构建网站，并验�
 
 默认地址根据 GitHub 用户和仓库名称生成。自定义域名需在 Pages 配置，并设置 Actions 变量 `SITE_URL` 为完整 HTTPS 网站根地址，以 `/` 结尾。构建据此生成 Vite 子路径、规范地址、另一语言地址、站点地图和 robots 文件。
 
-现有指标刷新时间为每周一北京时间 00:00。流程刷新仓库和下载来源、重新生成 Markdown、提交快照，并显式调用部署工作流。部分来源失败时仍发布成功数据和保留的快照，同时刷新任务明确报告失败，无需依赖机器人提交再次触发 push。
+现有指标刷新时间为每周一北京时间 00:00。流程刷新仓库和下载来源，按 30 天间隔检查论文引用快照，重新生成 Markdown、提交快照，并显式调用部署工作流。部分来源失败时仍发布成功数据和保留的快照，同时刷新任务明确报告失败，无需依赖机器人提交再次触发 push。
 
 ### 访问与链接点击
 

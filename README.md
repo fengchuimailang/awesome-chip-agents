@@ -8,6 +8,20 @@ A curated catalog of **LLM agents for chip design**. Browse by direction, then p
 
 If this catalog helps your work, [star the repository](https://github.com/fengchuimailang/awesome-chip-agents) to help other chip-design researchers find it.
 
+## Your first five reads
+
+Build a map of the field, understand a benchmark, follow a feedback loop, then examine an agent and its evaluation. This introductory route uses RTL as a concrete example.
+
+Before you start: Basic digital logic and Verilog terminology. Start by reading; these steps do not require installing EDA tools.
+
+| Step / Resource | Why read it | Focus on |
+| --- | --- | --- |
+| 1. [LLMs for EDA: Future or Mirage?](resources/agent-infrastructure/llms-for-eda-survey.md) | Get an overview before choosing a design direction. | Identify generation, verification, and agentic workflows; note which problems interest you. |
+| 2. [VerilogEval](resources/rtl-generation/verilogeval.md) | Understand what a generated design must pass before comparing methods. | Read the task descriptions and simulation-based functional evaluation; distinguish compiling from being correct. |
+| 3. [AutoChip](resources/rtl-generation/autochip.md) | Learn a compiler-and-simulator feedback loop used to improve generated HDL. | Trace generation, tool feedback, and revision; inspect the experimental setup before the reported scores. |
+| 4. [VerilogCoder](resources/rtl-generation/verilogcoder.md) | See how planning and waveform tracing extend a generation loop into an agent workflow. | Follow the roles of planning, simulation, and debugging, and the information passed between them. |
+| 5. [GRADE-RTL](resources/rtl-generation/grade-rtl.md) | Finish by examining evaluation beyond compilation. | Compare functional equivalence, completeness, and QoR; record the tools and conditions behind each result. |
+
 ## Browse by Direction
 
 Each record has one primary direction. Cross-references link to the same detail file.
@@ -33,7 +47,7 @@ Each record has one primary direction. Cross-references link to the same detail 
 
 Months follow the earliest public date documented here, using the arXiv identifier month where only that precision is known. Conference years and revisions remain in resource notes; year-only and undated resources have separate groups. Repository push dates never change publication groups.
 
-GitHub stars and latest push times are weekly snapshots with collection timestamps. Failed refreshes retain previous snapshots. These indicators help assess visibility and activity, not research quality. See the [update policy](CONTRIBUTING.md#repository-metadata).
+GitHub stars and push times are weekly snapshots; OpenAlex citations refresh after 30 days using exact DOI matches, including preprints. Collection dates and sources are shown; missing data is not zero, and failed refreshes retain previous snapshots. Counts reflect attention, coverage, and publication age, not research quality. See the [update policy](CONTRIBUTING.md#repository-metadata).
 
 ## Scope
 

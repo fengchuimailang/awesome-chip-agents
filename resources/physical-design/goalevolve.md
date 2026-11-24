@@ -45,6 +45,17 @@
 
 - **Paper / 论文：** [GoalEvolve: From Handcrafted Algorithm Priors to Goal-Driven Evolution of Physical Design Algorithms](https://arxiv.org/abs/2608.16733)
 
+## Paper citations / 论文引用
+
+- **OpenAlex：** [2 citations / 次引用](https://openalex.org/W7203663338)
+- **DOI：** [10.48550/arxiv.2608.16733](https://doi.org/10.48550/arxiv.2608.16733)
+- **Fetched (UTC) / 采集时间：** 2026-11-24T02:53:34Z
+- **Indexed in / 收录来源：** arXiv (Cornell University)
+
+Exact DOI match in OpenAlex, including arXiv preprints. Counts depend on coverage and paper age; they are not quality scores or evidence of peer review.
+
+按 DOI 精确匹配 OpenAlex，包含 arXiv 预印本。引用量受收录范围和发表时间影响，不代表质量评分或已通过同行评审。
+
 **Repository / 仓库：** No related public repository link recorded / 暂未记录相关公开仓库链接。
 <!-- resource:end -->
 

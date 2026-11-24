@@ -57,6 +57,10 @@ export function ResourceCard({ resource: r, locale, from, compact = false }: { r
       <div className="card-bottom"><span>{r.types.map(type => label(catalog.taxonomy.types[type], locale)).join(' · ')}</span>
         {repository && <span className="star-count" title={l('GitHub snapshot; collection date in detail', 'GitHub 快照；采集时间见详情')}><StarIcon aria-hidden="true" /><span className="sr-only">GitHub Stars: </span>{repository.stars === undefined ? '—' : repository.stars.toLocaleString(locale)}{repository.fetch_error ? ' *' : ''}</span>}
       </div>
+      {r.paper.citation_count !== undefined && r.paper.url && <div className="citation-summary">
+        <External href={r.paper.url} locale={locale} resource={r.id} kind="metric_source">{l('Citations', '引用')} {r.paper.citation_count.toLocaleString(locale)}</External>
+        <span>OpenAlex · {r.paper.fetched_at?.slice(0, 10)}{r.paper.fetch_error ? l(' · refresh failed', ' · 刷新失败') : ''}</span>
+      </div>}
     </CardFooter>
   </Card>;
 }

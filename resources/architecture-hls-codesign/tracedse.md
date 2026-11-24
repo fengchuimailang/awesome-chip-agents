@@ -35,6 +35,17 @@
 
 - **Paper / 论文：** [Agentic Design Space Exploration for Joint Hardware Configuration Selection and Mapping of AI Inference Workloads on Heterogeneous Edge SoCs](https://arxiv.org/abs/2610.07191)
 
+## Paper citations / 论文引用
+
+- **OpenAlex：** [0 citations / 次引用](https://openalex.org/W7221038881)
+- **DOI：** [10.48550/arxiv.2610.07191](https://doi.org/10.48550/arxiv.2610.07191)
+- **Fetched (UTC) / 采集时间：** 2026-11-24T02:53:34Z
+- **Indexed in / 收录来源：** arXiv (Cornell University)
+
+Exact DOI match in OpenAlex, including arXiv preprints. Counts depend on coverage and paper age; they are not quality scores or evidence of peer review.
+
+按 DOI 精确匹配 OpenAlex，包含 arXiv 预印本。引用量受收录范围和发表时间影响，不代表质量评分或已通过同行评审。
+
 **Repository / 仓库：** No related public repository link recorded / 暂未记录相关公开仓库链接。
 <!-- resource:end -->
 

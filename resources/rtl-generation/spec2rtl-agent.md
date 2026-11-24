@@ -54,6 +54,16 @@
 - **Paper / 论文：** [Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems](https://research.nvidia.com/publication/2025-06_spec2rtl-agent-automated-hardware-code-generation-complex-specifications-using)
 - **Paper / 论文：** [Spec2RTL-Agent paper](https://arxiv.org/abs/2506.13905)
 
+## Paper citations / 论文引用
+
+- **OpenAlex：** Exact DOI not indexed / 未收录该 DOI
+- **DOI：** [10.48550/arxiv.2506.13905](https://doi.org/10.48550/arxiv.2506.13905)
+- **Fetched (UTC) / 采集时间：** 2026-11-24T02:53:34Z
+
+Exact DOI match in OpenAlex, including arXiv preprints. Counts depend on coverage and paper age; they are not quality scores or evidence of peer review.
+
+按 DOI 精确匹配 OpenAlex，包含 arXiv 预印本。引用量受收录范围和发表时间影响，不代表质量评分或已通过同行评审。
+
 **Repository / 仓库：** No related public repository link recorded / 暂未记录相关公开仓库链接。
 <!-- resource:end -->
 

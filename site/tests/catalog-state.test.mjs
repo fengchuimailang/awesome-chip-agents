@@ -6,12 +6,25 @@ import { defaults, filterQuery, findResources, inCollection, paginate, primarySo
 const { resources, taxonomy } = JSON.parse(await readFile(new URL('../src/generated/catalog.json', import.meta.url), 'utf8'));
 
 test('shared bilingual links round-trip search, filters, page and view; invalid values fall back', () => {
-  const filters = { ...defaults, q: '波形 MCP + RTL', tag: 'waveform', sort: 'name', collection: 'tools', page: 2, view: 'list' };
+  const filters = { ...defaults, q: '波形 MCP + RTL', tag: 'waveform', sort: 'citations', collection: 'tools', evidence: 'code', page: 2, view: 'list' };
   assert.deepEqual(readFilters(filterQuery(filters), taxonomy), filters);
   for (const page of ['-1', '1.5', 'Infinity', '9007199254740992', '0']) {
     assert.equal(readFilters('?page=' + page, taxonomy).page, 1);
   }
-  assert.deepEqual(readFilters('?direction=missing&type=missing&tag=toString&sort=stars&view=missing&collection=missing', taxonomy), defaults);
+  assert.deepEqual(readFilters('?direction=missing&type=missing&tag=toString&sort=unknown&view=missing&collection=missing&evidence=missing', taxonomy), defaults);
+});
+
+test('citation and star sorts distinguish missing counts from zero and retain old snapshots on error', () => {
+  const fixture = (id, count, stars, date = '2026-01') => ({ ...resources[0], id, date,
+    paper: { citation_count: count }, repositories: [{ stars }, { stars: 99999 }] });
+  const items = [fixture('missing', undefined, undefined, '2026-11'), fixture('zero', 0, 0), fixture('popular', 5, 20),
+    { ...fixture('stale', 10, 10), paper: { citation_count: 10, fetch_error: 'offline' } }];
+  assert.deepEqual(findResources(items, { ...defaults, sort: 'citations' }, taxonomy).map(r => r.id), ['stale', 'popular', 'zero', 'missing']);
+  assert.deepEqual(findResources(items, { ...defaults, sort: 'stars' }, taxonomy).map(r => r.id), ['popular', 'stale', 'zero', 'missing']);
+  assert.deepEqual(findResources(items, { ...defaults, evidence: 'citations', sort: 'citations' }, taxonomy).map(r => r.id), ['stale', 'popular', 'zero']);
+  const linked = findResources(resources, { ...defaults, evidence: 'code' }, taxonomy);
+  assert.ok(linked.length > 0);
+  assert.ok(linked.every(r => r.links.some(link => link.kind === 'repository')));
 });
 
 test('pages partition the catalog without losing or duplicating resources and clamp stale links', () => {

@@ -29,19 +29,19 @@
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)**<br>Evaluation code and collateral for measuring generated RTL beyond compilation, including functional equivalence, completeness, and QoR. | [RTL](../../resources/tags/rtl.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>Open-source project / Benchmark / dataset | [Paper](https://arxiv.org/abs/2609.25335) | [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) | 0 | 2026-10-12<br>Fetched 2026-11-22 |
+| **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)**<br>Evaluation code and collateral for measuring generated RTL beyond compilation, including functional equivalence, completeness, and QoR. | [RTL](../../resources/tags/rtl.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>Open-source project / Benchmark / dataset | [Paper](https://arxiv.org/abs/2609.25335) · [Citations: 1 · OpenAlex](https://openalex.org/W7214100608)<br>Fetched 2026-11-24 | [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) | 0 | 2026-10-12<br>Fetched 2026-11-22 |
 
 ### 2026-06
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[RTL-BenchLS](../../resources/rtl-generation/rtl-benchls.md)**<br>Provides more than 10,000 formally verified Verilog designs for round-trip reasoning, masked-content reasoning, and repository-issue repair, with data and evaluation code. | [RTL](../../resources/tags/rtl.md) · [Formal verification](../../resources/tags/formal.md) · [Dataset](../../resources/tags/dataset.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2606.08976) | [hkust-zhiyao/RTL-BenchLS](https://github.com/hkust-zhiyao/RTL-BenchLS) | 6 | 2026-06-08<br>Fetched 2026-11-22 |
+| **[RTL-BenchLS](../../resources/rtl-generation/rtl-benchls.md)**<br>Provides more than 10,000 formally verified Verilog designs for round-trip reasoning, masked-content reasoning, and repository-issue repair, with data and evaluation code. | [RTL](../../resources/tags/rtl.md) · [Formal verification](../../resources/tags/formal.md) · [Dataset](../../resources/tags/dataset.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2606.08976) · [Citations: 5 · OpenAlex](https://openalex.org/W7164053248)<br>Fetched 2026-11-24 | [hkust-zhiyao/RTL-BenchLS](https://github.com/hkust-zhiyao/RTL-BenchLS) | 6 | 2026-06-08<br>Fetched 2026-11-22 |
 
 ### 2026-01
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[ChipBench](../../resources/rtl-generation/chipbench.md)**<br>Benchmark covering Verilog generation, debugging, and reference-model generation on realistic, hierarchical hardware modules. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Debugging](../../resources/tags/debugging.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2601.21448) | [zhongkaiyu/ChipBench](https://github.com/zhongkaiyu/ChipBench) | 53 | 2026-11-22<br>Fetched 2026-11-22 |
+| **[ChipBench](../../resources/rtl-generation/chipbench.md)**<br>Benchmark covering Verilog generation, debugging, and reference-model generation on realistic, hierarchical hardware modules. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Debugging](../../resources/tags/debugging.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2601.21448) · [Citations: 18 · OpenAlex](https://openalex.org/W7126243518)<br>Fetched 2026-11-24 | [zhongkaiyu/ChipBench](https://github.com/zhongkaiyu/ChipBench) | 53 | 2026-11-22<br>Fetched 2026-11-22 |
 
 ### 2026 · month not verified
 
@@ -81,7 +81,7 @@
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[VeriBugBench](../../resources/verification-debugging/veribugbench.md)**<br>Benchmark construction code for empirically grounded Verilog debugging tasks with mutation and execution-based filtering. | [RTL](../../resources/tags/rtl.md) · [Debugging](../../resources/tags/debugging.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Open-source project / Benchmark / dataset | [Paper](https://arxiv.org/abs/2609.18022) | [wndif/VeriBugBench](https://github.com/wndif/VeriBugBench) | 3 | 2026-09-01<br>Fetched 2026-11-22 |
+| **[VeriBugBench](../../resources/verification-debugging/veribugbench.md)**<br>Benchmark construction code for empirically grounded Verilog debugging tasks with mutation and execution-based filtering. | [RTL](../../resources/tags/rtl.md) · [Debugging](../../resources/tags/debugging.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Open-source project / Benchmark / dataset | [Paper](https://arxiv.org/abs/2609.18022) · [Citations: 2 · OpenAlex](https://openalex.org/W7213502839)<br>Fetched 2026-11-24 | [wndif/VeriBugBench](https://github.com/wndif/VeriBugBench) | 3 | 2026-09-01<br>Fetched 2026-11-22 |
 
 ### 2026-07
 
@@ -93,14 +93,14 @@
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[HierSVA](../../resources/verification-debugging/hiersva.md)**<br>Provides hierarchical RTL assertion data and evaluates generated SVA for proof, vacuity, specification faithfulness, and mutation coverage. | [Formal verification](../../resources/tags/formal.md) · [RTL](../../resources/tags/rtl.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Open-source project / Benchmark / dataset | [Paper](https://arxiv.org/abs/2606.13706) | [HierSVAAnon/HierSVACodeAndArtifacts](https://github.com/HierSVAAnon/HierSVACodeAndArtifacts) | 3 | 2026-11-03<br>Fetched 2026-11-22 |
+| **[HierSVA](../../resources/verification-debugging/hiersva.md)**<br>Provides hierarchical RTL assertion data and evaluates generated SVA for proof, vacuity, specification faithfulness, and mutation coverage. | [Formal verification](../../resources/tags/formal.md) · [RTL](../../resources/tags/rtl.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Open-source project / Benchmark / dataset | [Paper](https://arxiv.org/abs/2606.13706) · [Citations: 1 · OpenAlex](https://openalex.org/W7164826673)<br>Fetched 2026-11-24 | [HierSVAAnon/HierSVACodeAndArtifacts](https://github.com/HierSVAAnon/HierSVACodeAndArtifacts) | 3 | 2026-11-03<br>Fetched 2026-11-22 |
 
 ### 2026-04
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[DRAMBench / memory autoformalization](../../resources/verification-debugging/drambench.md)**<br>Evaluates agents translating DRAM specifications into timed Petri nets, with protocol-behavior and timing-constraint metrics. | [Specifications](../../resources/tags/specification.md) · [Formal verification](../../resources/tags/formal.md) · [Verification](../../resources/tags/verification.md) · [Benchmark](../../resources/tags/benchmark.md) · [Dataset](../../resources/tags/dataset.md)<br>Paper / Benchmark / dataset | [Paper](https://arxiv.org/abs/2605.00058) | — | — | — |
-| **[HWE-Bench · Bug repair](../../resources/verification-debugging/hwe-bench-bug-repair.md)**<br>Repository-level benchmark with 417 fail-to-pass bug-fix tasks from six open-source hardware projects. | [RTL](../../resources/tags/rtl.md) · [Debugging](../../resources/tags/debugging.md) · [Repository-level tasks](../../resources/tags/repository-level.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2604.14709) | [pku-liang/hwe-bench](https://github.com/pku-liang/hwe-bench) | 76 | 2026-11-11<br>Fetched 2026-11-22 |
+| **[DRAMBench / memory autoformalization](../../resources/verification-debugging/drambench.md)**<br>Evaluates agents translating DRAM specifications into timed Petri nets, with protocol-behavior and timing-constraint metrics. | [Specifications](../../resources/tags/specification.md) · [Formal verification](../../resources/tags/formal.md) · [Verification](../../resources/tags/verification.md) · [Benchmark](../../resources/tags/benchmark.md) · [Dataset](../../resources/tags/dataset.md)<br>Paper / Benchmark / dataset | [Paper](https://arxiv.org/abs/2605.00058) · [Citations: 0 · OpenAlex](https://openalex.org/W7160183707)<br>Fetched 2026-11-24 | — | — | — |
+| **[HWE-Bench · Bug repair](../../resources/verification-debugging/hwe-bench-bug-repair.md)**<br>Repository-level benchmark with 417 fail-to-pass bug-fix tasks from six open-source hardware projects. | [RTL](../../resources/tags/rtl.md) · [Debugging](../../resources/tags/debugging.md) · [Repository-level tasks](../../resources/tags/repository-level.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2604.14709) · [Citations: 17 · OpenAlex](https://openalex.org/W7154689853)<br>Fetched 2026-11-24 | [pku-liang/hwe-bench](https://github.com/pku-liang/hwe-bench) | 76 | 2026-11-11<br>Fetched 2026-11-22 |
 
 <a id="physical-design"></a>
 
@@ -110,19 +110,19 @@
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[PlaceReasoner-Beta](../../resources/physical-design/place-reasoner-beta.md)**<br>Uses verifier-guided agents for macro placement and provides an open benchmark evaluated with routed PPA and DRC. | [Physical design](../../resources/tags/physical-design.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>Open-source project / Benchmark / dataset | [Paper](https://arxiv.org/abs/2609.21263) | [fenggev56/PlaceReasoner-Beta](https://github.com/fenggev56/PlaceReasoner-Beta) | 2 | 2026-10-22<br>Fetched 2026-11-22 |
+| **[PlaceReasoner-Beta](../../resources/physical-design/place-reasoner-beta.md)**<br>Uses verifier-guided agents for macro placement and provides an open benchmark evaluated with routed PPA and DRC. | [Physical design](../../resources/tags/physical-design.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>Open-source project / Benchmark / dataset | [Paper](https://arxiv.org/abs/2609.21263) · [Citations: 1 · OpenAlex](https://openalex.org/W7213876703)<br>Fetched 2026-11-24 | [fenggev56/PlaceReasoner-Beta](https://github.com/fenggev56/PlaceReasoner-Beta) | 2 | 2026-10-22<br>Fetched 2026-11-22 |
 
 ### 2026-06
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[PDAgent-Bench](../../resources/physical-design/pdagent-bench.md)**<br>Benchmarks grounding, task execution, and agent architecture choices for VLSI physical-design workflows. | [Physical design](../../resources/tags/physical-design.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2606.17253) | — | — | — |
+| **[PDAgent-Bench](../../resources/physical-design/pdagent-bench.md)**<br>Benchmarks grounding, task execution, and agent architecture choices for VLSI physical-design workflows. | [Physical design](../../resources/tags/physical-design.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2606.17253) · [Citations: 10 · OpenAlex](https://openalex.org/W7164992111)<br>Fetched 2026-11-24 | — | — | — |
 
 ### 2026-05
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[PostEDA-Bench](../../resources/physical-design/posteda-bench.md)**<br>Evaluates agent workflows that close PPA targets and repair DRC violations after initial EDA generation. | [Physical design](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [DRC](../../resources/tags/drc.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2605.06936) | — | — | — |
+| **[PostEDA-Bench](../../resources/physical-design/posteda-bench.md)**<br>Evaluates agent workflows that close PPA targets and repair DRC violations after initial EDA generation. | [Physical design](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [DRC](../../resources/tags/drc.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2605.06936) · [Citations: 2 · OpenAlex](https://openalex.org/W7160842974)<br>Fetched 2026-11-24 | — | — | — |
 
 ### 2026 · month not verified
 
@@ -144,13 +144,13 @@
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[SLIC](../../resources/analog-rf/slic.md)**<br>Trains a local small language model for simulator-guided analog sizing and evaluates it across amplifier topologies and process nodes. | [Analog / RF](../../resources/tags/analog-rf.md) · [Circuit sizing](../../resources/tags/sizing.md) · [Simulation](../../resources/tags/simulation.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Paper / Open-source project / Benchmark / dataset | [Paper](https://arxiv.org/abs/2611.13452) | [slic-agent/slic-agent](https://github.com/slic-agent/slic-agent) | — | Metadata unavailable |
+| **[SLIC](../../resources/analog-rf/slic.md)**<br>Trains a local small language model for simulator-guided analog sizing and evaluates it across amplifier topologies and process nodes. | [Analog / RF](../../resources/tags/analog-rf.md) · [Circuit sizing](../../resources/tags/sizing.md) · [Simulation](../../resources/tags/simulation.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Paper / Open-source project / Benchmark / dataset | [Paper](https://arxiv.org/abs/2611.13452) · [Citations: 0 · OpenAlex](https://openalex.org/W7225832018)<br>Fetched 2026-11-24 | [slic-agent/slic-agent](https://github.com/slic-agent/slic-agent) | — | Metadata unavailable |
 
 ### 2026-09
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[Long-Horizon Analog Design Bench](../../resources/analog-rf/long-horizon-analog-design-bench.md)**<br>Evaluates agents on 50 transistor-level design tasks contributed by 17 chip designers, using an open-source simulator and an isolated verifier to check electrical specifications over hours-long runs. | [Analog / RF](../../resources/tags/analog-rf.md) · [Simulation](../../resources/tags/simulation.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2609.33356) | — | — | — |
+| **[Long-Horizon Analog Design Bench](../../resources/analog-rf/long-horizon-analog-design-bench.md)**<br>Evaluates agents on 50 transistor-level design tasks contributed by 17 chip designers, using an open-source simulator and an isolated verifier to check electrical specifications over hours-long runs. | [Analog / RF](../../resources/tags/analog-rf.md) · [Simulation](../../resources/tags/simulation.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2609.33356) · [Citations: 5 · OpenAlex](https://openalex.org/W7214808131)<br>Fetched 2026-11-24 | — | — | — |
 
 ### 2026-07
 
@@ -166,14 +166,14 @@
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[AgenticBBO-Bench](../../resources/architecture-hls-codesign/agentic-bbo-bench.md)**<br>Defines a finite-budget benchmark for agentic black-box optimization across five domains, including chip design. | [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md) · [Architecture exploration](../../resources/tags/architecture.md) · [Tool use](../../resources/tags/tool-use.md)<br>Paper / Benchmark / dataset | [Paper](https://arxiv.org/abs/2610.12183) | [lamda-bbo/agentic-bbo](https://github.com/lamda-bbo/agentic-bbo) | 5 | 2026-10-12<br>Fetched 2026-11-22 |
+| **[AgenticBBO-Bench](../../resources/architecture-hls-codesign/agentic-bbo-bench.md)**<br>Defines a finite-budget benchmark for agentic black-box optimization across five domains, including chip design. | [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md) · [Architecture exploration](../../resources/tags/architecture.md) · [Tool use](../../resources/tags/tool-use.md)<br>Paper / Benchmark / dataset | [Paper](https://arxiv.org/abs/2610.12183) · [Citations: 0 · OpenAlex](https://openalex.org/W7221155578)<br>Fetched 2026-11-24 | [lamda-bbo/agentic-bbo](https://github.com/lamda-bbo/agentic-bbo) | 5 | 2026-10-12<br>Fetched 2026-11-22 |
 
 ### 2026-09
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[HLSFactory-Agent](../../resources/architecture-hls-codesign/hlsfactory-agent.md)**<br>Extracts and evaluates agentic HLS tasks from repositories to build a reproducible large-scale dataset. | [HLS](../../resources/tags/hls.md) · [Dataset](../../resources/tags/dataset.md) · [Repository-level tasks](../../resources/tags/repository-level.md)<br>Paper / Open-source project | [Paper](https://arxiv.org/abs/2609.09519) | [sharc-lab/hlsfactory-agent](https://github.com/sharc-lab/hlsfactory-agent) | 2 | 2026-11-19<br>Fetched 2026-11-22 |
-| **[HLS-Eval](../../resources/architecture-hls-codesign/hls-eval.md)**<br>Evaluation framework for agentic HLS design tasks, compiler self-verification, and trajectory analysis. | [HLS](../../resources/tags/hls.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Open-source project / Benchmark / dataset | [Paper](https://arxiv.org/abs/2609.09526) | [sharc-lab/HLS-Eval](https://github.com/sharc-lab/HLS-Eval) | 29 | 2026-11-14<br>Fetched 2026-11-22 |
+| **[HLSFactory-Agent](../../resources/architecture-hls-codesign/hlsfactory-agent.md)**<br>Extracts and evaluates agentic HLS tasks from repositories to build a reproducible large-scale dataset. | [HLS](../../resources/tags/hls.md) · [Dataset](../../resources/tags/dataset.md) · [Repository-level tasks](../../resources/tags/repository-level.md)<br>Paper / Open-source project | [Paper](https://arxiv.org/abs/2609.09519) · [Citations: 0 · OpenAlex](https://openalex.org/W7212106900)<br>Fetched 2026-11-24 | [sharc-lab/hlsfactory-agent](https://github.com/sharc-lab/hlsfactory-agent) | 2 | 2026-11-19<br>Fetched 2026-11-22 |
+| **[HLS-Eval](../../resources/architecture-hls-codesign/hls-eval.md)**<br>Evaluation framework for agentic HLS design tasks, compiler self-verification, and trajectory analysis. | [HLS](../../resources/tags/hls.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Open-source project / Benchmark / dataset | [Paper](https://arxiv.org/abs/2609.09526) · [Citations: 1 · OpenAlex](https://openalex.org/W7212187774)<br>Fetched 2026-11-24 | [sharc-lab/HLS-Eval](https://github.com/sharc-lab/HLS-Eval) | 29 | 2026-11-14<br>Fetched 2026-11-22 |
 
 ### 2026 · month not verified
 
@@ -190,4 +190,4 @@
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[HWE-Bench · Schematic design](../../resources/board-system-design/hwe-bench-schematic.md)**<br>Board-level design benchmark with 300 tasks and a knowledge base of 2,914 IC datasheets. | [Board / PCB](../../resources/tags/board.md) · [Benchmark](../../resources/tags/benchmark.md) · [Dataset](../../resources/tags/dataset.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2603.18102) | — | — | — |
+| **[HWE-Bench · Schematic design](../../resources/board-system-design/hwe-bench-schematic.md)**<br>Board-level design benchmark with 300 tasks and a knowledge base of 2,914 IC datasheets. | [Board / PCB](../../resources/tags/board.md) · [Benchmark](../../resources/tags/benchmark.md) · [Dataset](../../resources/tags/dataset.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2603.18102) · [Citations: 3 · OpenAlex](https://openalex.org/W7139923325)<br>Fetched 2026-11-24 | — | — | — |

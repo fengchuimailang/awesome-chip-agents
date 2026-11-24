@@ -10,13 +10,13 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[ChipOmni](../../resources/agent-infrastructure/chipomni.md)**<br>提出持续演化上下文的多 Agent EDA 框架，并评测模拟电路、RTL、测试平台和形式断言生成任务。 | [基础设施](../../resources/tags/infrastructure.md) · [多 Agent](../../resources/tags/multi-agent.md) · [工具调用](../../resources/tags/tool-use.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [RTL](../../resources/tags/rtl.md)<br>论文 | [论文](https://arxiv.org/abs/2611.13020) | — | — | — |
+| **[ChipOmni](../../resources/agent-infrastructure/chipomni.md)**<br>提出持续演化上下文的多 Agent EDA 框架，并评测模拟电路、RTL、测试平台和形式断言生成任务。 | [基础设施](../../resources/tags/infrastructure.md) · [多 Agent](../../resources/tags/multi-agent.md) · [工具调用](../../resources/tags/tool-use.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [RTL](../../resources/tags/rtl.md)<br>论文 | [论文](https://arxiv.org/abs/2611.13020) · [引用: 0 · OpenAlex](https://openalex.org/W7225800644)<br>采集 2026-11-24 | — | — | — |
 
 ## 2026-10
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[Back to the Future](../../resources/verification-debugging/back-to-the-future.md)**<br>将仿真波形转换为关系型 SQLite 数据库，协调 Agent 查询信号行为并将异常关联到 RTL。 | [波形分析](../../resources/tags/waveform.md) · [调试](../../resources/tags/debugging.md) · [基础设施](../../resources/tags/infrastructure.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2610.06790) | — | — | — |
+| **[Back to the Future](../../resources/verification-debugging/back-to-the-future.md)**<br>将仿真波形转换为关系型 SQLite 数据库，协调 Agent 查询信号行为并将异常关联到 RTL。 | [波形分析](../../resources/tags/waveform.md) · [调试](../../resources/tags/debugging.md) · [基础设施](../../resources/tags/infrastructure.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2610.06790) · [引用: 0 · OpenAlex](https://openalex.org/W7220703912)<br>采集 2026-11-24 | — | — | — |
 
 ## 2026-09
 
@@ -38,7 +38,7 @@
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
 | **[hw-agent-tooling](../../resources/agent-infrastructure/hw-agent-tooling.md)**<br>硬件 Agent 工具组合的入口页，链接九个分别发布的 RTL、验证、物理设计、FPGA 与 SPICE MCP 服务。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [综述 / 教程](../../resources/tags/overview.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>开源项目 / 综述 / 教程 | — | [zesun33/hw-agent-tooling](https://github.com/zesun33/hw-agent-tooling) | 0 | 2026-10-05<br>采集 2026-11-22 |
-| **[CHIA](../../resources/architecture-hls-codesign/chia.md)**<br>提供面向 Agentic 软硬件协同设计研究的开源框架，并集成 Chipyard 和 gem5。 | [架构探索](../../resources/tags/architecture.md) · [软硬件协同](../../resources/tags/codesign.md) · [基础设施](../../resources/tags/infrastructure.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2606.27350) | — | — | — |
+| **[CHIA](../../resources/architecture-hls-codesign/chia.md)**<br>提供面向 Agentic 软硬件协同设计研究的开源框架，并集成 Chipyard 和 gem5。 | [架构探索](../../resources/tags/architecture.md) · [软硬件协同](../../resources/tags/codesign.md) · [基础设施](../../resources/tags/infrastructure.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2606.27350) · [引用: 10 · OpenAlex](https://openalex.org/W7166074791)<br>采集 2026-11-24 | — | — | — |
 
 ## 2026-04
 
@@ -52,7 +52,7 @@
 | --- | --- | --- | --- | ---: | --- |
 | **[wavekit-mcp](../../resources/agent-infrastructure/wavekit-mcp.md)**<br>通过持久化 MCP Python 环境调用 wavekit，查询和分析 VCD、FST 与 FSDB 波形。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [波形分析](../../resources/tags/waveform.md) · [调试](../../resources/tags/debugging.md)<br>开源项目 / 工具 / 平台 | — | [cxzzzz/wavekit-mcp](https://github.com/cxzzzz/wavekit-mcp) | 11 | 2026-07-27<br>采集 2026-11-22 |
 | **[waveform-mcp](../../resources/agent-infrastructure/waveform-mcp.md)**<br>基于 Rust 与 wellen 的 MCP 服务和 CLI，用于查询 VCD/FST 层次、信号元数据、取值和事件。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [波形分析](../../resources/tags/waveform.md) · [调试](../../resources/tags/debugging.md)<br>开源项目 / 工具 / 平台 | — | [jiegec/waveform-mcp](https://github.com/jiegec/waveform-mcp) | 49 | 2026-11-10<br>采集 2026-11-22 |
-| **[FluxEDA](../../resources/agent-infrastructure/fluxeda.md)**<br>为可复现的长时运行 Agentic EDA 流程提供有状态执行和工具集成基础设施。 | [基础设施](../../resources/tags/infrastructure.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 | [论文](https://arxiv.org/abs/2603.25243) | — | — | — |
+| **[FluxEDA](../../resources/agent-infrastructure/fluxeda.md)**<br>为可复现的长时运行 Agentic EDA 流程提供有状态执行和工具集成基础设施。 | [基础设施](../../resources/tags/infrastructure.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 | [论文](https://arxiv.org/abs/2603.25243) · [引用: 5 · OpenAlex](https://openalex.org/W7141450805)<br>采集 2026-11-24 | — | — | — |
 
 ## 2026-02
 
@@ -84,7 +84,7 @@
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
 | **[Synopsys.ai brochure](../../resources/agent-infrastructure/synopsys-ai-brochure.md)**<br>官方宣传册，第 2–3 页介绍 AgentEngineer 与 Synopsys 的 L1–L5 AI 能力框架：辅助、执行、编排、规划和决策。 | [综述 / 教程](../../resources/tags/overview.md) · [商业平台](../../resources/tags/commercial.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>综述 / 教程 | [原始来源](https://www.synopsys.com/content/dam/synopsys/resources/ai-solutions/synopsys-ai-brochure.pdf#page=2) | — | — | — |
-| **[LLMs for EDA: Future or Mirage?](../../resources/agent-infrastructure/llms-for-eda-survey.md)**<br>综述 LLM 在 EDA 中的应用，包括代码生成、验证和 Agent 工作流。 | [综述 / 教程](../../resources/tags/overview.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [评测](../../resources/tags/evaluation.md)<br>综述 / 教程 | [论文](https://doi.org/10.1145/3736167) | — | — | — |
+| **[LLMs for EDA: Future or Mirage?](../../resources/agent-infrastructure/llms-for-eda-survey.md)**<br>综述 LLM 在 EDA 中的应用，包括代码生成、验证和 Agent 工作流。 | [综述 / 教程](../../resources/tags/overview.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [评测](../../resources/tags/evaluation.md)<br>综述 / 教程 | [论文](https://doi.org/10.1145/3736167) · [引用: 29 · OpenAlex](https://openalex.org/W4410443382)<br>采集 2026-11-24 | — | — | — |
 
 ## 日期待核实
 

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "getting-started",
+    "title": ["Your first five reads", "第一次来，从这五项开始"],
+    "summary": ["Build a map of the field, understand a benchmark, follow a feedback loop, then examine an agent and its evaluation. This introductory route uses RTL as a concrete example.", "先建立领域地图，再了解基准、反馈循环、Agent 工作流与评测。路线以 RTL 为具体例子，帮助理解整个领域。"],
+    "prerequisites": ["Basic digital logic and Verilog terminology. Start by reading; these steps do not require installing EDA tools.", "了解基本数字逻辑与 Verilog 术语。先阅读即可，无需为了这条路线安装 EDA 工具。"],
+    "steps": [
+      {
+        "resource": "llms-for-eda-survey",
+        "why": ["Get an overview before choosing a design direction.", "先了解 LLM 在 EDA 中的位置，再选择具体研究方向。"],
+        "focus": ["Identify generation, verification, and agentic workflows; note which problems interest you.", "区分代码生成、验证和 Agent 工作流，记下自己关心的问题。"]
+      },
+      {
+        "resource": "verilogeval",
+        "why": ["Understand what a generated design must pass before comparing methods.", "在比较方法之前，先理解生成的设计要通过什么检查。"],
+        "focus": ["Read the task descriptions and simulation-based functional evaluation; distinguish compiling from being correct.", "看任务描述和基于仿真的功能评测，理解编译通过与功能正确的区别。"]
+      },
+      {
+        "resource": "autochip",
+        "why": ["Learn a compiler-and-simulator feedback loop used to improve generated HDL.", "理解利用编译器和仿真器反馈迭代改进 HDL 的基本循环。"],
+        "focus": ["Trace generation, tool feedback, and revision; inspect the experimental setup before the reported scores.", "沿着生成、工具反馈、修改的顺序阅读，先看实验设置，再看结果。"]
+      },
+      {
+        "resource": "verilogcoder",
+        "why": ["See how planning and waveform tracing extend a generation loop into an agent workflow.", "了解规划和波形追踪如何将生成循环扩展为 Agent 工作流。"],
+        "focus": ["Follow the roles of planning, simulation, and debugging, and the information passed between them.", "关注规划、仿真与调试分别负责什么，以及它们之间传递什么信息。"]
+      },
+      {
+        "resource": "grade-rtl",
+        "why": ["Finish by examining evaluation beyond compilation.", "最后了解超越编译通过的评测视角。"],
+        "focus": ["Compare functional equivalence, completeness, and QoR; record the tools and conditions behind each result.", "比较功能等价、模块完整性和 QoR，并记录各项结果依赖的工具与条件。"]
+      }
+    ]
+  }
+]

@@ -8,6 +8,20 @@
 
 如果这个目录对你的研究或开发有帮助，欢迎[点亮 Star](https://github.com/fengchuimailang/awesome-chip-agents)，让更多芯片设计同行发现它。
 
+## 第一次来，从这五项开始
+
+先建立领域地图，再了解基准、反馈循环、Agent 工作流与评测。路线以 RTL 为具体例子，帮助理解整个领域。
+
+开始前：了解基本数字逻辑与 Verilog 术语。先阅读即可，无需为了这条路线安装 EDA 工具。
+
+| 步骤 / 资源 | 为什么读 | 重点看什么 |
+| --- | --- | --- |
+| 1. [LLMs for EDA: Future or Mirage?](resources/agent-infrastructure/llms-for-eda-survey.md) | 先了解 LLM 在 EDA 中的位置，再选择具体研究方向。 | 区分代码生成、验证和 Agent 工作流，记下自己关心的问题。 |
+| 2. [VerilogEval](resources/rtl-generation/verilogeval.md) | 在比较方法之前，先理解生成的设计要通过什么检查。 | 看任务描述和基于仿真的功能评测，理解编译通过与功能正确的区别。 |
+| 3. [AutoChip](resources/rtl-generation/autochip.md) | 理解利用编译器和仿真器反馈迭代改进 HDL 的基本循环。 | 沿着生成、工具反馈、修改的顺序阅读，先看实验设置，再看结果。 |
+| 4. [VerilogCoder](resources/rtl-generation/verilogcoder.md) | 了解规划和波形追踪如何将生成循环扩展为 Agent 工作流。 | 关注规划、仿真与调试分别负责什么，以及它们之间传递什么信息。 |
+| 5. [GRADE-RTL](resources/rtl-generation/grade-rtl.md) | 最后了解超越编译通过的评测视角。 | 比较功能等价、模块完整性和 QoR，并记录各项结果依赖的工具与条件。 |
+
 ## 按方向查找
 
 每项资源只有一个主要方向；跨方向条目链接到同一详情文件。
@@ -33,7 +47,7 @@
 
 月份优先采用已记录的首次公开日期；仅能确认 arXiv 编号月份时按该月份归档，并注明依据。会议年份和修订日期保留在详情中；只有年份或日期不明的资源单独分组。仓库推送时间不改变发布月份。
 
-GitHub Stars 和最近推送时间为每周采集的快照，均标注采集时间；刷新失败保留旧数据。这些指标用于了解关注度和仓库动态。详见[更新规则](CONTRIBUTING.md#repository-metadata)。
+GitHub Stars 与推送时间每周采集；OpenAlex 引用按 DOI 精确匹配，包含预印本，快照满 30 天后刷新。均展示来源与采集日期，缺失不视为零，失败保留旧快照。计数受关注度、收录范围和发表时间影响，不作为研究质量评分。详见[更新规则](CONTRIBUTING.md#repository-metadata)。
 
 ## 收录范围
 

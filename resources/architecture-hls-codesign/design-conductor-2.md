@@ -57,6 +57,17 @@
 - **Paper / 论文：** [Design Conductor 2.0 technical report](https://arxiv.org/abs/2605.05170)
 - **Source / 原始来源：** [Verkor: Design Conductor and reported designs](https://verkor.io/)
 
+## Paper citations / 论文引用
+
+- **OpenAlex：** [7 citations / 次引用](https://openalex.org/W7160537595)
+- **DOI：** [10.48550/arxiv.2605.05170](https://doi.org/10.48550/arxiv.2605.05170)
+- **Fetched (UTC) / 采集时间：** 2026-11-24T02:53:34Z
+- **Indexed in / 收录来源：** arXiv (Cornell University)
+
+Exact DOI match in OpenAlex, including arXiv preprints. Counts depend on coverage and paper age; they are not quality scores or evidence of peer review.
+
+按 DOI 精确匹配 OpenAlex，包含 arXiv 预印本。引用量受收录范围和发表时间影响，不代表质量评分或已通过同行评审。
+
 **Repository / 仓库：** No related public repository link recorded / 暂未记录相关公开仓库链接。
 
 ## Related resources / 相关资源

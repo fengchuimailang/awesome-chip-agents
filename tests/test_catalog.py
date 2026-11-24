@@ -12,6 +12,7 @@ from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.dont_write_bytecode = True
+sys.path.insert(0, str(ROOT / "scripts"))
 spec = importlib.util.spec_from_file_location("catalog", ROOT / "scripts/catalog.py")
 catalog = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(catalog)

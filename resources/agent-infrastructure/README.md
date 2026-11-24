@@ -10,13 +10,13 @@ Newest publication month first. Cross-references share the original record; repo
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[ChipOmni](../../resources/agent-infrastructure/chipomni.md)**<br>Presents a context-evolving, multi-agent EDA framework evaluated on analog, RTL, testbench, and formal-assertion generation tasks. | [Infrastructure](../../resources/tags/infrastructure.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Tool use](../../resources/tags/tool-use.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [RTL](../../resources/tags/rtl.md)<br>Paper | [Paper](https://arxiv.org/abs/2611.13020) | — | — | — |
+| **[ChipOmni](../../resources/agent-infrastructure/chipomni.md)**<br>Presents a context-evolving, multi-agent EDA framework evaluated on analog, RTL, testbench, and formal-assertion generation tasks. | [Infrastructure](../../resources/tags/infrastructure.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Tool use](../../resources/tags/tool-use.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [RTL](../../resources/tags/rtl.md)<br>Paper | [Paper](https://arxiv.org/abs/2611.13020) · [Citations: 0 · OpenAlex](https://openalex.org/W7225800644)<br>Fetched 2026-11-24 | — | — | — |
 
 ## 2026-10
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[Back to the Future](../../resources/verification-debugging/back-to-the-future.md)**<br>Converts simulation waveforms into a relational SQLite database and coordinates agents to query signal behavior and correlate anomalies with RTL. | [Waveforms](../../resources/tags/waveform.md) · [Debugging](../../resources/tags/debugging.md) · [Infrastructure](../../resources/tags/infrastructure.md)<br>Paper · cross-reference | [Paper](https://arxiv.org/abs/2610.06790) | — | — | — |
+| **[Back to the Future](../../resources/verification-debugging/back-to-the-future.md)**<br>Converts simulation waveforms into a relational SQLite database and coordinates agents to query signal behavior and correlate anomalies with RTL. | [Waveforms](../../resources/tags/waveform.md) · [Debugging](../../resources/tags/debugging.md) · [Infrastructure](../../resources/tags/infrastructure.md)<br>Paper · cross-reference | [Paper](https://arxiv.org/abs/2610.06790) · [Citations: 0 · OpenAlex](https://openalex.org/W7220703912)<br>Fetched 2026-11-24 | — | — | — |
 
 ## 2026-09
 
@@ -38,7 +38,7 @@ Newest publication month first. Cross-references share the original record; repo
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
 | **[hw-agent-tooling](../../resources/agent-infrastructure/hw-agent-tooling.md)**<br>A portfolio landing page linking nine separately distributed MCP servers for RTL, verification, physical design, FPGA, and SPICE. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [Overview / tutorial](../../resources/tags/overview.md) · [EDA workflows](../../resources/tags/eda-flow.md)<br>Open-source project / Survey / tutorial | — | [zesun33/hw-agent-tooling](https://github.com/zesun33/hw-agent-tooling) | 0 | 2026-10-05<br>Fetched 2026-11-22 |
-| **[CHIA](../../resources/architecture-hls-codesign/chia.md)**<br>Defines an open framework for agentic hardware/software co-design research with Chipyard and gem5 integration. | [Architecture exploration](../../resources/tags/architecture.md) · [HW/SW co-design](../../resources/tags/codesign.md) · [Infrastructure](../../resources/tags/infrastructure.md)<br>Paper · cross-reference | [Paper](https://arxiv.org/abs/2606.27350) | — | — | — |
+| **[CHIA](../../resources/architecture-hls-codesign/chia.md)**<br>Defines an open framework for agentic hardware/software co-design research with Chipyard and gem5 integration. | [Architecture exploration](../../resources/tags/architecture.md) · [HW/SW co-design](../../resources/tags/codesign.md) · [Infrastructure](../../resources/tags/infrastructure.md)<br>Paper · cross-reference | [Paper](https://arxiv.org/abs/2606.27350) · [Citations: 10 · OpenAlex](https://openalex.org/W7166074791)<br>Fetched 2026-11-24 | — | — | — |
 
 ## 2026-04
 
@@ -52,7 +52,7 @@ Newest publication month first. Cross-references share the original record; repo
 | --- | --- | --- | --- | ---: | --- |
 | **[wavekit-mcp](../../resources/agent-infrastructure/wavekit-mcp.md)**<br>Provides a persistent MCP Python environment for querying and analyzing VCD, FST, and FSDB waveforms with wavekit. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [Waveforms](../../resources/tags/waveform.md) · [Debugging](../../resources/tags/debugging.md)<br>Open-source project / Tool / platform | — | [cxzzzz/wavekit-mcp](https://github.com/cxzzzz/wavekit-mcp) | 11 | 2026-07-27<br>Fetched 2026-11-22 |
 | **[waveform-mcp](../../resources/agent-infrastructure/waveform-mcp.md)**<br>A Rust MCP server and CLI using wellen to query VCD/FST hierarchy, signal metadata, values, and events. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [Waveforms](../../resources/tags/waveform.md) · [Debugging](../../resources/tags/debugging.md)<br>Open-source project / Tool / platform | — | [jiegec/waveform-mcp](https://github.com/jiegec/waveform-mcp) | 49 | 2026-11-10<br>Fetched 2026-11-22 |
-| **[FluxEDA](../../resources/agent-infrastructure/fluxeda.md)**<br>Provides stateful execution and tool integration for reproducible, long-running agentic EDA workflows. | [Infrastructure](../../resources/tags/infrastructure.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Tool use](../../resources/tags/tool-use.md)<br>Paper | [Paper](https://arxiv.org/abs/2603.25243) | — | — | — |
+| **[FluxEDA](../../resources/agent-infrastructure/fluxeda.md)**<br>Provides stateful execution and tool integration for reproducible, long-running agentic EDA workflows. | [Infrastructure](../../resources/tags/infrastructure.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Tool use](../../resources/tags/tool-use.md)<br>Paper | [Paper](https://arxiv.org/abs/2603.25243) · [Citations: 5 · OpenAlex](https://openalex.org/W7141450805)<br>Fetched 2026-11-24 | — | — | — |
 
 ## 2026-02
 
@@ -84,7 +84,7 @@ Newest publication month first. Cross-references share the original record; repo
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
 | **[Synopsys.ai brochure](../../resources/agent-infrastructure/synopsys-ai-brochure.md)**<br>Official brochure introducing AgentEngineer and Synopsys' L1–L5 AI capability framework: Assisting, Acting, Orchestrating, Planning, and Decision Making (pp. 2–3). The framework and capability claims are vendor-defined, not an independent evaluation. | [Overview / tutorial](../../resources/tags/overview.md) · [Commercial platform](../../resources/tags/commercial.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Survey / tutorial | [Source](https://www.synopsys.com/content/dam/synopsys/resources/ai-solutions/synopsys-ai-brochure.pdf#page=2) | — | — | — |
-| **[LLMs for EDA: Future or Mirage?](../../resources/agent-infrastructure/llms-for-eda-survey.md)**<br>Survey of LLM applications across EDA, including code generation, verification, and agentic workflows. | [Overview / tutorial](../../resources/tags/overview.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Survey / tutorial | [Paper](https://doi.org/10.1145/3736167) | — | — | — |
+| **[LLMs for EDA: Future or Mirage?](../../resources/agent-infrastructure/llms-for-eda-survey.md)**<br>Survey of LLM applications across EDA, including code generation, verification, and agentic workflows. | [Overview / tutorial](../../resources/tags/overview.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Survey / tutorial | [Paper](https://doi.org/10.1145/3736167) · [Citations: 29 · OpenAlex](https://openalex.org/W4410443382)<br>Fetched 2026-11-24 | — | — | — |
 
 ## Date not recorded
 

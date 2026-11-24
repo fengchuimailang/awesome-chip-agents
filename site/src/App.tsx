@@ -40,6 +40,24 @@ function DownloadMetrics({ resource, locale }: { resource: Resource; locale: Loc
   </Panel>;
 }
 
+function PaperMetrics({ resource, locale }: { resource: Resource; locale: Locale }) {
+  const p = resource.paper;
+  const l = (en: string, zh: string) => text(locale, en, zh);
+  if (!resource.links.some(link => link.kind === 'paper')) return null;
+  return <Panel title={l('Paper citations', '论文引用')}>
+    <div className="download-row">
+      <strong>OpenAlex</strong><span className="metric-value">{p.citation_count === undefined ? l('Unavailable', '暂无数据') : p.citation_count.toLocaleString(locale) + l(' citations', ' 次引用')}</span>
+      {p.url && <External href={p.url} locale={locale} resource={resource.id} kind="metric_source">{l('View citation record', '查看引用记录')}</External>}
+      {p.doi && <small>DOI: <External href={'https://doi.org/' + p.doi} locale={locale} resource={resource.id} kind="paper">{p.doi}</External></small>}
+      {p.citation_count === undefined && <p>{p.status === 'not-found' ? l('No exact DOI match in OpenAlex at collection time.', '采集时 OpenAlex 未收录该 DOI。') : !p.doi ? l('No supported DOI or arXiv identifier recorded.', '暂未记录支持采集的 DOI 或 arXiv 编号。') : l('No successful citation snapshot yet.', '暂未获得有效的引用快照。')}</p>}
+      {p.indexed_in && <small>{l('Indexed in: ', '收录来源：')}{p.indexed_in}</small>}
+      <small>{l('Fetched (UTC): ', '采集时间（UTC）：')}{p.fetched_at || '—'}</small>
+      {p.fetch_error && <small>{l('Refresh failed; previous snapshot retained.', '刷新失败，保留已有快照。')}</small>}
+    </div>
+    <p className="fine-print">{l('Exact DOI match, including preprints. Counts depend on coverage and paper age; they are not quality scores or evidence of peer review.', '按 DOI 精确匹配，包含预印本。引用量受收录范围和发表时间影响，不代表质量评分或已通过同行评审。')}</p>
+  </Panel>;
+}
+
 function Detail({ page }: { page: Page }) {
   const r = index[page.id!];
   const { locale } = page;
@@ -73,6 +91,7 @@ function Detail({ page }: { page: Page }) {
       <Panel title={l('Original sources', '原始来源')}><div className="source-links">{r.links.map(link => <External key={link.url + link.label} href={link.url} locale={locale} resource={r.id} kind={link.kind}>{link.label}</External>)}</div>
         <p className="fine-print">{l('Published: ', '发布：')}{r.date || l('Unknown', '日期待核实')}<br />{notes[r.date_basis]}</p>
       </Panel>
+      <PaperMetrics resource={r} locale={locale} />
       <Panel title={l('Repository activity', '仓库动态')}>
         {r.repositories.length ? r.repositories.map(repo => <div className="repo-stat" key={repo.name}>
           <External href={'https://github.com/' + repo.name} locale={locale} resource={r.id} kind="repository">{repo.name}</External>
@@ -107,13 +126,26 @@ function Home({ locale }: { locale: Locale }) {
     <section className="hero"><div><p className="eyebrow">{l('AN OPEN MAP OF CHIP DESIGN × AI', '芯片设计 × AI 的开放资源地图')}</p>
       <h1>{l('Discover the agents.', '发现芯片 Agent。')}<br /><em>{l('Build the next chip.', '探索设计新可能。')}</em></h1>
       <p>{l('Papers, tools, benchmarks, and infrastructure for LLM-assisted chip design. Curated in the open, connected by purpose.', '汇集芯片设计 LLM Agent 的论文、工具、评测基准与基础设施。公开维护，按用途连接，让探索更有方向。')}</p>
-      <div className="hero-actions"><Button asChild size="lg"><a href={route({ locale, kind: 'catalog' })}>{l('Explore resources', '探索资源库')}<ArrowRightIcon data-icon="inline-end" aria-hidden="true" /></a></Button>
-        {catalog.repository && <Button asChild variant="link"><External href={repoLink('/issues/new?template=resource-suggestion.yml')} locale={locale} kind="contribute">{l('Contribute a resource', '推荐一项资源')}</External></Button>}</div>
+      <div className="hero-actions"><Button asChild size="lg"><a href="#getting-started">{l('Start with five reads', '从五步阅读开始')}<ArrowRightIcon data-icon="inline-end" aria-hidden="true" /></a></Button>
+        <Button asChild variant="outline" size="lg"><a href={route({ locale, kind: 'catalog' })}>{l('Explore resources', '探索资源库')}</a></Button></div>
       <div className="hero-stats"><span><strong>{catalog.resources.length}</strong>{l('Resources', '项资源')}</span><span><strong>{Object.keys(catalog.taxonomy.directions).length}</strong>{l('Directions', '个方向')}</span><span><strong>EN / 中</strong>{l('One shared catalog', '同一份资源库')}</span></div>
     </div><div className="circuit" aria-hidden="true"><div className="circuit-label">CHIP AGENT STACK</div>
       <div className="circuit-chip"><span>LLM</span><strong>AGENT</strong><small>reason · act · verify</small></div>
       <div className="circuit-nodes"><span>RTL</span><span>EDA</span><span>MCP</span><span>SPICE</span></div><div className="circuit-foot">FROM IDEAS TO IMPLEMENTATION</div></div>
     </section>
+    {catalog.reading_paths.map(path => <section id={path.id} key={path.id} className="reading-path" aria-labelledby={path.id + '-heading'}>
+      <div className="section-heading"><div><p className="eyebrow">{l('A GUIDED START', '不知道从哪看？')}</p><h2 id={path.id + '-heading'}>{label(path.title, locale)}</h2></div></div>
+      <p className="reading-summary">{label(path.summary, locale)}</p><p className="fine-print">{l('Before you start: ', '开始前：')}{label(path.prerequisites, locale)}</p>
+      <ol className="reading-steps">{path.steps.map((step, i) => {
+        const resource = index[step.resource];
+        return <li key={step.resource}><Card className="reading-step" size="sm"><CardHeader>
+          <p className="eyebrow">{l('STEP ', '第 ')}{i + 1}{l('', ' 步')}</p>
+          <CardTitle asChild><h3><a href={route({ locale, kind: 'resource', id: resource.id })}>{resource.name}<ArrowRightIcon className="reading-arrow" aria-hidden="true" /></a></h3></CardTitle>
+          <CardDescription>{label(step.why, locale)}</CardDescription>
+        </CardHeader><CardContent><p className="reading-focus"><strong>{l('Focus on', '重点看什么')}</strong>{label(step.focus, locale)}</p></CardContent></Card></li>;
+      })}</ol>
+      <Button asChild variant="link"><a href={route({ locale, kind: 'catalog' }) + '?sort=citations&evidence=code'}>{l('Continue with cited resources that link to code', '继续找有代码链接的资源，按引用排序')}<ArrowRightIcon data-icon="inline-end" aria-hidden="true" /></a></Button>
+    </section>)}
     <section className="task-section" aria-labelledby="task-heading"><div className="section-heading"><div><p className="eyebrow">{l('START WITH A TASK', '从手头的任务开始')}</p><h2 id="task-heading">{l('What are you working on?', '你想完成什么？')}</h2></div></div>
       <div className="task-shortcuts">{tasks.map(({ icon: Icon, query, title }) => <Button asChild variant="outline" key={query}><a href={route({ locale, kind: 'catalog' }) + query}><Icon data-icon="inline-start" aria-hidden="true" />{title}<ArrowRightIcon data-icon="inline-end" aria-hidden="true" /></a></Button>)}</div>
     </section>
@@ -139,9 +171,12 @@ function Home({ locale }: { locale: Locale }) {
 function Metrics({ locale }: { locale: Locale }) {
   const l = (en: string, zh: string) => text(locale, en, zh);
   const configured = catalog.resources.filter(r => r.downloads.length);
+  const papers = catalog.resources.filter(r => r.links.some(link => link.kind === 'paper'));
+  const cited = papers.filter(r => r.paper.citation_count !== undefined);
   return <section className="metrics-page"><p className="eyebrow">{l('SOURCES & MEASUREMENT', '来源与统计口径')}</p><h1>{l('Understand the numbers.', '让每个数字都有依据。')}</h1>
     <p className="lead">{l('Activity and usage signals help discovery. They do not establish research quality.', '关注度和使用指标帮助了解资源，不代表研究质量。')}</p>
     <div className="metrics-explainer">
+      <Card><CardHeader><CardTitle asChild><h2>{l('Paper citations · OpenAlex', '论文引用 · OpenAlex')}</h2></CardTitle><CardDescription>{l('Exact DOI matches, including arXiv identifiers represented as DOIs. Snapshots refresh after 30 days; missing data stays unavailable. Coverage and paper age affect counts, which do not establish peer review or quality.', '按 DOI 精确匹配，arXiv 编号转换为对应 DOI。快照满 30 天后刷新，缺失数据保留为暂无。收录范围和发表时间会影响引用数，不能据此判断同行评审或研究质量。')}</CardDescription></CardHeader><CardContent><p>{cited.length} / {papers.length} {l('resources with paper links have citation data.', '项含论文链接的资源已有引用数据。')}</p><a href={route({ locale, kind: 'catalog' }) + '?sort=citations'}>{l('Browse by citations', '按引用数浏览')} →</a></CardContent></Card>
       <Card><CardHeader><CardTitle asChild><h2>GitHub Stars</h2></CardTitle><CardDescription>{l('Repository snapshots with collection timestamps. Failed refreshes retain the last successful value.', '展示带采集时间的仓库快照；刷新失败保留上次成功值。')}</CardDescription></CardHeader></Card>
       <Card><CardHeader><CardTitle asChild><h2>{l('Downloads', '外部下载量')}</h2></CardTitle><CardDescription>{l('npm and PyPI Stats report package downloads within reporting windows. GitHub counts matching release asset downloads. Providers and scopes are displayed separately.', 'npm 和 PyPI Stats 提供统计窗口内的包下载量；GitHub 统计匹配的 Release 附件下载。不同来源和口径分别展示。')}</CardDescription></CardHeader></Card>
       <Card><CardHeader><CardTitle asChild><h2>{l('Website link clicks', '本站链接点击')}</h2></CardTitle><CardDescription>{l('When configured, Umami records pageviews and outbound-link events. Maintainers can view counts in their analytics dashboard. Clicks are not downloads.', '配置后，Umami 接收页面访问和外链事件，维护者可在统计后台查看。链接点击不等于实际下载。')}</CardDescription></CardHeader></Card>

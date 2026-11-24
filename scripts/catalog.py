@@ -19,6 +19,9 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
+from paper_stats import snapshot_for
+from reading_paths import load_paths
+
 ROOT = Path(__file__).resolve().parents[1]
 METADATA = re.compile(r"<!-- metadata\n(.*?)\n-->", re.S)
 MANAGED = re.compile(r"<!-- resource:start -->\n.*?<!-- resource:end -->", re.S)
@@ -270,7 +273,7 @@ def table_row(cells):
     return "| " + " | ".join(str(cell).replace("|", r"\|").replace("\n", "<br>") for cell in cells) + " |"
 
 
-def entry(record, taxonomy, cache, lang, prefix, cross=False):
+def entry(record, taxonomy, cache, lang, prefix, cross=False, papers=None):
     """生成资源表格的一行，包含简介、标签、来源和仓库指标。"""
     m = record["meta"]
     kind = " / ".join(taxonomy["types"][t][lang] for t in m["types"])
@@ -285,6 +288,11 @@ def entry(record, taxonomy, cache, lang, prefix, cross=False):
     sources = []
     if paper:
         sources.append(f"[{text_pair('Paper', '论文', lang)}]({paper['url']})")
+        snapshot = snapshot_for(m, papers or {})
+        if "citation_count" in snapshot:
+            stale = text_pair(" · refresh failed", " · 刷新失败", lang) if snapshot.get("fetch_error") else ""
+            sources.append(f"[{text_pair('Citations', '引用', lang)}: {snapshot['citation_count']:,} · OpenAlex]({snapshot['url']})<br>" +
+                           text_pair("Fetched ", "采集 ", lang) + snapshot["fetched_at"][:10] + stale)
     if not sources and not repos:
         sources.append(f"[{text_pair('Source', '原始来源', lang)}]({m['links'][0]['url']})")
     # Keep the repository, star count and dates aligned when a resource links
@@ -295,7 +303,7 @@ def entry(record, taxonomy, cache, lang, prefix, cross=False):
     return table_row([resource, labels, " · ".join(sources) or "—", *columns])
 
 
-def grouped(records, taxonomy, cache, lang, prefix, cross_ids=None, heading_level=2):
+def grouped(records, taxonomy, cache, lang, prefix, cross_ids=None, heading_level=2, papers=None):
     """按月份分组并生成资源索引内容。"""
     groups = {}
     for record in sorted_records(records):
@@ -310,12 +318,12 @@ def grouped(records, taxonomy, cache, lang, prefix, cross_ids=None, heading_leve
             text_pair("Last push (UTC)", "最近推送（UTC）", lang),
         ])
         rows = [header, "| --- | --- | --- | --- | ---: | --- |"]
-        rows.extend(entry(r, taxonomy, cache, lang, prefix, r["meta"]["id"] in (cross_ids or set())) for r in group)
+        rows.extend(entry(r, taxonomy, cache, lang, prefix, r["meta"]["id"] in (cross_ids or set()), papers) for r in group)
         blocks.append(f"{'#' * heading_level} {heading}\n\n" + "\n".join(rows))
     return "\n\n".join(blocks)
 
 
-def render_detail(record, taxonomy, cache, by_id, downloads=None):
+def render_detail(record, taxonomy, cache, by_id, downloads=None, papers=None):
     """更新资源文件中的自动生成详情区块，并保留编辑内容。"""
     m = record["meta"]
     nav = "[English index](../../README.md) · [中文索引](../../README_zh.md) · [Direction](README.md) · [本方向](README_zh.md) · [Tags / 标签](../tags/README.md)"
@@ -336,6 +344,21 @@ def render_detail(record, taxonomy, cache, by_id, downloads=None):
         block.append(f"- **{role}：** [{link['label']}]({link['url']})")
     if not any(link["kind"] == "paper" for link in m["links"]):
         block.append("- **Paper / 论文：** No separate paper link recorded / 暂未记录独立论文链接。")
+    paper = snapshot_for(m, papers or {})
+    if paper:
+        block.extend(["", "## Paper citations / 论文引用", ""])
+        if "citation_count" in paper:
+            block.append(f"- **OpenAlex：** [{paper['citation_count']:,} citations / 次引用]({paper['url']})")
+        else:
+            block.append("- **OpenAlex：** Exact DOI not indexed / 未收录该 DOI" if paper.get("status") == "not-found" else "- **OpenAlex：** Unavailable / 暂无数据")
+        block.extend([f"- **DOI：** [{paper['doi']}](https://doi.org/{paper['doi']})",
+                      "- **Fetched (UTC) / 采集时间：** " + paper.get("fetched_at", "—")])
+        if paper.get("indexed_in"):
+            block.append("- **Indexed in / 收录来源：** " + paper["indexed_in"])
+        if paper.get("fetch_error"):
+            block.append("- Refresh failed; previous snapshot retained / 刷新失败，保留已有快照。")
+        block.extend(["", "Exact DOI match in OpenAlex, including arXiv preprints. Counts depend on coverage and paper age; they are not quality scores or evidence of peer review.",
+                      "", "按 DOI 精确匹配 OpenAlex，包含 arXiv 预印本。引用量受收录范围和发表时间影响，不代表质量评分或已通过同行评审。"])
     repos = repositories(m)
     if repos:
         block.extend(["", "## Repository activity / 仓库动态", "",
@@ -400,13 +423,13 @@ def render_detail(record, taxonomy, cache, by_id, downloads=None):
     return MANAGED.sub(lambda _: replacement, record["body"], count=1)
 
 
-def render_all(taxonomy, records, cache, downloads=None):
+def render_all(taxonomy, records, cache, downloads=None, papers=None, paths=None):
     """生成双语首页、分类索引、标签索引和资源详情文件内容。"""
     outputs = {}
     by_id = {r["meta"]["id"]: r for r in records}
     generated = "<!-- Generated by scripts/catalog.py; edit resource metadata and descriptions. -->\n\n"
     for record in records:
-        outputs[record["path"]] = render_detail(record, taxonomy, cache, by_id, downloads)
+        outputs[record["path"]] = render_detail(record, taxonomy, cache, by_id, downloads, papers)
     for lang, filename in [(0, "README.md"), (1, "README_zh.md")]:
         other = "README_zh.md" if not lang else "README.md"
         language = "简体中文" if not lang else "English"
@@ -436,8 +459,8 @@ def render_all(taxonomy, records, cache, downloads=None):
                          "Months follow the earliest public date documented here, using the arXiv identifier month where only that precision is known. Conference years and revisions remain in resource notes; year-only and undated resources have separate groups. Repository push dates never change publication groups.",
                          "月份优先采用已记录的首次公开日期；仅能确认 arXiv 编号月份时按该月份归档，并注明依据。会议年份和修订日期保留在详情中；只有年份或日期不明的资源单独分组。仓库推送时间不改变发布月份。", lang),
                      text_pair(
-                         "GitHub stars and latest push times are weekly snapshots with collection timestamps. Failed refreshes retain previous snapshots. These indicators help assess visibility and activity, not research quality. See the [update policy](CONTRIBUTING.md#repository-metadata).",
-                         "GitHub Stars 和最近推送时间为每周采集的快照，均标注采集时间；刷新失败保留旧数据。这些指标用于了解关注度和仓库动态。详见[更新规则](CONTRIBUTING.md#repository-metadata)。", lang),
+                         "GitHub stars and push times are weekly snapshots; OpenAlex citations refresh after 30 days using exact DOI matches, including preprints. Collection dates and sources are shown; missing data is not zero, and failed refreshes retain previous snapshots. Counts reflect attention, coverage, and publication age, not research quality. See the [update policy](CONTRIBUTING.md#repository-metadata).",
+                         "GitHub Stars 与推送时间每周采集；OpenAlex 引用按 DOI 精确匹配，包含预印本，快照满 30 天后刷新。均展示来源与采集日期，缺失不视为零，失败保留旧快照。计数受关注度、收录范围和发表时间影响，不作为研究质量评分。详见[更新规则](CONTRIBUTING.md#repository-metadata)。", lang),
                      "## " + text_pair("Scope", "收录范围", lang),
                      text_pair(
                          "Resources cover RTL generation/editing, verification/debugging, physical design, analog/RF, architecture/HLS/co-design, and agent infrastructure. Board, packaging, and system work is included when directly relevant. General tools and datasets are included only as supporting resources; not every listed benchmark is agent-specific. Simulator-based architecture optimization need not produce RTL. Vendor claims are identified in resource notes.",
@@ -454,6 +477,14 @@ def render_all(taxonomy, records, cache, downloads=None):
         bullets = [i for i,s in enumerate(home) if s.startswith("- [")]
         a,b=bullets[0],bullets[-1]+1
         home[a:b] = ["\n".join(home[a:b])]
+        for path in reversed(paths or []):
+            route_rows = [table_row([text_pair("Step / Resource", "步骤 / 资源", lang), text_pair("Why read it", "为什么读", lang), text_pair("Focus on", "重点看什么", lang)]),
+                          "| --- | --- | --- |"]
+            for i, step in enumerate(path["steps"], 1):
+                record = by_id[step["resource"]]
+                route_rows.append(table_row([f"{i}. [{record['meta']['name']}]({resource_url(record, '')})", step["why"][lang], step["focus"][lang]]))
+            home.insert(4, "## " + path["title"][lang] + "\n\n" + path["summary"][lang] + "\n\n" +
+                        text_pair("Before you start: ", "开始前：", lang) + path["prerequisites"][lang] + "\n\n" + "\n".join(route_rows))
         outputs[ROOT / filename] = generated + "\n\n".join(home) + "\n"
 
         for direction, labels in taxonomy["directions"].items():
@@ -463,14 +494,14 @@ def render_all(taxonomy, records, cache, downloads=None):
             title = f"# {labels[lang]}"
             nav = f"[{text_pair('Home', '首页', lang)}](../../{filename}) · [{language}]({other}) · [{text_pair('Tags', '标签', lang)}](../tags/{filename})"
             note = text_pair("Newest publication month first. Cross-references share the original record; repository activity does not affect ordering.", "按发布月份倒序排列。跨方向索引共用原始详情；仓库动态不影响排序。", lang)
-            parts = [title,nav,note,grouped(technical,taxonomy,cache,lang,"../../",cross_ids)]
+            parts = [title,nav,note,grouped(technical,taxonomy,cache,lang,"../../",cross_ids,papers=papers)]
             events = [r for r in records if r["meta"]["direction"] == direction and set(r["meta"]["types"]) & {"news", "video"}]
             if events:
-                parts += ["# " + text_pair("Related News and Videos", "相关动态与视频",lang), grouped(events,taxonomy,cache,lang,"../../")]
+                parts += ["# " + text_pair("Related News and Videos", "相关动态与视频",lang), grouped(events,taxonomy,cache,lang,"../../",papers=papers)]
             outputs[ROOT / "resources" / direction / filename] = generated + "\n\n".join(parts) + "\n"
         for folder, kind, labels in [("news","news",["News and Announcements","新闻与动态"]),("videos","video",["Talks and Videos","演讲与视频"])]:
             subset = [r for r in records if kind in r["meta"]["types"]]
-            outputs[ROOT / "resources" / folder / filename] = generated + f"# {labels[lang]}\n\n[{text_pair('Home','首页',lang)}](../../{filename}) · [{language}]({other})\n\n" + grouped(subset,taxonomy,cache,lang,"../../") + "\n"
+            outputs[ROOT / "resources" / folder / filename] = generated + f"# {labels[lang]}\n\n[{text_pair('Home','首页',lang)}](../../{filename}) · [{language}]({other})\n\n" + grouped(subset,taxonomy,cache,lang,"../../",papers=papers) + "\n"
         benchmarks = [r for r in records if is_benchmark_resource(r["meta"])]
         benchmark_parts = [
             "# " + text_pair("Benchmarks and Datasets", "基准与数据集", lang),
@@ -493,7 +524,7 @@ def render_all(taxonomy, records, cache, downloads=None):
             if subset:
                 benchmark_parts.extend([
                     f'<a id="{direction}"></a>\n\n## {labels[lang]}',
-                    grouped(subset, taxonomy, cache, lang, "../../", heading_level=3),
+                    grouped(subset, taxonomy, cache, lang, "../../", heading_level=3, papers=papers),
                 ])
         outputs[ROOT / "resources/benchmarks" / filename] = generated + "\n\n".join(benchmark_parts) + "\n"
         tagrows=[table_row([text_pair("Tag", "标签", lang), text_pair("Resources", "资源数", lang)]),
@@ -534,7 +565,9 @@ def main():
             print(f"Warning: {failure}", file=sys.stderr)
     download_path = ROOT / "data/download-stats.json"
     downloads = json.loads(download_path.read_text()) if download_path.exists() else {}
-    outputs = render_all(taxonomy,records,cache,downloads)
+    paper_path = ROOT / "data/paper-stats.json"
+    papers = json.loads(paper_path.read_text()) if paper_path.exists() else {}
+    outputs = render_all(taxonomy,records,cache,downloads,papers,load_paths(ROOT, records))
     stale = []
     for path, content in outputs.items():
         if not path.exists() or path.read_text() != content:

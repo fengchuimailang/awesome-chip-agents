@@ -11,52 +11,52 @@
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
 | **[ScaleBench](../../resources/rtl-generation/scalebench.md)**<br>提供 200 项规格到 RTL 任务及形式等价评测材料。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [形式验证](../../resources/tags/formal.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | — | [hkust-zhiyao/CorrectRTL](https://github.com/hkust-zhiyao/CorrectRTL) | 5 | 2026-10-20<br>采集 2026-11-22 |
-| **[CorrectRTL](../../resources/rtl-generation/correctrtl.md)**<br>结合结构规划、代码检索和 SVA 引导的自我修正生成 RTL。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [形式验证](../../resources/tags/formal.md)<br>论文 | [论文](https://arxiv.org/abs/2610.24977) | [hkust-zhiyao/CorrectRTL](https://github.com/hkust-zhiyao/CorrectRTL) | 5 | 2026-10-20<br>采集 2026-11-22 |
+| **[CorrectRTL](../../resources/rtl-generation/correctrtl.md)**<br>结合结构规划、代码检索和 SVA 引导的自我修正生成 RTL。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [形式验证](../../resources/tags/formal.md)<br>论文 | [论文](https://arxiv.org/abs/2610.24977) · [引用: 1 · OpenAlex](https://openalex.org/W7223014252)<br>采集 2026-11-24 | [hkust-zhiyao/CorrectRTL](https://github.com/hkust-zhiyao/CorrectRTL) | 5 | 2026-10-20<br>采集 2026-11-22 |
 | **[CoreSmith](../../resources/physical-design/coresmith.md)**<br>通过 Agent 与工具反馈修复循环，编排规格、RTL、验证、综合和物理设计。 | [物理设计](../../resources/tags/physical-design.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [RTL](../../resources/tags/rtl.md) · [多 Agent](../../resources/tags/multi-agent.md) · [工具调用](../../resources/tags/tool-use.md)<br>开源项目 / 工具 / 平台 · 跨方向索引 | — | [facebookexperimental/coresmith](https://github.com/facebookexperimental/coresmith) | 52 | 2026-11-14<br>采集 2026-11-22 |
-| **[SparseCraft](../../resources/architecture-hls-codesign/sparsecraft.md)**<br>使用 Agent 结合周期精确模拟和位精确验证，协同优化稀疏加速器软件与 Chisel RTL。 | [架构探索](../../resources/tags/architecture.md) · [软硬件协同](../../resources/tags/codesign.md) · [RTL](../../resources/tags/rtl.md) · [仿真](../../resources/tags/simulation.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2610.05037) | — | — | — |
+| **[SparseCraft](../../resources/architecture-hls-codesign/sparsecraft.md)**<br>使用 Agent 结合周期精确模拟和位精确验证，协同优化稀疏加速器软件与 Chisel RTL。 | [架构探索](../../resources/tags/architecture.md) · [软硬件协同](../../resources/tags/codesign.md) · [RTL](../../resources/tags/rtl.md) · [仿真](../../resources/tags/simulation.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2610.05037) · [引用: 0 · OpenAlex](https://openalex.org/W7220666854)<br>采集 2026-11-24 | — | — | — |
 
 ## 2026-09
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[AHRR](../../resources/architecture-hls-codesign/ahrr.md)**<br>将 Agent 驱动的 HLS 设计与 HLS 后的 RTL 精修结合为 AHRR，在 11 项 FPGA 任务上评测。 | [HLS](../../resources/tags/hls.md) · [RTL](../../resources/tags/rtl.md) · [FPGA](../../resources/tags/fpga.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>论文 / 开源项目 · 跨方向索引 | [论文](https://arxiv.org/abs/2609.21157) | [ZijD/AHRR](https://github.com/ZijD/AHRR) | 8 | 2026-09-17<br>采集 2026-11-22 |
+| **[AHRR](../../resources/architecture-hls-codesign/ahrr.md)**<br>将 Agent 驱动的 HLS 设计与 HLS 后的 RTL 精修结合为 AHRR，在 11 项 FPGA 任务上评测。 | [HLS](../../resources/tags/hls.md) · [RTL](../../resources/tags/rtl.md) · [FPGA](../../resources/tags/fpga.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>论文 / 开源项目 · 跨方向索引 | [论文](https://arxiv.org/abs/2609.21157) · [引用: 1 · OpenAlex](https://openalex.org/W7213923802)<br>采集 2026-11-24 | [ZijD/AHRR](https://github.com/ZijD/AHRR) | 8 | 2026-09-17<br>采集 2026-11-22 |
 | **[agentic-asic](../../resources/agent-infrastructure/agentic-asic.md)**<br>作为 MCP 客户端编排 RTL 审查、仿真、形式验证、综合、布局布线、GDS 检查及 FPGA 流程，并生成结构化报告。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [物理设计](../../resources/tags/physical-design.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>开源项目 / 工具 / 平台 · 跨方向索引 | — | [zesun33/agentic-asic](https://github.com/zesun33/agentic-asic) | 1 | 2026-10-05<br>采集 2026-11-22 |
-| **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)**<br>评测生成 RTL 的代码和配套材料，覆盖功能等价、模块完整性和 QoR，而不只是编译。 | [RTL](../../resources/tags/rtl.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.25335) | [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) | 0 | 2026-10-12<br>采集 2026-11-22 |
+| **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)**<br>评测生成 RTL 的代码和配套材料，覆盖功能等价、模块完整性和 QoR，而不只是编译。 | [RTL](../../resources/tags/rtl.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.25335) · [引用: 1 · OpenAlex](https://openalex.org/W7214100608)<br>采集 2026-11-24 | [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) | 0 | 2026-10-12<br>采集 2026-11-22 |
 
 ## 2026-08
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[Architect Labs / Redwood](../../resources/architecture-hls-codesign/redwood.md)**<br>报告 Agent 驱动的加速器与软件协同设计及 FPGA 验证；ASIC 能效数据为预测值。 | [架构探索](../../resources/tags/architecture.md) · [软硬件协同](../../resources/tags/codesign.md) · [验证](../../resources/tags/verification.md) · [FPGA](../../resources/tags/fpga.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2608.26418) | — | — | — |
-| **[NoTB](../../resources/verification-debugging/notb.md)**<br>使用跨模型形式共识筛选生成的 RTL，不依赖手写测试平台 Oracle。 | [RTL](../../resources/tags/rtl.md) · [形式验证](../../resources/tags/formal.md) · [评测](../../resources/tags/evaluation.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2608.21962) | — | — | — |
+| **[Architect Labs / Redwood](../../resources/architecture-hls-codesign/redwood.md)**<br>报告 Agent 驱动的加速器与软件协同设计及 FPGA 验证；ASIC 能效数据为预测值。 | [架构探索](../../resources/tags/architecture.md) · [软硬件协同](../../resources/tags/codesign.md) · [验证](../../resources/tags/verification.md) · [FPGA](../../resources/tags/fpga.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2608.26418) · [引用: 1 · OpenAlex](https://openalex.org/W7204549752)<br>采集 2026-11-24 | — | — | — |
+| **[NoTB](../../resources/verification-debugging/notb.md)**<br>使用跨模型形式共识筛选生成的 RTL，不依赖手写测试平台 Oracle。 | [RTL](../../resources/tags/rtl.md) · [形式验证](../../resources/tags/formal.md) · [评测](../../resources/tags/evaluation.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2608.21962) · [引用: 0 · OpenAlex](https://openalex.org/W7204205756)<br>采集 2026-11-24 | — | — | — |
 | **[LACE](../../resources/architecture-hls-codesign/lace.md)**<br>协调多个 Agent 完成 RISC-V 指令扩展设计、RTL 修改和形式验证。 | [RISC-V](../../resources/tags/risc-v.md) · [代码编辑](../../resources/tags/editing.md) · [形式验证](../../resources/tags/formal.md) · [多 Agent](../../resources/tags/multi-agent.md)<br>论文 / 开源项目 · 跨方向索引 | [论文](https://arxiv.org/abs/2608.02915) | [UMN-ZhaoLab/LACE](https://github.com/UMN-ZhaoLab/LACE) | 4 | 2026-09-02<br>采集 2026-11-22 |
 
 ## 2026-07
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[RTL Repair Framework](../../resources/verification-debugging/rtl-repair-framework.md)**<br>研究结合 Yosys、SymbiYosys、Z3 的反例引导多 Agent RTL 修复，并分析失败模式。 | [RTL](../../resources/tags/rtl.md) · [形式验证](../../resources/tags/formal.md) · [调试](../../resources/tags/debugging.md) · [多 Agent](../../resources/tags/multi-agent.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 / 开源项目 · 跨方向索引 | [论文](https://arxiv.org/abs/2607.28877) | [trunghafromvietnam/rtl-repair-framework](https://github.com/trunghafromvietnam/rtl-repair-framework) | 1 | 2026-08-03<br>采集 2026-11-22 |
+| **[RTL Repair Framework](../../resources/verification-debugging/rtl-repair-framework.md)**<br>研究结合 Yosys、SymbiYosys、Z3 的反例引导多 Agent RTL 修复，并分析失败模式。 | [RTL](../../resources/tags/rtl.md) · [形式验证](../../resources/tags/formal.md) · [调试](../../resources/tags/debugging.md) · [多 Agent](../../resources/tags/multi-agent.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 / 开源项目 · 跨方向索引 | [论文](https://arxiv.org/abs/2607.28877) · [引用: 1 · OpenAlex](https://openalex.org/W7172314504)<br>采集 2026-11-24 | [trunghafromvietnam/rtl-repair-framework](https://github.com/trunghafromvietnam/rtl-repair-framework) | 1 | 2026-08-03<br>采集 2026-11-22 |
 
 ## 2026-06
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
 | **[hw-agent-tooling](../../resources/agent-infrastructure/hw-agent-tooling.md)**<br>硬件 Agent 工具组合的入口页，链接九个分别发布的 RTL、验证、物理设计、FPGA 与 SPICE MCP 服务。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [综述 / 教程](../../resources/tags/overview.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>开源项目 / 综述 / 教程 · 跨方向索引 | — | [zesun33/hw-agent-tooling](https://github.com/zesun33/hw-agent-tooling) | 0 | 2026-10-05<br>采集 2026-11-22 |
-| **[RTL-BenchLS](../../resources/rtl-generation/rtl-benchls.md)**<br>提供一万多个经过形式验证的 Verilog 设计，用于往返推理、掩码内容推理和仓库问题修复，并提供数据和评测代码。 | [RTL](../../resources/tags/rtl.md) · [形式验证](../../resources/tags/formal.md) · [数据集](../../resources/tags/dataset.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2606.08976) | [hkust-zhiyao/RTL-BenchLS](https://github.com/hkust-zhiyao/RTL-BenchLS) | 6 | 2026-06-08<br>采集 2026-11-22 |
-| **[HORIZON](../../resources/rtl-generation/horizon.md)**<br>将硬件开发视为仓库级代码演化，由 Agent 跨文件修改和验证设计。 | [RTL](../../resources/tags/rtl.md) · [代码编辑](../../resources/tags/editing.md) · [仓库级任务](../../resources/tags/repository-level.md) · [验证](../../resources/tags/verification.md)<br>论文 | [论文](https://arxiv.org/abs/2606.28279) | — | — | — |
+| **[RTL-BenchLS](../../resources/rtl-generation/rtl-benchls.md)**<br>提供一万多个经过形式验证的 Verilog 设计，用于往返推理、掩码内容推理和仓库问题修复，并提供数据和评测代码。 | [RTL](../../resources/tags/rtl.md) · [形式验证](../../resources/tags/formal.md) · [数据集](../../resources/tags/dataset.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2606.08976) · [引用: 5 · OpenAlex](https://openalex.org/W7164053248)<br>采集 2026-11-24 | [hkust-zhiyao/RTL-BenchLS](https://github.com/hkust-zhiyao/RTL-BenchLS) | 6 | 2026-06-08<br>采集 2026-11-22 |
+| **[HORIZON](../../resources/rtl-generation/horizon.md)**<br>将硬件开发视为仓库级代码演化，由 Agent 跨文件修改和验证设计。 | [RTL](../../resources/tags/rtl.md) · [代码编辑](../../resources/tags/editing.md) · [仓库级任务](../../resources/tags/repository-level.md) · [验证](../../resources/tags/verification.md)<br>论文 | [论文](https://arxiv.org/abs/2606.28279) · [引用: 13 · OpenAlex](https://openalex.org/W7166581904)<br>采集 2026-11-24 | — | — | — |
 
 ## 2026-02
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[ACE-RTL](../../resources/rtl-generation/ace-rtl.md)**<br>结合 RTL 专用生成模型和推理 Agent，通过验证反馈生成和修复 RTL。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [调试](../../resources/tags/debugging.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2602.10218) | [NVlabs/ACE-RTL](https://github.com/NVlabs/ACE-RTL) | 50 | 2026-09-20<br>采集 2026-11-22 |
+| **[ACE-RTL](../../resources/rtl-generation/ace-rtl.md)**<br>结合 RTL 专用生成模型和推理 Agent，通过验证反馈生成和修复 RTL。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [调试](../../resources/tags/debugging.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2602.10218) · [引用: 21 · OpenAlex](https://openalex.org/W7128679295)<br>采集 2026-11-24 | [NVlabs/ACE-RTL](https://github.com/NVlabs/ACE-RTL) | 50 | 2026-09-20<br>采集 2026-11-22 |
 
 ## 2026-01
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[Veri-Sure](../../resources/rtl-generation/veri-sure.md)**<br>通过设计契约协调 Agent，结合依赖切片引导的局部修复、时序轨迹分析和形式验证进行 RTL 生成与调试。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [形式验证](../../resources/tags/formal.md) · [多 Agent](../../resources/tags/multi-agent.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2601.19747) | [xyjoey/Veri-Sure](https://github.com/xyjoey/Veri-Sure) | 30 | 2026-10-26<br>采集 2026-11-22 |
-| **[ChipBench](../../resources/rtl-generation/chipbench.md)**<br>面向较真实的层次化硬件模块，评测 Verilog 生成、调试和参考模型生成。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [调试](../../resources/tags/debugging.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2601.21448) | [zhongkaiyu/ChipBench](https://github.com/zhongkaiyu/ChipBench) | 53 | 2026-11-22<br>采集 2026-11-22 |
+| **[Veri-Sure](../../resources/rtl-generation/veri-sure.md)**<br>通过设计契约协调 Agent，结合依赖切片引导的局部修复、时序轨迹分析和形式验证进行 RTL 生成与调试。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [形式验证](../../resources/tags/formal.md) · [多 Agent](../../resources/tags/multi-agent.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2601.19747) · [引用: 6 · OpenAlex](https://openalex.org/W7125938203)<br>采集 2026-11-24 | [xyjoey/Veri-Sure](https://github.com/xyjoey/Veri-Sure) | 30 | 2026-10-26<br>采集 2026-11-22 |
+| **[ChipBench](../../resources/rtl-generation/chipbench.md)**<br>面向较真实的层次化硬件模块，评测 Verilog 生成、调试和参考模型生成。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [调试](../../resources/tags/debugging.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2601.21448) · [引用: 18 · OpenAlex](https://openalex.org/W7126243518)<br>采集 2026-11-24 | [zhongkaiyu/ChipBench](https://github.com/zhongkaiyu/ChipBench) | 53 | 2026-11-22<br>采集 2026-11-22 |
 
 ## 2026 · 月份待核实
 
@@ -69,7 +69,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[CorrectHDL](../../resources/rtl-generation/correcthdl.md)**<br>从 C/C++ 生成模块化 HDL，借助 RAG 及与 HLS 参考设计的仿真对比迭代修复。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [HLS](../../resources/tags/hls.md) · [验证](../../resources/tags/verification.md) · [调试](../../resources/tags/debugging.md)<br>论文 | [论文](https://arxiv.org/abs/2511.16395) | [AgenticHDL/CorrectHDL](https://github.com/AgenticHDL/CorrectHDL) | 17 | 2026-04-27<br>采集 2026-11-22 |
+| **[CorrectHDL](../../resources/rtl-generation/correcthdl.md)**<br>从 C/C++ 生成模块化 HDL，借助 RAG 及与 HLS 参考设计的仿真对比迭代修复。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [HLS](../../resources/tags/hls.md) · [验证](../../resources/tags/verification.md) · [调试](../../resources/tags/debugging.md)<br>论文 | [论文](https://arxiv.org/abs/2511.16395) · [引用: 4 · OpenAlex](https://openalex.org/W7106209847)<br>采集 2026-11-24 | [AgenticHDL/CorrectHDL](https://github.com/AgenticHDL/CorrectHDL) | 17 | 2026-04-27<br>采集 2026-11-22 |
 
 ## 2025-08
 
@@ -118,7 +118,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[AutoChip](../../resources/rtl-generation/autochip.md)**<br>早期反馈驱动 HDL 生成工作，利用编译器和仿真结果迭代改进 Verilog。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [仿真](../../resources/tags/simulation.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2311.04887) | [shailja-thakur/AutoChip](https://github.com/shailja-thakur/AutoChip) | 64 | 2025-03-10<br>采集 2026-11-22 |
+| **[AutoChip](../../resources/rtl-generation/autochip.md)**<br>早期反馈驱动 HDL 生成工作，利用编译器和仿真结果迭代改进 Verilog。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [仿真](../../resources/tags/simulation.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2311.04887) · [引用: 252 · OpenAlex](https://openalex.org/W4388555899)<br>采集 2026-11-24 | [shailja-thakur/AutoChip](https://github.com/shailja-thakur/AutoChip) | 64 | 2025-03-10<br>采集 2026-11-22 |
 
 ## 日期待核实
 

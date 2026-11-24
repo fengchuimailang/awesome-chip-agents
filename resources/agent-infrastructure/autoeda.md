@@ -54,6 +54,16 @@
 
 - **Paper / 论文：** [Original paper](https://arxiv.org/abs/2508.01012)
 
+## Paper citations / 论文引用
+
+- **OpenAlex：** Exact DOI not indexed / 未收录该 DOI
+- **DOI：** [10.48550/arxiv.2508.01012](https://doi.org/10.48550/arxiv.2508.01012)
+- **Fetched (UTC) / 采集时间：** 2026-11-24T02:53:34Z
+
+Exact DOI match in OpenAlex, including arXiv preprints. Counts depend on coverage and paper age; they are not quality scores or evidence of peer review.
+
+按 DOI 精确匹配 OpenAlex，包含 arXiv 预印本。引用量受收录范围和发表时间影响，不代表质量评分或已通过同行评审。
+
 **Repository / 仓库：** No related public repository link recorded / 暂未记录相关公开仓库链接。
 
 ## Related resources / 相关资源

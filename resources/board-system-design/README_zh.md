@@ -10,7 +10,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[HWE-Bench · Schematic design](../../resources/board-system-design/hwe-bench-schematic.md)**<br>板级设计基准，包含 300 个任务和 2,914 个 IC 数据手册组成的知识库。 | [板级 / PCB](../../resources/tags/board.md) · [基准](../../resources/tags/benchmark.md) · [数据集](../../resources/tags/dataset.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2603.18102) | — | — | — |
+| **[HWE-Bench · Schematic design](../../resources/board-system-design/hwe-bench-schematic.md)**<br>板级设计基准，包含 300 个任务和 2,914 个 IC 数据手册组成的知识库。 | [板级 / PCB](../../resources/tags/board.md) · [基准](../../resources/tags/benchmark.md) · [数据集](../../resources/tags/dataset.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2603.18102) · [引用: 3 · OpenAlex](https://openalex.org/W7139923325)<br>采集 2026-11-24 | — | — | — |
 
 ## 日期待核实
 

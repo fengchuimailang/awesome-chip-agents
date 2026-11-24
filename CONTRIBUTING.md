@@ -14,6 +14,8 @@ Keep resources directly relevant to **LLM agents for chip design or their evalua
 - `resources/news/`, `resources/videos/`: generated chronological news and video indexes / 自动生成的动态和视频时间索引。
 - `data/taxonomy.json`: fixed direction, type, and tag vocabulary; label arrays are `[English, 简体中文]` / 固定分类、类型与标签词表，标签数组顺序为 `[英文, 简体中文]`。
 - `data/repo-stats.json`: GitHub metadata snapshots / GitHub 指标快照。
+- `data/paper-stats.json`: exact-DOI OpenAlex citation snapshots / 按 DOI 精确匹配的 OpenAlex 引用快照。
+- `data/reading-paths.json`: bilingual editorial reading paths shared by the website and README files / 网站与中英文 README 共用的编辑阅读路线。
 
 ## Add or Edit a Resource / 新增或修改资源
 
@@ -69,9 +71,9 @@ The website reads the same resources. Frontend development, deployment, click an
 
 Repository statistics use `stargazers_count` and `pushed_at` from the linked API. The push timestamp can reflect any branch and is distinct from a release or the latest default-branch commit. All timestamps use UTC. These indicators describe attention and activity, not research quality.
 
-The [refresh workflow](.github/workflows/refresh-repository-stats.yml) runs Mondays at 03:17 UTC (11:17 Asia/Shanghai), or manually via **Actions → Refresh repository statistics → Run workflow**. It uses the built-in `GITHUB_TOKEN` and commits only snapshots and rendered Markdown to the checked-out branch; no personal token is required. Scheduled runs use the default branch. Repository rules must permit the bot's write, otherwise the push will fail visibly. The workflow begins running once these files are pushed to GitHub; it has not been activated by local editing.
+The [refresh workflow](.github/workflows/refresh-repository-stats.yml) runs Sundays at 16:00 UTC (Monday 00:00 Asia/Shanghai), or manually via **Actions → Refresh repository statistics → Run workflow**. It uses the built-in `GITHUB_TOKEN` and commits only snapshots and rendered Markdown to the checked-out branch; no personal token is required. Scheduled runs use the default branch. Repository rules must permit the bot's write, otherwise the push will fail visibly. The workflow begins running once these files are pushed to GitHub; it has not been activated by local editing.
 
-[刷新流程](.github/workflows/refresh-repository-stats.yml)每周一北京时间 11:17 执行，也可在 Actions 页面手动运行；使用内置 `GITHUB_TOKEN`，只提交指标快照与生成的 Markdown。定时任务运行于默认分支；仓库规则需要允许机器人写入，否则推送步骤会报错。工作流文件推送到 GitHub 后才会生效，本地编辑不会激活它。
+[刷新流程](.github/workflows/refresh-repository-stats.yml)每周一北京时间 00:00 执行，也可在 Actions 页面手动运行；使用内置 `GITHUB_TOKEN`，只提交指标快照与生成的 Markdown。定时任务运行于默认分支；仓库规则需要允许机器人写入，否则推送步骤会报错。工作流文件推送到 GitHub 后才会生效，本地编辑不会激活它。
 
 For a local refresh / 本地刷新：
 
@@ -86,3 +88,17 @@ Optionally provide `GITHUB_TOKEN` or `GH_TOKEN` through your shell environment t
 Each successful fetch records its own `fetched_at`. A failed refresh retains the last successful Stars and push timestamp, records `last_attempt_at` and a short error, and marks the rendered snapshot as stale. With no successful snapshot, values remain unavailable. Partial successes are still saved; the command and workflow return failure so missing updates are visible. `--check` uses local snapshots and never accesses the network. Removing a resource also requires removing its obsolete generated tag page if that tag is no longer used.
 
 成功采集记录 `fetched_at`；失败时保留上次成功值，记录尝试时间与简短错误，并在页面注明刷新失败。没有成功快照时显示暂不可用。部分成功的数据仍会保存，但命令和工作流会返回失败以提示检查。`--check` 只读本地数据，不访问网络。删除资源后，如果某标签不再使用，需同时删除对应的旧标签索引页。
+
+## Paper Citations and Reading Paths / 论文引用与阅读路线
+
+Run `python3 scripts/paper_stats.py` to collect [OpenAlex citation counts](https://help.openalex.org/data/works/attributes/), then regenerate Markdown. The collector uses only recorded DOI links or the DOI corresponding to an arXiv identifier; it never guesses a paper by title. Unsupported links remain unavailable. The weekly workflow checks this cache, refreshing entries after 30 days; `--force` bypasses the interval. Optionally set `OPENALEX_API_KEY` in your environment or the repository's Actions secrets. Authentication and API rate limits still apply; keys are not included in logs or exported data.
+
+运行 `python3 scripts/paper_stats.py` 采集 OpenAlex 引用快照，再重新生成 Markdown。只使用已有 DOI 链接或 arXiv 编号对应的 DOI 精确匹配，不按标题猜测；不支持的链接显示暂无数据。每周工作流检查快照，满 30 天后刷新，`--force` 可强制刷新。可在本地环境或仓库 Actions Secrets 设置 `OPENALEX_API_KEY`；接口认证与限额仍适用，密钥不会写入日志或导出数据。
+
+Each snapshot retains its DOI, provider record URL, collection time, and indexed source when available. A real zero, a DOI not indexed by OpenAlex, and a request failure are distinct. Failures retain previous successful values; changing the recorded DOI discards the old paper's count. Preprints and published versions can have separate records, so counts may differ from other services. An indexed source is not evidence of peer review. Citation counts reflect coverage and paper age and are not quality scores.
+
+快照保留 DOI、来源记录地址、采集时间及可用的收录来源。实际引用为零、DOI 未收录、请求失败分别处理；失败保留旧值，修改 DOI 后不沿用旧论文计数。预印本与正式发表版可能分开建档，引用数也可能与其他平台不同；收录来源不能证明已通过同行评审。引用数受覆盖范围和发表时间影响，不作为质量评分。
+
+Edit `data/reading-paths.json` to maintain editorial routes: each has a unique ID, bilingual title, summary, prerequisites, and 4–6 distinct existing resource IDs. Every step explains why to read it and what to focus on. These are editorial suggestions, not metric rankings; both README languages and the website consume the same validated data. A code link means a link is recorded, not that the work has been reproduced.
+
+在 `data/reading-paths.json` 维护阅读路线：每条使用唯一 ID，提供中英文标题、简介、前置知识及 4–6 项互不重复的已有资源 ID，每一步说明为什么读、重点看什么。路线属于编辑建议，网站与中英文 README 共用校验后的数据。有代码链接表示已记录入口，不表示已验证可复现。

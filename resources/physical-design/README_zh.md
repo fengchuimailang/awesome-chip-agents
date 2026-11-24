@@ -10,13 +10,13 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[Meta-RTL](../../resources/physical-design/meta-rtl.md)**<br>在固定模型、EDA 流程和单设计预算的条件下，迭代优化 RTL 优化 Agent 的可执行搜索流程。 | [RTL](../../resources/tags/rtl.md) · [代码编辑](../../resources/tags/editing.md) · [物理设计](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [评测](../../resources/tags/evaluation.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>论文 | [论文](https://arxiv.org/abs/2611.25891) | — | — | — |
+| **[Meta-RTL](../../resources/physical-design/meta-rtl.md)**<br>在固定模型、EDA 流程和单设计预算的条件下，迭代优化 RTL 优化 Agent 的可执行搜索流程。 | [RTL](../../resources/tags/rtl.md) · [代码编辑](../../resources/tags/editing.md) · [物理设计](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [评测](../../resources/tags/evaluation.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>论文 | [论文](https://arxiv.org/abs/2611.25891) · [引用: 0 · OpenAlex](https://openalex.org/W7237264229)<br>采集 2026-11-24 | — | — | — |
 
 ## 2026-10
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[LATCH](../../resources/physical-design/latch.md)**<br>在 16 个设计上研究用于 FPGA 布局布线后时序收敛的 LLM 编排策略。 | [FPGA](../../resources/tags/fpga.md) · [物理设计](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [工具调用](../../resources/tags/tool-use.md) · [评测](../../resources/tags/evaluation.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2610.16625) | [aprilaihub/LATCH](https://github.com/aprilaihub/LATCH) | 1 | 2026-10-14<br>采集 2026-11-22 |
+| **[LATCH](../../resources/physical-design/latch.md)**<br>在 16 个设计上研究用于 FPGA 布局布线后时序收敛的 LLM 编排策略。 | [FPGA](../../resources/tags/fpga.md) · [物理设计](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [工具调用](../../resources/tags/tool-use.md) · [评测](../../resources/tags/evaluation.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2610.16625) · [引用: 0 · OpenAlex](https://openalex.org/W7221770318)<br>采集 2026-11-24 | [aprilaihub/LATCH](https://github.com/aprilaihub/LATCH) | 1 | 2026-10-14<br>采集 2026-11-22 |
 | **[CoreSmith](../../resources/physical-design/coresmith.md)**<br>通过 Agent 与工具反馈修复循环，编排规格、RTL、验证、综合和物理设计。 | [物理设计](../../resources/tags/physical-design.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [RTL](../../resources/tags/rtl.md) · [多 Agent](../../resources/tags/multi-agent.md) · [工具调用](../../resources/tags/tool-use.md)<br>开源项目 / 工具 / 平台 | — | [facebookexperimental/coresmith](https://github.com/facebookexperimental/coresmith) | 52 | 2026-11-14<br>采集 2026-11-22 |
 
 ## 2026-09
@@ -24,34 +24,34 @@
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
 | **[agentic-asic](../../resources/agent-infrastructure/agentic-asic.md)**<br>作为 MCP 客户端编排 RTL 审查、仿真、形式验证、综合、布局布线、GDS 检查及 FPGA 流程，并生成结构化报告。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [物理设计](../../resources/tags/physical-design.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>开源项目 / 工具 / 平台 · 跨方向索引 | — | [zesun33/agentic-asic](https://github.com/zesun33/agentic-asic) | 1 | 2026-10-05<br>采集 2026-11-22 |
-| **[PlaceReasoner-Beta](../../resources/physical-design/place-reasoner-beta.md)**<br>以验证器引导的 Agent 进行宏单元布局，并提供使用布线后 PPA 与 DRC 评测的开放基准。 | [物理设计](../../resources/tags/physical-design.md) · [多 Agent](../../resources/tags/multi-agent.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.21263) | [fenggev56/PlaceReasoner-Beta](https://github.com/fenggev56/PlaceReasoner-Beta) | 2 | 2026-10-22<br>采集 2026-11-22 |
-| **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)**<br>评测生成 RTL 的代码和配套材料，覆盖功能等价、模块完整性和 QoR，而不只是编译。 | [RTL](../../resources/tags/rtl.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>开源项目 / 基准 / 数据集 · 跨方向索引 | [论文](https://arxiv.org/abs/2609.25335) | [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) | 0 | 2026-10-12<br>采集 2026-11-22 |
+| **[PlaceReasoner-Beta](../../resources/physical-design/place-reasoner-beta.md)**<br>以验证器引导的 Agent 进行宏单元布局，并提供使用布线后 PPA 与 DRC 评测的开放基准。 | [物理设计](../../resources/tags/physical-design.md) · [多 Agent](../../resources/tags/multi-agent.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>开源项目 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2609.21263) · [引用: 1 · OpenAlex](https://openalex.org/W7213876703)<br>采集 2026-11-24 | [fenggev56/PlaceReasoner-Beta](https://github.com/fenggev56/PlaceReasoner-Beta) | 2 | 2026-10-22<br>采集 2026-11-22 |
+| **[GRADE-RTL](../../resources/rtl-generation/grade-rtl.md)**<br>评测生成 RTL 的代码和配套材料，覆盖功能等价、模块完整性和 QoR，而不只是编译。 | [RTL](../../resources/tags/rtl.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>开源项目 / 基准 / 数据集 · 跨方向索引 | [论文](https://arxiv.org/abs/2609.25335) · [引用: 1 · OpenAlex](https://openalex.org/W7214100608)<br>采集 2026-11-24 | [hsc-research/GRADE-RTL](https://github.com/hsc-research/GRADE-RTL) | 0 | 2026-10-12<br>采集 2026-11-22 |
 
 ## 2026-08
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[GoalEvolve](../../resources/physical-design/goalevolve.md)**<br>通过多 Agent 搜索和工具反馈，让物理设计算法朝明确的 QoR 目标演化。 | [物理设计](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [多 Agent](../../resources/tags/multi-agent.md)<br>论文 | [论文](https://arxiv.org/abs/2608.16733) | — | — | — |
+| **[GoalEvolve](../../resources/physical-design/goalevolve.md)**<br>通过多 Agent 搜索和工具反馈，让物理设计算法朝明确的 QoR 目标演化。 | [物理设计](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [多 Agent](../../resources/tags/multi-agent.md)<br>论文 | [论文](https://arxiv.org/abs/2608.16733) · [引用: 2 · OpenAlex](https://openalex.org/W7203663338)<br>采集 2026-11-24 | — | — | — |
 
 ## 2026-06
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
 | **[hw-agent-tooling](../../resources/agent-infrastructure/hw-agent-tooling.md)**<br>硬件 Agent 工具组合的入口页，链接九个分别发布的 RTL、验证、物理设计、FPGA 与 SPICE MCP 服务。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [综述 / 教程](../../resources/tags/overview.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>开源项目 / 综述 / 教程 · 跨方向索引 | — | [zesun33/hw-agent-tooling](https://github.com/zesun33/hw-agent-tooling) | 0 | 2026-10-05<br>采集 2026-11-22 |
-| **[PDAgent-Bench](../../resources/physical-design/pdagent-bench.md)**<br>评测 VLSI 物理设计工作流中的上下文 grounding、任务执行和 Agent 架构选择。 | [物理设计](../../resources/tags/physical-design.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2606.17253) | — | — | — |
+| **[PDAgent-Bench](../../resources/physical-design/pdagent-bench.md)**<br>评测 VLSI 物理设计工作流中的上下文 grounding、任务执行和 Agent 架构选择。 | [物理设计](../../resources/tags/physical-design.md) · [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2606.17253) · [引用: 10 · OpenAlex](https://openalex.org/W7164992111)<br>采集 2026-11-24 | — | — | — |
 
 ## 2026-05
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[Design Conductor 2.0 / VerTQ](../../resources/architecture-hls-codesign/design-conductor-2.md)**<br>报告多 Agent 设计 VerTQ 加速器的过程，提供 FPGA 映射、ASIC 实现指标与 Token 用量分析。 | [架构探索](../../resources/tags/architecture.md) · [软硬件协同](../../resources/tags/codesign.md) · [多 Agent](../../resources/tags/multi-agent.md) · [FPGA](../../resources/tags/fpga.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2605.05170) | — | — | — |
-| **[PostEDA-Bench](../../resources/physical-design/posteda-bench.md)**<br>评测初始 EDA 生成后，Agent 收敛 PPA 目标和修复 DRC 违规的能力。 | [物理设计](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [DRC](../../resources/tags/drc.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2605.06936) | — | — | — |
+| **[Design Conductor 2.0 / VerTQ](../../resources/architecture-hls-codesign/design-conductor-2.md)**<br>报告多 Agent 设计 VerTQ 加速器的过程，提供 FPGA 映射、ASIC 实现指标与 Token 用量分析。 | [架构探索](../../resources/tags/architecture.md) · [软硬件协同](../../resources/tags/codesign.md) · [多 Agent](../../resources/tags/multi-agent.md) · [FPGA](../../resources/tags/fpga.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2605.05170) · [引用: 7 · OpenAlex](https://openalex.org/W7160537595)<br>采集 2026-11-24 | — | — | — |
+| **[PostEDA-Bench](../../resources/physical-design/posteda-bench.md)**<br>评测初始 EDA 生成后，Agent 收敛 PPA 目标和修复 DRC 违规的能力。 | [物理设计](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [DRC](../../resources/tags/drc.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2605.06936) · [引用: 2 · OpenAlex](https://openalex.org/W7160842974)<br>采集 2026-11-24 | — | — | — |
 
 ## 2026-03
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[FluxEDA](../../resources/agent-infrastructure/fluxeda.md)**<br>为可复现的长时运行 Agentic EDA 流程提供有状态执行和工具集成基础设施。 | [基础设施](../../resources/tags/infrastructure.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2603.25243) | — | — | — |
+| **[FluxEDA](../../resources/agent-infrastructure/fluxeda.md)**<br>为可复现的长时运行 Agentic EDA 流程提供有状态执行和工具集成基础设施。 | [基础设施](../../resources/tags/infrastructure.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2603.25243) · [引用: 5 · OpenAlex](https://openalex.org/W7141450805)<br>采集 2026-11-24 | — | — | — |
 
 ## 2026-02
 
@@ -64,7 +64,7 @@
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
 | **[Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md)**<br>支持选择语言模型的商业 Agent 平台，提供面向验证、物理实现和模拟/混合信号设计的专用 Agent。 | [商业平台](../../resources/tags/commercial.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [多 Agent](../../resources/tags/multi-agent.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 · 跨方向索引 | [原始来源](https://www.synopsys.com/ai/agentic-ai.html) | — | — | — |
-| **[Design Conductor / VerCore](../../resources/architecture-hls-codesign/design-conductor.md)**<br>协调 LLM Agent 完成 CPU 规格到 RTL、验证及 GDSII 的流程；VerCore 结果由开发方报告。 | [架构探索](../../resources/tags/architecture.md) · [RISC-V](../../resources/tags/risc-v.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [多 Agent](../../resources/tags/multi-agent.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2603.08716) | — | — | — |
+| **[Design Conductor / VerCore](../../resources/architecture-hls-codesign/design-conductor.md)**<br>协调 LLM Agent 完成 CPU 规格到 RTL、验证及 GDSII 的流程；VerCore 结果由开发方报告。 | [架构探索](../../resources/tags/architecture.md) · [RISC-V](../../resources/tags/risc-v.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [多 Agent](../../resources/tags/multi-agent.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2603.08716) · [引用: 10 · OpenAlex](https://openalex.org/W7134962201)<br>采集 2026-11-24 | — | — | — |
 | **[Build-A-Chip-Bench](../../resources/physical-design/build-a-chip-bench.md)**<br>以正确性门槛和 PPA 评测工作负载到 GDS 的 Agent；结果由开发方报告。 | [EDA 流程](../../resources/tags/eda-flow.md) · [PPA / QoR](../../resources/tags/ppa.md) · [基准](../../resources/tags/benchmark.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>基准 / 数据集 | [原始来源](https://chipagents.ai/research/build-a-chip-bench) | — | — | — |
 
 ## 2025-08
@@ -95,7 +95,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[ChatEDA](../../resources/physical-design/chateda.md)**<br>使用 LLM Agent 分解 EDA 任务、生成脚本并执行从 RTL 到 GDSII 的设计流程。 | [EDA 流程](../../resources/tags/eda-flow.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 / 开源项目 | [论文](https://doi.org/10.1109/TCAD.2024.3383347) | [wuhy68/ChatEDA](https://github.com/wuhy68/ChatEDA) | 64 | 2025-05-21<br>采集 2026-11-22 |
+| **[ChatEDA](../../resources/physical-design/chateda.md)**<br>使用 LLM Agent 分解 EDA 任务、生成脚本并执行从 RTL 到 GDSII 的设计流程。 | [EDA 流程](../../resources/tags/eda-flow.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 / 开源项目 | [论文](https://doi.org/10.1109/TCAD.2024.3383347) · [引用: 335 · OpenAlex](https://openalex.org/W4393305455)<br>采集 2026-11-24 | [wuhy68/ChatEDA](https://github.com/wuhy68/ChatEDA) | 64 | 2025-05-21<br>采集 2026-11-22 |
 
 ## 日期待核实
 

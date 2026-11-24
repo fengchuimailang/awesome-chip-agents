@@ -45,6 +45,17 @@
 
 - **Paper / 论文：** [Large Language Models for EDA: Future or Mirage?](https://doi.org/10.1145/3736167)
 
+## Paper citations / 论文引用
+
+- **OpenAlex：** [29 citations / 次引用](https://openalex.org/W4410443382)
+- **DOI：** [10.1145/3736167](https://doi.org/10.1145/3736167)
+- **Fetched (UTC) / 采集时间：** 2026-11-24T02:53:34Z
+- **Indexed in / 收录来源：** ACM Transactions on Design Automation of Electronic Systems
+
+Exact DOI match in OpenAlex, including arXiv preprints. Counts depend on coverage and paper age; they are not quality scores or evidence of peer review.
+
+按 DOI 精确匹配 OpenAlex，包含 arXiv 预印本。引用量受收录范围和发表时间影响，不代表质量评分或已通过同行评审。
+
 **Repository / 仓库：** No related public repository link recorded / 暂未记录相关公开仓库链接。
 <!-- resource:end -->
 

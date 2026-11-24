@@ -11,6 +11,15 @@ export type Download = {
   source: { id: string; provider: string; package?: string; repository?: string; period?: string; tag_prefix?: string; asset_pattern?: string };
   snapshot: { value?: number; fetched_at?: string; fetch_error?: string | null; period?: string; start?: string; end?: string; url?: string; asset_count?: number; release_count?: number };
 };
+export type PaperSnapshot = {
+  doi: string | null; provider?: 'openalex'; status?: 'matched' | 'not-found';
+  citation_count?: number; url?: string; title?: string; indexed_in?: string | null;
+  fetched_at?: string; fetch_error?: string | null;
+};
+export type ReadingPath = {
+  id: string; title: Pair; summary: Pair; prerequisites: Pair;
+  steps: { resource: string; why: Pair; focus: Pair }[];
+};
 export type Resource = {
   id: string; name: string; title: string; date: string | null; date_basis: string;
   direction: string; also_in: string[]; related: string[]; tags: string[]; types: string[];
@@ -18,11 +27,12 @@ export type Resource = {
   links: { label: string; kind: string; url: string }[];
   repositories: (Snapshot & { name: string })[];
   downloads: Download[];
+  paper: PaperSnapshot;
 };
 export const catalog = raw as unknown as {
   schema_version: number; repository: string; revision: string; working_tree: boolean;
   taxonomy: Record<'directions' | 'tags' | 'types', Record<string, Pair>>;
-  resources: Resource[];
+  resources: Resource[]; reading_paths: ReadingPath[];
 };
 export const index = Object.fromEntries(catalog.resources.map(resource => [resource.id, resource]));
 export const base = import.meta.env.BASE_URL;

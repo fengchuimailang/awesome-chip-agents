@@ -51,6 +51,17 @@
 - **Paper / 论文：** [ChatEDA: A Large Language Model Powered Autonomous Agent for EDA](https://doi.org/10.1109/TCAD.2024.3383347)
 - **Repository / 仓库：** [ChatEDA](https://github.com/wuhy68/ChatEDA)
 
+## Paper citations / 论文引用
+
+- **OpenAlex：** [335 citations / 次引用](https://openalex.org/W4393305455)
+- **DOI：** [10.1109/tcad.2024.3383347](https://doi.org/10.1109/tcad.2024.3383347)
+- **Fetched (UTC) / 采集时间：** 2026-11-24T02:53:34Z
+- **Indexed in / 收录来源：** IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
+
+Exact DOI match in OpenAlex, including arXiv preprints. Counts depend on coverage and paper age; they are not quality scores or evidence of peer review.
+
+按 DOI 精确匹配 OpenAlex，包含 arXiv 预印本。引用量受收录范围和发表时间影响，不代表质量评分或已通过同行评审。
+
 ## Repository activity / 仓库动态
 
 | Repository / 仓库 | Stars | Last push (UTC) / 最近推送 | Fetched (UTC) / 采集时间 | Status / 状态 |

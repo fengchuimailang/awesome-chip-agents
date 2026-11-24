@@ -10,7 +10,7 @@ Newest publication month first. Cross-references share the original record; repo
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
-| **[HWE-Bench · Schematic design](../../resources/board-system-design/hwe-bench-schematic.md)**<br>Board-level design benchmark with 300 tasks and a knowledge base of 2,914 IC datasheets. | [Board / PCB](../../resources/tags/board.md) · [Benchmark](../../resources/tags/benchmark.md) · [Dataset](../../resources/tags/dataset.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2603.18102) | — | — | — |
+| **[HWE-Bench · Schematic design](../../resources/board-system-design/hwe-bench-schematic.md)**<br>Board-level design benchmark with 300 tasks and a knowledge base of 2,914 IC datasheets. | [Board / PCB](../../resources/tags/board.md) · [Benchmark](../../resources/tags/benchmark.md) · [Dataset](../../resources/tags/dataset.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2603.18102) · [Citations: 3 · OpenAlex](https://openalex.org/W7139923325)<br>Fetched 2026-11-24 | — | — | — |
 
 ## Date not recorded
 
