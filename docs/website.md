@@ -12,6 +12,8 @@ The interactive catalog shows 24 entries per page, with card and compact list vi
 
 The home page starts newcomers on a five-step route from `data/reading-paths.json`, also rendered in both README files. Each step explains its purpose and reading focus. The catalog supports `sort=citations` (OpenAlex), `sort=stars` (the first repository shown), and `evidence=code` or `evidence=citations`. Missing counts sort after measured zeros. Citation cards and details show the source and collection date; failed refreshes retain and label previous values. See the [citation and reading-path policy](../CONTRIBUTING.md#paper-citations-and-reading-paths--论文引用与阅读路线).
 
+Resource profiles show compact Stars and citation bars only for applicable links, alongside recorded code-link availability and the repository’s last push or archive status. Raw counts, source links, UTC collection dates, and refresh failures remain visible. Each axis uses `log(1 + count) / log(1 + max(1, catalog maximum))`; references come from the full catalog and never change with filters or pagination. Stars use the first displayed repository, matching sorting. Zero has an empty solid track; unavailable counts have a dashed track and explicit label. These are discovery signals, not quality scores. Reading-path entries link back to their numbered step. The metrics page explains interpretation and current references.
+
 Detail links carry a validated local `from` route to return to the same results. Optional tab-scoped session storage restores the scroll position; browsing works when storage is unavailable. Copy-link actions share the clean resource URL, excluding return context, and show a selectable URL if clipboard access fails. The first-contribution shortcut opens GitHub issues labeled `good first issue`.
 
 See [frontend commands](../site/README.md) and the [website design system](design-system.md) for shared shadcn components, typography, and responsive layout rules. Resource editing remains standard-library-only Python; frontend development additionally requires Node.js 24.
@@ -75,6 +77,8 @@ References: [Vite prerendering](https://vite.dev/guide/ssr.html#pre-rendering-ss
 交互列表每页显示 24 项，可切换卡片与紧凑列表。URL 保留 `q`、`direction`、`type`、`tag`、`collection`、`evidence`、`sort`、`page`、`view`。资源集合按已有 metadata 区分工具与平台、论文与基准、基准与数据集，首页任务快捷入口复用这些筛选。关闭 JavaScript 后，列表 HTML 仍包含全部资源。
 
 首页用 `data/reading-paths.json` 的五步路线引导新用户，并同步到中英文 README；每步说明阅读目的与重点。资源库支持按引用数（`sort=citations`，OpenAlex）或首个展示仓库的 Stars（`sort=stars`）排序，以及有代码链接（`evidence=code`）或有引用数据（`evidence=citations`）筛选。缺失计数排在实际零值之后。引用卡片与详情显示来源和采集日期，刷新失败保留并标注旧值。详见[引用与阅读路线规则](../CONTRIBUTING.md#paper-citations-and-reading-paths--论文引用与阅读路线)。
+
+资源速览按适用链接展示 Stars 与引用数短横条，以及已记录的代码链接、仓库最近推送或归档状态。保留原始计数、来源链接、UTC 采集日期和刷新失败提示。每个指标使用 `log(1 + count) / log(1 + max(1, 全站最大值))`，参照全站完整目录，不随筛选或翻页改变；Stars 与排序一致，使用首个展示仓库。实际零值使用空实线条，缺失数据使用虚线条与明确文字。指标用于辅助发现，不构成质量评分。阅读路线中的资源提供对应步骤入口；统计说明页解释含义与当前参照。
 
 详情链接通过经过校验的站内 `from` 路径返回原结果；可选的标签页会话存储用于恢复滚动位置，存储不可用时仍可浏览。复制链接使用不含返回上下文的资源地址，剪贴板访问失败时显示可选中复制的地址。首次贡献入口打开 GitHub 中标记为 `good first issue` 的任务。
 

@@ -1,15 +1,22 @@
 import assert from 'node:assert/strict';
 import { readFile, access } from 'node:fs/promises';
 import { join } from 'node:path';
+import { profileScales, resourceProfile } from '../src/lib/resource-profile.ts';
 
 const data = JSON.parse(await readFile('src/generated/catalog.json', 'utf8'));
 const base = process.env.SITE_BASE || '/';
 const socialImage = 'social-preview.png';
+const scales = profileScales(data.resources);
+const profiles = data.resources.filter(resource => resourceProfile(resource, scales));
 await access(join('dist', socialImage));
 let count = 0;
 for (const locale of ['en', 'zh']) {
   const catalogHtml = await readFile(join('dist', locale, 'catalog', 'index.html'), 'utf8');
   assert.equal([...catalogHtml.matchAll(/role="article"/g)].length, data.resources.length, locale + ': no-JavaScript catalog must include every resource');
+  assert.equal([...catalogHtml.matchAll(/class="resource-profile"/g)].length, profiles.length, locale + ': profiles must render without JavaScript');
+  const metricsHtml = await readFile(join('dist', locale, 'metrics', 'index.html'), 'utf8');
+  assert.ok(metricsHtml.includes('id="resource-profiles"'), locale + ': profile explanation anchor missing');
+  for (const resource of profiles) assert.ok(catalogHtml.includes('class="resource-profile" data-resource="' + resource.id + '"'), locale + ': resource profile missing');
   const homeHtml = await readFile(join('dist', locale, 'index.html'), 'utf8');
   assert.ok(homeHtml.includes('?q=mcp&amp;collection=tools'), locale + ': MCP shortcut missing');
   assert.ok(homeHtml.includes('good%20first%20issue'), locale + ': first contribution link missing');

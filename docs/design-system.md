@@ -61,6 +61,10 @@ Resource cards expose at most one recorded repository, paper, and original-sourc
 
 资源卡片最多各展示一条已记录的代码仓库、论文和原始来源链接，详情保留全部链接，不推测官网或数据集地址。紧凑列表保持 16px 说明和 18px 标题；手机筛选默认收起，已选条件在折叠区外单独移除。翻页后滚动并聚焦结果工具栏。
 
+Resource profiles use small CSS bars with the shared `primary` and `border` tokens, plus visible text counts and provenance. Bars are decorative for assistive technology; text provides the metric name and value. Do not use a progress-bar role for popularity or citation counts. Dashed unavailable tracks differ from measured-zero solid tracks. Avoid score colors, composite ratings, and relative “recent” labels inferred from push dates. Keep the same scale in cards and compact lists; reading-path badges link to recorded steps.
+
+资源速览用共享 `primary` 与 `border` 变量绘制小型 CSS 横条，并显示计数和来源。横条对辅助技术仅作装饰，由文字提供指标名称与数值；关注度与引用量不使用进度条语义。虚线表示缺失，空实线表示实际零值。避免评分颜色、综合分数和仅凭推送日期推断的“近期活跃”标签。卡片与紧凑列表使用同一尺度，阅读路线标签链接到已有步骤。
+
 ## Maintenance / 维护
 
 From `site/`, add components using `npx shadcn@latest add <name>`. Existing sources contain deliberate readability changes; review upstream diffs before updating them. Run the production build and static-page checks, then check both languages at desktop and mobile widths. Verify search, filters, keyboard focus, and language switching. See [frontend commands](../site/README.md).

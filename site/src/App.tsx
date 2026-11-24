@@ -6,7 +6,7 @@ import { Empty, EmptyContent, EmptyDescription, EmptyHeader, EmptyTitle } from '
 import { Separator } from '@/components/ui/separator';
 import { GitHubIcon } from '@/components/GitHubIcon';
 import { ChipIllustration } from '@/components/ChipIllustration';
-import { External, ResourceCard, ResourceTags } from '@/components/resource';
+import { External, ResourceCard, ResourceTags, resourceProfileScales } from '@/components/resource';
 import { Listing } from '@/components/Listing';
 import { DetailActions, DetailBack } from '@/components/DetailActions';
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
@@ -175,6 +175,15 @@ function Metrics({ locale }: { locale: Locale }) {
   const cited = papers.filter(r => r.paper.citation_count !== undefined);
   return <section className="metrics-page"><p className="eyebrow">{l('SOURCES & MEASUREMENT', '来源与统计口径')}</p><h1>{l('Understand the numbers.', '让每个数字都有依据。')}</h1>
     <p className="lead">{l('Activity and usage signals help discovery. They do not establish research quality.', '关注度和使用指标帮助了解资源，不代表研究质量。')}</p>
+    <Card className="profile-explainer" id="resource-profiles"><CardHeader><CardTitle asChild><h2>{l('Reading the resource profiles', '如何看资源速览')}</h2></CardTitle><CardDescription>{l('A quick view of recorded evidence, with the original counts and sources.', '用已有数据快速了解资源，保留原始数字与来源。')}</CardDescription></CardHeader><CardContent>
+      <ul>
+        <li>{l('GitHub Stars reflects repository attention; citations reflect accumulated references in OpenAlex. Tools show repository signals, papers show citation signals, and entries with both show both.', 'GitHub Stars 反映仓库关注度，论文引用反映 OpenAlex 收录的引用积累。工具显示仓库指标，论文显示引用指标，两者都有时同时展示。')}</li>
+        <li>{l('Each bar uses its own fixed reference across the whole catalog. Large counts are compressed so smaller projects stay visible. Filtering, sorting and pagination do not change the scale. A full bar is the current catalog maximum, not a perfect score.', '两种横条分别使用全站固定参照，并压缩大数值差距，让小项目也能被看见。筛选、排序和翻页不会改变尺度；满条代表当前收录资源中的最大值。')}</li>
+        <li>{l('Current references: ', '当前参照：')}GitHub Stars {resourceProfileScales.stars.toLocaleString(locale)} · {l('Citations ', '论文引用 ')}{resourceProfileScales.citations.toLocaleString(locale)}{l('. Stars use the first linked repository, as does sorting.', '。Stars 与排序一致，使用首个展示仓库的数据。')}</li>
+        <li>{l('Zero is a measured count with an empty solid track. A dashed track marked “Unavailable” means no count was collected. Failed refreshes retain and label saved values; snapshot dates use UTC.', '数字 0 和空实线条代表实际计数为零；虚线条与“暂无数据”代表尚无计数。刷新失败会标注保留的旧值，快照日期使用 UTC。')}</li>
+        <li>{l('A code link records availability of a repository link; it does not confirm reproducibility. Last push is the repository push date in the saved snapshot. Paper age, field size and index coverage affect counts: compare similar resources and read the work before judging it.', '“有代码链接”只说明已记录仓库链接；最近推送是快照记录的仓库推送日期。发表时间、领域规模和收录覆盖都会影响计数，建议结合相近资源与原文判断。')}</li>
+      </ul>
+    </CardContent></Card>
     <div className="metrics-explainer">
       <Card><CardHeader><CardTitle asChild><h2>{l('Paper citations · OpenAlex', '论文引用 · OpenAlex')}</h2></CardTitle><CardDescription>{l('Exact DOI matches, including arXiv identifiers represented as DOIs. Snapshots refresh after 30 days; missing data stays unavailable. Coverage and paper age affect counts, which do not establish peer review or quality.', '按 DOI 精确匹配，arXiv 编号转换为对应 DOI。快照满 30 天后刷新，缺失数据保留为暂无。收录范围和发表时间会影响引用数，不能据此判断同行评审或研究质量。')}</CardDescription></CardHeader><CardContent><p>{cited.length} / {papers.length} {l('resources with paper links have citation data.', '项含论文链接的资源已有引用数据。')}</p><a href={route({ locale, kind: 'catalog' }) + '?sort=citations'}>{l('Browse by citations', '按引用数浏览')} →</a></CardContent></Card>
       <Card><CardHeader><CardTitle asChild><h2>GitHub Stars</h2></CardTitle><CardDescription>{l('Repository snapshots with collection timestamps. Failed refreshes retain the last successful value.', '展示带采集时间的仓库快照；刷新失败保留上次成功值。')}</CardDescription></CardHeader></Card>
