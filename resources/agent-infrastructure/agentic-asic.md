@@ -68,7 +68,7 @@
 
 | Repository / 仓库 | Stars | Last push (UTC) / 最近推送 | Fetched (UTC) / 采集时间 | Status / 状态 |
 | --- | ---: | --- | --- | --- |
-| [zesun33/agentic-asic](https://github.com/zesun33/agentic-asic) | 1 | 2026-10-05T13:18:48Z | 2026-11-15T20:54:38Z | Snapshot / 快照 |
+| [zesun33/agentic-asic](https://github.com/zesun33/agentic-asic) | 1 | 2026-10-05T13:18:48Z | 2026-11-22T21:38:14Z | Snapshot / 快照 |
 
 Stars and push times are GitHub API snapshots. A push may update any branch and does not establish a functional release or research quality.
 

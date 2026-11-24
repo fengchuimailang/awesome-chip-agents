@@ -10,6 +10,7 @@
 | [From FIPS to FPGA with LLM Agents](../../resources/verification-debugging/from-fips-to-fpga.md) | 2026-11-19 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [FPGA-GEN](../../resources/architecture-hls-codesign/fpga-gen.md) | 2026-11-19 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [OpenAI chip design progress](../../resources/agent-infrastructure/openai-chip-design-2026.md) | 2026-11-18 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [ChipOmni](../../resources/agent-infrastructure/chipomni.md) | 2026-11-09 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [ScaleBench](../../resources/rtl-generation/scalebench.md) | 2026-10-18 | RTL Generation and Editing / RTL 生成与编辑 |
 | [CorrectRTL](../../resources/rtl-generation/correctrtl.md) | 2026-10-18 | RTL Generation and Editing / RTL 生成与编辑 |
 | [CoreSmith](../../resources/physical-design/coresmith.md) | 2026-10-09 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
@@ -22,6 +23,7 @@
 | [wave-mcp](../../resources/agent-infrastructure/wave-mcp.md) | 2026-08 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [NoTB](../../resources/verification-debugging/notb.md) | 2026-08 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [RTL Repair Framework](../../resources/verification-debugging/rtl-repair-framework.md) | 2026-07-30 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
+| [HierSVA](../../resources/verification-debugging/hiersva.md) | 2026-06-09 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [RTL-BenchLS](../../resources/rtl-generation/rtl-benchls.md) | 2026-06 | RTL Generation and Editing / RTL 生成与编辑 |
 | [HORIZON](../../resources/rtl-generation/horizon.md) | 2026-06 | RTL Generation and Editing / RTL 生成与编辑 |
 | [HWE-Bench · Bug repair](../../resources/verification-debugging/hwe-bench-bug-repair.md) | 2026-04 | Verification, Debugging and Specifications / 验证、调试与规格推断 |

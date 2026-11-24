@@ -56,7 +56,7 @@
 
 | Repository / 仓库 | Stars | Last push (UTC) / 最近推送 | Fetched (UTC) / 采集时间 | Status / 状态 |
 | --- | ---: | --- | --- | --- |
-| [pku-liang/hwe-bench](https://github.com/pku-liang/hwe-bench) | 73 | 2026-11-11T02:00:32Z | 2026-11-15T20:54:38Z | Snapshot / 快照 |
+| [pku-liang/hwe-bench](https://github.com/pku-liang/hwe-bench) | 76 | 2026-11-11T02:00:32Z | 2026-11-22T21:38:14Z | Snapshot / 快照 |
 
 Stars and push times are GitHub API snapshots. A push may update any branch and does not establish a functional release or research quality.
 

@@ -64,7 +64,7 @@
 
 | Repository / 仓库 | Stars | Last push (UTC) / 最近推送 | Fetched (UTC) / 采集时间 | Status / 状态 |
 | --- | ---: | --- | --- | --- |
-| [cascode-ai/analog-canvas](https://github.com/cascode-ai/analog-canvas) | 173 | 2026-11-18T01:15:40Z | 2026-11-18T01:15:47Z | Snapshot / 快照 |
+| [cascode-ai/analog-canvas](https://github.com/cascode-ai/analog-canvas) | 185 | 2026-11-22T20:26:23Z | 2026-11-22T21:38:14Z | Snapshot / 快照 |
 
 Stars and push times are GitHub API snapshots. A push may update any branch and does not establish a functional release or research quality.
 
@@ -74,7 +74,7 @@ Stars 与推送时间来自 GitHub API 快照；推送可能涉及任一分支�
 
 | Source / 来源 | Downloads / 下载量 | Scope / 范围 | Fetched (UTC) / 采集 | Status / 状态 |
 | --- | ---: | --- | --- | --- |
-| [github-releases: cascode-ai/analog-canvas](https://github.com/cascode-ai/analog-canvas/releases) | — | Available assets / 当前可用附件; tag prefix: mcp- | — | Unavailable / 暂无数据; refresh failed / 刷新失败 |
+| [github-releases: cascode-ai/analog-canvas](https://github.com/cascode-ai/analog-canvas/releases) | 7,292 | Available assets / 当前可用附件; tag prefix: mcp- | 2026-11-22T21:38:19Z | Snapshot / 快照 |
 
 Package and release-asset download counts use different scopes; they are not unique users, verified MCP installations, or website link clicks.
 
