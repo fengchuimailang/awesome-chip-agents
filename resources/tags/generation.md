@@ -6,6 +6,7 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [Layered Formal Guidance](../../resources/rtl-generation/layered-formal-guidance.md) | 2026-11-23 | RTL Generation and Editing / RTL 生成与编辑 |
 | [FPGA-GEN](../../resources/architecture-hls-codesign/fpga-gen.md) | 2026-11-19 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [ScaleBench](../../resources/rtl-generation/scalebench.md) | 2026-10-18 | RTL Generation and Editing / RTL 生成与编辑 |
 | [CorrectRTL](../../resources/rtl-generation/correctrtl.md) | 2026-10-18 | RTL Generation and Editing / RTL 生成与编辑 |

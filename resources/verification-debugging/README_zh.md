@@ -10,6 +10,8 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[Layered Formal Guidance](../../resources/rtl-generation/layered-formal-guidance.md)**<br>用形式属性补充规格，并在受限循环中依据模型检查反例修订 RTL、规格或断言。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [形式验证](../../resources/tags/formal.md) · [规格推断](../../resources/tags/specification.md) · [调试](../../resources/tags/debugging.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2611.30766) | — | — | — |
+| **[ChiProgramBench](../../resources/verification-debugging/chiprogrambench.md)**<br>通过引脚级实验、隐藏逐周期测试及以正确性为前提的 PPA 评分，评测 Agent 在 18 项电路重建任务中的表现。 | [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [规格推断](../../resources/tags/specification.md) · [仿真](../../resources/tags/simulation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>论文 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2611.31082) | — | — | — |
 | **[From FIPS to FPGA with LLM Agents](../../resources/verification-debugging/from-fips-to-fpga.md)**<br>研究 Agent 辅助后量子密码 FPGA 设计中的验证关卡与 LLM 审查，并用网表变异和形式检查审计其有效性。 | [RTL](../../resources/tags/rtl.md) · [验证](../../resources/tags/verification.md) · [形式验证](../../resources/tags/formal.md) · [测试平台](../../resources/tags/testbench.md) · [评测](../../resources/tags/evaluation.md) · [FPGA](../../resources/tags/fpga.md)<br>论文 | [论文](https://arxiv.org/abs/2611.25339) · [引用: 0 · OpenAlex](https://openalex.org/W7237179605)<br>采集 2026-11-24 | — | — | — |
 
 ## 2026-10

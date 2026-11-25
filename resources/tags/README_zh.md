@@ -6,18 +6,18 @@
 
 | 标签 | 资源数 |
 | --- | ---: |
-| [RTL](rtl.md) | 55 |
-| [代码生成](generation.md) | 16 |
+| [RTL](rtl.md) | 56 |
+| [代码生成](generation.md) | 17 |
 | [代码编辑](editing.md) | 4 |
 | [验证](verification.md) | 23 |
-| [调试](debugging.md) | 19 |
-| [形式验证](formal.md) | 16 |
-| [仿真](simulation.md) | 20 |
+| [调试](debugging.md) | 20 |
+| [形式验证](formal.md) | 17 |
+| [仿真](simulation.md) | 21 |
 | [测试平台](testbench.md) | 8 |
 | [波形分析](waveform.md) | 10 |
-| [规格推断](specification.md) | 2 |
+| [规格推断](specification.md) | 4 |
 | [物理设计](physical-design.md) | 18 |
-| [PPA / QoR](ppa.md) | 17 |
+| [PPA / QoR](ppa.md) | 18 |
 | [DRC](drc.md) | 2 |
 | [EDA 流程](eda-flow.md) | 31 |
 | [模拟 / RF](analog-rf.md) | 16 |
@@ -32,9 +32,9 @@
 | [工具调用](tool-use.md) | 42 |
 | [记忆与经验](memory.md) | 1 |
 | [基础设施](infrastructure.md) | 28 |
-| [基准](benchmark.md) | 29 |
+| [基准](benchmark.md) | 30 |
 | [数据集](dataset.md) | 9 |
-| [评测](evaluation.md) | 30 |
+| [评测](evaluation.md) | 31 |
 | [商业平台](commercial.md) | 24 |
 | [综述 / 教程](overview.md) | 4 |
 | [板级 / PCB](board.md) | 3 |

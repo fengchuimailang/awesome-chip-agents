@@ -6,6 +6,12 @@
 
 按发布月份倒序排列。跨方向索引共用原始详情；仓库动态不影响排序。
 
+## 2026-11
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[Layered Formal Guidance](../../resources/rtl-generation/layered-formal-guidance.md)**<br>用形式属性补充规格，并在受限循环中依据模型检查反例修订 RTL、规格或断言。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [形式验证](../../resources/tags/formal.md) · [规格推断](../../resources/tags/specification.md) · [调试](../../resources/tags/debugging.md)<br>论文 | [论文](https://arxiv.org/abs/2611.30766) | — | — | — |
+
 ## 2026-10
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |

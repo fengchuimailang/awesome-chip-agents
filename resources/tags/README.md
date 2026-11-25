@@ -6,18 +6,18 @@
 
 | Tag | Resources |
 | --- | ---: |
-| [RTL](rtl.md) | 55 |
-| [Code generation](generation.md) | 16 |
+| [RTL](rtl.md) | 56 |
+| [Code generation](generation.md) | 17 |
 | [Code editing](editing.md) | 4 |
 | [Verification](verification.md) | 23 |
-| [Debugging](debugging.md) | 19 |
-| [Formal verification](formal.md) | 16 |
-| [Simulation](simulation.md) | 20 |
+| [Debugging](debugging.md) | 20 |
+| [Formal verification](formal.md) | 17 |
+| [Simulation](simulation.md) | 21 |
 | [Testbench](testbench.md) | 8 |
 | [Waveforms](waveform.md) | 10 |
-| [Specifications](specification.md) | 2 |
+| [Specifications](specification.md) | 4 |
 | [Physical design](physical-design.md) | 18 |
-| [PPA / QoR](ppa.md) | 17 |
+| [PPA / QoR](ppa.md) | 18 |
 | [DRC](drc.md) | 2 |
 | [EDA workflows](eda-flow.md) | 31 |
 | [Analog / RF](analog-rf.md) | 16 |
@@ -32,9 +32,9 @@
 | [Tool use](tool-use.md) | 42 |
 | [Memory / experience](memory.md) | 1 |
 | [Infrastructure](infrastructure.md) | 28 |
-| [Benchmark](benchmark.md) | 29 |
+| [Benchmark](benchmark.md) | 30 |
 | [Dataset](dataset.md) | 9 |
-| [Evaluation](evaluation.md) | 30 |
+| [Evaluation](evaluation.md) | 31 |
 | [Commercial platform](commercial.md) | 24 |
 | [Overview / tutorial](overview.md) | 4 |
 | [Board / PCB](board.md) | 3 |

@@ -4,12 +4,12 @@
 
 [Home](../../README.md) · [简体中文](README_zh.md)
 
-33 resources, grouped by primary direction and newest publication month. Entries link to shared details with papers, repositories, tags, and activity snapshots. General datasets are included as supporting resources; announcements of evaluation plans remain in the news index.
+34 resources, grouped by primary direction and newest publication month. Entries link to shared details with papers, repositories, tags, and activity snapshots. General datasets are included as supporting resources; announcements of evaluation plans remain in the news index.
 
 | Direction | Resources |
 | --- | ---: |
 | [RTL Generation and Editing](#rtl-generation) | 14 |
-| [Verification, Debugging and Specifications](#verification-debugging) | 5 |
+| [Verification, Debugging and Specifications](#verification-debugging) | 6 |
 | [Physical Design and EDA Flows](#physical-design) | 5 |
 | [Analog and RF Design](#analog-rf) | 3 |
 | [Architecture, HLS and Hardware/Software Co-design](#architecture-hls-codesign) | 5 |
@@ -76,6 +76,12 @@
 <a id="verification-debugging"></a>
 
 ## Verification, Debugging and Specifications
+
+### 2026-11
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[ChiProgramBench](../../resources/verification-debugging/chiprogrambench.md)**<br>Evaluates agents on 18 circuit-reconstruction tasks using pin-level experiments, hidden cycle-exact tests, and correctness-gated PPA scoring. | [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md) · [Specifications](../../resources/tags/specification.md) · [Simulation](../../resources/tags/simulation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>Paper / Benchmark / dataset | [Paper](https://arxiv.org/abs/2611.31082) | — | — | — |
 
 ### 2026-09
 

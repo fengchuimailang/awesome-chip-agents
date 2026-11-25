@@ -6,5 +6,7 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [Layered Formal Guidance](../../resources/rtl-generation/layered-formal-guidance.md) | 2026-11-23 | RTL Generation and Editing / RTL 生成与编辑 |
+| [ChiProgramBench](../../resources/verification-debugging/chiprogrambench.md) | 2026-11-23 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [DRAMBench / memory autoformalization](../../resources/verification-debugging/drambench.md) | 2026-04-23 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [SpecLoop](../../resources/verification-debugging/specloop.md) | 2026-03 | Verification, Debugging and Specifications / 验证、调试与规格推断 |

@@ -6,6 +6,12 @@
 
 Newest publication month first. Cross-references share the original record; repository activity does not affect ordering.
 
+## 2026-11
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Layered Formal Guidance](../../resources/rtl-generation/layered-formal-guidance.md)**<br>Augments specifications with formal properties and uses model-checker counterexamples to refine RTL, specifications, or assertions in a bounded loop. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Formal verification](../../resources/tags/formal.md) · [Specifications](../../resources/tags/specification.md) · [Debugging](../../resources/tags/debugging.md)<br>Paper | [Paper](https://arxiv.org/abs/2611.30766) | — | — | — |
+
 ## 2026-10
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |

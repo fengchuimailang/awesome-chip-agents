@@ -6,6 +6,7 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [ChiProgramBench](../../resources/verification-debugging/chiprogrambench.md) | 2026-11-23 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Meta-RTL](../../resources/physical-design/meta-rtl.md) | 2026-11-19 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [OpenAI chip design progress](../../resources/agent-infrastructure/openai-chip-design-2026.md) | 2026-11-18 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [LATCH](../../resources/physical-design/latch.md) | 2026-10-12 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |

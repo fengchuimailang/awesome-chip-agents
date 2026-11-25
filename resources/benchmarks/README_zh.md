@@ -4,12 +4,12 @@
 
 [首页](../../README_zh.md) · [English](README.md)
 
-共 33 项，先按主要研究方向分类，再按发布月份倒序排列。各条目共用已有详情，提供论文、仓库、标签及动态快照。通用数据集作为支撑资料收录；仅宣布评测计划的新闻保留在动态索引中。
+共 34 项，先按主要研究方向分类，再按发布月份倒序排列。各条目共用已有详情，提供论文、仓库、标签及动态快照。通用数据集作为支撑资料收录；仅宣布评测计划的新闻保留在动态索引中。
 
 | 方向 | 资源数 |
 | --- | ---: |
 | [RTL 生成与编辑](#rtl-generation) | 14 |
-| [验证、调试与规格推断](#verification-debugging) | 5 |
+| [验证、调试与规格推断](#verification-debugging) | 6 |
 | [物理设计与 EDA 流程](#physical-design) | 5 |
 | [模拟与 RF 电路](#analog-rf) | 3 |
 | [架构探索、HLS 与软硬件协同设计](#architecture-hls-codesign) | 5 |
@@ -76,6 +76,12 @@
 <a id="verification-debugging"></a>
 
 ## 验证、调试与规格推断
+
+### 2026-11
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[ChiProgramBench](../../resources/verification-debugging/chiprogrambench.md)**<br>通过引脚级实验、隐藏逐周期测试及以正确性为前提的 PPA 评分，评测 Agent 在 18 项电路重建任务中的表现。 | [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [规格推断](../../resources/tags/specification.md) · [仿真](../../resources/tags/simulation.md) · [PPA / QoR](../../resources/tags/ppa.md)<br>论文 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2611.31082) | — | — | — |
 
 ### 2026-09
 
