@@ -6,6 +6,7 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [RTLDetective](../../resources/verification-debugging/rtldetective.md) | 2026-11-23 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [ChiProgramBench](../../resources/verification-debugging/chiprogrambench.md) | 2026-11-23 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [SLIC](../../resources/analog-rf/slic.md) | 2026-11-10 | Analog and RF Design / 模拟与 RF 电路 |
 | [TACS-RF](../../resources/analog-rf/tacs-rf.md) | 2026-10-22 | Analog and RF Design / 模拟与 RF 电路 |

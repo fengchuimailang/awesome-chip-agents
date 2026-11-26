@@ -10,6 +10,7 @@ Newest publication month first. Cross-references share the original record; repo
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
+| **[HWRE-Bench](../../resources/verification-debugging/hwre-bench.md)**<br>Proposes an early hardware reverse-engineering agent benchmark with executable deliverables and controls against copying the supplied netlist. | [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md) · [Specifications](../../resources/tags/specification.md) · [Physical design](../../resources/tags/physical-design.md) · [Tool use](../../resources/tags/tool-use.md)<br>Paper / Benchmark / dataset · cross-reference | [Paper](https://arxiv.org/abs/2611.30422) | — | — | — |
 | **[Meta-RTL](../../resources/physical-design/meta-rtl.md)**<br>Evolves an RTL-optimization agent's executable search procedure while holding its model, EDA flow, and per-design budget fixed. | [RTL](../../resources/tags/rtl.md) · [Code editing](../../resources/tags/editing.md) · [Physical design](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [Evaluation](../../resources/tags/evaluation.md) · [EDA workflows](../../resources/tags/eda-flow.md)<br>Paper | [Paper](https://arxiv.org/abs/2611.25891) · [Citations: 0 · OpenAlex](https://openalex.org/W7237264229)<br>Fetched 2026-11-24 | — | — | — |
 
 ## 2026-10

@@ -6,6 +6,7 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [RTLDetective](../../resources/verification-debugging/rtldetective.md) | 2026-11-23 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Architect Labs / Frostbite](../../resources/architecture-hls-codesign/frostbite.md) | 2026-11-18 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [ChipOmni](../../resources/agent-infrastructure/chipomni.md) | 2026-11-09 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [ArchAgent](../../resources/architecture-hls-codesign/archagent.md) | 2026-10-16 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |

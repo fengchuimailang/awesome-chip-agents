@@ -6,6 +6,7 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [HWRE-Bench](../../resources/verification-debugging/hwre-bench.md) | 2026-11-23 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [ChipOmni](../../resources/agent-infrastructure/chipomni.md) | 2026-11-09 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [ChipAgents IC-star](../../resources/agent-infrastructure/chipagents-ic-star-announcement.md) | 2026-10-27 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [TACS-RF](../../resources/analog-rf/tacs-rf.md) | 2026-10-22 | Analog and RF Design / 模拟与 RF 电路 |

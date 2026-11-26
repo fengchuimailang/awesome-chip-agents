@@ -10,6 +10,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[HWRE-Bench](../../resources/verification-debugging/hwre-bench.md)**<br>提出面向硬件逆向工程 Agent 的早期基准，要求可执行交付物，并设置防止复制所给网表得分的对照。 | [基准](../../resources/tags/benchmark.md) · [评测](../../resources/tags/evaluation.md) · [规格推断](../../resources/tags/specification.md) · [物理设计](../../resources/tags/physical-design.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 / 基准 / 数据集 · 跨方向索引 | [论文](https://arxiv.org/abs/2611.30422) | — | — | — |
 | **[Meta-RTL](../../resources/physical-design/meta-rtl.md)**<br>在固定模型、EDA 流程和单设计预算的条件下，迭代优化 RTL 优化 Agent 的可执行搜索流程。 | [RTL](../../resources/tags/rtl.md) · [代码编辑](../../resources/tags/editing.md) · [物理设计](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [评测](../../resources/tags/evaluation.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>论文 | [论文](https://arxiv.org/abs/2611.25891) · [引用: 0 · OpenAlex](https://openalex.org/W7237264229)<br>采集 2026-11-24 | — | — | — |
 
 ## 2026-10

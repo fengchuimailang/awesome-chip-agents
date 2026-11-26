@@ -6,17 +6,17 @@
 
 | 标签 | 资源数 |
 | --- | ---: |
-| [RTL](rtl.md) | 56 |
+| [RTL](rtl.md) | 57 |
 | [代码生成](generation.md) | 17 |
 | [代码编辑](editing.md) | 4 |
 | [验证](verification.md) | 23 |
-| [调试](debugging.md) | 20 |
+| [调试](debugging.md) | 21 |
 | [形式验证](formal.md) | 17 |
-| [仿真](simulation.md) | 21 |
+| [仿真](simulation.md) | 22 |
 | [测试平台](testbench.md) | 8 |
-| [波形分析](waveform.md) | 10 |
-| [规格推断](specification.md) | 4 |
-| [物理设计](physical-design.md) | 18 |
+| [波形分析](waveform.md) | 11 |
+| [规格推断](specification.md) | 5 |
+| [物理设计](physical-design.md) | 19 |
 | [PPA / QoR](ppa.md) | 18 |
 | [DRC](drc.md) | 2 |
 | [EDA 流程](eda-flow.md) | 31 |
@@ -28,13 +28,13 @@
 | [RISC-V](risc-v.md) | 5 |
 | [FPGA](fpga.md) | 8 |
 | [仓库级任务](repository-level.md) | 4 |
-| [多 Agent](multi-agent.md) | 25 |
-| [工具调用](tool-use.md) | 42 |
+| [多 Agent](multi-agent.md) | 26 |
+| [工具调用](tool-use.md) | 43 |
 | [记忆与经验](memory.md) | 1 |
 | [基础设施](infrastructure.md) | 28 |
-| [基准](benchmark.md) | 30 |
+| [基准](benchmark.md) | 31 |
 | [数据集](dataset.md) | 9 |
-| [评测](evaluation.md) | 31 |
+| [评测](evaluation.md) | 32 |
 | [商业平台](commercial.md) | 24 |
 | [综述 / 教程](overview.md) | 4 |
 | [板级 / PCB](board.md) | 3 |
