@@ -6,13 +6,13 @@
 
 | Tag | Resources |
 | --- | ---: |
-| [RTL](rtl.md) | 57 |
-| [Code generation](generation.md) | 17 |
+| [RTL](rtl.md) | 58 |
+| [Code generation](generation.md) | 18 |
 | [Code editing](editing.md) | 4 |
 | [Verification](verification.md) | 23 |
 | [Debugging](debugging.md) | 21 |
 | [Formal verification](formal.md) | 17 |
-| [Simulation](simulation.md) | 22 |
+| [Simulation](simulation.md) | 23 |
 | [Testbench](testbench.md) | 8 |
 | [Waveforms](waveform.md) | 11 |
 | [Specifications](specification.md) | 5 |
@@ -29,7 +29,7 @@
 | [FPGA](fpga.md) | 8 |
 | [Repository-level tasks](repository-level.md) | 4 |
 | [Multi-agent](multi-agent.md) | 26 |
-| [Tool use](tool-use.md) | 43 |
+| [Tool use](tool-use.md) | 44 |
 | [Memory / experience](memory.md) | 1 |
 | [Infrastructure](infrastructure.md) | 28 |
 | [Benchmark](benchmark.md) | 31 |

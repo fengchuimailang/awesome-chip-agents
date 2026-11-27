@@ -28,7 +28,7 @@ Each record has one primary direction. Cross-references link to the same detail 
 
 | Direction | Primary resources |
 | --- | ---: |
-| [RTL Generation and Editing](resources/rtl-generation/README.md) | 27 |
+| [RTL Generation and Editing](resources/rtl-generation/README.md) | 28 |
 | [Verification, Debugging and Specifications](resources/verification-debugging/README.md) | 21 |
 | [Physical Design and EDA Flows](resources/physical-design/README.md) | 15 |
 | [Analog and RF Design](resources/analog-rf/README.md) | 10 |

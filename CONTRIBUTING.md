@@ -63,6 +63,10 @@ Review both language indexes together. Include a short PR summary and note that 
 
 ## Repository Metadata
 
+Graph enrichment and automatic author/owner collection follow the [knowledge graph schema and evidence policy](docs/knowledge-graph.md). Edit canonical resource metadata for structural links; use reviewed graph supplements for affiliations, methods and experimental relationships.
+
+图谱补充与作者／owner 自动采集遵循[图谱格式及依据规则](docs/knowledge-graph.md)。结构关联仍编辑规范资源文件；署名机构、方法及实验关系通过经过审阅的补充数据维护。
+
 The website reads the same resources. Frontend development, deployment, click analytics, and download metadata are documented in the [website guide](docs/website.md). Resource contributions do not require Node.js.
 
 网站读取同一份资源文件。前端开发、部署、点击统计和下载来源配置见[网站指南](docs/website.md)；普通资源贡献无需 Node.js。

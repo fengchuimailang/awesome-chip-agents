@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "nodes": [
+    {
+      "id": "method:rag",
+      "kind": "method",
+      "label": [
+        "Retrieval-augmented generation",
+        "检索增强生成"
+      ],
+      "recorded_at": "2026-11-26T09:16:23Z",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/abs/2311.16543",
+          "locator": "Abstract",
+          "kind": "primary",
+          "retrieved_at": "2026-11-26T09:16:23Z"
+        }
+      ]
+    },
+    {
+      "id": "method:react",
+      "kind": "method",
+      "label": [
+        "ReAct prompting",
+        "ReAct 提示"
+      ],
+      "recorded_at": "2026-11-26T09:16:23Z",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/abs/2311.16543",
+          "locator": "Abstract",
+          "kind": "primary",
+          "retrieved_at": "2026-11-26T09:16:23Z"
+        }
+      ]
+    },
+    {
+      "id": "method:multi-agent",
+      "kind": "method",
+      "label": [
+        "Multi-agent collaboration",
+        "多 Agent 协作"
+      ],
+      "recorded_at": "2026-11-26T09:16:23Z",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/abs/2412.07822",
+          "locator": "Abstract",
+          "kind": "primary",
+          "retrieved_at": "2026-11-26T09:16:23Z"
+        }
+      ]
+    },
+    {
+      "id": "organization:nvidia-research",
+      "kind": "organization",
+      "label": [
+        "NVIDIA Research",
+        "NVIDIA Research"
+      ],
+      "recorded_at": "2026-11-26T09:22:52Z",
+      "attributes": {
+        "organization_kind": "research-lab"
+      },
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2408.08927v2#p1.1",
+          "locator": "Paper v2 author block and NVIDIA Research affiliation; revision dated 2025-03-05",
+          "kind": "primary",
+          "retrieved_at": "2026-11-26T09:22:52Z"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "kind": "USES_METHOD",
+      "source": "resource:rtlfixer",
+      "target": "method:rag",
+      "date": null,
+      "recorded_at": "2026-11-26T09:16:23Z",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/abs/2311.16543",
+          "locator": "Abstract of retrieved version; occurrence date not independently verified",
+          "kind": "primary",
+          "retrieved_at": "2026-11-26T09:16:23Z"
+        }
+      ]
+    },
+    {
+      "kind": "USES_METHOD",
+      "source": "resource:rtlfixer",
+      "target": "method:react",
+      "date": null,
+      "recorded_at": "2026-11-26T09:16:23Z",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/abs/2311.16543",
+          "locator": "Abstract of retrieved version; occurrence date not independently verified",
+          "kind": "primary",
+          "retrieved_at": "2026-11-26T09:16:23Z"
+        }
+      ]
+    },
+    {
+      "kind": "USES_METHOD",
+      "source": "resource:mage",
+      "target": "method:multi-agent",
+      "date": null,
+      "recorded_at": "2026-11-26T09:16:23Z",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/abs/2412.07822",
+          "locator": "Abstract of retrieved version; occurrence date not independently verified",
+          "kind": "primary",
+          "retrieved_at": "2026-11-26T09:16:23Z"
+        }
+      ]
+    },
+    {
+      "kind": "USES_METHOD",
+      "source": "resource:verilogcoder",
+      "target": "method:multi-agent",
+      "date": null,
+      "recorded_at": "2026-11-26T09:16:23Z",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/abs/2408.08927",
+          "locator": "Abstract of retrieved version; occurrence date not independently verified",
+          "kind": "primary",
+          "retrieved_at": "2026-11-26T09:16:23Z"
+        }
+      ]
+    },
+    {
+      "kind": "EVALUATED_ON",
+      "source": "resource:rtlfixer",
+      "target": "resource:verilogeval",
+      "date": null,
+      "recorded_at": "2026-11-26T09:16:23Z",
+      "attributes": {
+        "conditions": [
+          "VerilogEval-Machine / VerilogEval-Human; syntax-error repair setting",
+          "VerilogEval-Machine / VerilogEval-Human；语法错误修复场景"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://arxiv.org/abs/2311.16543",
+          "locator": "Abstract of retrieved version; occurrence date not independently verified",
+          "kind": "primary",
+          "retrieved_at": "2026-11-26T09:16:23Z"
+        }
+      ]
+    },
+    {
+      "kind": "AFFILIATED_WITH",
+      "source": "person:verilogcoder:7d9b343ba862",
+      "target": "organization:nvidia-research",
+      "date": "2025-03-05",
+      "recorded_at": "2026-11-26T09:22:52Z",
+      "attributes": {
+        "resource": "resource:verilogcoder"
+      },
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2408.08927v2#p1.1",
+          "locator": "Paper v2 author block and NVIDIA Research affiliation; revision dated 2025-03-05",
+          "kind": "primary",
+          "retrieved_at": "2026-11-26T09:22:52Z"
+        }
+      ]
+    },
+    {
+      "kind": "AFFILIATED_WITH",
+      "source": "person:verilogcoder:9c221b864889",
+      "target": "organization:nvidia-research",
+      "date": "2025-03-05",
+      "recorded_at": "2026-11-26T09:22:52Z",
+      "attributes": {
+        "resource": "resource:verilogcoder"
+      },
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2408.08927v2#p1.1",
+          "locator": "Paper v2 author block and NVIDIA Research affiliation; revision dated 2025-03-05",
+          "kind": "primary",
+          "retrieved_at": "2026-11-26T09:22:52Z"
+        }
+      ]
+    },
+    {
+      "kind": "AFFILIATED_WITH",
+      "source": "person:verilogcoder:f5bb6af85269",
+      "target": "organization:nvidia-research",
+      "date": "2025-03-05",
+      "recorded_at": "2026-11-26T09:22:52Z",
+      "attributes": {
+        "resource": "resource:verilogcoder"
+      },
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2408.08927v2#p1.1",
+          "locator": "Paper v2 author block and NVIDIA Research affiliation; revision dated 2025-03-05",
+          "kind": "primary",
+          "retrieved_at": "2026-11-26T09:22:52Z"
+        }
+      ]
+    }
+  ]
+}

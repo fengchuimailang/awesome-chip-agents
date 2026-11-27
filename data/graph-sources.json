@@ -1,0 +1,857 @@
+{
+  "schema_version": 1,
+  "snapshots": {
+    "authors:autochip": {
+      "url": "https://arxiv.org/abs/2311.04887",
+      "retrieved_at": "2026-11-26T09:22:01Z",
+      "nodes": [
+        {
+          "id": "person:autochip:a3f1c0455075",
+          "kind": "person",
+          "label": [
+            "Thakur, Shailja",
+            "Thakur, Shailja"
+          ],
+          "recorded_at": "2026-11-26T09:22:01Z",
+          "attributes": {
+            "identity_scope": "resource:autochip",
+            "author_position": 1,
+            "listed_authors": 6
+          },
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2311.04887",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:01Z"
+            }
+          ]
+        },
+        {
+          "id": "person:autochip:0fc1de8d7b02",
+          "kind": "person",
+          "label": [
+            "Blocklove, Jason",
+            "Blocklove, Jason"
+          ],
+          "recorded_at": "2026-11-26T09:22:01Z",
+          "attributes": {
+            "identity_scope": "resource:autochip",
+            "author_position": 2,
+            "listed_authors": 6
+          },
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2311.04887",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:01Z"
+            }
+          ]
+        },
+        {
+          "id": "person:autochip:af6652a8c594",
+          "kind": "person",
+          "label": [
+            "Pearce, Hammond",
+            "Pearce, Hammond"
+          ],
+          "recorded_at": "2026-11-26T09:22:01Z",
+          "attributes": {
+            "identity_scope": "resource:autochip",
+            "author_position": 3,
+            "listed_authors": 6
+          },
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2311.04887",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:01Z"
+            }
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "kind": "AUTHOR_OF",
+          "source": "person:autochip:a3f1c0455075",
+          "target": "resource:autochip",
+          "date": null,
+          "recorded_at": "2026-11-26T09:22:01Z",
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2311.04887",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:01Z"
+            }
+          ]
+        },
+        {
+          "kind": "AUTHOR_OF",
+          "source": "person:autochip:0fc1de8d7b02",
+          "target": "resource:autochip",
+          "date": null,
+          "recorded_at": "2026-11-26T09:22:01Z",
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2311.04887",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:01Z"
+            }
+          ]
+        },
+        {
+          "kind": "AUTHOR_OF",
+          "source": "person:autochip:af6652a8c594",
+          "target": "resource:autochip",
+          "date": null,
+          "recorded_at": "2026-11-26T09:22:01Z",
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2311.04887",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:01Z"
+            }
+          ]
+        }
+      ]
+    },
+    "authors:mage": {
+      "url": "https://arxiv.org/abs/2412.07822",
+      "retrieved_at": "2026-11-26T09:22:08Z",
+      "nodes": [
+        {
+          "id": "person:mage:87c23c4dc642",
+          "kind": "person",
+          "label": [
+            "Zhao, Yujie",
+            "Zhao, Yujie"
+          ],
+          "recorded_at": "2026-11-26T09:22:08Z",
+          "attributes": {
+            "identity_scope": "resource:mage",
+            "author_position": 1,
+            "listed_authors": 5
+          },
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2412.07822",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:08Z"
+            }
+          ]
+        },
+        {
+          "id": "person:mage:1876af4d36d2",
+          "kind": "person",
+          "label": [
+            "Zhang, Hejia",
+            "Zhang, Hejia"
+          ],
+          "recorded_at": "2026-11-26T09:22:08Z",
+          "attributes": {
+            "identity_scope": "resource:mage",
+            "author_position": 2,
+            "listed_authors": 5
+          },
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2412.07822",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:08Z"
+            }
+          ]
+        },
+        {
+          "id": "person:mage:e167c7af654e",
+          "kind": "person",
+          "label": [
+            "Huang, Hanxian",
+            "Huang, Hanxian"
+          ],
+          "recorded_at": "2026-11-26T09:22:08Z",
+          "attributes": {
+            "identity_scope": "resource:mage",
+            "author_position": 3,
+            "listed_authors": 5
+          },
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2412.07822",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:08Z"
+            }
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "kind": "AUTHOR_OF",
+          "source": "person:mage:87c23c4dc642",
+          "target": "resource:mage",
+          "date": null,
+          "recorded_at": "2026-11-26T09:22:08Z",
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2412.07822",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:08Z"
+            }
+          ]
+        },
+        {
+          "kind": "AUTHOR_OF",
+          "source": "person:mage:1876af4d36d2",
+          "target": "resource:mage",
+          "date": null,
+          "recorded_at": "2026-11-26T09:22:08Z",
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2412.07822",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:08Z"
+            }
+          ]
+        },
+        {
+          "kind": "AUTHOR_OF",
+          "source": "person:mage:e167c7af654e",
+          "target": "resource:mage",
+          "date": null,
+          "recorded_at": "2026-11-26T09:22:08Z",
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2412.07822",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:08Z"
+            }
+          ]
+        }
+      ]
+    },
+    "authors:rtlfixer": {
+      "url": "https://arxiv.org/abs/2311.16543",
+      "retrieved_at": "2026-11-26T09:22:11Z",
+      "nodes": [
+        {
+          "id": "person:rtlfixer:eed1994706cc",
+          "kind": "person",
+          "label": [
+            "Tsai, Yun-Da",
+            "Tsai, Yun-Da"
+          ],
+          "recorded_at": "2026-11-26T09:22:11Z",
+          "attributes": {
+            "identity_scope": "resource:rtlfixer",
+            "author_position": 1,
+            "listed_authors": 3
+          },
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2311.16543",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:11Z"
+            }
+          ]
+        },
+        {
+          "id": "person:rtlfixer:faf0fc34d6ae",
+          "kind": "person",
+          "label": [
+            "Liu, Mingjie",
+            "Liu, Mingjie"
+          ],
+          "recorded_at": "2026-11-26T09:22:11Z",
+          "attributes": {
+            "identity_scope": "resource:rtlfixer",
+            "author_position": 2,
+            "listed_authors": 3
+          },
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2311.16543",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:11Z"
+            }
+          ]
+        },
+        {
+          "id": "person:rtlfixer:f5bb6af85269",
+          "kind": "person",
+          "label": [
+            "Ren, Haoxing",
+            "Ren, Haoxing"
+          ],
+          "recorded_at": "2026-11-26T09:22:11Z",
+          "attributes": {
+            "identity_scope": "resource:rtlfixer",
+            "author_position": 3,
+            "listed_authors": 3
+          },
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2311.16543",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:11Z"
+            }
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "kind": "AUTHOR_OF",
+          "source": "person:rtlfixer:eed1994706cc",
+          "target": "resource:rtlfixer",
+          "date": null,
+          "recorded_at": "2026-11-26T09:22:11Z",
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2311.16543",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:11Z"
+            }
+          ]
+        },
+        {
+          "kind": "AUTHOR_OF",
+          "source": "person:rtlfixer:faf0fc34d6ae",
+          "target": "resource:rtlfixer",
+          "date": null,
+          "recorded_at": "2026-11-26T09:22:11Z",
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2311.16543",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:11Z"
+            }
+          ]
+        },
+        {
+          "kind": "AUTHOR_OF",
+          "source": "person:rtlfixer:f5bb6af85269",
+          "target": "resource:rtlfixer",
+          "date": null,
+          "recorded_at": "2026-11-26T09:22:11Z",
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2311.16543",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:11Z"
+            }
+          ]
+        }
+      ]
+    },
+    "authors:verilogcoder": {
+      "url": "https://arxiv.org/abs/2408.08927",
+      "retrieved_at": "2026-11-26T09:22:14Z",
+      "nodes": [
+        {
+          "id": "person:verilogcoder:7d9b343ba862",
+          "kind": "person",
+          "label": [
+            "Ho, Chia-Tung",
+            "Ho, Chia-Tung"
+          ],
+          "recorded_at": "2026-11-26T09:22:14Z",
+          "attributes": {
+            "identity_scope": "resource:verilogcoder",
+            "author_position": 1,
+            "listed_authors": 3
+          },
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2408.08927",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:14Z"
+            }
+          ]
+        },
+        {
+          "id": "person:verilogcoder:f5bb6af85269",
+          "kind": "person",
+          "label": [
+            "Ren, Haoxing",
+            "Ren, Haoxing"
+          ],
+          "recorded_at": "2026-11-26T09:22:14Z",
+          "attributes": {
+            "identity_scope": "resource:verilogcoder",
+            "author_position": 2,
+            "listed_authors": 3
+          },
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2408.08927",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:14Z"
+            }
+          ]
+        },
+        {
+          "id": "person:verilogcoder:9c221b864889",
+          "kind": "person",
+          "label": [
+            "Khailany, Brucek",
+            "Khailany, Brucek"
+          ],
+          "recorded_at": "2026-11-26T09:22:14Z",
+          "attributes": {
+            "identity_scope": "resource:verilogcoder",
+            "author_position": 3,
+            "listed_authors": 3
+          },
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2408.08927",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:14Z"
+            }
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "kind": "AUTHOR_OF",
+          "source": "person:verilogcoder:7d9b343ba862",
+          "target": "resource:verilogcoder",
+          "date": null,
+          "recorded_at": "2026-11-26T09:22:14Z",
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2408.08927",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:14Z"
+            }
+          ]
+        },
+        {
+          "kind": "AUTHOR_OF",
+          "source": "person:verilogcoder:f5bb6af85269",
+          "target": "resource:verilogcoder",
+          "date": null,
+          "recorded_at": "2026-11-26T09:22:14Z",
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2408.08927",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:14Z"
+            }
+          ]
+        },
+        {
+          "kind": "AUTHOR_OF",
+          "source": "person:verilogcoder:9c221b864889",
+          "target": "resource:verilogcoder",
+          "date": null,
+          "recorded_at": "2026-11-26T09:22:14Z",
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2408.08927",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:14Z"
+            }
+          ]
+        }
+      ]
+    },
+    "owner:nvlabs/rtlfixer": {
+      "url": "https://api.github.com/repos/NVlabs/RTLFixer",
+      "retrieved_at": "2026-11-26T09:22:17Z",
+      "nodes": [
+        {
+          "id": "organization:github:2695301",
+          "kind": "organization",
+          "label": [
+            "NVlabs",
+            "NVlabs"
+          ],
+          "recorded_at": "2026-11-26T09:22:17Z",
+          "attributes": {
+            "github": "NVlabs",
+            "url": "https://github.com/NVlabs",
+            "organization_kind": "github-organization"
+          },
+          "evidence": [
+            {
+              "url": "https://api.github.com/repos/NVlabs/RTLFixer",
+              "locator": "owner.id / owner.login / owner.type",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:17Z"
+            }
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "kind": "OWNED_BY",
+          "source": "repository:nvlabs/rtlfixer",
+          "target": "organization:github:2695301",
+          "recorded_at": "2026-11-26T09:22:17Z",
+          "evidence": [
+            {
+              "url": "https://api.github.com/repos/NVlabs/RTLFixer",
+              "locator": "owner.id / owner.login / owner.type",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:17Z"
+            }
+          ]
+        }
+      ]
+    },
+    "owner:nvlabs/verilogcoder": {
+      "url": "https://api.github.com/repos/NVlabs/VerilogCoder",
+      "retrieved_at": "2026-11-26T09:22:19Z",
+      "nodes": [
+        {
+          "id": "organization:github:2695301",
+          "kind": "organization",
+          "label": [
+            "NVlabs",
+            "NVlabs"
+          ],
+          "recorded_at": "2026-11-26T09:22:19Z",
+          "attributes": {
+            "github": "NVlabs",
+            "url": "https://github.com/NVlabs",
+            "organization_kind": "github-organization"
+          },
+          "evidence": [
+            {
+              "url": "https://api.github.com/repos/NVlabs/VerilogCoder",
+              "locator": "owner.id / owner.login / owner.type",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:19Z"
+            }
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "kind": "OWNED_BY",
+          "source": "repository:nvlabs/verilogcoder",
+          "target": "organization:github:2695301",
+          "recorded_at": "2026-11-26T09:22:19Z",
+          "evidence": [
+            {
+              "url": "https://api.github.com/repos/NVlabs/VerilogCoder",
+              "locator": "owner.id / owner.login / owner.type",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:19Z"
+            }
+          ]
+        }
+      ]
+    },
+    "owner:shailja-thakur/autochip": {
+      "url": "https://api.github.com/repos/shailja-thakur/AutoChip",
+      "retrieved_at": "2026-11-26T09:22:19Z",
+      "nodes": [],
+      "edges": []
+    },
+    "owner:stable-lab/mage": {
+      "url": "https://api.github.com/repos/stable-lab/MAGE",
+      "retrieved_at": "2026-11-26T09:22:20Z",
+      "nodes": [
+        {
+          "id": "organization:github:77554786",
+          "kind": "organization",
+          "label": [
+            "stable-lab",
+            "stable-lab"
+          ],
+          "recorded_at": "2026-11-26T09:22:20Z",
+          "attributes": {
+            "github": "stable-lab",
+            "url": "https://github.com/stable-lab",
+            "organization_kind": "github-organization"
+          },
+          "evidence": [
+            {
+              "url": "https://api.github.com/repos/stable-lab/MAGE",
+              "locator": "owner.id / owner.login / owner.type",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:20Z"
+            }
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "kind": "OWNED_BY",
+          "source": "repository:stable-lab/mage",
+          "target": "organization:github:77554786",
+          "recorded_at": "2026-11-26T09:22:20Z",
+          "evidence": [
+            {
+              "url": "https://api.github.com/repos/stable-lab/MAGE",
+              "locator": "owner.id / owner.login / owner.type",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:20Z"
+            }
+          ]
+        }
+      ]
+    },
+    "authors:chiprogrambench": {
+      "url": "https://arxiv.org/abs/2611.31082",
+      "retrieved_at": "2026-11-26T09:22:02Z",
+      "nodes": [
+        {
+          "id": "person:chiprogrambench:1d0fd05b8a16",
+          "kind": "person",
+          "label": [
+            "Gou, Tianrun",
+            "Gou, Tianrun"
+          ],
+          "recorded_at": "2026-11-26T09:22:02Z",
+          "attributes": {
+            "identity_scope": "resource:chiprogrambench",
+            "author_position": 1,
+            "listed_authors": 6
+          },
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2611.31082",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:02Z"
+            }
+          ]
+        },
+        {
+          "id": "person:chiprogrambench:e307cdfac477",
+          "kind": "person",
+          "label": [
+            "Yang, Qingyao",
+            "Yang, Qingyao"
+          ],
+          "recorded_at": "2026-11-26T09:22:02Z",
+          "attributes": {
+            "identity_scope": "resource:chiprogrambench",
+            "author_position": 2,
+            "listed_authors": 6
+          },
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2611.31082",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:02Z"
+            }
+          ]
+        },
+        {
+          "id": "person:chiprogrambench:ba074df3ec3c",
+          "kind": "person",
+          "label": [
+            "Xu, Wendong",
+            "Xu, Wendong"
+          ],
+          "recorded_at": "2026-11-26T09:22:02Z",
+          "attributes": {
+            "identity_scope": "resource:chiprogrambench",
+            "author_position": 3,
+            "listed_authors": 6
+          },
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2611.31082",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:02Z"
+            }
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "kind": "AUTHOR_OF",
+          "source": "person:chiprogrambench:1d0fd05b8a16",
+          "target": "resource:chiprogrambench",
+          "date": null,
+          "recorded_at": "2026-11-26T09:22:02Z",
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2611.31082",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:02Z"
+            }
+          ]
+        },
+        {
+          "kind": "AUTHOR_OF",
+          "source": "person:chiprogrambench:e307cdfac477",
+          "target": "resource:chiprogrambench",
+          "date": null,
+          "recorded_at": "2026-11-26T09:22:02Z",
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2611.31082",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:02Z"
+            }
+          ]
+        },
+        {
+          "kind": "AUTHOR_OF",
+          "source": "person:chiprogrambench:ba074df3ec3c",
+          "target": "resource:chiprogrambench",
+          "date": null,
+          "recorded_at": "2026-11-26T09:22:02Z",
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2611.31082",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:02Z"
+            }
+          ]
+        }
+      ]
+    },
+    "authors:layered-formal-guidance": {
+      "url": "https://arxiv.org/abs/2611.30766",
+      "retrieved_at": "2026-11-26T09:22:05Z",
+      "nodes": [
+        {
+          "id": "person:layered-formal-guidance:a9927de75cba",
+          "kind": "person",
+          "label": [
+            "Tan, Yan",
+            "Tan, Yan"
+          ],
+          "recorded_at": "2026-11-26T09:22:05Z",
+          "attributes": {
+            "identity_scope": "resource:layered-formal-guidance",
+            "author_position": 1,
+            "listed_authors": 3
+          },
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2611.30766",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:05Z"
+            }
+          ]
+        },
+        {
+          "id": "person:layered-formal-guidance:126bf9a36860",
+          "kind": "person",
+          "label": [
+            "Meng, Xiangchen",
+            "Meng, Xiangchen"
+          ],
+          "recorded_at": "2026-11-26T09:22:05Z",
+          "attributes": {
+            "identity_scope": "resource:layered-formal-guidance",
+            "author_position": 2,
+            "listed_authors": 3
+          },
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2611.30766",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:05Z"
+            }
+          ]
+        },
+        {
+          "id": "person:layered-formal-guidance:6c2a55350526",
+          "kind": "person",
+          "label": [
+            "Lyu, Yangdi",
+            "Lyu, Yangdi"
+          ],
+          "recorded_at": "2026-11-26T09:22:05Z",
+          "attributes": {
+            "identity_scope": "resource:layered-formal-guidance",
+            "author_position": 3,
+            "listed_authors": 3
+          },
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2611.30766",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:05Z"
+            }
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "kind": "AUTHOR_OF",
+          "source": "person:layered-formal-guidance:a9927de75cba",
+          "target": "resource:layered-formal-guidance",
+          "date": null,
+          "recorded_at": "2026-11-26T09:22:05Z",
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2611.30766",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:05Z"
+            }
+          ]
+        },
+        {
+          "kind": "AUTHOR_OF",
+          "source": "person:layered-formal-guidance:126bf9a36860",
+          "target": "resource:layered-formal-guidance",
+          "date": null,
+          "recorded_at": "2026-11-26T09:22:05Z",
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2611.30766",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:05Z"
+            }
+          ]
+        },
+        {
+          "kind": "AUTHOR_OF",
+          "source": "person:layered-formal-guidance:6c2a55350526",
+          "target": "resource:layered-formal-guidance",
+          "date": null,
+          "recorded_at": "2026-11-26T09:22:05Z",
+          "evidence": [
+            {
+              "url": "https://arxiv.org/abs/2611.30766",
+              "locator": "citation_author (first three names in source order)",
+              "kind": "primary",
+              "retrieved_at": "2026-11-26T09:22:05Z"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

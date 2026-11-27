@@ -2,7 +2,7 @@ import raw from './generated/catalog.json';
 
 export type Pair = [string, string];
 export type Locale = 'en' | 'zh';
-export type Page = { locale: Locale; kind: 'home' | 'catalog' | 'resource' | 'direction' | 'metrics' | 'missing'; id?: string };
+export type Page = { locale: Locale; kind: 'home' | 'catalog' | 'resource' | 'direction' | 'metrics' | 'graph' | 'missing'; id?: string };
 export type Snapshot = {
   stars?: number; pushed_at?: string | null; fetched_at?: string;
   fetch_error?: string | null; archived?: boolean;
@@ -53,7 +53,7 @@ export function parsePage(path: string): Page {
   const locale = parts[0] === 'zh' ? 'zh' : 'en';
   if (!parts.length || parts.length === 1 && ['en', 'zh'].includes(parts[0])) return { locale, kind: 'home' };
   if (!['en', 'zh'].includes(parts[0])) return { locale, kind: 'missing' };
-  if (parts.length === 2 && ['catalog', 'metrics'].includes(parts[1])) return { locale, kind: parts[1] as 'catalog' | 'metrics' };
+  if (parts.length === 2 && ['catalog', 'metrics', 'graph'].includes(parts[1])) return { locale, kind: parts[1] as 'catalog' | 'metrics' | 'graph' };
   if (parts.length === 3 && parts[1] === 'resources' && index[parts[2]]) return { locale, kind: 'resource', id: parts[2] };
   if (parts.length === 3 && parts[1] === 'directions' && catalog.taxonomy.directions[parts[2]]) return { locale, kind: 'direction', id: parts[2] };
   return { locale, kind: 'missing' };

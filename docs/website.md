@@ -4,6 +4,8 @@
 
 ### Shared content
 
+The bilingual [progress graph](knowledge-graph.md) adds G6 force-directed exploration, publication-time filters and evidence inspection. It is exported from the same catalog, plus cached primary-source author/owner metadata and reviewed semantic enrichment. No database or server is required.
+
 Edit `resources/` metadata and English/Chinese descriptions, plus the fixed vocabulary in `data/taxonomy.json`. Run `python3 scripts/catalog.py` to update Markdown. Website builds call `scripts/export_site.py`, reuse the same catalog validation, and export descriptions, links, relationships, and metric snapshots to ignored `site/src/generated/catalog.json`. Generated JSON, HTML, and dependencies are not committed.
 
 The website generates English and Simplified Chinese home, catalog, direction, metric, and resource pages as HTML. React hydrates search and filters. Query parameters preserve filters when sharing links or switching languages. Publication dates, year-only precision, unknown dates, cross-references, and source notes follow the catalog. The footer identifies the source revision and local changes.
@@ -69,6 +71,8 @@ References: [Vite prerendering](https://vite.dev/guide/ssr.html#pre-rendering-ss
 ## 简体中文
 
 ### 内容同步
+
+双语[进展图谱](knowledge-graph.md)支持 G6 力导向浏览、发布时间筛选及关联依据查看。数据来自同一目录、已缓存的原始作者／owner 元数据和经过审阅的语义补充，无需数据库或常驻服务。
 
 日常编辑 `resources/` 的 metadata、中英文介绍及 `data/taxonomy.json` 固定词表。运行 `python3 scripts/catalog.py` 更新 Markdown。网站构建调用 `scripts/export_site.py`，复用同一份目录校验，导出正文、链接、关联资源和指标快照到不提交的 `site/src/generated/catalog.json`。生成的 JSON、HTML 和依赖不提交仓库。
 

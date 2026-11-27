@@ -10,6 +10,7 @@ Newest publication month first. Cross-references share the original record; repo
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
+| **[Kolpona](../../resources/rtl-generation/kolpona.md)**<br>Combines gradient-free neuron edits with tool-using agents and simulation-based candidate selection for RTL generation. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Simulation](../../resources/tags/simulation.md) · [Tool use](../../resources/tags/tool-use.md)<br>Paper | [Paper](https://arxiv.org/abs/2611.33973) | — | — | — |
 | **[Layered Formal Guidance](../../resources/rtl-generation/layered-formal-guidance.md)**<br>Augments specifications with formal properties and uses model-checker counterexamples to refine RTL, specifications, or assertions in a bounded loop. | [RTL](../../resources/tags/rtl.md) · [Code generation](../../resources/tags/generation.md) · [Formal verification](../../resources/tags/formal.md) · [Specifications](../../resources/tags/specification.md) · [Debugging](../../resources/tags/debugging.md)<br>Paper | [Paper](https://arxiv.org/abs/2611.30766) | — | — | — |
 
 ## 2026-10

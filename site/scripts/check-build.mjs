@@ -11,6 +11,15 @@ const profiles = data.resources.filter(resource => resourceProfile(resource, sca
 await access(join('dist', socialImage));
 let count = 0;
 for (const locale of ['en', 'zh']) {
+  const graphHtml = await readFile(join('dist', locale, 'graph', 'index.html'), 'utf8');
+  assert.ok(graphHtml.includes(locale === 'zh' ? '进展图谱' : 'Progress graph'), locale + ': graph heading missing');
+  assert.ok(graphHtml.includes('graph-relation-list') && graphHtml.includes('class="graph-entity-list"'), locale + ': accessible graph lists missing');
+  assert.ok(graphHtml.includes('id="page-data"') && graphHtml.includes('"kind":"graph"'), locale + ': graph hydration route missing');
+  for (const resource of data.resources) assert.ok(graphHtml.includes(base + locale + '/resources/' + resource.id + '/'), locale + ': no-JavaScript graph resource missing: ' + resource.id);
+  for (const match of graphHtml.matchAll(/href="([^"]+)"/g)) {
+    const href = match[1].split(/[?#]/)[0];
+    if (href.startsWith(base) && !href.startsWith('//')) await access(join('dist', href.slice(base.length), href.endsWith('/') ? 'index.html' : ''));
+  }
   const catalogHtml = await readFile(join('dist', locale, 'catalog', 'index.html'), 'utf8');
   assert.equal([...catalogHtml.matchAll(/role="article"/g)].length, data.resources.length, locale + ': no-JavaScript catalog must include every resource');
   assert.equal([...catalogHtml.matchAll(/class="resource-profile"/g)].length, profiles.length, locale + ': profiles must render without JavaScript');

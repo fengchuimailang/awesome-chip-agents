@@ -9,3 +9,5 @@ site/.ssr/
 site/src/generated/
 site/.env*
 !site/.env.example
+
+.archify/

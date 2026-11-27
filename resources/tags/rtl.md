@@ -6,6 +6,7 @@
 
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
+| [Kolpona](../../resources/rtl-generation/kolpona.md) | 2026-11-25 | RTL Generation and Editing / RTL 生成与编辑 |
 | [RTLDetective](../../resources/verification-debugging/rtldetective.md) | 2026-11-23 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Layered Formal Guidance](../../resources/rtl-generation/layered-formal-guidance.md) | 2026-11-23 | RTL Generation and Editing / RTL 生成与编辑 |
 | [Meta-RTL](../../resources/physical-design/meta-rtl.md) | 2026-11-19 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |

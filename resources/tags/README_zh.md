@@ -6,13 +6,13 @@
 
 | 标签 | 资源数 |
 | --- | ---: |
-| [RTL](rtl.md) | 57 |
-| [代码生成](generation.md) | 17 |
+| [RTL](rtl.md) | 58 |
+| [代码生成](generation.md) | 18 |
 | [代码编辑](editing.md) | 4 |
 | [验证](verification.md) | 23 |
 | [调试](debugging.md) | 21 |
 | [形式验证](formal.md) | 17 |
-| [仿真](simulation.md) | 22 |
+| [仿真](simulation.md) | 23 |
 | [测试平台](testbench.md) | 8 |
 | [波形分析](waveform.md) | 11 |
 | [规格推断](specification.md) | 5 |
@@ -29,7 +29,7 @@
 | [FPGA](fpga.md) | 8 |
 | [仓库级任务](repository-level.md) | 4 |
 | [多 Agent](multi-agent.md) | 26 |
-| [工具调用](tool-use.md) | 43 |
+| [工具调用](tool-use.md) | 44 |
 | [记忆与经验](memory.md) | 1 |
 | [基础设施](infrastructure.md) | 28 |
 | [基准](benchmark.md) | 31 |

@@ -15,6 +15,7 @@ import { catalog, index, label, local, repoLink, route, text, type Locale, type 
 import { track } from './analytics';
 
 const MarkdownContent = lazy(() => import('./MarkdownContent'));
+const GraphPage = lazy(() => import('./components/GraphPage'));
 
 function Panel({ title, children }: { title: string; children: ReactNode }) {
   return <Card className="detail-panel" size="sm">
@@ -80,6 +81,7 @@ function Detail({ page }: { page: Page }) {
     <div className="detail-heading"><p className="eyebrow">{r.types.map(type => label(catalog.taxonomy.types[type], locale)).join(' / ')}</p><h1>{r.name}</h1>
       {r.title !== r.name && <p className="original-title">{r.title}</p>}<p className="lead">{label(r.summary, locale)}</p>
       <ResourceTags tags={r.tags} locale={locale} /><DetailActions resource={r} locale={locale} />
+      <a className="graph-detail-link" href={route({ locale, kind: 'graph' }) + '?selected=' + encodeURIComponent('resource:' + r.id) + '&direction=' + r.direction}><NetworkIcon aria-hidden="true" />{l('Explore in the progress graph', '在进展图谱中探索')} →</a>
     </div>
     <Separator />
     <div className="detail-layout"><article className="prose">
@@ -210,12 +212,13 @@ export default function App({ page }: { page: Page }) {
   return <>
     <a className="skip-link" href="#main">{l('Skip to content', '跳转到正文')}</a>
     <header className="site-header"><a className="brand" href={route({ locale, kind: 'home' })}><img className="brand-mark" src={local('favicon.svg')} width="44" height="44" alt="" /><span>Awesome<br /><strong>Chip Agents</strong></span></a>
-      <nav aria-label={l('Main navigation', '主导航')}><a href={route({ locale, kind: 'catalog' })} aria-current={['catalog', 'direction'].includes(page.kind) ? 'page' : undefined}>{l('Resources', '资源库')}</a><a href={route({ locale, kind: 'metrics' })} aria-current={page.kind === 'metrics' ? 'page' : undefined}>{l('Metrics', '数据与统计')}</a></nav>
+      <nav aria-label={l('Main navigation', '主导航')}><a href={route({ locale, kind: 'catalog' })} aria-current={['catalog', 'direction'].includes(page.kind) ? 'page' : undefined}>{l('Resources', '资源库')}</a><a href={route({ locale, kind: 'graph' })} aria-current={page.kind === 'graph' ? 'page' : undefined}>{l('Progress graph', '进展图谱')}</a><a href={route({ locale, kind: 'metrics' })} aria-current={page.kind === 'metrics' ? 'page' : undefined}>{l('Metrics', '数据与统计')}</a></nav>
       <div className="header-actions"><a className="language-switch" href={route({ ...page, kind: page.kind === 'missing' ? 'home' : page.kind, locale: locale === 'en' ? 'zh' : 'en' }) + query} lang={locale === 'en' ? 'zh-CN' : 'en'}><LanguagesIcon aria-hidden="true" />{locale === 'en' ? '简体中文' : 'English'}</a>
         {catalog.repository && <Button asChild variant="outline"><External href={catalog.repository} locale={locale} kind="site_repository" aria-label={l('Star on GitHub', '在 GitHub 上 Star')}><GitHubIcon data-icon="inline-start" />GitHub</External></Button>}</div>
     </header>
     <main id="main" className="page-shell">{page.kind === 'home' ? <Home locale={locale} /> :
       page.kind === 'catalog' || page.kind === 'direction' ? <Listing page={page} /> :
+      page.kind === 'graph' ? <Suspense fallback={<p>{l('Loading graph…', '正在加载图谱…')}</p>}><GraphPage locale={locale} /></Suspense> :
       page.kind === 'resource' ? <Detail page={page} /> : page.kind === 'metrics' ? <Metrics locale={locale} /> :
       <Empty><EmptyHeader><EmptyTitle role="heading" aria-level={1}>404</EmptyTitle><EmptyDescription>{l('This page could not be found.', '找不到这个页面。')}</EmptyDescription></EmptyHeader><EmptyContent><Button asChild><a href={local(locale + '/catalog/')}>{l('Back to the catalog', '返回资源库')}</a></Button></EmptyContent></Empty>}</main>
     <footer className="site-footer"><div><strong>Awesome Chip Agents</strong><p>{l('An open catalog for the chip agent community.', '为芯片 Agent 社区共同维护的开放资源库。')}</p></div>

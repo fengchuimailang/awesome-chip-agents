@@ -10,6 +10,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[Kolpona](../../resources/rtl-generation/kolpona.md)**<br>结合无梯度神经元编辑、工具调用 Agent 和基于仿真的候选选择，生成 RTL。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [仿真](../../resources/tags/simulation.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 | [论文](https://arxiv.org/abs/2611.33973) | — | — | — |
 | **[Layered Formal Guidance](../../resources/rtl-generation/layered-formal-guidance.md)**<br>用形式属性补充规格，并在受限循环中依据模型检查反例修订 RTL、规格或断言。 | [RTL](../../resources/tags/rtl.md) · [代码生成](../../resources/tags/generation.md) · [形式验证](../../resources/tags/formal.md) · [规格推断](../../resources/tags/specification.md) · [调试](../../resources/tags/debugging.md)<br>论文 | [论文](https://arxiv.org/abs/2611.30766) | — | — | — |
 
 ## 2026-10

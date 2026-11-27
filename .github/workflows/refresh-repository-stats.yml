@@ -18,7 +18,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -42,15 +42,22 @@ jobs:
         env:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
         run: python3 scripts/paper_stats.py
-      - name: Validate catalog
+      - name: Refresh graph authors and organization owners when evidence is 30 days old
+        id: graph
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/graph_sources.py --all
+      - name: Validate catalog and graph
         run: |
           python3 scripts/catalog.py
           python3 scripts/catalog.py --check
+          python3 scripts/export_site.py
           python3 -m unittest discover -s tests
           git diff --check
       - name: Commit refreshed snapshots and Markdown
         run: |
-          git add data/repo-stats.json data/download-stats.json data/paper-stats.json README.md README_zh.md resources/
+          git add data/repo-stats.json data/download-stats.json data/paper-stats.json data/graph-sources.json README.md README_zh.md resources/
           if git diff --cached --quiet; then
             exit 0
           fi
@@ -59,7 +66,7 @@ jobs:
           git commit -m 'docs: refresh repository statistics'
           git push
       - name: Report incomplete refresh
-        if: steps.refresh.outcome == 'failure' || steps.downloads.outcome == 'failure' || steps.papers.outcome == 'failure'
+        if: steps.refresh.outcome == 'failure' || steps.downloads.outcome == 'failure' || steps.papers.outcome == 'failure' || steps.graph.outcome == 'failure'
         run: |
           echo 'Some metrics could not be refreshed. Successful snapshots were retained; see the fetch steps.'
           exit 1

@@ -17,7 +17,11 @@ npm run dev
 
 Open http://localhost:5173/zh/ or http://localhost:5173/en/. The data export runs at startup. Run `npm run data` after editing resource Markdown while the development server is running.
 
+The progress graph is available at `/zh/graph/` and `/en/graph/`. See the [graph data and time policy](../docs/knowledge-graph.md) for automatic extraction and semantic enrichment.
+
 打开 http://localhost:5173/zh/ 或 http://localhost:5173/en/。启动时自动导出数据；开发期间修改资源后，运行 `npm run data` 更新网站数据。
+
+进展图谱位于 `/zh/graph/` 和 `/en/graph/`，自动提取和语义补充见[图谱数据与时间规则](../docs/knowledge-graph.md)。
 
 ## Dependency audit / 依赖审计
 

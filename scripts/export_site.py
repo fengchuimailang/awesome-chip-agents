@@ -10,6 +10,7 @@ import subprocess
 from catalog import ROOT, load_catalog, repositories, sorted_records
 from paper_stats import paper_identity, snapshot_for
 from reading_paths import load_paths
+from knowledge_graph import build_graph
 
 
 def repository_url(root):
@@ -65,6 +66,7 @@ def build_payload(root=ROOT):
         "schema_version": 1, "repository": repository_url(root),
         "revision": revision, "working_tree": bool(dirty),
         "taxonomy": taxonomy, "resources": exported, "reading_paths": load_paths(root, records),
+        "graph": build_graph(root, taxonomy, exported, repository_url(root)),
     }
 
 
@@ -74,6 +76,8 @@ def main():
     args = parser.parse_args()
     payload = build_payload()
     args.output.parent.mkdir(parents=True, exist_ok=True)
+    graph = payload.pop("graph")
+    args.output.with_name("graph.json").write_text(json.dumps(graph, ensure_ascii=False, indent=2) + "\n")
     args.output.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
     print("Exported", len(payload["resources"]), "resources from the shared catalog.")
 
